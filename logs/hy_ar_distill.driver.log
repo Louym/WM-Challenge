@@ -1,0 +1,38 @@
+[driver 22:56:52] waiting for adapter to load ... (0s, health=None)
+[driver 22:57:42] adapter 'hy-worldplay' ready after 50s
+[driver 22:57:42] === session hy_ar_distill_clip: 12 action(s), expecting 12 segment(s)
+[driver 22:57:43] session id 1857f412
+[driver 22:57:43] queued 12 action(s)
+[driver 22:57:43] status: Ready: HY-WorldPlay ar_distill adapter.
+[driver 22:57:43] generating: camera=U move=W
+[driver 22:58:37] segment 0 done (54s elapsed)
+[driver 22:58:37] generating: camera=U move=W
+[driver 22:59:29] segment 1 done (106s elapsed)
+[driver 22:59:29] generating: camera=U move=W
+[driver 23:00:20] segment 2 done (158s elapsed)
+[driver 23:00:20] generating: camera=L move=Q
+[driver 23:01:12] segment 3 done (210s elapsed)
+[driver 23:01:12] generating: camera=L move=Q
+[driver 23:02:04] segment 4 done (262s elapsed)
+[driver 23:02:04] generating: camera=L move=Q
+[driver 23:02:57] segment 5 done (314s elapsed)
+[driver 23:02:57] generating: camera=U move=W
+[driver 23:03:48] segment 6 done (366s elapsed)
+[driver 23:03:48] generating: camera=U move=W
+[driver 23:04:40] segment 7 done (418s elapsed)
+[driver 23:04:40] generating: camera=U move=W
+[driver 23:05:33] segment 8 done (470s elapsed)
+[driver 23:05:33] generating: camera=U move=S
+[driver 23:06:25] segment 9 done (522s elapsed)
+[driver 23:06:25] generating: camera=U move=S
+[driver 23:07:17] segment 10 done (574s elapsed)
+[driver 23:07:17] generating: camera=U move=S
+[driver 23:08:09] segment 11 done (627s elapsed)
+[driver 23:08:14] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/hy_ar_distill_clip.mp4 (from hy_worldplay_ar_distill_1857f412.mp4, 10.4 MB)
+[driver 23:08:14] === session hy_ar_distill_whole: 1 action(s), expecting 1 segment(s)
+[driver 23:08:14] session id b23794dd
+[driver 23:08:14] queued 1 action(s)
+[driver 23:08:14] status: Ready: HY-WorldPlay ar_distill adapter.
+[driver 23:08:14] generating: w-90,l-90,w-90,s-90
+[driver 23:21:58] segment 0 done (824s elapsed)
+[driver 23:22:03] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/hy_ar_distill_whole.mp4 (from hy_worldplay_ar_distill_b23794dd.mp4, 16.1 MB)

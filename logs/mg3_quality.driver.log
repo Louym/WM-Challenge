@@ -1,0 +1,68 @@
+[driver 17:11:50] waiting for adapter to load ... (0s, health=None)
+[driver 17:12:50] waiting for adapter to load ... (60s, health=None)
+[driver 17:13:50] waiting for adapter to load ... (120s, health=None)
+[driver 17:14:50] waiting for adapter to load ... (180s, health=None)
+[driver 17:15:50] waiting for adapter to load ... (240s, health=None)
+[driver 17:16:50] waiting for adapter to load ... (300s, health=None)
+[driver 17:17:50] waiting for adapter to load ... (360s, health=None)
+[driver 17:18:50] waiting for adapter to load ... (420s, health=None)
+[driver 17:19:50] waiting for adapter to load ... (480s, health=None)
+[driver 17:20:50] waiting for adapter to load ... (540s, health=None)
+[driver 17:21:50] waiting for adapter to load ... (600s, health=None)
+[driver 17:22:45] adapter 'matrix-game-3' ready after 655s
+[driver 17:22:45] === session mg3_quality_clip: 26 action(s), expecting 26 segment(s)
+[driver 17:22:45] session id 8f3ecf5b
+[driver 17:22:45] queued 26 action(s)
+[driver 17:22:53] generating: camera=U move=W
+[driver 17:26:48] segment 0 done (243s elapsed)
+[driver 17:26:48] generating: camera=U move=W
+[driver 17:30:36] segment 1 done (471s elapsed)
+[driver 17:30:36] generating: camera=U move=W
+[driver 17:34:23] segment 2 done (697s elapsed)
+[driver 17:34:23] generating: camera=U move=W
+[driver 17:38:07] segment 3 done (922s elapsed)
+[driver 17:38:08] generating: camera=U move=W
+[driver 17:41:53] segment 4 done (1148s elapsed)
+[driver 17:41:53] generating: camera=U move=W
+[driver 17:45:39] segment 5 done (1374s elapsed)
+[driver 17:45:39] generating: camera=U move=W
+[driver 17:49:26] segment 6 done (1601s elapsed)
+[driver 17:49:26] generating: camera=L move=Q
+[driver 17:53:11] segment 7 done (1826s elapsed)
+[driver 17:53:11] generating: camera=L move=Q
+[driver 17:56:58] segment 8 done (2053s elapsed)
+[driver 17:56:58] generating: camera=L move=Q
+[driver 18:00:45] segment 9 done (2280s elapsed)
+[driver 18:00:46] generating: camera=L move=Q
+[driver 18:04:32] segment 10 done (2507s elapsed)
+[driver 18:04:32] generating: camera=L move=Q
+[driver 18:08:18] segment 11 done (2733s elapsed)
+[driver 18:08:18] generating: camera=L move=Q
+[driver 18:12:04] segment 12 done (2959s elapsed)
+[driver 18:12:04] generating: camera=U move=W
+[driver 18:15:50] segment 13 done (3185s elapsed)
+[driver 18:15:50] generating: camera=U move=W
+[driver 18:19:37] segment 14 done (3412s elapsed)
+[driver 18:19:37] generating: camera=U move=W
+[driver 18:23:23] segment 15 done (3637s elapsed)
+[driver 18:23:23] generating: camera=U move=W
+[driver 18:27:09] segment 16 done (3864s elapsed)
+[driver 18:27:10] generating: camera=U move=W
+[driver 18:30:56] segment 17 done (4091s elapsed)
+[driver 18:30:56] generating: camera=U move=W
+[driver 18:34:43] segment 18 done (4318s elapsed)
+[driver 18:34:43] generating: camera=U move=W
+[driver 18:38:29] segment 19 done (4544s elapsed)
+[driver 18:38:30] generating: camera=U move=S
+[driver 18:42:17] segment 20 done (4771s elapsed)
+[driver 18:42:17] generating: camera=U move=S
+[driver 18:46:04] segment 21 done (4998s elapsed)
+[driver 18:46:04] generating: camera=U move=S
+[driver 18:49:51] segment 22 done (5226s elapsed)
+[driver 18:49:51] generating: camera=U move=S
+[driver 18:53:38] segment 23 done (5452s elapsed)
+[driver 18:53:38] generating: camera=U move=S
+[driver 18:57:25] segment 24 done (5680s elapsed)
+[driver 18:57:25] generating: camera=U move=S
+[driver 19:01:13] segment 25 done (5908s elapsed)
+[driver 19:01:18] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/mg3_quality_clip.mp4 (from matrix_game3_8f3ecf5b.mp4, 22.2 MB)

@@ -1,0 +1,9 @@
+QUEUE[gpu6] starting hy_ar_distill (22:56:45)
+[run_one] hy_ar_distill: server pid 4123251 (env=hy gpu=6 port=8065)
+[run_one] hy_ar_distill: driver exit 0
+QUEUE[gpu6] finished hy_ar_distill rc=0 (23:22:08)
+QUEUE[gpu6] starting dreamx_cam_whole (23:22:08)
+[run_one] dreamx_cam_whole: server pid 4167737 (env=dreamx gpu=6 port=8066)
+[run_one] dreamx_cam_whole: driver exit 1
+QUEUE[gpu6] finished dreamx_cam_whole rc=1 (23:42:37)
+QUEUE[gpu6] ALL DONE

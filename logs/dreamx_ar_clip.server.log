@@ -1,0 +1,144 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [3873159]
+INFO:     Waiting for application startup.
+[startup] adapter=dreamx-world; loading ...
+INFO:     Application startup complete.
+[DreamX][load] validate paths (variant=ar)
+INFO:     Uvicorn running on http://127.0.0.1:8060 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42024 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48714 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48718 - "GET /api/health HTTP/1.1" 200 OK
+[DreamX][load] merge AR config with default_config.yaml
+[DreamX][load] build CausalCameraInferencePipeline via inference_ar_forcing.load_pipeline
+/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/diffusers/configuration_utils.py:282: FutureWarning: It is deprecated to pass a pretrained model name or path to `from_config`.If you were trying to load a model, please use <class 'wan.modules.causal_camera_model_2_2_prope_infinity.CausalWanModel'>.load_config(...) followed by <class 'wan.modules.causal_camera_model_2_2_prope_infinity.CausalWanModel'>.from_config(...) instead. Otherwise, please make sure to pass a configuration dictionary instead. This functionality will be removed in v1.0.0.
+  deprecate("config-passed-as-path", "1.0.0", deprecation_message, standard_warn=False)
+The config attributes {'patch_size': [1, 2, 2], 'text_dim': 4096, 'qk_norm': True, 'cross_attn_norm': True, 'add_ref_conv': False} were passed to CausalWanModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+INFO:     127.0.0.1:57960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34854 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48676 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40252 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53362 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53378 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48716 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48728 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45486 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53964 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56680 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38884 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/DreamX-World/wan/modules/vae_2_2.py:920: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(pretrained_path, map_location=device), assign=True)
+KV inference with 3 frames per block
+Base checkpoint loaded
+missing: []
+unexpected: []
+INFO:     127.0.0.1:38892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45812 - "GET /api/health HTTP/1.1" 200 OK
+[DreamX][load] pipeline ready (variant=ar)
+[startup] adapter ready in 147.9s
+INFO:     127.0.0.1:39294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39310 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39312 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39314 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39326 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39340 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39342 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39344 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39358 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39372 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39378 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39380 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39390 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39402 - "POST /api/action/2f76e156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39414 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39416 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39418 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39434 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:01,  1.03s/it]2it [00:01,  1.21it/s]3it [00:02,  1.32it/s]4it [00:03,  1.37it/s]5it [00:03,  1.41it/s]6it [00:04,  1.43it/s]7it [00:05,  1.44it/s]7it [00:05,  1.37it/s]
+INFO:     127.0.0.1:39440 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56922 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56936 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56942 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.51it/s]2it [00:01,  1.60it/s]3it [00:01,  1.60it/s]4it [00:02,  1.55it/s]5it [00:03,  1.52it/s]6it [00:03,  1.51it/s]7it [00:04,  1.50it/s]7it [00:04,  1.52it/s]
+INFO:     127.0.0.1:56952 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46188 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46202 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46216 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.55it/s]2it [00:01,  1.60it/s]3it [00:01,  1.60it/s]4it [00:02,  1.54it/s]5it [00:03,  1.52it/s]6it [00:03,  1.50it/s]7it [00:04,  1.49it/s]7it [00:04,  1.52it/s]
+INFO:     127.0.0.1:46222 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33574 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33584 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33586 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.63it/s]2it [00:01,  1.63it/s]3it [00:01,  1.63it/s]4it [00:02,  1.55it/s]5it [00:03,  1.52it/s]6it [00:03,  1.51it/s]7it [00:04,  1.50it/s]7it [00:04,  1.53it/s]
+INFO:     127.0.0.1:33594 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49716 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49718 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49724 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.68it/s]2it [00:01,  1.70it/s]3it [00:01,  1.66it/s]4it [00:02,  1.56it/s]5it [00:03,  1.53it/s]6it [00:03,  1.52it/s]7it [00:04,  1.50it/s]7it [00:04,  1.55it/s]
+INFO:     127.0.0.1:49738 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46662 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48908 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48920 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48922 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.57it/s]2it [00:01,  1.64it/s]3it [00:01,  1.63it/s]4it [00:02,  1.55it/s]5it [00:03,  1.52it/s]6it [00:03,  1.51it/s]7it [00:04,  1.50it/s]7it [00:04,  1.53it/s]
+INFO:     127.0.0.1:48924 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43196 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57894 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57908 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57910 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.58it/s]2it [00:01,  1.61it/s]3it [00:01,  1.58it/s]4it [00:02,  1.53it/s]5it [00:03,  1.51it/s]6it [00:03,  1.50it/s]7it [00:04,  1.49it/s]7it [00:04,  1.52it/s]
+INFO:     127.0.0.1:57914 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44300 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52486 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52494 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52498 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.63it/s]2it [00:01,  1.64it/s]3it [00:01,  1.60it/s]4it [00:02,  1.54it/s]5it [00:03,  1.51it/s]6it [00:03,  1.50it/s]7it [00:04,  1.49it/s]7it [00:04,  1.53it/s]
+INFO:     127.0.0.1:52502 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36762 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41234 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41242 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41246 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41254 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.45it/s]2it [00:01,  1.49it/s]3it [00:01,  1.51it/s]4it [00:02,  1.46it/s]5it [00:03,  1.46it/s]6it [00:04,  1.46it/s]7it [00:04,  1.46it/s]7it [00:04,  1.47it/s]
+INFO:     127.0.0.1:41260 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56472 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33452 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33468 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33472 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.60it/s]2it [00:01,  1.65it/s]3it [00:01,  1.64it/s]4it [00:02,  1.55it/s]5it [00:03,  1.52it/s]6it [00:03,  1.51it/s]7it [00:04,  1.50it/s]7it [00:04,  1.53it/s]
+INFO:     127.0.0.1:33488 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37730 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59032 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59046 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59056 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.66it/s]2it [00:01,  1.65it/s]3it [00:01,  1.60it/s]4it [00:02,  1.55it/s]5it [00:03,  1.52it/s]6it [00:03,  1.51it/s]7it [00:04,  1.50it/s]7it [00:04,  1.53it/s]
+INFO:     127.0.0.1:59070 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43120 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43122 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43132 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:00,  1.63it/s]2it [00:01,  1.63it/s]3it [00:01,  1.62it/s]4it [00:02,  1.56it/s]5it [00:03,  1.53it/s]6it [00:03,  1.51it/s]7it [00:04,  1.50it/s]7it [00:04,  1.54it/s]
+INFO:     127.0.0.1:43138 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38476 - "GET /api/events/2f76e156?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43638 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3873159]

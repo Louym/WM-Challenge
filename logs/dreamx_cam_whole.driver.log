@@ -1,0 +1,10 @@
+[driver 23:43:15] waiting for adapter to load ... (0s, health=None)
+[driver 23:44:15] waiting for adapter to load ... (60s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 23:45:15] adapter 'dreamx-world' ready after 120s
+[driver 23:45:15] === session dreamx_cam_whole: 1 action(s), expecting 1 segment(s)
+[driver 23:45:15] session id b955a53e
+[driver 23:45:15] queued 1 action(s)
+[driver 23:45:15] status: Ready: DreamX-World cam adapter.
+[driver 23:45:15] generating: w@6
+[driver 02:29:55] segment 0 done (9880s elapsed)
+[driver 02:30:00] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/dreamx_cam_whole.mp4 (from dreamx_world_cam_b955a53e.mp4, 12.6 MB)

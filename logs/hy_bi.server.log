@@ -1,0 +1,1294 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [137289]
+INFO:     Waiting for application startup.
+[startup] adapter=hy-worldplay; loading ...
+[HY][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8052 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48046 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48062 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53974 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49404 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] set CUDA device 0
+[HY][load] build pipeline variant=bi type=bi steps=20 few_step=False
+INFO:     127.0.0.1:49408 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33874 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33884 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49298 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54334 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44176 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44178 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43310 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42862 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42878 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50346 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41174 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41190 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48248 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49344 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60520 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45484 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43150 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40832 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40838 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42876 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54894 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60048 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49380 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34414 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41904 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40390 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50756 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50762 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58536 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58552 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47736 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50216 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43684 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54186 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54194 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34722 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59470 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54184 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35090 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55744 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43170 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37450 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49142 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37288 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37676 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58682 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45466 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43444 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42808 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38682 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45990 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46002 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34714 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43682 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42116 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42658 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59372 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37918 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49918 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60278 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52770 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52772 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56770 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46926 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47978 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47988 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54928 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38756 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56766 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56770 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37032 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44768 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44774 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32856 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32868 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43622 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34522 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51946 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51390 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51400 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55030 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55038 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38946 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59726 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59728 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48682 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56134 - "GET /api/health HTTP/1.1" 200 OK
+HY-World 1.5 loading from:  /mnt/nfs/home/yumingl/.cache/huggingface/hub/models--tencent--HY-WorldPlay/blobs/1926ad6356248f191092768758ef959608f0ee7473c06e6ae7c7f116b9f77b19
+INFO:     127.0.0.1:56144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46780 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41466 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41478 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43590 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47418 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47430 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54942 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39818 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57622 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49724 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49730 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53006 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56986 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56990 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39922 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58086 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36744 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56298 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49802 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44012 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32994 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44658 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43762 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43764 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50566 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]INFO:     127.0.0.1:46276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46284 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60672 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37510 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57416 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44384 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40716 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40722 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35532 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35544 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60620 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40178 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40188 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  20%|██        | 1/5 [01:31<06:06, 91.57s/it]INFO:     127.0.0.1:60042 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50932 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34202 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34212 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54678 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54684 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43382 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43384 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54240 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44316 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44318 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  40%|████      | 2/5 [02:42<03:59, 79.68s/it]INFO:     127.0.0.1:52280 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52288 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60856 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60872 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48028 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46048 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  60%|██████    | 3/5 [03:55<02:32, 76.32s/it]INFO:     127.0.0.1:46050 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36350 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40286 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37484 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43610 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44344 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44366 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46946 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  80%|████████  | 4/5 [05:05<01:14, 74.00s/it]Loading checkpoint shards: 100%|██████████| 5/5 [05:05<00:00, 61.15s/it]
+INFO:     127.0.0.1:46956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44400 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48896 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] pipeline ready
+[startup] adapter ready in 1825.2s
+INFO:     127.0.0.1:48906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48912 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48918 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48932 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48940 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48950 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48964 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48976 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48980 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48986 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48994 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48998 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49004 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49008 - "POST /api/action/3b229f57 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49010 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49020 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49026 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49028 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=1280x720 at 0x7F32AC4B3430>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:06<02:02,  6.46s/it] 10%|█         | 2/20 [00:12<01:48,  6.02s/it] 15%|█▌        | 3/20 [00:17<01:40,  5.91s/it]INFO:     127.0.0.1:49030 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [00:23<01:33,  5.86s/it] 25%|██▌       | 5/20 [00:29<01:27,  5.83s/it] 30%|███       | 6/20 [00:35<01:21,  5.81s/it] 35%|███▌      | 7/20 [00:41<01:15,  5.80s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it]INFO:     127.0.0.1:45738 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [00:52<01:03,  5.78s/it] 50%|█████     | 10/20 [00:58<00:57,  5.79s/it] 55%|█████▌    | 11/20 [01:04<00:52,  5.78s/it] 60%|██████    | 12/20 [01:09<00:46,  5.78s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.78s/it] 70%|███████   | 14/20 [01:21<00:34,  5.78s/it]INFO:     127.0.0.1:55044 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [01:27<00:28,  5.78s/it] 80%|████████  | 16/20 [01:33<00:23,  5.78s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.78s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.78s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.78s/it]INFO:     127.0.0.1:39674 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [01:56<00:00,  5.78s/it]100%|██████████| 20/20 [01:56<00:00,  5.81s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:17<05:35, 17.68s/it]INFO:     127.0.0.1:55768 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.58s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.60s/it]INFO:     127.0.0.1:48738 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.60s/it]INFO:     127.0.0.1:58340 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:28<04:24, 17.61s/it] 30%|███       | 6/20 [01:45<04:06, 17.62s/it]INFO:     127.0.0.1:57516 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:03<03:49, 17.63s/it] 40%|████      | 8/20 [02:20<03:31, 17.60s/it]INFO:     127.0.0.1:57402 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:13, 17.59s/it]INFO:     127.0.0.1:57246 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [02:55<02:55, 17.58s/it] 55%|█████▌    | 11/20 [03:13<02:38, 17.56s/it]INFO:     127.0.0.1:43832 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [03:31<02:20, 17.56s/it] 65%|██████▌   | 13/20 [03:48<02:02, 17.55s/it]INFO:     127.0.0.1:53096 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:06<01:45, 17.55s/it] 75%|███████▌  | 15/20 [04:23<01:27, 17.55s/it]INFO:     127.0.0.1:54156 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:41<01:10, 17.55s/it]INFO:     127.0.0.1:48550 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [04:58<00:52, 17.55s/it] 90%|█████████ | 18/20 [05:16<00:35, 17.55s/it]INFO:     127.0.0.1:57422 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:33<00:17, 17.55s/it]100%|██████████| 20/20 [05:51<00:00, 17.54s/it]100%|██████████| 20/20 [05:51<00:00, 17.57s/it]
+INFO:     127.0.0.1:42790 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51950 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45000 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45008 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45024 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32BC3E6E30>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.79s/it] 10%|█         | 2/20 [00:11<01:43,  5.76s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.77s/it] 20%|██        | 4/20 [00:23<01:32,  5.77s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.78s/it]INFO:     127.0.0.1:45034 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:20,  5.78s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.78s/it] 40%|████      | 8/20 [00:46<01:09,  5.78s/it] 45%|████▌     | 9/20 [00:51<01:03,  5.78s/it] 50%|█████     | 10/20 [00:57<00:57,  5.78s/it]INFO:     127.0.0.1:59474 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.78s/it] 60%|██████    | 12/20 [01:09<00:46,  5.78s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.78s/it] 70%|███████   | 14/20 [01:20<00:34,  5.80s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:42828 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.79s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.78s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.78s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:46628 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:35, 17.68s/it]INFO:     127.0.0.1:49868 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.58s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.60s/it]INFO:     127.0.0.1:53382 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.62s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.63s/it]INFO:     127.0.0.1:40418 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:07, 17.64s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.65s/it]INFO:     127.0.0.1:60970 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:21<03:31, 17.64s/it]INFO:     127.0.0.1:39834 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.65s/it] 50%|█████     | 10/20 [02:56<02:56, 17.67s/it]INFO:     127.0.0.1:42870 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:39, 17.69s/it] 60%|██████    | 12/20 [03:31<02:21, 17.69s/it]INFO:     127.0.0.1:38610 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.68s/it]INFO:     127.0.0.1:35472 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:46, 17.68s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.68s/it]INFO:     127.0.0.1:36976 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.68s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.68s/it]INFO:     127.0.0.1:47728 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.68s/it]INFO:     127.0.0.1:43720 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.68s/it]100%|██████████| 20/20 [05:53<00:00, 17.67s/it]100%|██████████| 20/20 [05:53<00:00, 17.66s/it]
+INFO:     127.0.0.1:55954 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41752 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41762 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41778 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F35193A8F70>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.78s/it] 10%|█         | 2/20 [00:11<01:43,  5.75s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.77s/it] 20%|██        | 4/20 [00:23<01:32,  5.78s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.78s/it]INFO:     127.0.0.1:41782 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:20,  5.79s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.79s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.79s/it] 50%|█████     | 10/20 [00:57<00:57,  5.78s/it]INFO:     127.0.0.1:39012 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.79s/it] 70%|███████   | 14/20 [01:20<00:34,  5.79s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:36502 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.79s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.79s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:55654 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:36, 17.69s/it]INFO:     127.0.0.1:32784 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.60s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.64s/it]INFO:     127.0.0.1:53372 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:42, 17.65s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.67s/it]INFO:     127.0.0.1:59834 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:07, 17.67s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.67s/it]INFO:     127.0.0.1:37748 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:21<03:32, 17.67s/it]INFO:     127.0.0.1:59256 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.67s/it] 50%|█████     | 10/20 [02:56<02:56, 17.68s/it]INFO:     127.0.0.1:56442 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:39, 17.69s/it] 60%|██████    | 12/20 [03:32<02:21, 17.69s/it]INFO:     127.0.0.1:42404 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.69s/it]INFO:     127.0.0.1:51170 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:46, 17.69s/it] 75%|███████▌  | 15/20 [04:25<01:28, 17.70s/it]INFO:     127.0.0.1:60782 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.69s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.69s/it]INFO:     127.0.0.1:42022 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:18<00:35, 17.68s/it]INFO:     127.0.0.1:49046 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.67s/it]100%|██████████| 20/20 [05:53<00:00, 17.66s/it]100%|██████████| 20/20 [05:53<00:00, 17.67s/it]
+INFO:     127.0.0.1:33896 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35966 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35980 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35986 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC4B3520>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.80s/it] 10%|█         | 2/20 [00:11<01:43,  5.77s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.79s/it] 20%|██        | 4/20 [00:23<01:32,  5.79s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.79s/it]INFO:     127.0.0.1:36000 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.80s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.80s/it] 40%|████      | 8/20 [00:46<01:09,  5.80s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.80s/it] 50%|█████     | 10/20 [00:57<00:57,  5.80s/it]INFO:     127.0.0.1:59478 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.80s/it] 60%|██████    | 12/20 [01:09<00:46,  5.80s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.80s/it] 70%|███████   | 14/20 [01:21<00:34,  5.80s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.80s/it]INFO:     127.0.0.1:35744 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.80s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.80s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.80s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.80s/it]100%|██████████| 20/20 [01:55<00:00,  5.80s/it]100%|██████████| 20/20 [01:55<00:00,  5.80s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:43496 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:35, 17.67s/it]INFO:     127.0.0.1:55070 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.58s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.61s/it]INFO:     127.0.0.1:59046 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:42, 17.63s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.64s/it]INFO:     127.0.0.1:51092 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:07, 17.65s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.65s/it]INFO:     127.0.0.1:53090 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:21<03:31, 17.66s/it]INFO:     127.0.0.1:41484 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.66s/it] 50%|█████     | 10/20 [02:56<02:56, 17.66s/it]INFO:     127.0.0.1:42678 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:38, 17.66s/it] 60%|██████    | 12/20 [03:31<02:21, 17.66s/it]INFO:     127.0.0.1:46544 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.66s/it]INFO:     127.0.0.1:45314 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:45, 17.67s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.67s/it]INFO:     127.0.0.1:52822 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.67s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.67s/it]INFO:     127.0.0.1:55290 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.67s/it]INFO:     127.0.0.1:33508 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.67s/it]100%|██████████| 20/20 [05:53<00:00, 17.67s/it]100%|██████████| 20/20 [05:53<00:00, 17.66s/it]
+INFO:     127.0.0.1:50754 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35222 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35248 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC4B2B60>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.80s/it] 10%|█         | 2/20 [00:11<01:43,  5.76s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.77s/it] 20%|██        | 4/20 [00:23<01:32,  5.78s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.79s/it]INFO:     127.0.0.1:35254 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.79s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.79s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.79s/it] 50%|█████     | 10/20 [00:57<00:57,  5.79s/it]INFO:     127.0.0.1:43972 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.79s/it] 70%|███████   | 14/20 [01:21<00:34,  5.79s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:49530 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.79s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.78s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:37368 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:34, 17.62s/it]INFO:     127.0.0.1:49838 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:15, 17.53s/it] 15%|█▌        | 3/20 [00:52<04:58, 17.57s/it]INFO:     127.0.0.1:34488 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.59s/it] 25%|██▌       | 5/20 [01:27<04:24, 17.60s/it]INFO:     127.0.0.1:53098 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:06, 17.61s/it] 35%|███▌      | 7/20 [02:03<03:48, 17.61s/it]INFO:     127.0.0.1:43304 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:20<03:31, 17.62s/it]INFO:     127.0.0.1:57658 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:13, 17.63s/it] 50%|█████     | 10/20 [02:56<02:56, 17.63s/it]INFO:     127.0.0.1:56316 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:13<02:38, 17.63s/it] 60%|██████    | 12/20 [03:31<02:21, 17.63s/it]INFO:     127.0.0.1:51200 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:48<02:03, 17.63s/it]INFO:     127.0.0.1:47312 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:06<01:45, 17.64s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.64s/it]INFO:     127.0.0.1:57724 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:41<01:10, 17.64s/it] 85%|████████▌ | 17/20 [04:59<00:52, 17.63s/it]INFO:     127.0.0.1:34376 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.63s/it]INFO:     127.0.0.1:35630 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:34<00:17, 17.63s/it]100%|██████████| 20/20 [05:52<00:00, 17.62s/it]100%|██████████| 20/20 [05:52<00:00, 17.62s/it]
+INFO:     127.0.0.1:40990 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51088 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51090 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51100 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC4B32E0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.79s/it] 10%|█         | 2/20 [00:11<01:43,  5.77s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.78s/it] 20%|██        | 4/20 [00:23<01:32,  5.78s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.79s/it]INFO:     127.0.0.1:51116 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.79s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.79s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.79s/it] 50%|█████     | 10/20 [00:57<00:57,  5.79s/it]INFO:     127.0.0.1:51482 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.79s/it] 70%|███████   | 14/20 [01:21<00:34,  5.79s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:41640 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.80s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.79s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:51400 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:35, 17.65s/it]INFO:     127.0.0.1:47898 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:15, 17.55s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.59s/it]INFO:     127.0.0.1:57828 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.60s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.60s/it]INFO:     127.0.0.1:48654 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:06, 17.61s/it] 35%|███▌      | 7/20 [02:03<03:48, 17.61s/it]INFO:     127.0.0.1:60640 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:20<03:31, 17.62s/it]INFO:     127.0.0.1:50212 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.64s/it] 50%|█████     | 10/20 [02:56<02:56, 17.64s/it]INFO:     127.0.0.1:52022 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:13<02:38, 17.64s/it] 60%|██████    | 12/20 [03:31<02:21, 17.63s/it]INFO:     127.0.0.1:60914 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.63s/it]INFO:     127.0.0.1:59266 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:06<01:45, 17.63s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.64s/it]INFO:     127.0.0.1:36800 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.64s/it] 85%|████████▌ | 17/20 [04:59<00:52, 17.66s/it]INFO:     127.0.0.1:49288 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.66s/it]INFO:     127.0.0.1:48004 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.66s/it]100%|██████████| 20/20 [05:52<00:00, 17.67s/it]100%|██████████| 20/20 [05:52<00:00, 17.64s/it]
+INFO:     127.0.0.1:37860 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44956 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44972 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44980 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F35BCACA3B0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.81s/it] 10%|█         | 2/20 [00:11<01:44,  5.78s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.80s/it] 20%|██        | 4/20 [00:23<01:32,  5.80s/it] 25%|██▌       | 5/20 [00:29<01:27,  5.81s/it]INFO:     127.0.0.1:44994 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.81s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.82s/it] 40%|████      | 8/20 [00:46<01:09,  5.82s/it] 45%|████▌     | 9/20 [00:52<01:04,  5.82s/it] 50%|█████     | 10/20 [00:58<00:58,  5.81s/it]INFO:     127.0.0.1:55354 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.81s/it] 60%|██████    | 12/20 [01:09<00:46,  5.84s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.83s/it] 70%|███████   | 14/20 [01:21<00:34,  5.82s/it] 75%|███████▌  | 15/20 [01:27<00:29,  5.81s/it]INFO:     127.0.0.1:36164 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:33<00:23,  5.81s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.81s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.80s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.80s/it]100%|██████████| 20/20 [01:56<00:00,  5.80s/it]100%|██████████| 20/20 [01:56<00:00,  5.81s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:54948 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:36, 17.70s/it]INFO:     127.0.0.1:52444 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:17, 17.62s/it] 15%|█▌        | 3/20 [00:52<05:00, 17.65s/it]INFO:     127.0.0.1:36512 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:42, 17.68s/it] 25%|██▌       | 5/20 [01:28<04:25, 17.69s/it]INFO:     127.0.0.1:37582 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:46<04:07, 17.69s/it]INFO:     127.0.0.1:50796 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:03<03:49, 17.69s/it] 40%|████      | 8/20 [02:21<03:32, 17.69s/it]INFO:     127.0.0.1:49960 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:39<03:14, 17.69s/it] 50%|█████     | 10/20 [02:56<02:56, 17.69s/it]INFO:     127.0.0.1:37114 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:39, 17.69s/it] 60%|██████    | 12/20 [03:32<02:21, 17.69s/it]INFO:     127.0.0.1:56578 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.69s/it]INFO:     127.0.0.1:41816 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:46, 17.70s/it] 75%|███████▌  | 15/20 [04:25<01:28, 17.69s/it]INFO:     127.0.0.1:47760 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.69s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.69s/it]INFO:     127.0.0.1:35372 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:18<00:35, 17.69s/it]INFO:     127.0.0.1:58594 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:36<00:17, 17.70s/it]100%|██████████| 20/20 [05:53<00:00, 17.70s/it]100%|██████████| 20/20 [05:53<00:00, 17.69s/it]
+INFO:     127.0.0.1:33128 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36834 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36838 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36848 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC4B2E90>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.82s/it] 10%|█         | 2/20 [00:11<01:44,  5.78s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.79s/it] 20%|██        | 4/20 [00:23<01:32,  5.79s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.80s/it]INFO:     127.0.0.1:36862 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.80s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.80s/it] 40%|████      | 8/20 [00:46<01:09,  5.81s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.80s/it] 50%|█████     | 10/20 [00:58<00:58,  5.81s/it]INFO:     127.0.0.1:46822 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.81s/it] 60%|██████    | 12/20 [01:09<00:46,  5.80s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.81s/it] 70%|███████   | 14/20 [01:21<00:34,  5.81s/it] 75%|███████▌  | 15/20 [01:27<00:29,  5.81s/it]INFO:     127.0.0.1:45270 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.80s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.81s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.81s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.81s/it]100%|██████████| 20/20 [01:56<00:00,  5.81s/it]100%|██████████| 20/20 [01:56<00:00,  5.80s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:40152 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:36, 17.70s/it]INFO:     127.0.0.1:51848 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:17, 17.61s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.64s/it]INFO:     127.0.0.1:51190 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:42, 17.66s/it] 25%|██▌       | 5/20 [01:28<04:25, 17.67s/it]INFO:     127.0.0.1:33088 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:07, 17.68s/it]INFO:     127.0.0.1:43916 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:03<03:49, 17.68s/it] 40%|████      | 8/20 [02:21<03:32, 17.68s/it]INFO:     127.0.0.1:38610 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:39<03:14, 17.68s/it] 50%|█████     | 10/20 [02:56<02:56, 17.68s/it]INFO:     127.0.0.1:44136 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:39, 17.68s/it] 60%|██████    | 12/20 [03:32<02:21, 17.68s/it]INFO:     127.0.0.1:43282 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.68s/it]INFO:     127.0.0.1:45950 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:46, 17.68s/it] 75%|███████▌  | 15/20 [04:25<01:28, 17.68s/it]INFO:     127.0.0.1:60342 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.68s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.68s/it]INFO:     127.0.0.1:41510 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:18<00:35, 17.68s/it]INFO:     127.0.0.1:60202 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.68s/it]100%|██████████| 20/20 [05:53<00:00, 17.68s/it]100%|██████████| 20/20 [05:53<00:00, 17.68s/it]
+INFO:     127.0.0.1:36818 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57314 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57320 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F35193A90C0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.81s/it] 10%|█         | 2/20 [00:11<01:43,  5.77s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.78s/it] 20%|██        | 4/20 [00:23<01:32,  5.78s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.79s/it]INFO:     127.0.0.1:57336 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.79s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.79s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.80s/it] 50%|█████     | 10/20 [00:57<00:57,  5.80s/it]INFO:     127.0.0.1:57748 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.79s/it] 70%|███████   | 14/20 [01:21<00:34,  5.79s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:50048 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.79s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.79s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:55270 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:35, 17.64s/it]INFO:     127.0.0.1:36834 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.56s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.60s/it]INFO:     127.0.0.1:53058 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:42, 17.63s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.64s/it]INFO:     127.0.0.1:50060 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:06, 17.64s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.64s/it]INFO:     127.0.0.1:41362 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:21<03:31, 17.64s/it]INFO:     127.0.0.1:60482 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.65s/it] 50%|█████     | 10/20 [02:56<02:56, 17.65s/it]INFO:     127.0.0.1:32802 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:38, 17.65s/it] 60%|██████    | 12/20 [03:31<02:21, 17.66s/it]INFO:     127.0.0.1:43500 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.66s/it]INFO:     127.0.0.1:57426 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:45, 17.66s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.66s/it]INFO:     127.0.0.1:39754 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.67s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.67s/it]INFO:     127.0.0.1:60566 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.66s/it]INFO:     127.0.0.1:46910 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.65s/it]100%|██████████| 20/20 [05:52<00:00, 17.65s/it]100%|██████████| 20/20 [05:52<00:00, 17.65s/it]
+INFO:     127.0.0.1:34034 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33970 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33986 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34000 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC4B2FB0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.79s/it] 10%|█         | 2/20 [00:11<01:43,  5.77s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.79s/it] 20%|██        | 4/20 [00:23<01:32,  5.79s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.79s/it]INFO:     127.0.0.1:34014 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.79s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.79s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.79s/it] 50%|█████     | 10/20 [00:57<00:57,  5.79s/it]INFO:     127.0.0.1:36218 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.79s/it] 70%|███████   | 14/20 [01:21<00:34,  5.79s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:38198 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.79s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.79s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:57936 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:35, 17.66s/it]INFO:     127.0.0.1:58590 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:15, 17.55s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.60s/it]INFO:     127.0.0.1:43984 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.61s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.64s/it]INFO:     127.0.0.1:51020 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:07, 17.66s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.67s/it]INFO:     127.0.0.1:33850 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:21<03:32, 17.67s/it]INFO:     127.0.0.1:48440 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.68s/it] 50%|█████     | 10/20 [02:56<02:56, 17.68s/it]INFO:     127.0.0.1:38392 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:39, 17.69s/it] 60%|██████    | 12/20 [03:31<02:21, 17.70s/it]INFO:     127.0.0.1:54200 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.70s/it]INFO:     127.0.0.1:35976 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:46, 17.70s/it] 75%|███████▌  | 15/20 [04:25<01:28, 17.71s/it]INFO:     127.0.0.1:45168 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.71s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.75s/it]INFO:     127.0.0.1:36048 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:18<00:35, 17.74s/it]INFO:     127.0.0.1:56778 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:36<00:17, 17.73s/it]100%|██████████| 20/20 [05:53<00:00, 17.72s/it]100%|██████████| 20/20 [05:53<00:00, 17.69s/it]
+INFO:     127.0.0.1:54496 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45900 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45906 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC30CD30>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+INFO:     127.0.0.1:45916 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.79s/it] 10%|█         | 2/20 [00:11<01:43,  5.78s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.79s/it] 20%|██        | 4/20 [00:23<01:32,  5.80s/it] 25%|██▌       | 5/20 [00:28<01:27,  5.81s/it]INFO:     127.0.0.1:45928 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.81s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.81s/it] 40%|████      | 8/20 [00:46<01:09,  5.81s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.81s/it] 50%|█████     | 10/20 [00:58<00:58,  5.81s/it]INFO:     127.0.0.1:34438 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.81s/it] 60%|██████    | 12/20 [01:09<00:46,  5.81s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.81s/it] 70%|███████   | 14/20 [01:21<00:34,  5.81s/it] 75%|███████▌  | 15/20 [01:27<00:29,  5.80s/it]INFO:     127.0.0.1:33688 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.80s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.80s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.80s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.80s/it]100%|██████████| 20/20 [01:56<00:00,  5.80s/it]100%|██████████| 20/20 [01:56<00:00,  5.80s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:38128 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:36, 17.70s/it]INFO:     127.0.0.1:34568 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.60s/it] 15%|█▌        | 3/20 [00:52<05:00, 17.65s/it]INFO:     127.0.0.1:47348 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:42, 17.67s/it] 25%|██▌       | 5/20 [01:28<04:25, 17.68s/it]INFO:     127.0.0.1:37084 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:46<04:07, 17.68s/it]INFO:     127.0.0.1:41598 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:03<03:49, 17.69s/it] 40%|████      | 8/20 [02:21<03:32, 17.69s/it]INFO:     127.0.0.1:47658 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:39<03:14, 17.70s/it] 50%|█████     | 10/20 [02:56<02:56, 17.69s/it]INFO:     127.0.0.1:44012 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:39, 17.69s/it] 60%|██████    | 12/20 [03:32<02:21, 17.69s/it]INFO:     127.0.0.1:33992 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.70s/it]INFO:     127.0.0.1:56872 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:46, 17.70s/it] 75%|███████▌  | 15/20 [04:25<01:28, 17.70s/it]INFO:     127.0.0.1:54314 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:43<01:10, 17.70s/it] 85%|████████▌ | 17/20 [05:00<00:53, 17.71s/it]INFO:     127.0.0.1:49262 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:18<00:35, 17.71s/it]INFO:     127.0.0.1:55846 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:36<00:17, 17.71s/it]100%|██████████| 20/20 [05:53<00:00, 17.71s/it]100%|██████████| 20/20 [05:53<00:00, 17.69s/it]
+INFO:     127.0.0.1:42016 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37824 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37830 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37840 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F32AC4B3250>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:50,  5.81s/it] 10%|█         | 2/20 [00:11<01:43,  5.77s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.78s/it] 20%|██        | 4/20 [00:23<01:32,  5.78s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.79s/it]INFO:     127.0.0.1:37846 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:21,  5.79s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.80s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.79s/it] 50%|█████     | 10/20 [00:57<00:57,  5.79s/it]INFO:     127.0.0.1:41768 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.80s/it] 70%|███████   | 14/20 [01:21<00:34,  5.80s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.80s/it]INFO:     127.0.0.1:34840 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.80s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.79s/it] 95%|█████████▌| 19/20 [01:50<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:58926 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:35, 17.64s/it]INFO:     127.0.0.1:55826 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:15, 17.55s/it] 15%|█▌        | 3/20 [00:52<04:59, 17.59s/it]INFO:     127.0.0.1:55512 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.61s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.63s/it]INFO:     127.0.0.1:51034 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:06, 17.63s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.64s/it]INFO:     127.0.0.1:35278 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:21<03:31, 17.65s/it]INFO:     127.0.0.1:41256 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.66s/it] 50%|█████     | 10/20 [02:56<02:56, 17.66s/it]INFO:     127.0.0.1:46336 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:14<02:38, 17.66s/it] 60%|██████    | 12/20 [03:31<02:21, 17.66s/it]INFO:     127.0.0.1:55706 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.66s/it]INFO:     127.0.0.1:43736 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:07<01:45, 17.66s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.66s/it]INFO:     127.0.0.1:59910 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.66s/it] 85%|████████▌ | 17/20 [04:59<00:52, 17.66s/it]INFO:     127.0.0.1:54874 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.66s/it]INFO:     127.0.0.1:52762 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.66s/it]100%|██████████| 20/20 [05:52<00:00, 17.66s/it]100%|██████████| 20/20 [05:52<00:00, 17.65s/it]
+INFO:     127.0.0.1:59508 - "GET /api/events/3b229f57?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50538 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57896 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57906 - "POST /api/action/e55c4e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57914 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57932 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57946 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              1441
+Reference Image:           <PIL.Image.Image image mode=RGB size=1280x720 at 0x7F32AC4B32E0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.78s/it] 10%|█         | 2/20 [00:11<01:43,  5.75s/it] 15%|█▌        | 3/20 [00:17<01:38,  5.77s/it] 20%|██        | 4/20 [00:23<01:32,  5.77s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.78s/it]INFO:     127.0.0.1:57960 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:20,  5.78s/it] 35%|███▌      | 7/20 [00:40<01:15,  5.79s/it] 40%|████      | 8/20 [00:46<01:09,  5.79s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.79s/it] 50%|█████     | 10/20 [00:57<00:57,  5.79s/it]INFO:     127.0.0.1:34942 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:52,  5.79s/it] 60%|██████    | 12/20 [01:09<00:46,  5.79s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.79s/it] 70%|███████   | 14/20 [01:21<00:34,  5.79s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.79s/it]INFO:     127.0.0.1:45676 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.79s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.79s/it] 90%|█████████ | 18/20 [01:44<00:11,  5.79s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]100%|██████████| 20/20 [01:55<00:00,  5.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:46092 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:34, 17.61s/it]INFO:     127.0.0.1:37678 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:15, 17.53s/it] 15%|█▌        | 3/20 [00:52<04:58, 17.58s/it]INFO:     127.0.0.1:47992 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:41, 17.61s/it] 25%|██▌       | 5/20 [01:28<04:24, 17.62s/it]INFO:     127.0.0.1:54864 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:45<04:06, 17.64s/it] 35%|███▌      | 7/20 [02:03<03:49, 17.64s/it]INFO:     127.0.0.1:35330 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:20<03:31, 17.65s/it]INFO:     127.0.0.1:38434 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:38<03:14, 17.65s/it] 50%|█████     | 10/20 [02:56<02:56, 17.65s/it]INFO:     127.0.0.1:52410 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:13<02:38, 17.66s/it] 60%|██████    | 12/20 [03:31<02:21, 17.66s/it]INFO:     127.0.0.1:59236 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:49<02:03, 17.66s/it]INFO:     127.0.0.1:54276 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:06<01:45, 17.65s/it] 75%|███████▌  | 15/20 [04:24<01:28, 17.66s/it]INFO:     127.0.0.1:34742 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:42<01:10, 17.66s/it] 85%|████████▌ | 17/20 [04:59<00:52, 17.66s/it]INFO:     127.0.0.1:52422 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:17<00:35, 17.66s/it]INFO:     127.0.0.1:46184 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [05:35<00:17, 17.66s/it]100%|██████████| 20/20 [05:52<00:00, 17.66s/it]100%|██████████| 20/20 [05:52<00:00, 17.65s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:51080 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:49, 21.53s/it]INFO:     127.0.0.1:59000 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:25, 21.42s/it] 15%|█▌        | 3/20 [01:04<06:05, 21.48s/it]INFO:     127.0.0.1:58736 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:44, 21.52s/it]INFO:     127.0.0.1:35694 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.54s/it] 30%|███       | 6/20 [02:09<05:01, 21.56s/it]INFO:     127.0.0.1:54752 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.58s/it]INFO:     127.0.0.1:55188 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:19, 21.58s/it]INFO:     127.0.0.1:53230 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:13<03:57, 21.59s/it] 50%|█████     | 10/20 [03:35<03:35, 21.59s/it]INFO:     127.0.0.1:43142 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it]INFO:     127.0.0.1:57812 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.61s/it] 65%|██████▌   | 13/20 [04:40<02:31, 21.61s/it]INFO:     127.0.0.1:56334 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.62s/it]INFO:     127.0.0.1:38378 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:48, 21.63s/it]INFO:     127.0.0.1:50436 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:45<01:26, 21.65s/it] 85%|████████▌ | 17/20 [06:07<01:04, 21.64s/it]INFO:     127.0.0.1:34372 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:28<00:43, 21.63s/it]INFO:     127.0.0.1:44064 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:50<00:21, 21.61s/it]INFO:     127.0.0.1:39790 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:11<00:00, 21.58s/it]100%|██████████| 20/20 [07:11<00:00, 21.59s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:21<06:48, 21.51s/it]INFO:     127.0.0.1:36546 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:25, 21.41s/it]INFO:     127.0.0.1:52402 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.48s/it] 20%|██        | 4/20 [01:25<05:44, 21.50s/it]INFO:     127.0.0.1:50026 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:22, 21.50s/it]INFO:     127.0.0.1:46148 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:01, 21.52s/it]INFO:     127.0.0.1:56416 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:39, 21.51s/it] 40%|████      | 8/20 [02:51<04:18, 21.50s/it]INFO:     127.0.0.1:51624 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:13<03:56, 21.51s/it]INFO:     127.0.0.1:47512 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.51s/it] 55%|█████▌    | 11/20 [03:56<03:13, 21.51s/it]INFO:     127.0.0.1:49600 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.52s/it]INFO:     127.0.0.1:32904 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:39<02:30, 21.53s/it]INFO:     127.0.0.1:42518 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:01<02:09, 21.52s/it] 75%|███████▌  | 15/20 [05:22<01:47, 21.53s/it]INFO:     127.0.0.1:50272 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:44<01:26, 21.53s/it]INFO:     127.0.0.1:37174 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:05<01:04, 21.53s/it] 90%|█████████ | 18/20 [06:27<00:43, 21.53s/it]INFO:     127.0.0.1:52158 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:48<00:21, 21.52s/it]INFO:     127.0.0.1:55922 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:10<00:00, 21.52s/it]100%|██████████| 20/20 [07:10<00:00, 21.51s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:33200 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:49, 21.53s/it] 10%|█         | 2/20 [00:42<06:26, 21.45s/it]INFO:     127.0.0.1:42300 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.49s/it]INFO:     127.0.0.1:45374 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:44, 21.52s/it] 25%|██▌       | 5/20 [01:47<05:22, 21.53s/it]INFO:     127.0.0.1:53248 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:01, 21.53s/it]INFO:     127.0.0.1:43254 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:39, 21.54s/it]INFO:     127.0.0.1:43234 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:18, 21.54s/it] 45%|████▌     | 9/20 [03:13<03:56, 21.54s/it]INFO:     127.0.0.1:47568 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.54s/it]INFO:     127.0.0.1:32806 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:56<03:13, 21.55s/it]INFO:     127.0.0.1:47940 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.56s/it] 65%|██████▌   | 13/20 [04:39<02:30, 21.56s/it]INFO:     127.0.0.1:35444 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:01<02:09, 21.56s/it]INFO:     127.0.0.1:46944 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.57s/it] 80%|████████  | 16/20 [05:44<01:26, 21.58s/it]INFO:     127.0.0.1:44568 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.58s/it]INFO:     127.0.0.1:57044 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:27<00:43, 21.58s/it]INFO:     127.0.0.1:51094 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:49<00:21, 21.58s/it]100%|██████████| 20/20 [07:11<00:00, 21.57s/it]100%|██████████| 20/20 [07:11<00:00, 21.55s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:46246 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:49, 21.57s/it]INFO:     127.0.0.1:48094 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:26, 21.46s/it] 15%|█▌        | 3/20 [01:04<06:05, 21.51s/it]INFO:     127.0.0.1:58076 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:44, 21.54s/it]INFO:     127.0.0.1:42290 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.57s/it]INFO:     127.0.0.1:57942 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:02, 21.58s/it] 35%|███▌      | 7/20 [02:30<04:40, 21.58s/it]INFO:     127.0.0.1:47694 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:19, 21.59s/it]INFO:     127.0.0.1:43584 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:14<03:57, 21.59s/it] 50%|█████     | 10/20 [03:35<03:35, 21.60s/it]INFO:     127.0.0.1:55670 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it]INFO:     127.0.0.1:39240 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.60s/it]INFO:     127.0.0.1:35792 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:40<02:31, 21.60s/it] 70%|███████   | 14/20 [05:02<02:09, 21.60s/it]INFO:     127.0.0.1:38914 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.60s/it]INFO:     127.0.0.1:36716 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:45<01:26, 21.60s/it]INFO:     127.0.0.1:51392 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.60s/it] 90%|█████████ | 18/20 [06:28<00:43, 21.60s/it]INFO:     127.0.0.1:51646 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:50<00:21, 21.60s/it]INFO:     127.0.0.1:37534 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:11<00:00, 21.60s/it]100%|██████████| 20/20 [07:11<00:00, 21.59s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:21<06:49, 21.56s/it]INFO:     127.0.0.1:48902 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:26, 21.47s/it]INFO:     127.0.0.1:44976 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:06, 21.53s/it]INFO:     127.0.0.1:40320 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:44, 21.56s/it] 25%|██▌       | 5/20 [01:47<05:23, 21.57s/it]INFO:     127.0.0.1:42786 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:02, 21.58s/it]INFO:     127.0.0.1:55044 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.59s/it] 40%|████      | 8/20 [02:52<04:19, 21.59s/it]INFO:     127.0.0.1:60312 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:14<03:57, 21.59s/it]INFO:     127.0.0.1:51196 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.60s/it]INFO:     127.0.0.1:44556 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it] 60%|██████    | 12/20 [04:18<02:52, 21.60s/it]INFO:     127.0.0.1:54890 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:40<02:31, 21.60s/it]INFO:     127.0.0.1:38380 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.59s/it]INFO:     127.0.0.1:37092 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.59s/it] 80%|████████  | 16/20 [05:45<01:26, 21.59s/it]INFO:     127.0.0.1:60750 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.58s/it]INFO:     127.0.0.1:34650 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:28<00:43, 21.57s/it] 95%|█████████▌| 19/20 [06:50<00:21, 21.57s/it]INFO:     127.0.0.1:38784 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:11<00:00, 21.56s/it]100%|██████████| 20/20 [07:11<00:00, 21.58s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:38060 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:49, 21.53s/it]INFO:     127.0.0.1:37426 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:25, 21.42s/it] 15%|█▌        | 3/20 [01:04<06:05, 21.48s/it]INFO:     127.0.0.1:38222 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:25<05:44, 21.51s/it]INFO:     127.0.0.1:45412 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:22, 21.52s/it] 30%|███       | 6/20 [02:09<05:01, 21.53s/it]INFO:     127.0.0.1:38458 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.55s/it]INFO:     127.0.0.1:45842 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:18, 21.54s/it]INFO:     127.0.0.1:43454 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:13<03:56, 21.55s/it] 50%|█████     | 10/20 [03:35<03:35, 21.55s/it]INFO:     127.0.0.1:44046 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:56<03:13, 21.56s/it]INFO:     127.0.0.1:33140 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.56s/it] 65%|██████▌   | 13/20 [04:39<02:30, 21.56s/it]INFO:     127.0.0.1:52144 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:01<02:09, 21.57s/it]INFO:     127.0.0.1:54922 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.57s/it]INFO:     127.0.0.1:39604 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:44<01:26, 21.57s/it] 85%|████████▌ | 17/20 [06:06<01:04, 21.56s/it]INFO:     127.0.0.1:50472 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:27<00:43, 21.56s/it]INFO:     127.0.0.1:50906 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:49<00:21, 21.56s/it]100%|██████████| 20/20 [07:10<00:00, 21.56s/it]100%|██████████| 20/20 [07:10<00:00, 21.55s/it]
+INFO:     127.0.0.1:53814 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:21<06:49, 21.53s/it]INFO:     127.0.0.1:60200 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:25, 21.44s/it]INFO:     127.0.0.1:58890 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.50s/it] 20%|██        | 4/20 [01:26<05:44, 21.53s/it]INFO:     127.0.0.1:54370 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.56s/it]INFO:     127.0.0.1:59542 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:01, 21.57s/it]INFO:     127.0.0.1:46122 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.58s/it] 40%|████      | 8/20 [02:52<04:18, 21.58s/it]INFO:     127.0.0.1:57762 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:14<03:57, 21.58s/it]INFO:     127.0.0.1:43068 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.58s/it] 55%|█████▌    | 11/20 [03:57<03:14, 21.59s/it]INFO:     127.0.0.1:33978 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.58s/it]INFO:     127.0.0.1:59558 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:40<02:31, 21.58s/it]INFO:     127.0.0.1:52598 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:01<02:09, 21.59s/it] 75%|███████▌  | 15/20 [05:23<01:47, 21.59s/it]INFO:     127.0.0.1:37912 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:45<01:26, 21.59s/it]INFO:     127.0.0.1:40136 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.60s/it] 90%|█████████ | 18/20 [06:28<00:43, 21.60s/it]INFO:     127.0.0.1:40872 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:49<00:21, 21.60s/it]INFO:     127.0.0.1:59240 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:11<00:00, 21.59s/it]100%|██████████| 20/20 [07:11<00:00, 21.58s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:35382 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:49, 21.55s/it] 10%|█         | 2/20 [00:42<06:26, 21.45s/it]INFO:     127.0.0.1:40402 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.52s/it]INFO:     127.0.0.1:51270 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:44, 21.55s/it]INFO:     127.0.0.1:58788 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.57s/it] 30%|███       | 6/20 [02:09<05:02, 21.58s/it]INFO:     127.0.0.1:51496 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.59s/it]INFO:     127.0.0.1:55802 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:19, 21.59s/it] 45%|████▌     | 9/20 [03:14<03:57, 21.59s/it]INFO:     127.0.0.1:59480 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.59s/it]INFO:     127.0.0.1:57418 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it]INFO:     127.0.0.1:35742 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.60s/it] 65%|██████▌   | 13/20 [04:40<02:31, 21.60s/it]INFO:     127.0.0.1:50830 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.60s/it]INFO:     127.0.0.1:39276 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.59s/it] 80%|████████  | 16/20 [05:45<01:26, 21.59s/it]INFO:     127.0.0.1:37376 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.59s/it]INFO:     127.0.0.1:54784 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:28<00:43, 21.59s/it]INFO:     127.0.0.1:39170 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:50<00:21, 21.58s/it]100%|██████████| 20/20 [07:11<00:00, 21.59s/it]100%|██████████| 20/20 [07:11<00:00, 21.58s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:37282 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:50, 21.58s/it]INFO:     127.0.0.1:46396 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:26, 21.47s/it]INFO:     127.0.0.1:53214 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.51s/it] 20%|██        | 4/20 [01:26<05:44, 21.53s/it]INFO:     127.0.0.1:38318 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.55s/it]INFO:     127.0.0.1:39724 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:01, 21.55s/it] 35%|███▌      | 7/20 [02:30<04:40, 21.55s/it]INFO:     127.0.0.1:53238 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:18, 21.56s/it]INFO:     127.0.0.1:36434 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:13<03:57, 21.55s/it]INFO:     127.0.0.1:60170 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.56s/it] 55%|█████▌    | 11/20 [03:57<03:14, 21.56s/it]INFO:     127.0.0.1:55108 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.56s/it]INFO:     127.0.0.1:53750 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:40<02:30, 21.55s/it] 70%|███████   | 14/20 [05:01<02:09, 21.55s/it]INFO:     127.0.0.1:59406 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.55s/it]INFO:     127.0.0.1:49702 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:44<01:26, 21.55s/it]INFO:     127.0.0.1:33638 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.55s/it] 90%|█████████ | 18/20 [06:27<00:43, 21.55s/it]INFO:     127.0.0.1:56244 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:49<00:21, 21.55s/it]INFO:     127.0.0.1:57424 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:10<00:00, 21.54s/it]100%|██████████| 20/20 [07:10<00:00, 21.55s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:51454 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:48, 21.48s/it] 10%|█         | 2/20 [00:42<06:24, 21.38s/it]INFO:     127.0.0.1:52744 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:04, 21.44s/it]INFO:     127.0.0.1:37984 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:25<05:43, 21.46s/it] 25%|██▌       | 5/20 [01:47<05:22, 21.47s/it]INFO:     127.0.0.1:34860 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:08<05:00, 21.48s/it]INFO:     127.0.0.1:55650 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:39, 21.48s/it]INFO:     127.0.0.1:57886 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:51<04:17, 21.48s/it] 45%|████▌     | 9/20 [03:13<03:56, 21.49s/it]INFO:     127.0.0.1:51850 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:34<03:34, 21.50s/it]INFO:     127.0.0.1:40678 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:56<03:13, 21.50s/it] 60%|██████    | 12/20 [04:17<02:52, 21.50s/it]INFO:     127.0.0.1:35730 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:39<02:30, 21.50s/it]INFO:     127.0.0.1:34082 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:00<02:08, 21.50s/it]INFO:     127.0.0.1:56668 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:22<01:47, 21.50s/it] 80%|████████  | 16/20 [05:43<01:25, 21.50s/it]INFO:     127.0.0.1:38008 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:05<01:04, 21.50s/it]INFO:     127.0.0.1:52230 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:26<00:42, 21.49s/it] 95%|█████████▌| 19/20 [06:48<00:21, 21.49s/it]INFO:     127.0.0.1:44854 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:09<00:00, 21.48s/it]100%|██████████| 20/20 [07:09<00:00, 21.48s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:40852 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:48, 21.49s/it]INFO:     127.0.0.1:57800 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:25, 21.42s/it] 15%|█▌        | 3/20 [01:04<06:05, 21.48s/it]INFO:     127.0.0.1:34562 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:25<05:44, 21.51s/it]INFO:     127.0.0.1:60798 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:22, 21.53s/it] 30%|███       | 6/20 [02:09<05:01, 21.53s/it]INFO:     127.0.0.1:45060 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:39, 21.54s/it]INFO:     127.0.0.1:46092 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:18, 21.54s/it]INFO:     127.0.0.1:53148 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:13<03:57, 21.55s/it] 50%|█████     | 10/20 [03:35<03:35, 21.55s/it]INFO:     127.0.0.1:46808 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:56<03:14, 21.56s/it]INFO:     127.0.0.1:41130 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.56s/it] 65%|██████▌   | 13/20 [04:39<02:30, 21.56s/it]INFO:     127.0.0.1:40234 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:01<02:09, 21.56s/it]INFO:     127.0.0.1:49284 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.56s/it]INFO:     127.0.0.1:34960 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:44<01:26, 21.56s/it] 85%|████████▌ | 17/20 [06:06<01:04, 21.57s/it]INFO:     127.0.0.1:38810 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:27<00:43, 21.58s/it]INFO:     127.0.0.1:41292 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:49<00:21, 21.57s/it]INFO:     127.0.0.1:41218 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:10<00:00, 21.57s/it]100%|██████████| 20/20 [07:10<00:00, 21.55s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:21<06:49, 21.55s/it]INFO:     127.0.0.1:50860 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:26, 21.45s/it]INFO:     127.0.0.1:36116 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.52s/it] 20%|██        | 4/20 [01:26<05:44, 21.55s/it]INFO:     127.0.0.1:49958 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.57s/it]INFO:     127.0.0.1:44366 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:02, 21.58s/it]INFO:     127.0.0.1:50206 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.59s/it] 40%|████      | 8/20 [02:52<04:19, 21.59s/it]INFO:     127.0.0.1:58944 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:14<03:57, 21.60s/it]INFO:     127.0.0.1:60792 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.60s/it] 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it]INFO:     127.0.0.1:51270 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.60s/it]INFO:     127.0.0.1:34104 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:40<02:31, 21.60s/it]INFO:     127.0.0.1:42982 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.60s/it] 75%|███████▌  | 15/20 [05:23<01:48, 21.60s/it]INFO:     127.0.0.1:59670 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:45<01:26, 21.60s/it]INFO:     127.0.0.1:41260 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.60s/it]INFO:     127.0.0.1:57438 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:28<00:43, 21.60s/it] 95%|█████████▌| 19/20 [06:50<00:21, 21.61s/it]INFO:     127.0.0.1:48918 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:11<00:00, 21.61s/it]100%|██████████| 20/20 [07:11<00:00, 21.59s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:33746 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:50, 21.59s/it] 10%|█         | 2/20 [00:43<06:26, 21.50s/it]INFO:     127.0.0.1:33966 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:06, 21.55s/it]INFO:     127.0.0.1:50072 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:45, 21.57s/it]INFO:     127.0.0.1:43020 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.59s/it] 30%|███       | 6/20 [02:09<05:02, 21.59s/it]INFO:     127.0.0.1:37940 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:31<04:40, 21.60s/it]INFO:     127.0.0.1:33600 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:19, 21.60s/it]INFO:     127.0.0.1:34748 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:14<03:57, 21.62s/it] 50%|█████     | 10/20 [03:35<03:36, 21.62s/it]INFO:     127.0.0.1:38256 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:57<03:14, 21.62s/it]INFO:     127.0.0.1:37066 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:19<02:52, 21.62s/it] 65%|██████▌   | 13/20 [04:40<02:31, 21.61s/it]INFO:     127.0.0.1:45204 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.62s/it]INFO:     127.0.0.1:51910 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:24<01:48, 21.62s/it]INFO:     127.0.0.1:59694 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:45<01:26, 21.61s/it] 85%|████████▌ | 17/20 [06:07<01:04, 21.61s/it]INFO:     127.0.0.1:41464 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:28<00:43, 21.62s/it]INFO:     127.0.0.1:45390 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:50<00:21, 21.61s/it]100%|██████████| 20/20 [07:12<00:00, 21.61s/it]100%|██████████| 20/20 [07:12<00:00, 21.60s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:41424 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:49, 21.53s/it]INFO:     127.0.0.1:36350 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:42<06:26, 21.46s/it]INFO:     127.0.0.1:56254 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:05, 21.52s/it] 20%|██        | 4/20 [01:26<05:44, 21.55s/it]INFO:     127.0.0.1:59924 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.58s/it]INFO:     127.0.0.1:52948 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:09<05:02, 21.58s/it]INFO:     127.0.0.1:35612 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:30<04:40, 21.58s/it] 40%|████      | 8/20 [02:52<04:19, 21.59s/it]INFO:     127.0.0.1:32816 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:14<03:57, 21.60s/it]INFO:     127.0.0.1:38834 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.60s/it] 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it]INFO:     127.0.0.1:58856 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:18<02:52, 21.60s/it]INFO:     127.0.0.1:50620 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [04:40<02:31, 21.60s/it]INFO:     127.0.0.1:45304 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.59s/it] 75%|███████▌  | 15/20 [05:23<01:47, 21.60s/it]INFO:     127.0.0.1:60346 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [05:45<01:26, 21.60s/it]INFO:     127.0.0.1:52260 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.60s/it] 90%|█████████ | 18/20 [06:28<00:43, 21.59s/it]INFO:     127.0.0.1:36850 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:50<00:21, 21.57s/it]INFO:     127.0.0.1:44512 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [07:11<00:00, 21.58s/it]100%|██████████| 20/20 [07:11<00:00, 21.58s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:41198 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:21<06:50, 21.59s/it] 10%|█         | 2/20 [00:42<06:26, 21.48s/it]INFO:     127.0.0.1:52412 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:04<06:06, 21.54s/it]INFO:     127.0.0.1:43690 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:26<05:45, 21.57s/it]INFO:     127.0.0.1:48998 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [01:47<05:23, 21.57s/it] 30%|███       | 6/20 [02:09<05:02, 21.58s/it]INFO:     127.0.0.1:58340 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [02:31<04:40, 21.59s/it]INFO:     127.0.0.1:47512 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:52<04:19, 21.60s/it] 45%|████▌     | 9/20 [03:14<03:57, 21.59s/it]INFO:     127.0.0.1:59748 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [03:35<03:35, 21.60s/it]INFO:     127.0.0.1:60758 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:57<03:14, 21.60s/it]INFO:     127.0.0.1:59026 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [04:19<02:52, 21.60s/it] 65%|██████▌   | 13/20 [04:40<02:31, 21.60s/it]INFO:     127.0.0.1:43076 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [05:02<02:09, 21.60s/it]INFO:     127.0.0.1:56410 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [05:23<01:47, 21.60s/it] 80%|████████  | 16/20 [05:45<01:26, 21.60s/it]INFO:     127.0.0.1:33736 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [06:06<01:04, 21.60s/it]INFO:     127.0.0.1:58038 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [06:28<00:43, 21.60s/it]INFO:     127.0.0.1:34846 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [06:50<00:21, 21.60s/it]100%|██████████| 20/20 [07:11<00:00, 21.60s/it]100%|██████████| 20/20 [07:11<00:00, 21.59s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:53048 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:25<08:12, 25.93s/it]INFO:     127.0.0.1:35454 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:51<07:45, 25.85s/it]INFO:     127.0.0.1:55868 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:17<07:20, 25.92s/it]INFO:     127.0.0.1:58066 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:43<06:55, 25.94s/it]INFO:     127.0.0.1:58544 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [02:09<06:29, 25.96s/it]INFO:     127.0.0.1:57846 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [02:35<06:03, 25.97s/it] 35%|███▌      | 7/20 [03:01<05:37, 25.98s/it]INFO:     127.0.0.1:43080 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [03:27<05:11, 25.98s/it]INFO:     127.0.0.1:46042 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [03:53<04:45, 25.98s/it]INFO:     127.0.0.1:46536 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [04:19<04:19, 25.99s/it]INFO:     127.0.0.1:59908 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [04:45<03:53, 26.00s/it]INFO:     127.0.0.1:44270 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [05:11<03:27, 25.99s/it]INFO:     127.0.0.1:51256 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [05:37<03:01, 25.99s/it]INFO:     127.0.0.1:60508 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [06:03<02:35, 25.99s/it] 75%|███████▌  | 15/20 [06:29<02:09, 26.00s/it]INFO:     127.0.0.1:60138 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [06:55<01:44, 26.01s/it]INFO:     127.0.0.1:46838 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [07:21<01:18, 26.01s/it]INFO:     127.0.0.1:57576 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [07:47<00:52, 26.01s/it]INFO:     127.0.0.1:50782 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [08:13<00:26, 26.01s/it]INFO:     127.0.0.1:47484 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [08:39<00:00, 26.01s/it]100%|██████████| 20/20 [08:39<00:00, 25.99s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:41606 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:35<11:18, 35.71s/it]INFO:     127.0.0.1:41496 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [01:11<10:39, 35.52s/it]INFO:     127.0.0.1:48852 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:46<10:05, 35.62s/it]INFO:     127.0.0.1:35666 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39440 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [02:22<09:30, 35.68s/it]INFO:     127.0.0.1:51006 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [02:58<08:55, 35.71s/it]INFO:     127.0.0.1:59886 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [03:34<08:20, 35.74s/it]INFO:     127.0.0.1:50958 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [04:09<07:44, 35.74s/it]INFO:     127.0.0.1:33378 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [04:45<07:08, 35.73s/it]INFO:     127.0.0.1:55408 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46406 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [05:21<06:33, 35.74s/it]INFO:     127.0.0.1:56542 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [05:57<05:57, 35.73s/it]INFO:     127.0.0.1:57828 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [06:32<05:21, 35.75s/it]INFO:     127.0.0.1:42256 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [07:08<04:46, 35.76s/it]INFO:     127.0.0.1:43700 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [07:44<04:10, 35.77s/it]INFO:     127.0.0.1:46838 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [08:20<03:34, 35.77s/it]INFO:     127.0.0.1:52530 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41612 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [08:56<02:58, 35.78s/it]INFO:     127.0.0.1:58482 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [09:31<02:23, 35.77s/it]INFO:     127.0.0.1:46046 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [10:07<01:47, 35.78s/it]INFO:     127.0.0.1:54162 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [10:43<01:11, 35.80s/it]INFO:     127.0.0.1:35180 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [11:19<00:35, 35.90s/it]INFO:     127.0.0.1:33606 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45422 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [11:55<00:00, 35.99s/it]100%|██████████| 20/20 [11:55<00:00, 35.79s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:49656 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:35<11:18, 35.69s/it]INFO:     127.0.0.1:38858 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [01:11<10:39, 35.51s/it]INFO:     127.0.0.1:57782 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:46<10:05, 35.61s/it]INFO:     127.0.0.1:44912 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52308 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [02:22<09:30, 35.67s/it]INFO:     127.0.0.1:33802 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [02:58<08:55, 35.72s/it]INFO:     127.0.0.1:60310 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [03:34<08:20, 35.74s/it]INFO:     127.0.0.1:57472 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [04:09<07:44, 35.74s/it]INFO:     127.0.0.1:37054 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [04:45<07:08, 35.72s/it]INFO:     127.0.0.1:48500 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [05:21<06:32, 35.70s/it]INFO:     127.0.0.1:40302 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41154 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [05:56<05:56, 35.68s/it]INFO:     127.0.0.1:54610 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [06:32<05:21, 35.67s/it]INFO:     127.0.0.1:58512 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [07:08<04:45, 35.68s/it]INFO:     127.0.0.1:36850 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [07:43<04:09, 35.69s/it]INFO:     127.0.0.1:59522 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [08:19<03:34, 35.70s/it]INFO:     127.0.0.1:45938 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52502 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [08:55<02:58, 35.71s/it]INFO:     127.0.0.1:43378 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [09:31<02:22, 35.73s/it]INFO:     127.0.0.1:54638 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [10:06<01:47, 35.74s/it]INFO:     127.0.0.1:37846 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [10:42<01:11, 35.73s/it]INFO:     127.0.0.1:46566 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [11:18<00:35, 35.72s/it]INFO:     127.0.0.1:58814 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51936 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [11:54<00:00, 35.71s/it]100%|██████████| 20/20 [11:54<00:00, 35.70s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:39002 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:37<11:51, 37.43s/it]INFO:     127.0.0.1:43832 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [01:12<10:52, 36.23s/it]INFO:     127.0.0.1:35438 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:48<10:11, 35.98s/it]INFO:     127.0.0.1:43152 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [02:24<09:34, 35.88s/it]INFO:     127.0.0.1:34566 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37426 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [02:59<08:57, 35.82s/it]INFO:     127.0.0.1:43354 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [03:35<08:21, 35.80s/it]INFO:     127.0.0.1:59632 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [04:11<07:44, 35.76s/it]INFO:     127.0.0.1:36726 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [04:47<07:09, 35.76s/it]INFO:     127.0.0.1:60166 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [05:22<06:33, 35.74s/it]INFO:     127.0.0.1:40918 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53572 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [05:58<05:57, 35.73s/it]INFO:     127.0.0.1:46898 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [06:34<05:21, 35.73s/it]INFO:     127.0.0.1:51566 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [07:10<04:45, 35.74s/it]INFO:     127.0.0.1:38478 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [07:45<04:10, 35.74s/it]INFO:     127.0.0.1:39826 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [08:21<03:34, 35.74s/it]INFO:     127.0.0.1:51592 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52104 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [08:57<02:58, 35.75s/it]INFO:     127.0.0.1:52602 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [09:33<02:23, 35.76s/it]INFO:     127.0.0.1:40364 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [10:08<01:47, 35.76s/it]INFO:     127.0.0.1:40560 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [10:44<01:11, 35.75s/it]INFO:     127.0.0.1:33146 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [11:20<00:35, 35.75s/it]INFO:     127.0.0.1:53402 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51946 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [11:56<00:00, 35.77s/it]100%|██████████| 20/20 [11:56<00:00, 35.81s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:48252 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:35<11:17, 35.65s/it]INFO:     127.0.0.1:53794 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [01:11<10:38, 35.48s/it]INFO:     127.0.0.1:48862 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [01:46<10:04, 35.57s/it]INFO:     127.0.0.1:55234 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [02:22<09:29, 35.62s/it]INFO:     127.0.0.1:60024 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55962 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [02:58<08:54, 35.63s/it]INFO:     127.0.0.1:47834 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [03:33<08:19, 35.65s/it]INFO:     127.0.0.1:60534 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [04:09<07:43, 35.66s/it]INFO:     127.0.0.1:57426 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [04:45<07:07, 35.66s/it]INFO:     127.0.0.1:46864 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [05:20<06:32, 35.67s/it]INFO:     127.0.0.1:52136 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [05:56<05:56, 35.67s/it]INFO:     127.0.0.1:39046 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46040 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [06:32<05:21, 35.67s/it]INFO:     127.0.0.1:52634 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [07:07<04:45, 35.67s/it]INFO:     127.0.0.1:49674 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [07:43<04:09, 35.66s/it]INFO:     127.0.0.1:54182 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [08:19<03:33, 35.64s/it]INFO:     127.0.0.1:52250 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [08:54<02:58, 35.63s/it]INFO:     127.0.0.1:58256 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38162 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [09:30<02:22, 35.62s/it]INFO:     127.0.0.1:33448 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [10:05<01:46, 35.62s/it]INFO:     127.0.0.1:48042 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [10:41<01:11, 35.63s/it]INFO:     127.0.0.1:57082 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [11:17<00:35, 35.62s/it]INFO:     127.0.0.1:37352 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [11:52<00:00, 35.62s/it]100%|██████████| 20/20 [11:52<00:00, 35.63s/it]
+INFO:     127.0.0.1:44018 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56820 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44448 - "GET /api/events/e55c4e7e?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42294 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [137289]

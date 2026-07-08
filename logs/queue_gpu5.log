@@ -1,0 +1,17 @@
+QUEUE[gpu5] starting sana_wm (21:27:35)
+[run_one] sana_wm: server pid 3873029 (env=sana gpu=5 port=8050)
+[run_one] sana_wm: driver exit 0
+QUEUE[gpu5] finished sana_wm rc=0 (22:06:42)
+QUEUE[gpu5] starting hy_ar_rl (22:06:42)
+[run_one] hy_ar_rl: server pid 3981653 (env=hy gpu=5 port=8051)
+[run_one] hy_ar_rl: driver exit 0
+QUEUE[gpu5] finished hy_ar_rl rc=0 (00:40:16)
+QUEUE[gpu5] starting hy_bi (00:40:16)
+[run_one] hy_bi: server pid 137289 (env=hy gpu=5 port=8052)
+[run_one] hy_bi: driver exit 0
+QUEUE[gpu5] finished hy_bi rc=0 (05:40:31)
+QUEUE[gpu5] starting lingbot_large (05:40:31)
+[run_one] lingbot_large: server pid 474960 (env=lingbot gpu=5 port=8053)
+[run_one] lingbot_large: driver exit 1
+QUEUE[gpu5] finished lingbot_large rc=1 (06:43:55)
+QUEUE[gpu5] ALL DONE

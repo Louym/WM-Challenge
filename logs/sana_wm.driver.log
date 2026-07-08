@@ -1,0 +1,60 @@
+[driver 21:27:43] waiting for adapter to load ... (0s, health=None)
+[driver 21:28:43] waiting for adapter to load ... (60s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:29:43] waiting for adapter to load ... (120s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:30:43] waiting for adapter to load ... (180s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:31:43] waiting for adapter to load ... (240s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:32:28] adapter 'sana-wm' ready after 286s
+[driver 21:32:28] === session sana_wm_bidirectional_clip: 20 action(s), expecting 20 segment(s)
+[driver 21:32:29] session id e3707c39
+[driver 21:32:29] queued 20 action(s)
+[driver 21:32:29] status: Estimating image intrinsics with Pi3X...
+[driver 21:36:08] status: Estimated FOV: H=74.8 deg V=45.7 deg.
+[driver 21:36:08] generating: 
+[driver 21:38:36] segment 0 done (368s elapsed)
+[driver 21:38:36] generating: 
+[driver 21:39:11] segment 1 done (402s elapsed)
+[driver 21:39:11] generating: 
+[driver 21:39:45] segment 2 done (437s elapsed)
+[driver 21:39:45] generating: 
+[driver 21:40:19] segment 3 done (471s elapsed)
+[driver 21:40:19] generating: 
+[driver 21:40:54] segment 4 done (506s elapsed)
+[driver 21:40:54] generating: 
+[driver 21:41:29] segment 5 done (541s elapsed)
+[driver 21:41:29] generating: 
+[driver 21:42:07] segment 6 done (579s elapsed)
+[driver 21:42:07] generating: 
+[driver 21:42:45] segment 7 done (616s elapsed)
+[driver 21:42:45] generating: 
+[driver 21:43:22] segment 8 done (654s elapsed)
+[driver 21:43:22] generating: 
+[driver 21:44:01] segment 9 done (692s elapsed)
+[driver 21:44:01] generating: 
+[driver 21:44:40] segment 10 done (732s elapsed)
+[driver 21:44:40] generating: 
+[driver 21:45:21] segment 11 done (773s elapsed)
+[driver 21:45:21] generating: 
+[driver 21:46:01] segment 12 done (812s elapsed)
+[driver 21:46:01] generating: 
+[driver 21:46:44] segment 13 done (856s elapsed)
+[driver 21:46:44] generating: 
+[driver 21:47:25] segment 14 done (896s elapsed)
+[driver 21:47:25] generating: 
+[driver 21:48:02] segment 15 done (933s elapsed)
+[driver 21:48:02] generating: 
+[driver 21:48:40] segment 16 done (971s elapsed)
+[driver 21:48:40] generating: 
+[driver 21:49:14] segment 17 done (1005s elapsed)
+[driver 21:49:14] generating: 
+[driver 21:49:56] segment 18 done (1047s elapsed)
+[driver 21:49:56] generating: 
+[driver 21:50:59] segment 19 done (1110s elapsed)
+[driver 21:51:04] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/sana_wm_bidirectional_clip.mp4 (from sana_wm_refiner_on_e3707c39.mp4, 21.8 MB)
+[driver 21:51:04] === session sana_wm_bidirectional_whole: 1 action(s), expecting 1 segment(s)
+[driver 21:51:04] session id 2a5672a6
+[driver 21:51:04] queued 1 action(s)
+[driver 21:51:06] status: Estimating image intrinsics with Pi3X...
+[driver 21:51:17] status: Estimated FOV: H=74.8 deg V=45.7 deg.
+[driver 21:51:17] generating: w-240,l-240,w-240,s-240
+[driver 22:06:31] segment 0 done (927s elapsed)
+[driver 22:06:36] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/sana_wm_bidirectional_whole.mp4 (from sana_wm_refiner_on_2a5672a6.mp4, 22.4 MB)

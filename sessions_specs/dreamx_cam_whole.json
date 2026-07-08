@@ -1,0 +1,12 @@
+[
+ {
+  "name": "dreamx_cam_whole",
+  "actions": [
+   {
+    "action": "w",
+    "speed": 6
+   }
+  ],
+  "timeout": 43200
+ }
+]

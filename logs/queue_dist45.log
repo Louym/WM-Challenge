@@ -1,0 +1,3 @@
+QUEUE[dist45] starting lingbot_large_whole (16:15:25)
+[run_one] lingbot_large_whole: server pid 1116320 (env=lingbot gpu=4,5 port=8080)
+[run_one] lingbot_large_whole: driver exit 1

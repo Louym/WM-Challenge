@@ -1,0 +1,21 @@
+QUEUE[gpu4] starting infworld (21:27:33)
+[run_one] infworld: server pid 3872649 (env=infworld gpu=4 port=8040)
+[run_one] infworld: driver exit 0
+QUEUE[gpu4] finished infworld rc=0 (21:41:27)
+QUEUE[gpu4] starting hy_ar_distill (21:41:27)
+[run_one] hy_ar_distill: server pid 3910020 (env=hy gpu=4 port=8041)
+[run_one] hy_ar_distill: driver exit 1
+QUEUE[gpu4] finished hy_ar_distill rc=1 (22:02:40)
+QUEUE[gpu4] starting hy_ar (22:02:40)
+[run_one] hy_ar: server pid 3956593 (env=hy gpu=4 port=8042)
+[run_one] hy_ar: driver exit 0
+QUEUE[gpu4] finished hy_ar rc=0 (00:40:19)
+QUEUE[gpu4] starting lingbot_small (00:40:19)
+[run_one] lingbot_small: server pid 137818 (env=lingbot gpu=4 port=8043)
+[run_one] lingbot_small: driver exit 1
+QUEUE[gpu4] finished lingbot_small rc=1 (01:20:54)
+QUEUE[gpu4] starting mg3_efficiency (01:20:54)
+[run_one] mg3_efficiency: server pid 200335 (env=mg3 gpu=4 port=8044)
+[run_one] mg3_efficiency: driver exit 1
+QUEUE[gpu4] finished mg3_efficiency rc=1 (01:33:18)
+QUEUE[gpu4] ALL DONE

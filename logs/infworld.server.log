@@ -1,0 +1,782 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [3872649]
+INFO:     Waiting for application startup.
+[startup] adapter=infworld; loading ...
+[InfWorld][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8040 (Press CTRL+C to quit)
+[InfWorld][load] set CUDA device 0
+[InfWorld][load] load config /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/configs/infworld_config.yaml
+[InfWorld][load] build VAE
+INFO:     127.0.0.1:34220 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] build text encoder
+INFO:     127.0.0.1:34222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38480 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38492 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] build scheduler
+[InfWorld][load] build DiT
+Import transformer_engine failed, may cause bug.
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:372: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:383: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+INFO:     127.0.0.1:52148 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52152 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37170 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] model loaded; missing=0 unexpected=0
+[InfWorld][load] pipeline ready
+[startup] adapter ready in 37.4s
+INFO:     127.0.0.1:37180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37182 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37184 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37192 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37202 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37214 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37220 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37228 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37238 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37240 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37250 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37254 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37270 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37282 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37296 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37304 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37312 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37316 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37328 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37342 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37344 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37356 - "POST /api/action/95cbe640 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37366 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37378 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37386 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37392 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/vae/vae.py:669: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:1170: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:1177: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:752: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:779: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:786: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:801: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:806: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:843: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+Step 0 Forward time: 1.2393 seconds
+Step 1 Forward time: 0.8925 seconds
+Step 2 Forward time: 1.0684 seconds
+Step 3 Forward time: 1.0632 seconds
+Step 4 Forward time: 1.0642 seconds
+Step 5 Forward time: 1.0657 seconds
+Step 6 Forward time: 1.0632 seconds
+Step 7 Forward time: 1.0659 seconds
+Step 8 Forward time: 1.0680 seconds
+Step 9 Forward time: 1.0653 seconds
+Step 10 Forward time: 1.0620 seconds
+Step 11 Forward time: 1.0674 seconds
+Step 12 Forward time: 1.0671 seconds
+Step 13 Forward time: 1.0657 seconds
+Step 14 Forward time: 1.0644 seconds
+Step 15 Forward time: 1.0667 seconds
+Step 16 Forward time: 1.0672 seconds
+Step 17 Forward time: 1.0661 seconds
+Step 18 Forward time: 1.0649 seconds
+Step 19 Forward time: 1.0642 seconds
+Step 20 Forward time: 1.0667 seconds
+Step 21 Forward time: 1.0679 seconds
+Step 22 Forward time: 1.0646 seconds
+Step 23 Forward time: 1.0662 seconds
+Step 24 Forward time: 1.0674 seconds
+Step 25 Forward time: 1.0661 seconds
+Step 26 Forward time: 1.0694 seconds
+INFO:     127.0.0.1:37402 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 27 Forward time: 1.0695 seconds
+Step 28 Forward time: 1.0690 seconds
+Step 29 Forward time: 1.0681 seconds
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/vae/vae.py:673: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+INFO:     127.0.0.1:47020 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55946 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55962 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55964 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8874 seconds
+Step 1 Forward time: 1.0659 seconds
+Step 2 Forward time: 1.0709 seconds
+Step 3 Forward time: 1.0668 seconds
+Step 4 Forward time: 1.0748 seconds
+Step 5 Forward time: 1.0688 seconds
+Step 6 Forward time: 1.0664 seconds
+Step 7 Forward time: 1.0698 seconds
+Step 8 Forward time: 1.0665 seconds
+Step 9 Forward time: 1.0644 seconds
+Step 10 Forward time: 1.0644 seconds
+Step 11 Forward time: 1.0654 seconds
+Step 12 Forward time: 1.0691 seconds
+Step 13 Forward time: 1.0659 seconds
+Step 14 Forward time: 1.0650 seconds
+Step 15 Forward time: 1.0688 seconds
+Step 16 Forward time: 1.0688 seconds
+Step 17 Forward time: 1.0680 seconds
+Step 18 Forward time: 1.0647 seconds
+Step 19 Forward time: 1.0647 seconds
+Step 20 Forward time: 1.0676 seconds
+Step 21 Forward time: 1.0653 seconds
+Step 22 Forward time: 1.0703 seconds
+Step 23 Forward time: 1.0693 seconds
+Step 24 Forward time: 1.0668 seconds
+Step 25 Forward time: 1.0690 seconds
+Step 26 Forward time: 1.0662 seconds
+Step 27 Forward time: 1.0683 seconds
+INFO:     127.0.0.1:55976 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0663 seconds
+Step 29 Forward time: 1.0683 seconds
+INFO:     127.0.0.1:35544 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35550 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35560 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35576 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8887 seconds
+Step 1 Forward time: 1.0676 seconds
+Step 2 Forward time: 1.0654 seconds
+Step 3 Forward time: 1.0657 seconds
+Step 4 Forward time: 1.0683 seconds
+Step 5 Forward time: 1.0650 seconds
+Step 6 Forward time: 1.0538 seconds
+Step 7 Forward time: 1.0672 seconds
+Step 8 Forward time: 1.0708 seconds
+Step 9 Forward time: 1.0639 seconds
+Step 10 Forward time: 1.0681 seconds
+Step 11 Forward time: 1.0678 seconds
+Step 12 Forward time: 1.0664 seconds
+Step 13 Forward time: 1.0703 seconds
+Step 14 Forward time: 1.0664 seconds
+Step 15 Forward time: 1.0696 seconds
+Step 16 Forward time: 1.0658 seconds
+Step 17 Forward time: 1.0665 seconds
+Step 18 Forward time: 1.0674 seconds
+Step 19 Forward time: 1.0663 seconds
+Step 20 Forward time: 1.0677 seconds
+Step 21 Forward time: 1.0668 seconds
+Step 22 Forward time: 1.0636 seconds
+Step 23 Forward time: 1.0685 seconds
+Step 24 Forward time: 1.0696 seconds
+Step 25 Forward time: 1.0650 seconds
+Step 26 Forward time: 1.0706 seconds
+Step 27 Forward time: 1.0673 seconds
+INFO:     127.0.0.1:35582 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0683 seconds
+Step 29 Forward time: 1.0675 seconds
+INFO:     127.0.0.1:37190 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34512 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34520 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34526 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8878 seconds
+Step 1 Forward time: 1.0703 seconds
+Step 2 Forward time: 1.0664 seconds
+Step 3 Forward time: 1.0691 seconds
+Step 4 Forward time: 1.0661 seconds
+Step 5 Forward time: 1.0679 seconds
+Step 6 Forward time: 1.0667 seconds
+Step 7 Forward time: 1.0665 seconds
+Step 8 Forward time: 1.0667 seconds
+Step 9 Forward time: 1.0681 seconds
+Step 10 Forward time: 1.0694 seconds
+Step 11 Forward time: 1.0684 seconds
+Step 12 Forward time: 1.0702 seconds
+Step 13 Forward time: 1.0684 seconds
+Step 14 Forward time: 1.0681 seconds
+Step 15 Forward time: 1.0686 seconds
+Step 16 Forward time: 1.0685 seconds
+Step 17 Forward time: 1.0706 seconds
+Step 18 Forward time: 1.0671 seconds
+Step 19 Forward time: 1.0699 seconds
+Step 20 Forward time: 1.0697 seconds
+Step 21 Forward time: 1.0710 seconds
+Step 22 Forward time: 1.0687 seconds
+Step 23 Forward time: 1.0717 seconds
+Step 24 Forward time: 1.0655 seconds
+Step 25 Forward time: 1.0663 seconds
+Step 26 Forward time: 1.0679 seconds
+Step 27 Forward time: 1.0681 seconds
+INFO:     127.0.0.1:34530 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0697 seconds
+Step 29 Forward time: 1.0665 seconds
+INFO:     127.0.0.1:59008 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47140 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47144 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47160 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8886 seconds
+Step 1 Forward time: 1.0684 seconds
+Step 2 Forward time: 1.0715 seconds
+Step 3 Forward time: 1.0692 seconds
+Step 4 Forward time: 1.0677 seconds
+Step 5 Forward time: 1.0662 seconds
+Step 6 Forward time: 1.0708 seconds
+Step 7 Forward time: 1.0701 seconds
+Step 8 Forward time: 1.0678 seconds
+Step 9 Forward time: 1.0648 seconds
+Step 10 Forward time: 1.0657 seconds
+Step 11 Forward time: 1.0662 seconds
+Step 12 Forward time: 1.0691 seconds
+Step 13 Forward time: 1.0703 seconds
+Step 14 Forward time: 1.0700 seconds
+Step 15 Forward time: 1.0681 seconds
+Step 16 Forward time: 1.0707 seconds
+Step 17 Forward time: 1.0693 seconds
+Step 18 Forward time: 1.0665 seconds
+Step 19 Forward time: 1.0650 seconds
+Step 20 Forward time: 1.0692 seconds
+Step 21 Forward time: 1.0680 seconds
+Step 22 Forward time: 1.0686 seconds
+Step 23 Forward time: 1.0676 seconds
+Step 24 Forward time: 1.0695 seconds
+Step 25 Forward time: 1.0698 seconds
+Step 26 Forward time: 1.0668 seconds
+Step 27 Forward time: 1.0694 seconds
+INFO:     127.0.0.1:47162 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0671 seconds
+Step 29 Forward time: 1.0730 seconds
+INFO:     127.0.0.1:36878 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36884 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36900 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36902 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8872 seconds
+Step 1 Forward time: 1.0695 seconds
+Step 2 Forward time: 1.0645 seconds
+Step 3 Forward time: 1.0660 seconds
+Step 4 Forward time: 1.0713 seconds
+Step 5 Forward time: 1.0658 seconds
+Step 6 Forward time: 1.0694 seconds
+Step 7 Forward time: 1.0689 seconds
+Step 8 Forward time: 1.0690 seconds
+Step 9 Forward time: 1.0683 seconds
+Step 10 Forward time: 1.0687 seconds
+Step 11 Forward time: 1.0682 seconds
+Step 12 Forward time: 1.0695 seconds
+Step 13 Forward time: 1.0693 seconds
+Step 14 Forward time: 1.0726 seconds
+Step 15 Forward time: 1.0723 seconds
+Step 16 Forward time: 1.0723 seconds
+Step 17 Forward time: 1.0700 seconds
+Step 18 Forward time: 1.0718 seconds
+Step 19 Forward time: 1.0728 seconds
+Step 20 Forward time: 1.0710 seconds
+Step 21 Forward time: 1.0726 seconds
+Step 22 Forward time: 1.0704 seconds
+Step 23 Forward time: 1.0728 seconds
+Step 24 Forward time: 1.0724 seconds
+Step 25 Forward time: 1.0703 seconds
+Step 26 Forward time: 1.0713 seconds
+Step 27 Forward time: 1.0708 seconds
+INFO:     127.0.0.1:36918 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0712 seconds
+Step 29 Forward time: 1.0705 seconds
+INFO:     127.0.0.1:46690 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51658 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51670 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8880 seconds
+Step 1 Forward time: 1.0666 seconds
+Step 2 Forward time: 1.0639 seconds
+Step 3 Forward time: 1.0677 seconds
+Step 4 Forward time: 1.0689 seconds
+Step 5 Forward time: 1.0653 seconds
+Step 6 Forward time: 1.0671 seconds
+Step 7 Forward time: 1.0696 seconds
+Step 8 Forward time: 1.0695 seconds
+Step 9 Forward time: 1.0657 seconds
+Step 10 Forward time: 1.0679 seconds
+Step 11 Forward time: 1.0705 seconds
+Step 12 Forward time: 1.0670 seconds
+Step 13 Forward time: 1.0699 seconds
+Step 14 Forward time: 1.0650 seconds
+Step 15 Forward time: 1.0695 seconds
+Step 16 Forward time: 1.0663 seconds
+Step 17 Forward time: 1.0663 seconds
+Step 18 Forward time: 1.0702 seconds
+Step 19 Forward time: 1.0671 seconds
+Step 20 Forward time: 1.0689 seconds
+Step 21 Forward time: 1.0662 seconds
+Step 22 Forward time: 1.0695 seconds
+Step 23 Forward time: 1.0683 seconds
+Step 24 Forward time: 1.0677 seconds
+Step 25 Forward time: 1.0695 seconds
+Step 26 Forward time: 1.0645 seconds
+Step 27 Forward time: 1.0679 seconds
+INFO:     127.0.0.1:51688 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0706 seconds
+Step 29 Forward time: 1.0663 seconds
+INFO:     127.0.0.1:34722 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34728 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34738 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34740 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8855 seconds
+Step 1 Forward time: 1.0657 seconds
+Step 2 Forward time: 1.0678 seconds
+Step 3 Forward time: 1.0665 seconds
+Step 4 Forward time: 1.0634 seconds
+Step 5 Forward time: 1.0672 seconds
+Step 6 Forward time: 1.0661 seconds
+Step 7 Forward time: 1.0688 seconds
+Step 8 Forward time: 1.0703 seconds
+Step 9 Forward time: 1.0678 seconds
+Step 10 Forward time: 1.0715 seconds
+Step 11 Forward time: 1.0672 seconds
+Step 12 Forward time: 1.0720 seconds
+Step 13 Forward time: 1.0705 seconds
+Step 14 Forward time: 1.0699 seconds
+Step 15 Forward time: 1.0694 seconds
+Step 16 Forward time: 1.0704 seconds
+Step 17 Forward time: 1.0699 seconds
+Step 18 Forward time: 1.0701 seconds
+Step 19 Forward time: 1.0701 seconds
+Step 20 Forward time: 1.0703 seconds
+Step 21 Forward time: 1.0699 seconds
+Step 22 Forward time: 1.0712 seconds
+Step 23 Forward time: 1.0696 seconds
+Step 24 Forward time: 1.0673 seconds
+Step 25 Forward time: 1.0702 seconds
+Step 26 Forward time: 1.0723 seconds
+Step 27 Forward time: 1.0710 seconds
+INFO:     127.0.0.1:34756 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0708 seconds
+Step 29 Forward time: 1.0696 seconds
+INFO:     127.0.0.1:58618 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43184 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43190 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43206 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8844 seconds
+Step 1 Forward time: 1.0705 seconds
+Step 2 Forward time: 1.0661 seconds
+Step 3 Forward time: 1.0688 seconds
+Step 4 Forward time: 1.0628 seconds
+Step 5 Forward time: 1.0683 seconds
+Step 6 Forward time: 1.0686 seconds
+Step 7 Forward time: 1.0697 seconds
+Step 8 Forward time: 1.0657 seconds
+Step 9 Forward time: 1.0681 seconds
+Step 10 Forward time: 1.0702 seconds
+Step 11 Forward time: 1.0650 seconds
+Step 12 Forward time: 1.0684 seconds
+Step 13 Forward time: 1.0668 seconds
+Step 14 Forward time: 1.0660 seconds
+Step 15 Forward time: 1.0697 seconds
+Step 16 Forward time: 1.0677 seconds
+Step 17 Forward time: 1.0706 seconds
+Step 18 Forward time: 1.0670 seconds
+Step 19 Forward time: 1.0694 seconds
+Step 20 Forward time: 1.0687 seconds
+Step 21 Forward time: 1.0695 seconds
+Step 22 Forward time: 1.0651 seconds
+Step 23 Forward time: 1.0667 seconds
+Step 24 Forward time: 1.0674 seconds
+Step 25 Forward time: 1.0676 seconds
+Step 26 Forward time: 1.0662 seconds
+Step 27 Forward time: 1.0687 seconds
+INFO:     127.0.0.1:43212 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0649 seconds
+Step 29 Forward time: 1.0674 seconds
+INFO:     127.0.0.1:58672 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36120 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36134 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36136 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8863 seconds
+Step 1 Forward time: 1.0669 seconds
+Step 2 Forward time: 1.0645 seconds
+Step 3 Forward time: 1.0665 seconds
+Step 4 Forward time: 1.0700 seconds
+Step 5 Forward time: 1.0641 seconds
+Step 6 Forward time: 1.0680 seconds
+Step 7 Forward time: 1.0675 seconds
+Step 8 Forward time: 1.0666 seconds
+Step 9 Forward time: 1.0696 seconds
+Step 10 Forward time: 1.0674 seconds
+Step 11 Forward time: 1.0664 seconds
+Step 12 Forward time: 1.0707 seconds
+Step 13 Forward time: 1.0696 seconds
+Step 14 Forward time: 1.0686 seconds
+Step 15 Forward time: 1.0699 seconds
+Step 16 Forward time: 1.0696 seconds
+Step 17 Forward time: 1.0701 seconds
+Step 18 Forward time: 1.0687 seconds
+Step 19 Forward time: 1.0693 seconds
+Step 20 Forward time: 1.0713 seconds
+Step 21 Forward time: 1.0689 seconds
+Step 22 Forward time: 1.0719 seconds
+Step 23 Forward time: 1.0720 seconds
+Step 24 Forward time: 1.0681 seconds
+Step 25 Forward time: 1.0689 seconds
+Step 26 Forward time: 1.0705 seconds
+Step 27 Forward time: 1.0734 seconds
+INFO:     127.0.0.1:36140 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0682 seconds
+Step 29 Forward time: 1.0695 seconds
+INFO:     127.0.0.1:40256 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56160 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56164 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56170 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8872 seconds
+Step 1 Forward time: 1.0628 seconds
+Step 2 Forward time: 1.0632 seconds
+Step 3 Forward time: 1.0638 seconds
+Step 4 Forward time: 1.0699 seconds
+Step 5 Forward time: 1.0661 seconds
+Step 6 Forward time: 1.0721 seconds
+Step 7 Forward time: 1.0626 seconds
+Step 8 Forward time: 1.0652 seconds
+Step 9 Forward time: 1.0681 seconds
+Step 10 Forward time: 1.0657 seconds
+Step 11 Forward time: 1.0692 seconds
+Step 12 Forward time: 1.0687 seconds
+Step 13 Forward time: 1.0700 seconds
+Step 14 Forward time: 1.0697 seconds
+Step 15 Forward time: 1.0654 seconds
+Step 16 Forward time: 1.0708 seconds
+Step 17 Forward time: 1.0716 seconds
+Step 18 Forward time: 1.0696 seconds
+Step 19 Forward time: 1.0701 seconds
+Step 20 Forward time: 1.0713 seconds
+Step 21 Forward time: 1.0721 seconds
+Step 22 Forward time: 1.0706 seconds
+Step 23 Forward time: 1.0723 seconds
+Step 24 Forward time: 1.0699 seconds
+Step 25 Forward time: 1.0697 seconds
+Step 26 Forward time: 1.0701 seconds
+Step 27 Forward time: 1.0697 seconds
+INFO:     127.0.0.1:56182 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0714 seconds
+Step 29 Forward time: 1.0694 seconds
+INFO:     127.0.0.1:57748 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34694 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34696 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34706 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8881 seconds
+Step 1 Forward time: 1.0668 seconds
+Step 2 Forward time: 1.0663 seconds
+Step 3 Forward time: 1.0653 seconds
+Step 4 Forward time: 1.0660 seconds
+Step 5 Forward time: 1.0672 seconds
+Step 6 Forward time: 1.0648 seconds
+Step 7 Forward time: 1.0684 seconds
+Step 8 Forward time: 1.0685 seconds
+Step 9 Forward time: 1.0690 seconds
+Step 10 Forward time: 1.0686 seconds
+Step 11 Forward time: 1.0716 seconds
+Step 12 Forward time: 1.0675 seconds
+Step 13 Forward time: 1.0714 seconds
+Step 14 Forward time: 1.0680 seconds
+Step 15 Forward time: 1.0732 seconds
+Step 16 Forward time: 1.0701 seconds
+Step 17 Forward time: 1.0727 seconds
+Step 18 Forward time: 1.0727 seconds
+Step 19 Forward time: 1.0707 seconds
+Step 20 Forward time: 1.0711 seconds
+Step 21 Forward time: 1.0690 seconds
+Step 22 Forward time: 1.0707 seconds
+Step 23 Forward time: 1.0693 seconds
+Step 24 Forward time: 1.0724 seconds
+Step 25 Forward time: 1.0703 seconds
+Step 26 Forward time: 1.0683 seconds
+Step 27 Forward time: 1.0707 seconds
+INFO:     127.0.0.1:34718 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0673 seconds
+Step 29 Forward time: 1.0655 seconds
+INFO:     127.0.0.1:56824 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43796 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43806 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43808 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8853 seconds
+Step 1 Forward time: 1.0696 seconds
+Step 2 Forward time: 1.0656 seconds
+Step 3 Forward time: 1.0666 seconds
+Step 4 Forward time: 1.0692 seconds
+Step 5 Forward time: 1.0667 seconds
+Step 6 Forward time: 1.0691 seconds
+Step 7 Forward time: 1.0664 seconds
+Step 8 Forward time: 1.0701 seconds
+Step 9 Forward time: 1.0684 seconds
+Step 10 Forward time: 1.0678 seconds
+Step 11 Forward time: 1.0719 seconds
+Step 12 Forward time: 1.0679 seconds
+Step 13 Forward time: 1.0707 seconds
+Step 14 Forward time: 1.0701 seconds
+Step 15 Forward time: 1.0692 seconds
+Step 16 Forward time: 1.0684 seconds
+Step 17 Forward time: 1.0698 seconds
+Step 18 Forward time: 1.0695 seconds
+Step 19 Forward time: 1.0688 seconds
+Step 20 Forward time: 1.0669 seconds
+Step 21 Forward time: 1.0712 seconds
+Step 22 Forward time: 1.0679 seconds
+Step 23 Forward time: 1.0701 seconds
+Step 24 Forward time: 1.0686 seconds
+Step 25 Forward time: 1.0687 seconds
+Step 26 Forward time: 1.0697 seconds
+Step 27 Forward time: 1.0715 seconds
+INFO:     127.0.0.1:43824 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0679 seconds
+Step 29 Forward time: 1.0672 seconds
+INFO:     127.0.0.1:48488 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53066 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53082 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53088 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8840 seconds
+Step 1 Forward time: 1.0696 seconds
+Step 2 Forward time: 1.0645 seconds
+Step 3 Forward time: 1.0679 seconds
+Step 4 Forward time: 1.0686 seconds
+Step 5 Forward time: 1.0667 seconds
+Step 6 Forward time: 1.0652 seconds
+Step 7 Forward time: 1.0726 seconds
+Step 8 Forward time: 1.0659 seconds
+Step 9 Forward time: 1.0699 seconds
+Step 10 Forward time: 1.0663 seconds
+Step 11 Forward time: 1.0698 seconds
+Step 12 Forward time: 1.0720 seconds
+Step 13 Forward time: 1.0695 seconds
+Step 14 Forward time: 1.0689 seconds
+Step 15 Forward time: 1.0715 seconds
+Step 16 Forward time: 1.0697 seconds
+Step 17 Forward time: 1.0697 seconds
+Step 18 Forward time: 1.0671 seconds
+Step 19 Forward time: 1.0714 seconds
+Step 20 Forward time: 1.0688 seconds
+Step 21 Forward time: 1.0694 seconds
+Step 22 Forward time: 1.0707 seconds
+Step 23 Forward time: 1.0693 seconds
+Step 24 Forward time: 1.0682 seconds
+Step 25 Forward time: 1.0681 seconds
+Step 26 Forward time: 1.0680 seconds
+Step 27 Forward time: 1.0699 seconds
+INFO:     127.0.0.1:53100 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0696 seconds
+Step 29 Forward time: 1.0690 seconds
+INFO:     127.0.0.1:33486 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40924 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40936 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40942 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8887 seconds
+Step 1 Forward time: 1.0677 seconds
+Step 2 Forward time: 1.0659 seconds
+Step 3 Forward time: 1.0671 seconds
+Step 4 Forward time: 1.0690 seconds
+Step 5 Forward time: 1.0638 seconds
+Step 6 Forward time: 1.0684 seconds
+Step 7 Forward time: 1.0723 seconds
+Step 8 Forward time: 1.0654 seconds
+Step 9 Forward time: 1.0712 seconds
+Step 10 Forward time: 1.0644 seconds
+Step 11 Forward time: 1.0728 seconds
+Step 12 Forward time: 1.0667 seconds
+Step 13 Forward time: 1.0699 seconds
+Step 14 Forward time: 1.0599 seconds
+Step 15 Forward time: 1.0725 seconds
+Step 16 Forward time: 1.0700 seconds
+Step 17 Forward time: 1.0708 seconds
+Step 18 Forward time: 1.0663 seconds
+Step 19 Forward time: 1.0667 seconds
+Step 20 Forward time: 1.0692 seconds
+Step 21 Forward time: 1.0687 seconds
+Step 22 Forward time: 1.0704 seconds
+Step 23 Forward time: 1.0702 seconds
+Step 24 Forward time: 1.0709 seconds
+Step 25 Forward time: 1.0704 seconds
+Step 26 Forward time: 1.0711 seconds
+Step 27 Forward time: 1.0714 seconds
+INFO:     127.0.0.1:40944 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0667 seconds
+Step 29 Forward time: 1.0726 seconds
+INFO:     127.0.0.1:51136 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39660 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39676 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39686 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8888 seconds
+Step 1 Forward time: 1.0670 seconds
+Step 2 Forward time: 1.0685 seconds
+Step 3 Forward time: 1.0654 seconds
+Step 4 Forward time: 1.0678 seconds
+Step 5 Forward time: 1.0656 seconds
+Step 6 Forward time: 1.0700 seconds
+Step 7 Forward time: 1.0636 seconds
+Step 8 Forward time: 1.0691 seconds
+Step 9 Forward time: 1.0730 seconds
+Step 10 Forward time: 1.0695 seconds
+Step 11 Forward time: 1.0690 seconds
+Step 12 Forward time: 1.0700 seconds
+Step 13 Forward time: 1.0694 seconds
+Step 14 Forward time: 1.0713 seconds
+Step 15 Forward time: 1.0712 seconds
+Step 16 Forward time: 1.0699 seconds
+Step 17 Forward time: 1.0698 seconds
+Step 18 Forward time: 1.0705 seconds
+Step 19 Forward time: 1.0704 seconds
+Step 20 Forward time: 1.0744 seconds
+Step 21 Forward time: 1.0692 seconds
+Step 22 Forward time: 1.0711 seconds
+Step 23 Forward time: 1.0739 seconds
+Step 24 Forward time: 1.0697 seconds
+Step 25 Forward time: 1.0706 seconds
+Step 26 Forward time: 1.0719 seconds
+Step 27 Forward time: 1.0725 seconds
+INFO:     127.0.0.1:39690 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0718 seconds
+Step 29 Forward time: 1.0707 seconds
+INFO:     127.0.0.1:51870 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51876 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51890 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51896 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8854 seconds
+Step 1 Forward time: 1.0701 seconds
+Step 2 Forward time: 1.0669 seconds
+Step 3 Forward time: 1.0656 seconds
+Step 4 Forward time: 1.0674 seconds
+Step 5 Forward time: 1.0687 seconds
+Step 6 Forward time: 1.0680 seconds
+Step 7 Forward time: 1.0681 seconds
+Step 8 Forward time: 1.0653 seconds
+Step 9 Forward time: 1.0685 seconds
+Step 10 Forward time: 1.0678 seconds
+Step 11 Forward time: 1.0706 seconds
+Step 12 Forward time: 1.0695 seconds
+Step 13 Forward time: 1.0715 seconds
+Step 14 Forward time: 1.0709 seconds
+Step 15 Forward time: 1.0721 seconds
+Step 16 Forward time: 1.0697 seconds
+Step 17 Forward time: 1.0715 seconds
+Step 18 Forward time: 1.0687 seconds
+Step 19 Forward time: 1.0708 seconds
+Step 20 Forward time: 1.0711 seconds
+Step 21 Forward time: 1.0710 seconds
+Step 22 Forward time: 1.0707 seconds
+Step 23 Forward time: 1.0706 seconds
+Step 24 Forward time: 1.0709 seconds
+Step 25 Forward time: 1.0686 seconds
+Step 26 Forward time: 1.0692 seconds
+Step 27 Forward time: 1.0692 seconds
+INFO:     127.0.0.1:51902 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0714 seconds
+Step 29 Forward time: 1.0696 seconds
+INFO:     127.0.0.1:33322 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46668 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46680 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46696 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8871 seconds
+Step 1 Forward time: 1.0676 seconds
+Step 2 Forward time: 1.0643 seconds
+Step 3 Forward time: 1.0671 seconds
+Step 4 Forward time: 1.0693 seconds
+Step 5 Forward time: 1.0655 seconds
+Step 6 Forward time: 1.0710 seconds
+Step 7 Forward time: 1.0672 seconds
+Step 8 Forward time: 1.0710 seconds
+Step 9 Forward time: 1.0667 seconds
+Step 10 Forward time: 1.0673 seconds
+Step 11 Forward time: 1.0695 seconds
+Step 12 Forward time: 1.0661 seconds
+Step 13 Forward time: 1.0674 seconds
+Step 14 Forward time: 1.0685 seconds
+Step 15 Forward time: 1.0694 seconds
+Step 16 Forward time: 1.0652 seconds
+Step 17 Forward time: 1.0720 seconds
+Step 18 Forward time: 1.0690 seconds
+Step 19 Forward time: 1.0701 seconds
+Step 20 Forward time: 1.0644 seconds
+Step 21 Forward time: 1.0712 seconds
+Step 22 Forward time: 1.0670 seconds
+Step 23 Forward time: 1.0706 seconds
+Step 24 Forward time: 1.0695 seconds
+Step 25 Forward time: 1.0686 seconds
+Step 26 Forward time: 1.0705 seconds
+Step 27 Forward time: 1.0682 seconds
+INFO:     127.0.0.1:46700 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0716 seconds
+Step 29 Forward time: 1.0679 seconds
+INFO:     127.0.0.1:44362 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43624 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43630 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43632 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8864 seconds
+Step 1 Forward time: 1.0665 seconds
+Step 2 Forward time: 1.0678 seconds
+Step 3 Forward time: 1.0685 seconds
+Step 4 Forward time: 1.0655 seconds
+Step 5 Forward time: 1.0670 seconds
+Step 6 Forward time: 1.0671 seconds
+Step 7 Forward time: 1.0686 seconds
+Step 8 Forward time: 1.0672 seconds
+Step 9 Forward time: 1.0692 seconds
+Step 10 Forward time: 1.0702 seconds
+Step 11 Forward time: 1.0712 seconds
+Step 12 Forward time: 1.0707 seconds
+Step 13 Forward time: 1.0691 seconds
+Step 14 Forward time: 1.0719 seconds
+Step 15 Forward time: 1.0695 seconds
+Step 16 Forward time: 1.0697 seconds
+Step 17 Forward time: 1.0690 seconds
+Step 18 Forward time: 1.0707 seconds
+Step 19 Forward time: 1.0691 seconds
+Step 20 Forward time: 1.0708 seconds
+Step 21 Forward time: 1.0705 seconds
+Step 22 Forward time: 1.0699 seconds
+Step 23 Forward time: 1.0693 seconds
+Step 24 Forward time: 1.0704 seconds
+Step 25 Forward time: 1.0693 seconds
+Step 26 Forward time: 1.0714 seconds
+Step 27 Forward time: 1.0685 seconds
+INFO:     127.0.0.1:43634 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0703 seconds
+Step 29 Forward time: 1.0690 seconds
+INFO:     127.0.0.1:50924 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33576 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33588 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33592 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8848 seconds
+Step 1 Forward time: 1.0705 seconds
+Step 2 Forward time: 1.0661 seconds
+Step 3 Forward time: 1.0667 seconds
+Step 4 Forward time: 1.0670 seconds
+Step 5 Forward time: 1.0676 seconds
+Step 6 Forward time: 1.0685 seconds
+Step 7 Forward time: 1.0662 seconds
+Step 8 Forward time: 1.0684 seconds
+Step 9 Forward time: 1.0713 seconds
+Step 10 Forward time: 1.0695 seconds
+Step 11 Forward time: 1.0696 seconds
+Step 12 Forward time: 1.0694 seconds
+Step 13 Forward time: 1.0674 seconds
+Step 14 Forward time: 1.0681 seconds
+Step 15 Forward time: 1.0685 seconds
+Step 16 Forward time: 1.0675 seconds
+Step 17 Forward time: 1.0705 seconds
+Step 18 Forward time: 1.0698 seconds
+Step 19 Forward time: 1.0708 seconds
+Step 20 Forward time: 1.0686 seconds
+Step 21 Forward time: 1.0740 seconds
+Step 22 Forward time: 1.0667 seconds
+Step 23 Forward time: 1.0712 seconds
+Step 24 Forward time: 1.0671 seconds
+Step 25 Forward time: 1.0737 seconds
+Step 26 Forward time: 1.0703 seconds
+Step 27 Forward time: 1.0706 seconds
+INFO:     127.0.0.1:33608 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+Step 28 Forward time: 1.0687 seconds
+Step 29 Forward time: 1.0676 seconds
+INFO:     127.0.0.1:44206 - "GET /api/events/95cbe640?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44502 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3872649]

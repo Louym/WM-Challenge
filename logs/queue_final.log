@@ -1,0 +1,11 @@
+QUEUE[final] starting mg3_efficiency + mg3_quality in parallel (17:11:40)
+[run_one] mg3_efficiency: server pid 1959694 (env=mg3 gpu=4,5 port=8081)
+[run_one] mg3_quality: server pid 1959700 (env=mg3 gpu=6,7 port=8082)
+[run_one] mg3_efficiency: driver exit 0
+[run_one] mg3_quality: driver exit 0
+QUEUE[final] mg3_efficiency rc=0, mg3_quality rc=0 (19:01:23)
+QUEUE[final] starting lingbot_large_whole on 4 GPUs (19:01:23)
+[run_one] lingbot_large_whole: server pid 2329164 (env=lingbot gpu=4,5,6,7 port=8084)
+[run_one] lingbot_large_whole: driver exit 0
+QUEUE[final] lingbot_large_whole rc=0 (20:01:04)
+QUEUE[final] ALL DONE

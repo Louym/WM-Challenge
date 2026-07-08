@@ -1,0 +1,64 @@
+[
+ {
+  "name": "hy_ar_clip",
+  "actions": [
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   }
+  ]
+ },
+ {
+  "name": "hy_ar_whole",
+  "actions": [
+   {
+    "action": "w-90,l-90,w-90,s-90"
+   }
+  ],
+  "timeout": 43200
+ }
+]

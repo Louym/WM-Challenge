@@ -1,0 +1,47 @@
+[driver 21:27:41] waiting for adapter to load ... (0s, health=None)
+[driver 21:28:26] adapter 'infworld' ready after 45s
+[driver 21:28:26] === session infworld_clip: 20 action(s), expecting 20 segment(s)
+[driver 21:28:26] session id 95cbe640
+[driver 21:28:26] queued 20 action(s)
+[driver 21:28:26] status: Ready: Infinite-World adapter.
+[driver 21:28:26] generating: camera=U move=W
+[driver 21:29:02] segment 0 done (36s elapsed)
+[driver 21:29:02] generating: camera=U move=W
+[driver 21:29:37] segment 1 done (71s elapsed)
+[driver 21:29:37] generating: camera=U move=W
+[driver 21:30:13] segment 2 done (106s elapsed)
+[driver 21:30:13] generating: camera=U move=W
+[driver 21:30:48] segment 3 done (142s elapsed)
+[driver 21:30:48] generating: camera=U move=W
+[driver 21:31:24] segment 4 done (178s elapsed)
+[driver 21:31:24] generating: camera=L move=Q
+[driver 21:32:01] segment 5 done (214s elapsed)
+[driver 21:32:01] generating: camera=L move=Q
+[driver 21:32:37] segment 6 done (251s elapsed)
+[driver 21:32:37] generating: camera=L move=Q
+[driver 21:33:16] segment 7 done (289s elapsed)
+[driver 21:33:16] generating: camera=L move=Q
+[driver 21:34:00] segment 8 done (334s elapsed)
+[driver 21:34:00] generating: camera=L move=Q
+[driver 21:34:45] segment 9 done (379s elapsed)
+[driver 21:34:45] generating: camera=U move=W
+[driver 21:35:25] segment 10 done (419s elapsed)
+[driver 21:35:25] generating: camera=U move=W
+[driver 21:36:04] segment 11 done (458s elapsed)
+[driver 21:36:04] generating: camera=U move=W
+[driver 21:36:42] segment 12 done (496s elapsed)
+[driver 21:36:42] generating: camera=U move=W
+[driver 21:37:21] segment 13 done (534s elapsed)
+[driver 21:37:21] generating: camera=U move=W
+[driver 21:37:59] segment 14 done (573s elapsed)
+[driver 21:37:59] generating: camera=U move=S
+[driver 21:38:38] segment 15 done (611s elapsed)
+[driver 21:38:38] generating: camera=U move=S
+[driver 21:39:17] segment 16 done (650s elapsed)
+[driver 21:39:17] generating: camera=U move=S
+[driver 21:39:57] segment 17 done (690s elapsed)
+[driver 21:39:57] generating: camera=U move=S
+[driver 21:40:36] segment 18 done (730s elapsed)
+[driver 21:40:36] generating: camera=U move=S
+[driver 21:41:16] segment 19 done (770s elapsed)
+[driver 21:41:22] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/infworld_clip.mp4 (from infworld_95cbe640.mp4, 51.3 MB)

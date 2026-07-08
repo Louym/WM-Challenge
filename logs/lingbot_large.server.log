@@ -1,0 +1,544 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [474960]
+INFO:     Waiting for application startup.
+[startup] adapter=lingbot-world; loading ...
+[LingBot][load] validate pathsINFO:     Application startup complete.
+
+INFO:     Uvicorn running on http://127.0.0.1:8053 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57100 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53016 - "GET /api/health HTTP/1.1" 200 OK
+[LingBot][load] set CUDA device 0
+[LingBot][load] load config for task i2v-A14B
+[LingBot][load] build pipeline size=large mode=base
+INFO:     127.0.0.1:53020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51724 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58076 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58088 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38618 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]INFO:     127.0.0.1:38624 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55694 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44748 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44754 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39320 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54320 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54334 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54928 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54936 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56736 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  12%|█▎        | 1/8 [01:26<10:04, 86.33s/it]INFO:     127.0.0.1:46438 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46450 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36416 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52990 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41378 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41394 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35514 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35518 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59154 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48886 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  25%|██▌       | 2/8 [02:53<08:41, 86.91s/it]INFO:     127.0.0.1:51414 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51428 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56964 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35120 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55040 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40444 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  38%|███▊      | 3/8 [04:20<07:14, 86.81s/it]INFO:     127.0.0.1:40458 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50614 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53600 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38808 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40556 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40562 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43486 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34658 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34860 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48692 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  50%|█████     | 4/8 [05:47<05:47, 86.84s/it]INFO:     127.0.0.1:48696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57762 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59496 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59502 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46344 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47558 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  62%|██████▎   | 5/8 [07:13<04:19, 86.47s/it]INFO:     127.0.0.1:50886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50898 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44298 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35300 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40634 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42600 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54362 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33836 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  75%|███████▌  | 6/8 [08:39<02:52, 86.32s/it]INFO:     127.0.0.1:33846 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36348 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36398 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60086 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55204 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39736 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39746 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39992 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40006 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36344 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  88%|████████▊ | 7/8 [10:03<01:25, 85.60s/it]INFO:     127.0.0.1:59170 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53740 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53754 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43876 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58298 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52042 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38764 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards: 100%|██████████| 8/8 [11:17<00:00, 82.05s/it]Loading checkpoint shards: 100%|██████████| 8/8 [11:17<00:00, 84.70s/it]
+INFO:     127.0.0.1:38776 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56838 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57564 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]INFO:     127.0.0.1:57576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41694 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50090 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33918 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33922 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48162 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48164 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48744 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  12%|█▎        | 1/8 [01:26<10:04, 86.32s/it]INFO:     127.0.0.1:60982 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60994 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33112 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35848 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40312 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47832 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48660 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48664 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  25%|██▌       | 2/8 [02:52<08:36, 86.16s/it]INFO:     127.0.0.1:37654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35660 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50536 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58764 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56264 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41310 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  38%|███▊      | 3/8 [04:18<07:10, 86.11s/it]INFO:     127.0.0.1:41314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47860 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40286 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40298 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47256 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47272 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48416 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48418 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58264 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58272 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44872 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35876 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35886 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  50%|█████     | 4/8 [05:44<05:44, 86.20s/it]INFO:     127.0.0.1:45094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54878 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54884 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52764 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52772 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41046 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57918 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  62%|██████▎   | 5/8 [07:12<04:20, 86.70s/it]INFO:     127.0.0.1:50664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50672 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44708 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38674 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59524 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57316 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41212 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41226 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46348 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53630 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  75%|███████▌  | 6/8 [08:37<02:52, 86.28s/it]INFO:     127.0.0.1:53644 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50808 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57518 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49122 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  88%|████████▊ | 7/8 [10:03<01:26, 86.24s/it]INFO:     127.0.0.1:59294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49060 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49068 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41198 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41204 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46284 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43218 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34852 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards: 100%|██████████| 8/8 [11:19<00:00, 82.86s/it]Loading checkpoint shards: 100%|██████████| 8/8 [11:19<00:00, 84.95s/it]
+INFO:     127.0.0.1:34864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37722 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37728 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55838 - "GET /api/health HTTP/1.1" 200 OK
+[LingBot][load] pipeline ready
+[startup] adapter ready in 1470.3s
+INFO:     127.0.0.1:53780 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53796 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53806 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53822 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53828 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53844 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53848 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53852 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53860 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53870 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53894 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53902 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53914 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53918 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53922 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53934 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53946 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53960 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53970 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53982 - "POST /api/action/489b8c89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53992 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54004 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54020 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:45,  5.56s/it] 10%|█         | 2/20 [00:10<01:35,  5.31s/it] 15%|█▌        | 3/20 [00:16<01:35,  5.64s/it]INFO:     127.0.0.1:54048 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [00:21<01:27,  5.44s/it] 25%|██▌       | 5/20 [00:27<01:19,  5.33s/it] 30%|███       | 6/20 [00:32<01:13,  5.27s/it] 35%|███▌      | 7/20 [00:37<01:07,  5.23s/it] 40%|████      | 8/20 [00:42<01:02,  5.20s/it] 45%|████▌     | 9/20 [00:47<00:56,  5.18s/it]INFO:     127.0.0.1:48140 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [00:52<00:51,  5.16s/it] 55%|█████▌    | 11/20 [00:57<00:46,  5.15s/it] 60%|██████    | 12/20 [01:02<00:41,  5.14s/it] 65%|██████▌   | 13/20 [01:08<00:35,  5.14s/it] 70%|███████   | 14/20 [01:13<00:30,  5.13s/it] 75%|███████▌  | 15/20 [01:18<00:25,  5.13s/it]INFO:     127.0.0.1:56776 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:23<00:20,  5.13s/it] 85%|████████▌ | 17/20 [01:28<00:15,  5.12s/it] 90%|█████████ | 18/20 [01:33<00:10,  5.12s/it] 95%|█████████▌| 19/20 [01:38<00:05,  5.12s/it]100%|██████████| 20/20 [01:43<00:00,  5.13s/it]100%|██████████| 20/20 [01:43<00:00,  5.20s/it]
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:656: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+INFO:     127.0.0.1:35420 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33196 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33212 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33216 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33224 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.14s/it] 10%|█         | 2/20 [00:10<01:32,  5.14s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.15s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:33234 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.14s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.14s/it] 40%|████      | 8/20 [00:41<01:01,  5.14s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.13s/it] 50%|█████     | 10/20 [00:51<00:51,  5.13s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.13s/it]INFO:     127.0.0.1:51366 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.13s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.13s/it] 70%|███████   | 14/20 [01:11<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:36928 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:35022 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58460 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58474 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58488 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.15s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.15s/it]INFO:     127.0.0.1:58498 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.15s/it] 35%|███▌      | 7/20 [00:36<01:06,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.15s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.14s/it]INFO:     127.0.0.1:50552 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.14s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.14s/it] 70%|███████   | 14/20 [01:12<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:47960 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:58252 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59248 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59264 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59268 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.15s/it]INFO:     127.0.0.1:59278 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.15s/it] 35%|███▌      | 7/20 [00:36<01:06,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.15s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.15s/it]INFO:     127.0.0.1:37990 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.15s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.14s/it] 70%|███████   | 14/20 [01:12<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.13s/it]INFO:     127.0.0.1:37046 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:48388 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52012 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52016 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52024 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.11s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.15s/it]INFO:     127.0.0.1:52028 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.15s/it] 35%|███▌      | 7/20 [00:36<01:07,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.16s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.16s/it] 50%|█████     | 10/20 [00:51<00:51,  5.16s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.16s/it]INFO:     127.0.0.1:39466 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.16s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.16s/it] 70%|███████   | 14/20 [01:12<00:30,  5.15s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.15s/it] 80%|████████  | 16/20 [01:22<00:20,  5.15s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.15s/it]INFO:     127.0.0.1:55774 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.15s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.15s/it]100%|██████████| 20/20 [01:43<00:00,  5.16s/it]100%|██████████| 20/20 [01:43<00:00,  5.15s/it]
+INFO:     127.0.0.1:55348 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58088 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58098 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58100 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.15s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.15s/it]INFO:     127.0.0.1:58104 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.16s/it] 35%|███▌      | 7/20 [00:36<01:07,  5.16s/it] 40%|████      | 8/20 [00:41<01:01,  5.16s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.15s/it]INFO:     127.0.0.1:46858 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.15s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.15s/it] 70%|███████   | 14/20 [01:12<00:30,  5.15s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.15s/it] 80%|████████  | 16/20 [01:22<00:20,  5.15s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.16s/it]INFO:     127.0.0.1:59342 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.16s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.16s/it]100%|██████████| 20/20 [01:43<00:00,  5.16s/it]100%|██████████| 20/20 [01:43<00:00,  5.15s/it]
+INFO:     127.0.0.1:43098 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52096 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52098 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52102 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.11s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.13s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:52114 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.14s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.14s/it] 40%|████      | 8/20 [00:41<01:01,  5.14s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.14s/it] 50%|█████     | 10/20 [00:51<00:51,  5.13s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.13s/it]INFO:     127.0.0.1:54956 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.13s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.14s/it] 70%|███████   | 14/20 [01:11<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:58858 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.15s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.15s/it]100%|██████████| 20/20 [01:42<00:00,  5.15s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:43790 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45416 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45430 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45432 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.15s/it]INFO:     127.0.0.1:45446 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.15s/it] 35%|███▌      | 7/20 [00:36<01:06,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.15s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.15s/it]INFO:     127.0.0.1:36968 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.15s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.15s/it] 70%|███████   | 14/20 [01:12<00:30,  5.15s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.15s/it] 80%|████████  | 16/20 [01:22<00:20,  5.15s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:50526 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.15s/it]
+INFO:     127.0.0.1:32882 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53610 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53618 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53634 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.13s/it] 10%|█         | 2/20 [00:10<01:32,  5.14s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.15s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.15s/it]INFO:     127.0.0.1:53638 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.15s/it] 35%|███▌      | 7/20 [00:36<01:07,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.16s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.15s/it]INFO:     127.0.0.1:53392 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.15s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.15s/it] 70%|███████   | 14/20 [01:12<00:30,  5.15s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.15s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:53028 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.15s/it]
+INFO:     127.0.0.1:58372 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41792 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41808 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41814 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.11s/it] 10%|█         | 2/20 [00:10<01:32,  5.12s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.13s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:41822 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.14s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.15s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.15s/it]INFO:     127.0.0.1:58610 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.15s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.14s/it] 70%|███████   | 14/20 [01:11<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.13s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.13s/it]INFO:     127.0.0.1:35404 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.13s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.12s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:53778 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50866 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50868 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50880 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:50890 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.14s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.14s/it] 40%|████      | 8/20 [00:41<01:01,  5.14s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.14s/it] 50%|█████     | 10/20 [00:51<00:51,  5.14s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.14s/it]INFO:     127.0.0.1:57448 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.14s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.14s/it] 70%|███████   | 14/20 [01:11<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:51304 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:52832 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50202 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50212 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50224 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.13s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:50236 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.15s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.15s/it] 40%|████      | 8/20 [00:41<01:01,  5.15s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.14s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.14s/it]INFO:     127.0.0.1:41778 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.14s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.14s/it] 70%|███████   | 14/20 [01:11<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:40130 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]
+INFO:     127.0.0.1:35178 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46850 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46852 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46856 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.13s/it] 25%|██▌       | 5/20 [00:25<01:16,  5.13s/it]INFO:     127.0.0.1:46858 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.13s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.13s/it] 40%|████      | 8/20 [00:41<01:01,  5.13s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.12s/it] 50%|█████     | 10/20 [00:51<00:51,  5.12s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.11s/it]INFO:     127.0.0.1:35222 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.11s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.11s/it] 70%|███████   | 14/20 [01:11<00:30,  5.11s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.11s/it] 80%|████████  | 16/20 [01:21<00:20,  5.11s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.11s/it]INFO:     127.0.0.1:38188 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.11s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.10s/it]100%|██████████| 20/20 [01:42<00:00,  5.10s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]
+INFO:     127.0.0.1:45532 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34522 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34526 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34534 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.14s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.13s/it] 20%|██        | 4/20 [00:20<01:22,  5.13s/it] 25%|██▌       | 5/20 [00:25<01:16,  5.12s/it]INFO:     127.0.0.1:34544 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.12s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.12s/it] 40%|████      | 8/20 [00:40<01:01,  5.12s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.12s/it] 50%|█████     | 10/20 [00:51<00:51,  5.12s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.11s/it]INFO:     127.0.0.1:51022 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.11s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.11s/it] 70%|███████   | 14/20 [01:11<00:30,  5.11s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.11s/it] 80%|████████  | 16/20 [01:21<00:20,  5.11s/it] 85%|████████▌ | 17/20 [01:26<00:15,  5.11s/it]INFO:     127.0.0.1:50038 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.11s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]
+INFO:     127.0.0.1:39852 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37594 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37600 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37614 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:38,  5.18s/it] 10%|█         | 2/20 [00:10<01:32,  5.16s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.15s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:37626 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.13s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.13s/it] 40%|████      | 8/20 [00:41<01:01,  5.13s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.12s/it] 50%|█████     | 10/20 [00:51<00:51,  5.12s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.12s/it]INFO:     127.0.0.1:49226 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.12s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.11s/it] 70%|███████   | 14/20 [01:11<00:30,  5.11s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.11s/it] 80%|████████  | 16/20 [01:21<00:20,  5.11s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.11s/it]INFO:     127.0.0.1:44794 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.11s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.10s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]
+INFO:     127.0.0.1:38494 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46982 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46992 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46998 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.15s/it] 10%|█         | 2/20 [00:10<01:32,  5.14s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:16,  5.13s/it]INFO:     127.0.0.1:47006 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.13s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.12s/it] 40%|████      | 8/20 [00:41<01:01,  5.12s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.12s/it] 50%|█████     | 10/20 [00:51<00:51,  5.12s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.12s/it]INFO:     127.0.0.1:49830 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.12s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.12s/it] 70%|███████   | 14/20 [01:11<00:30,  5.11s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.11s/it] 80%|████████  | 16/20 [01:21<00:20,  5.11s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.11s/it]INFO:     127.0.0.1:44880 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.11s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]
+INFO:     127.0.0.1:56424 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45000 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45004 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45016 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.13s/it] 10%|█         | 2/20 [00:10<01:32,  5.14s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.15s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.16s/it]INFO:     127.0.0.1:45024 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:12,  5.16s/it] 35%|███▌      | 7/20 [00:36<01:07,  5.16s/it] 40%|████      | 8/20 [00:41<01:01,  5.16s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.15s/it] 50%|█████     | 10/20 [00:51<00:51,  5.15s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.15s/it]INFO:     127.0.0.1:55318 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:41,  5.15s/it] 65%|██████▌   | 13/20 [01:06<00:36,  5.14s/it] 70%|███████   | 14/20 [01:12<00:30,  5.14s/it] 75%|███████▌  | 15/20 [01:17<00:25,  5.14s/it] 80%|████████  | 16/20 [01:22<00:20,  5.14s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.14s/it]INFO:     127.0.0.1:60188 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.14s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.14s/it]100%|██████████| 20/20 [01:42<00:00,  5.15s/it]
+INFO:     127.0.0.1:46878 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49748 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49752 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49758 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.13s/it] 20%|██        | 4/20 [00:20<01:22,  5.13s/it] 25%|██▌       | 5/20 [00:25<01:16,  5.13s/it]INFO:     127.0.0.1:49760 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.13s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.13s/it] 40%|████      | 8/20 [00:41<01:01,  5.13s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.12s/it] 50%|█████     | 10/20 [00:51<00:51,  5.12s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.12s/it]INFO:     127.0.0.1:59792 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.12s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.12s/it] 70%|███████   | 14/20 [01:11<00:30,  5.12s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.12s/it] 80%|████████  | 16/20 [01:21<00:20,  5.12s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.12s/it]INFO:     127.0.0.1:44462 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.12s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.11s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]
+INFO:     127.0.0.1:39106 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47528 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47542 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47556 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:47562 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.14s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.14s/it] 40%|████      | 8/20 [00:41<01:01,  5.14s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.13s/it] 50%|█████     | 10/20 [00:51<00:51,  5.13s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.13s/it]INFO:     127.0.0.1:43664 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.12s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.12s/it] 70%|███████   | 14/20 [01:11<00:30,  5.12s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.13s/it] 80%|████████  | 16/20 [01:22<00:20,  5.13s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.13s/it]INFO:     127.0.0.1:59118 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.13s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.13s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]100%|██████████| 20/20 [01:42<00:00,  5.13s/it]
+INFO:     127.0.0.1:53252 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43534 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43548 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43552 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:37,  5.12s/it] 10%|█         | 2/20 [00:10<01:32,  5.13s/it] 15%|█▌        | 3/20 [00:15<01:27,  5.14s/it] 20%|██        | 4/20 [00:20<01:22,  5.14s/it] 25%|██▌       | 5/20 [00:25<01:17,  5.14s/it]INFO:     127.0.0.1:43554 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:30<01:11,  5.13s/it] 35%|███▌      | 7/20 [00:35<01:06,  5.13s/it] 40%|████      | 8/20 [00:41<01:01,  5.13s/it] 45%|████▌     | 9/20 [00:46<00:56,  5.13s/it] 50%|█████     | 10/20 [00:51<00:51,  5.12s/it] 55%|█████▌    | 11/20 [00:56<00:46,  5.12s/it]INFO:     127.0.0.1:47946 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [01:01<00:40,  5.12s/it] 65%|██████▌   | 13/20 [01:06<00:35,  5.12s/it] 70%|███████   | 14/20 [01:11<00:30,  5.12s/it] 75%|███████▌  | 15/20 [01:16<00:25,  5.12s/it] 80%|████████  | 16/20 [01:22<00:20,  5.12s/it] 85%|████████▌ | 17/20 [01:27<00:15,  5.12s/it]INFO:     127.0.0.1:39172 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [01:32<00:10,  5.12s/it] 95%|█████████▌| 19/20 [01:37<00:05,  5.12s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]100%|██████████| 20/20 [01:42<00:00,  5.12s/it]
+INFO:     127.0.0.1:60768 - "GET /api/events/489b8c89?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46212 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46228 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46244 - "POST /api/action/9687666f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46258 - "GET /api/events/9687666f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46270 - "GET /api/events/9687666f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46272 - "GET /api/events/9687666f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46286 - "GET /api/events/9687666f?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]
+INFO:     127.0.0.1:46298 - "GET /api/events/9687666f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39346 - "POST /api/stop HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py", line 704, in run_session
+    ADAPTER.run_session(
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/adapters/lingbot_world.py", line 293, in run_session
+    current_image = self._write_model_segment(current_image, prompt, control_dir, action_dsl, frame_num, out_path)
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/adapters/lingbot_world.py", line 353, in _write_model_segment
+    video = self.pipeline.generate(
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/image2video.py", line 519, in generate
+    noise_pred_cond = model(
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/model.py", line 495, in forward
+    e0 = self.time_projection(e).unflatten(2, (6, self.dim))
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 41.59 GiB. GPU 0 has a total capacity of 139.80 GiB of which 38.92 GiB is free. Including non-PyTorch memory, this process has 100.88 GiB memory in use. Of the allocated memory 99.54 GiB is allocated by PyTorch, and 390.12 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [474960]

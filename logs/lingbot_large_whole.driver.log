@@ -1,0 +1,12 @@
+[driver 19:01:33] waiting for adapter to load ... (0s, health=None)
+[driver 19:02:33] waiting for adapter to load ... (60s, health=None)
+[driver 19:03:33] waiting for adapter to load ... (120s, health=None)
+[driver 19:04:33] waiting for adapter to load ... (180s, health=None)
+[driver 19:04:38] adapter 'lingbot-world' ready after 185s
+[driver 19:04:38] === session lingbot_large_whole: 1 action(s), expecting 1 segment(s)
+[driver 19:04:38] session id 90f68ee2
+[driver 19:04:38] queued 1 action(s)
+[driver 19:04:38] status: Ready: LingBot-World base adapter.
+[driver 19:04:38] generating: w-240,l-240,w-240,s-240
+[driver 20:00:54] segment 0 done (3376s elapsed)
+[driver 20:00:59] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/lingbot_large_whole.mp4 (from lingbot_world_large_90f68ee2.mp4, 52.5 MB)

@@ -1,0 +1,96 @@
+[
+ {
+  "name": "sana_wm_bidirectional_clip",
+  "actions": [
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   }
+  ]
+ },
+ {
+  "name": "sana_wm_bidirectional_whole",
+  "actions": [
+   {
+    "action": "w-240,l-240,w-240,s-240"
+   }
+  ],
+  "timeout": 43200
+ }
+]

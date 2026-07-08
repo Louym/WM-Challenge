@@ -1,0 +1,21 @@
+QUEUE[gpu6] starting dreamx_ar_clip (21:27:37)
+[run_one] dreamx_ar_clip: server pid 3873159 (env=dreamx gpu=6 port=8060)
+[run_one] dreamx_ar_clip: driver exit 0
+QUEUE[gpu6] finished dreamx_ar_clip rc=0 (21:38:38)
+QUEUE[gpu6] starting dreamx_ar_whole (21:38:38)
+[run_one] dreamx_ar_whole: server pid 3902595 (env=dreamx gpu=6 port=8061)
+[run_one] dreamx_ar_whole: driver exit 0
+QUEUE[gpu6] finished dreamx_ar_whole rc=0 (21:46:45)
+QUEUE[gpu6] starting dreamx_cam_clip (21:46:45)
+[run_one] dreamx_cam_clip: server pid 3923474 (env=dreamx gpu=6 port=8062)
+[run_one] dreamx_cam_clip: driver exit 0
+QUEUE[gpu6] finished dreamx_cam_clip rc=0 (22:34:09)
+QUEUE[gpu6] starting dreamx_cam_whole (22:34:09)
+[run_one] dreamx_cam_whole: server pid 4048764 (env=dreamx gpu=6 port=8063)
+[run_one] dreamx_cam_whole: driver exit 1
+QUEUE[gpu6] finished dreamx_cam_whole rc=1 (22:40:29)
+QUEUE[gpu6] starting mg3_quality (22:40:29)
+[run_one] mg3_quality: server pid 4076428 (env=mg3 gpu=6 port=8064)
+[run_one] mg3_quality: driver exit 1
+QUEUE[gpu6] finished mg3_quality rc=1 (22:55:31)
+QUEUE[gpu6] ALL DONE

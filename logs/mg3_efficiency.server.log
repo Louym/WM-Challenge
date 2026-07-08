@@ -1,0 +1,355 @@
+W0708 17:12:33.199000 1959694 site-packages/torch/distributed/run.py:852] 
+W0708 17:12:33.199000 1959694 site-packages/torch/distributed/run.py:852] *****************************************
+W0708 17:12:33.199000 1959694 site-packages/torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0708 17:12:33.199000 1959694 site-packages/torch/distributed/run.py:852] *****************************************
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+[startup] initializing distributed mg3 world_size=2 local_rank=1
+[startup] initializing distributed mg3 world_size=2 local_rank=0
+[startup] distributed mg3 rank=0/2 local_rank=0 loading ...
+[startup] distributed mg3 rank=1/2 local_rank=1 loading ...
+[MG3][load] validate paths
+[MG3][load] validate paths
+[MG3][load] set CUDA device 0
+[MG3][load] set CUDA device 1
+[MG3][load] distributed world size=2
+[MG3][load] seed RNGs with 42[MG3][load] distributed world size=2
+
+[MG3][load] seed RNGs with 42
+[MG3][load] capture model config and max area table
+[MG3][load] capture model config and max area table
+[MG3][load] build pipeline from /mnt/nfs/home/yumingl/models/Matrix-Game-3.0
+[MG3][load] build pipeline from /mnt/nfs/home/yumingl/models/Matrix-Game-3.0
+/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+[rank0]:[W708 17:18:34.798694484 ProcessGroupNCCL.cpp:5138] Guessing device ID based on global rank. This can cause a hang if rank to GPU mapping is heterogeneous. You can specify device_id in init_process_group()
+The config attributes {'is_action_model': True} were passed to WanModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Starting Int8 quantization for layers: ['q', 'k', 'v', 'o']
+Quantization conversion finished.
+
+[Rank 0] Running in SERIAL mode (Diffusion and VAE interleaved)
+
+[MG3][load] pipeline ready (mode=efficiency)
+[startup] adapter ready in 755.7s
+
+[Rank 0] Running in SERIAL mode (Diffusion and VAE interleaved)
+
+[MG3][load] pipeline ready (mode=efficiency)
+[startup] adapter ready in 755.8s
+INFO:     Started server process [1962346]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48244 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48250 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48262 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48274 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48296 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48312 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48316 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48326 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48328 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48334 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48346 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48348 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48350 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48364 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48372 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48378 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48388 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48394 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48402 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48406 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48422 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48434 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48442 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48444 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48460 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48476 - "POST /api/action/e86bab09 HTTP/1.1" 200 OK
+🚀 Flash Attention Configuration:
+  Requested: 3
+  Actual:    None (SDPA)
+🚀 Flash Attention Configuration:
+  Requested: 3
+  Actual:    None (SDPA)
+ Iteration 1/100000
+ Iteration 1/100000
+INFO:     127.0.0.1:48478 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48480 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48494 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+DEBUG: [Int8Linear] New Shape detected: M=8800, N=3072, K=3072. JIT Compiling/Switching...
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+DEBUG: [Int8Linear] New Shape detected: M=512, N=3072, K=3072. JIT Compiling/Switching...
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+ 33%|███▎      | 1/3 [00:20<00:41, 20.84s/it] 33%|███▎      | 1/3 [00:20<00:41, 20.79s/it]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+ 67%|██████▋   | 2/3 [00:22<00:09,  9.62s/it] 67%|██████▋   | 2/3 [00:22<00:09,  9.61s/it]100%|██████████| 3/3 [00:24<00:00,  6.11s/it]100%|██████████| 3/3 [00:24<00:00,  6.10s/it]100%|██████████| 3/3 [00:24<00:00,  8.18s/it]
+100%|██████████| 3/3 [00:24<00:00,  8.17s/it]
+INFO:     127.0.0.1:48498 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 2/100000
+INFO:     127.0.0.1:52858 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 2/100000
+INFO:     127.0.0.1:47142 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47156 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47162 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.81s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.81s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 3/100000
+INFO:     127.0.0.1:47174 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 3/100000
+INFO:     127.0.0.1:48946 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60980 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60984 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 4/100000
+INFO:     127.0.0.1:60994 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 4/100000
+INFO:     127.0.0.1:45888 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45902 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45904 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 5/100000
+INFO:     127.0.0.1:45916 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 5/100000
+INFO:     127.0.0.1:49834 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49846 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49854 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 6/100000
+INFO:     127.0.0.1:49868 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 6/100000
+INFO:     127.0.0.1:41218 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41224 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 7/100000
+INFO:     127.0.0.1:41252 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 7/100000
+INFO:     127.0.0.1:38970 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38984 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39000 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 8/100000
+INFO:     127.0.0.1:39004 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 8/100000
+INFO:     127.0.0.1:48676 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48686 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48694 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 9/100000
+INFO:     127.0.0.1:48704 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 9/100000
+INFO:     127.0.0.1:46062 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46064 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46068 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 10/100000
+INFO:     127.0.0.1:46074 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 10/100000
+INFO:     127.0.0.1:33350 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33356 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33364 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 11/100000
+INFO:     127.0.0.1:33368 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 11/100000
+INFO:     127.0.0.1:49134 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49136 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49148 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 12/100000
+INFO:     127.0.0.1:49162 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 12/100000
+INFO:     127.0.0.1:44522 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44528 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44542 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 13/100000
+INFO:     127.0.0.1:44546 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 13/100000
+INFO:     127.0.0.1:38024 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38032 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38046 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 14/100000
+INFO:     127.0.0.1:38060 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 14/100000
+INFO:     127.0.0.1:39024 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39032 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39038 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 15/100000
+INFO:     127.0.0.1:39044 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 15/100000
+INFO:     127.0.0.1:54592 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54604 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 16/100000
+INFO:     127.0.0.1:54618 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 16/100000
+INFO:     127.0.0.1:44068 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44080 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44096 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 17/100000
+INFO:     127.0.0.1:44100 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 17/100000
+INFO:     127.0.0.1:40352 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40358 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40368 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 18/100000
+INFO:     127.0.0.1:40380 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 18/100000
+INFO:     127.0.0.1:36690 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36704 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36720 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 19/100000
+INFO:     127.0.0.1:36726 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 19/100000
+INFO:     127.0.0.1:43380 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43388 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43396 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 20/100000
+INFO:     127.0.0.1:43406 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 20/100000
+INFO:     127.0.0.1:56170 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56182 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56194 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 21/100000
+INFO:     127.0.0.1:56196 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 21/100000
+INFO:     127.0.0.1:47958 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47966 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47968 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 22/100000
+INFO:     127.0.0.1:47974 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 22/100000
+INFO:     127.0.0.1:59476 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59478 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59490 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 23/100000
+INFO:     127.0.0.1:59492 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 23/100000
+INFO:     127.0.0.1:42660 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42664 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42678 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 24/100000
+INFO:     127.0.0.1:42688 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 24/100000
+INFO:     127.0.0.1:35260 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35272 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35276 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 25/100000
+INFO:     127.0.0.1:35280 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 25/100000
+INFO:     127.0.0.1:50944 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50958 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50968 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 26/100000
+INFO:     127.0.0.1:50978 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+ Iteration 26/100000
+INFO:     127.0.0.1:46526 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46542 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46552 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 27/100000
+INFO:     127.0.0.1:46562 - "GET /api/events/e86bab09?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "POST /api/stop HTTP/1.1" 200 OK
+ Iteration 27/100000
+W0708 17:33:06.991000 1959694 site-packages/torch/distributed/elastic/agent/server/api.py:739] Received 15 death signal, shutting down workers
+W0708 17:33:06.994000 1959694 site-packages/torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 1962346 closing signal SIGTERM
+W0708 17:33:06.996000 1959694 site-packages/torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 1962347 closing signal SIGTERM
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1962346]
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/run.py", line 991, in main
+    run(args)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/run.py", line 982, in run
+    elastic_launch(
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 308, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 134, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 731, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 908, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 86, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1959694 got signal: 15
