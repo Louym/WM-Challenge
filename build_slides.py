@@ -16,13 +16,14 @@ SAMPLES = [("demo_29", "videos"), ("demo_42", "videos_demo_42"), ("demo_79", "vi
 SAMPLE_LABELS = {"demo_29": "sample 29 — coffee shop", "demo_42": "sample 42", "demo_79": "sample 79"}
 
 MODEL_ORDER = [
-    "HY-WorldPlay", "Sana-WM", "LingBot-World", "Matrix-Game-3.0",
+    "HY-WorldPlay", "Sana-WM", "LingBot-World", "LingBot-World-v2", "Matrix-Game-3.0",
     "DreamX-World-5B", "DreamX-World-5B-Cam", "Infinite-World",
 ]
 MODEL_BLURB = {
     "HY-WorldPlay": "Tencent HY-WorldPlay on HunyuanVideo-1.5 (480p i2v, 832x480@24fps). Four checkpoints: ar_distill (4-step distilled causal), ar (20-step causal), ar_rl (RL-tuned causal), bi (bidirectional). Camera/action conditioning via pose trajectories.",
     "Sana-WM": "Sana-WM bidirectional 1600M 720p (1280x704@16fps) with refiner; 60 sampling steps, CFG 5, Pi3X-estimated intrinsics. Actions are camera trajectories (c2w) from a WASD/IJKL DSL.",
     "LingBot-World": "LingBot-World i2v-A14B (832x480@16fps). small/fast = distilled chunked-streaming causal pipeline; large/base = 20-step act2cam pipeline. Dual (high/low-noise) 14B Wan-style models.",
+    "LingBot-World-v2": "LingBot-World 2.0 / LingBot-World-Infinity (robbyant, arXiv:2607.07534), built on Wan2.2 i2v-A14B (832x480 @ 16fps). Causal pretraining for an unbounded interaction horizon; released variant is the 4-step distilled causal-fast model streaming with a KV window (local_attn 18, sink 6). Code: github.com/robbyant/lingbot-world-v2.",
     "Matrix-Game-3.0": "Skywork Matrix-Game-3.0 interactive streaming world model (1280x704@17fps). efficiency = distilled+int8, quality = base model at 50 steps. One action per 40-frame chunk, KV state persists across the stream (no whole-video mode; runs are one continuous causal video). Run 2-GPU distributed.",
     "DreamX-World-5B": "DreamX-World-5B autoregressive long-horizon variant on Wan2.2-TI2V-5B (1280x704@16fps). One camera+move token per generation; 21 latent frames per clip.",
     "DreamX-World-5B-Cam": "DreamX-World-5B-Cam bidirectional camera-controlled variant (1280x704@16fps), 50 steps, CFG 3. Whole-video run is ~12x its training clip length and needed CPU offload.",
@@ -53,8 +54,8 @@ def main() -> None:
     slides.append(f"""
 <section class="slide title">
   <h1>World-Model Baselines &mdash; Interactive Demo Comparison</h1>
-  <p class="sub">6 models &times; all supported settings (causal vs bidirectional, clip-by-clip vs whole-video)</p>
-  <p class="sub">3 input samples (29, 42, 79) &middot; 63 videos &middot; ~60&thinsp;s each &middot; shared trajectory</p>
+  <p class="sub">7 models &times; all supported settings (causal vs bidirectional, clip-by-clip vs whole-video)</p>
+  <p class="sub">3 input samples (29, 42, 79) &middot; 69 videos &middot; ~60&thinsp;s each &middot; shared trajectory</p>
   <p class="dim">Generated with the unmodified <code>baselines/demo</code> server driven over its HTTP API &middot; H200 GPUs</p>
   <p class="dim">&larr;/&rarr; or click edges to navigate &middot; videos autoplay muted &middot; L toggles loop</p>
 </section>""")

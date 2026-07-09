@@ -1,0 +1,13 @@
+QUEUE[v2] starting demo_29 (21:49:13)
+QUEUE[v2] starting demo_42 (21:49:13)
+QUEUE[v2] starting demo_79 (21:49:13)
+[run_one] lingbot_v2_fast: server pid 5294 (env=lingbot gpu=0 port=8300)
+[run_one] lingbot_v2_fast: server pid 5296 (env=lingbot gpu=1 port=8310)
+[run_one] lingbot_v2_fast: server pid 5301 (env=lingbot gpu=2 port=8320)
+[run_one] lingbot_v2_fast: driver exit 0
+[run_one] lingbot_v2_fast: driver exit 0
+QUEUE[v2] finished demo_29 rc=0 (22:08:57)
+QUEUE[v2] finished demo_79 rc=0 (22:08:59)
+[run_one] lingbot_v2_fast: driver exit 0
+QUEUE[v2] finished demo_42 rc=0 (22:10:28)
+QUEUE[v2] ALL DONE (22:10:28)

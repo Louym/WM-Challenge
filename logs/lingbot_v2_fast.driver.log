@@ -1,0 +1,56 @@
+[driver 21:49:40] waiting for adapter to load ... (0s, health=None)
+[driver 21:50:40] waiting for adapter to load ... (60s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:51:40] waiting for adapter to load ... (120s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:51:55] adapter 'lingbot-world-v2' ready after 135s
+[driver 21:51:55] === session lingbot_v2_fast_clip: 20 action(s), expecting 20 segment(s)
+[driver 21:51:55] session id 9306a2e4
+[driver 21:51:55] queued 20 action(s)
+[driver 21:51:55] status: Ready: LingBot-World fast adapter.
+[driver 21:51:55] generating: camera=U move=W
+[driver 21:52:41] segment 0 done (46s elapsed)
+[driver 21:52:41] generating: camera=U move=W
+[driver 21:53:18] segment 1 done (83s elapsed)
+[driver 21:53:18] generating: camera=U move=W
+[driver 21:53:54] segment 2 done (119s elapsed)
+[driver 21:53:54] generating: camera=U move=W
+[driver 21:54:30] segment 3 done (156s elapsed)
+[driver 21:54:30] generating: camera=U move=W
+[driver 21:55:04] segment 4 done (190s elapsed)
+[driver 21:55:04] generating: camera=L move=Q
+[driver 21:55:32] segment 5 done (217s elapsed)
+[driver 21:55:32] generating: camera=L move=Q
+[driver 21:55:58] segment 6 done (243s elapsed)
+[driver 21:55:58] generating: camera=L move=Q
+[driver 21:56:25] segment 7 done (270s elapsed)
+[driver 21:56:25] generating: camera=L move=Q
+[driver 21:56:54] segment 8 done (299s elapsed)
+[driver 21:56:54] generating: camera=L move=Q
+[driver 21:57:26] segment 9 done (332s elapsed)
+[driver 21:57:26] generating: camera=U move=W
+[driver 21:57:57] segment 10 done (363s elapsed)
+[driver 21:57:57] generating: camera=U move=W
+[driver 21:58:25] segment 11 done (391s elapsed)
+[driver 21:58:25] generating: camera=U move=W
+[driver 21:58:54] segment 12 done (419s elapsed)
+[driver 21:58:54] generating: camera=U move=W
+[driver 21:59:24] segment 13 done (449s elapsed)
+[driver 21:59:24] generating: camera=U move=W
+[driver 21:59:54] segment 14 done (479s elapsed)
+[driver 21:59:54] generating: camera=U move=S
+[driver 22:00:25] segment 15 done (510s elapsed)
+[driver 22:00:25] generating: camera=U move=S
+[driver 22:00:59] segment 16 done (544s elapsed)
+[driver 22:00:59] generating: camera=U move=S
+[driver 22:01:36] segment 17 done (582s elapsed)
+[driver 22:01:36] generating: camera=U move=S
+[driver 22:02:15] segment 18 done (620s elapsed)
+[driver 22:02:15] generating: camera=U move=S
+[driver 22:02:55] segment 19 done (660s elapsed)
+[driver 22:03:00] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/lingbot_v2_fast_clip.mp4 (from lingbot_world_v2_causal_fast_9306a2e4.mp4, 71.6 MB)
+[driver 22:03:00] === session lingbot_v2_fast_whole: 1 action(s), expecting 1 segment(s)
+[driver 22:03:00] session id f38e0f59
+[driver 22:03:00] queued 1 action(s)
+[driver 22:03:00] status: Ready: LingBot-World fast adapter.
+[driver 22:03:00] generating: w-240,l-240,w-240,s-240
+[driver 22:08:46] segment 0 done (346s elapsed)
+[driver 22:08:52] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/lingbot_v2_fast_whole.mp4 (from lingbot_world_v2_causal_fast_f38e0f59.mp4, 66.3 MB)

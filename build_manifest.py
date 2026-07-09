@@ -114,6 +114,21 @@ RUNS = {
         trajectory=TRAJ_WHOLE + " (w-240,l-240,w-240,s-240)",
         notes="i2v-A14B; run distributed on 4 GPUs (FSDP+SP) — 961-frame attention OOMs on 1 and 2 H200s",
     ),
+    "lingbot_v2_fast_clip": dict(
+        model="LingBot-World-v2", variant="14B causal-fast (distilled streaming)", temporal="causal (chunked streaming, KV window)",
+        protocol="clip-by-clip", clips=20, frames_per_clip=57, fps=16,
+        resolution="480x832", steps=4, cfg=None, seed=42,
+        trajectory=TRAJ_CLIP,
+        notes="LingBot-World-Infinity (arXiv:2607.07534); i2v-A14B single transformer; 4-step distilled, no CFG; "
+        "local_attn_size=18, sink_size=6 (official run_fast.sh); 49-frame request snapped to 57 (3-latent chunking)",
+    ),
+    "lingbot_v2_fast_whole": dict(
+        model="LingBot-World-v2", variant="14B causal-fast (distilled streaming)", temporal="causal (chunked streaming, KV window)",
+        protocol="whole-video", clips=1, frames_per_clip=969, fps=16,
+        resolution="480x832", steps=4, cfg=None, seed=42,
+        trajectory=TRAJ_WHOLE + " (w-240,l-240,w-240,s-240)",
+        notes="single 969-frame stream (unbounded-horizon design); local_attn_size=18, sink_size=6",
+    ),
     "mg3_efficiency_clip": dict(
         model="Matrix-Game-3.0", variant="efficiency (distilled + int8)", temporal="causal (streaming interactive)",
         protocol="clip-by-clip", clips=26, frames_per_clip="57 first, then 40", fps=17,

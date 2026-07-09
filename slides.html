@@ -34,8 +34,8 @@
 
 <section class="slide title">
   <h1>World-Model Baselines &mdash; Interactive Demo Comparison</h1>
-  <p class="sub">6 models &times; all supported settings (causal vs bidirectional, clip-by-clip vs whole-video)</p>
-  <p class="sub">3 input samples (29, 42, 79) &middot; 63 videos &middot; ~60&thinsp;s each &middot; shared trajectory</p>
+  <p class="sub">7 models &times; all supported settings (causal vs bidirectional, clip-by-clip vs whole-video)</p>
+  <p class="sub">3 input samples (29, 42, 79) &middot; 69 videos &middot; ~60&thinsp;s each &middot; shared trajectory</p>
   <p class="dim">Generated with the unmodified <code>baselines/demo</code> server driven over its HTTP API &middot; H200 GPUs</p>
   <p class="dim">&larr;/&rarr; or click edges to navigate &middot; videos autoplay muted &middot; L toggles loop</p>
 </section>
@@ -305,7 +305,7 @@
     </figure>
     <figure>
       <video preload="none" muted loop playsinline data-src="videos_demo_42/dreamx_ar_clip.mp4"></video>
-      <figcaption>sample 42 &middot; 60.76s &middot; 7.2 min gen</figcaption>
+      <figcaption>sample 42 &middot; 60.75s &middot; 7.2 min gen</figcaption>
     </figure>
     <figure>
       <video preload="none" muted loop playsinline data-src="videos_demo_79/dreamx_ar_clip.mp4"></video>
@@ -467,6 +467,53 @@
   <span class="dim note">i2v-A14B; run distributed on 4 GPUs (FSDP+SP) — 961-frame attention OOMs on 1 and 2 H200s</span></p>
 </section>
 <section class="slide model">
+  <h2>LingBot-World-v2</h2>
+  <p class="blurb">LingBot-World 2.0 / LingBot-World-Infinity (robbyant, arXiv:2607.07534), built on Wan2.2 i2v-A14B (832x480 @ 16fps). Causal pretraining for an unbounded interaction horizon; released variant is the 4-step distilled causal-fast model streaming with a KV window (local_attn 18, sink 6). Code: github.com/robbyant/lingbot-world-v2.</p>
+  <table>
+    <tr><th>variants run</th><td>14B causal-fast (distilled streaming)</td></tr>
+    <tr><th>temporal</th><td>causal (chunked streaming, KV window)</td></tr>
+    <tr><th>resolution / fps</th><td>832x464 @ 16 fps</td></tr>
+  </table>
+</section>
+<section class="slide videos">
+  <h3><span class="model-tag">LingBot-World-v2</span> 14B causal-fast (distilled streaming) &mdash; clip-by-clip</h3>
+  <div class="vidrow">
+    <figure>
+      <video preload="none" muted loop playsinline data-src="videos/lingbot_v2_fast_clip.mp4"></video>
+      <figcaption>sample 29 — coffee shop &middot; 71.26s &middot; 11.0 min gen</figcaption>
+    </figure>
+    <figure>
+      <video preload="none" muted loop playsinline data-src="videos_demo_42/lingbot_v2_fast_clip.mp4"></video>
+      <figcaption>sample 42 &middot; 71.26s &middot; 12.5 min gen</figcaption>
+    </figure>
+    <figure>
+      <video preload="none" muted loop playsinline data-src="videos_demo_79/lingbot_v2_fast_clip.mp4"></video>
+      <figcaption>sample 79 &middot; 71.26s &middot; 11.1 min gen</figcaption>
+    </figure></div>
+  <p class="meta">causal (chunked streaming, KV window) &middot; 20 &times; 57 frames @ 16 fps &middot; 4 steps &middot; seed 42<br>
+  <span class="dim">forward xN, pan-right xN, forward xN, backward xN (equal quarters)</span><br>
+  <span class="dim note">LingBot-World-Infinity (arXiv:2607.07534); i2v-A14B single transformer; 4-step distilled, no CFG; local_attn_size=18, sink_size=6 (official run_fast.sh); 49-frame request snapped to 57 (3-latent chunking)</span></p>
+</section>
+<section class="slide videos">
+  <h3><span class="model-tag">LingBot-World-v2</span> 14B causal-fast (distilled streaming) &mdash; whole-video</h3>
+  <div class="vidrow">
+    <figure>
+      <video preload="none" muted loop playsinline data-src="videos/lingbot_v2_fast_whole.mp4"></video>
+      <figcaption>sample 29 — coffee shop &middot; 60.56s &middot; 5.8 min gen</figcaption>
+    </figure>
+    <figure>
+      <video preload="none" muted loop playsinline data-src="videos_demo_42/lingbot_v2_fast_whole.mp4"></video>
+      <figcaption>sample 42 &middot; 60.56s &middot; 5.9 min gen</figcaption>
+    </figure>
+    <figure>
+      <video preload="none" muted loop playsinline data-src="videos_demo_79/lingbot_v2_fast_whole.mp4"></video>
+      <figcaption>sample 79 &middot; 60.56s &middot; 5.8 min gen</figcaption>
+    </figure></div>
+  <p class="meta">causal (chunked streaming, KV window) &middot; 1 &times; 969 frames @ 16 fps &middot; 4 steps &middot; seed 42<br>
+  <span class="dim">single action string: forward, pan-right, forward, backward (equal quarters) (w-240,l-240,w-240,s-240)</span><br>
+  <span class="dim note">single 969-frame stream (unbounded-horizon design); local_attn_size=18, sink_size=6</span></p>
+</section>
+<section class="slide model">
   <h2>Matrix-Game-3.0</h2>
   <p class="blurb">Skywork Matrix-Game-3.0 interactive streaming world model (1280x704@17fps). efficiency = distilled+int8, quality = base model at 50 steps. One action per 40-frame chunk, KV state persists across the stream (no whole-video mode; runs are one continuous causal video). Run 2-GPU distributed.</p>
   <table>
@@ -517,7 +564,7 @@
   <h2>Generation latency (minutes, H200, excl. model load)</h2>
   <table class="lat">
     <tr><th class='l'>run</th><th>sample 29</th><th>sample 42</th><th>sample 79</th></tr>
-    <tr><td class='l'>infworld_clip</td><td>12.8</td><td>13.7</td><td>13.7</td></tr><tr><td class='l'>sana_wm_bidirectional_clip</td><td>18.5</td><td>19.6</td><td>19.5</td></tr><tr><td class='l'>sana_wm_bidirectional_whole</td><td>15.4</td><td>15.0</td><td>15.2</td></tr><tr><td class='l'>hy_ar_distill_clip</td><td>10.4</td><td>10.7</td><td>10.6</td></tr><tr><td class='l'>hy_ar_clip</td><td>61.3</td><td>61.5</td><td>61.6</td></tr><tr><td class='l'>hy_ar_rl_clip</td><td>61.4</td><td>61.7</td><td>61.8</td></tr><tr><td class='l'>hy_bi_clip</td><td>95.5</td><td>95.4</td><td>94.8</td></tr><tr><td class='l'>hy_ar_distill_whole</td><td>13.7</td><td>13.7</td><td>13.7</td></tr><tr><td class='l'>hy_ar_whole</td><td>75.2</td><td>75.0</td><td>75.3</td></tr><tr><td class='l'>hy_ar_rl_whole</td><td>75.1</td><td>75.4</td><td>75.4</td></tr><tr><td class='l'>hy_bi_whole</td><td>173.7</td><td>173.2</td><td>173.8</td></tr><tr><td class='l'>dreamx_ar_clip</td><td>8.1</td><td>7.2</td><td>6.7</td></tr><tr><td class='l'>dreamx_ar_whole</td><td>5.1</td><td>4.8</td><td>4.6</td></tr><tr><td class='l'>dreamx_cam_clip</td><td>34.9</td><td>34.0</td><td>34.2</td></tr><tr><td class='l'>dreamx_cam_whole</td><td>164.7</td><td>163.6</td><td>164.4</td></tr><tr><td class='l'>lingbot_small_clip</td><td>9.5</td><td>10.5</td><td>10.6</td></tr><tr><td class='l'>lingbot_large_clip</td><td>38.0</td><td>39.0</td><td>39.2</td></tr><tr><td class='l'>lingbot_small_whole</td><td>7.0</td><td>6.5</td><td>6.5</td></tr><tr><td class='l'>lingbot_large_whole</td><td>56.3</td><td>56.0</td><td>56.6</td></tr><tr><td class='l'>mg3_efficiency_clip</td><td>7.4</td><td>9.3</td><td>9.9</td></tr><tr><td class='l'>mg3_quality_clip</td><td>98.5</td><td>100.4</td><td>100.0</td></tr>
+    <tr><td class='l'>infworld_clip</td><td>12.8</td><td>13.7</td><td>13.7</td></tr><tr><td class='l'>sana_wm_bidirectional_clip</td><td>18.5</td><td>19.6</td><td>19.5</td></tr><tr><td class='l'>sana_wm_bidirectional_whole</td><td>15.4</td><td>15.0</td><td>15.2</td></tr><tr><td class='l'>hy_ar_distill_clip</td><td>10.4</td><td>10.7</td><td>10.6</td></tr><tr><td class='l'>hy_ar_clip</td><td>61.3</td><td>61.5</td><td>61.6</td></tr><tr><td class='l'>hy_ar_rl_clip</td><td>61.4</td><td>61.7</td><td>61.8</td></tr><tr><td class='l'>hy_bi_clip</td><td>95.5</td><td>95.4</td><td>94.8</td></tr><tr><td class='l'>hy_ar_distill_whole</td><td>13.7</td><td>13.7</td><td>13.7</td></tr><tr><td class='l'>hy_ar_whole</td><td>75.2</td><td>75.0</td><td>75.3</td></tr><tr><td class='l'>hy_ar_rl_whole</td><td>75.1</td><td>75.4</td><td>75.4</td></tr><tr><td class='l'>hy_bi_whole</td><td>173.7</td><td>173.2</td><td>173.8</td></tr><tr><td class='l'>dreamx_ar_clip</td><td>8.1</td><td>7.2</td><td>6.7</td></tr><tr><td class='l'>dreamx_ar_whole</td><td>5.1</td><td>4.8</td><td>4.6</td></tr><tr><td class='l'>dreamx_cam_clip</td><td>34.9</td><td>34.0</td><td>34.2</td></tr><tr><td class='l'>dreamx_cam_whole</td><td>164.7</td><td>163.6</td><td>164.4</td></tr><tr><td class='l'>lingbot_small_clip</td><td>9.5</td><td>10.5</td><td>10.6</td></tr><tr><td class='l'>lingbot_large_clip</td><td>38.0</td><td>39.0</td><td>39.2</td></tr><tr><td class='l'>lingbot_small_whole</td><td>7.0</td><td>6.5</td><td>6.5</td></tr><tr><td class='l'>lingbot_large_whole</td><td>56.3</td><td>56.0</td><td>56.6</td></tr><tr><td class='l'>lingbot_v2_fast_clip</td><td>11.0</td><td>12.5</td><td>11.1</td></tr><tr><td class='l'>lingbot_v2_fast_whole</td><td>5.8</td><td>5.9</td><td>5.8</td></tr><tr><td class='l'>mg3_efficiency_clip</td><td>7.4</td><td>9.3</td><td>9.9</td></tr><tr><td class='l'>mg3_quality_clip</td><td>98.5</td><td>100.4</td><td>100.0</td></tr>
   </table>
   <p class="dim">Multi-GPU runs: mg3_* (2 GPUs), lingbot_large_whole (4 GPUs), sample-29 dreamx_cam_whole (CPU offload). Details: latency*.csv / manifest*.json.</p>
 </section>

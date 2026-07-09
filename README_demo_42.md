@@ -19,7 +19,7 @@ unless noted). `clip-by-clip` = one action per segment, chained on the last fram
 | hy_ar_whole.mp4 | HY-WorldPlay | ar | causal (autoregressive) | whole-video | 1 x 1441 | 24 | 832x480 | 60.04 | 4503.0 | 1441 frames in one rollout |
 | hy_ar_rl_whole.mp4 | HY-WorldPlay | ar_rl | causal (autoregressive) | whole-video | 1 x 1441 | 24 | 832x480 | 60.04 | 4525.0 | 1441 frames in one rollout |
 | hy_bi_whole.mp4 | HY-WorldPlay | bi | bidirectional | whole-video | 1 x 1441 | 24 | 832x480 | 60.04 | 10394.0 | 1441 frames in one rollout |
-| dreamx_ar_clip.mp4 | DreamX-World-5B | ar (long-horizon autoregressive) | causal (autoregressive) | clip-by-clip | 12 x 81 | 16 | 1280x704 | 60.76 | 431.0 | 21 latent frames per clip |
+| dreamx_ar_clip.mp4 | DreamX-World-5B | ar (long-horizon autoregressive) | causal (autoregressive) | clip-by-clip | 12 x 81 | 16 | 1280x704 | 60.75 | 431.0 | 21 latent frames per clip |
 | dreamx_ar_whole.mp4 | DreamX-World-5B | ar (long-horizon autoregressive) | causal (autoregressive) | whole-video | 1 x 969 | 16 | 1280x704 | 60.56 | 287.0 | 243 latent frames in one rollout |
 | dreamx_cam_clip.mp4 | DreamX-World-5B-Cam | cam | bidirectional | clip-by-clip | 12 x 81 | 16 | 1280x704 | 60.76 | 2040.0 | shift 3.0 |
 | dreamx_cam_whole.mp4 | DreamX-World-5B-Cam | cam | bidirectional | whole-video | 1 x 961 | 16 | 1280x704 | 60.06 | 9813.0 | 961 frames in one bidirectional shot (~12x training clip length); required memory workarounds on one H200 |
@@ -27,6 +27,8 @@ unless noted). `clip-by-clip` = one action per segment, chained on the last fram
 | lingbot_large_clip.mp4 | LingBot-World | large/base (act2cam) | bidirectional per segment | clip-by-clip | 20 x 49 | 16 | 832x464 | 61.26 | 2340.0 | i2v-A14B |
 | lingbot_small_whole.mp4 | LingBot-World | small/fast (distilled streaming) | causal (chunked streaming) | whole-video | 1 x 961 | 16 | 832x464 | 60.56 | 391.0 | i2v-A14B; KV cache bounded to a 24-latent-frame rolling window (LINGBOT_DEMO_LOCAL_ATTN_SIZE=24) — full-sequence cache (~300GB) cannot fit one GPU |
 | lingbot_large_whole.mp4 | LingBot-World | large/base (act2cam) | bidirectional per segment | whole-video | 1 x 961 | 16 | 832x464 | 60.06 | 3358.0 | i2v-A14B; run distributed on 4 GPUs (FSDP+SP) — 961-frame attention OOMs on 1 and 2 H200s |
+| lingbot_v2_fast_clip.mp4 | LingBot-World-v2 | 14B causal-fast (distilled streaming) | causal (chunked streaming, KV window) | clip-by-clip | 20 x 57 | 16 | 832x464 | 71.26 | 751.0 | LingBot-World-Infinity (arXiv:2607.07534); i2v-A14B single transformer; 4-step distilled, no CFG; local_attn_size=18, sink_size=6 (official run_fast.sh); 49-frame request snapped to 57 (3-latent chunking) |
+| lingbot_v2_fast_whole.mp4 | LingBot-World-v2 | 14B causal-fast (distilled streaming) | causal (chunked streaming, KV window) | whole-video | 1 x 969 | 16 | 832x464 | 60.56 | 356.0 | single 969-frame stream (unbounded-horizon design); local_attn_size=18, sink_size=6 |
 | mg3_efficiency_clip.mp4 | Matrix-Game-3.0 | efficiency (distilled + int8) | causal (streaming interactive) | clip-by-clip | 26 x 57 first, then 40 | 17 | 1280x704 | 62.18 | 557.0 | run distributed on 2 GPUs (single-GPU interactive path has an upstream device bug); whole-video mode not supported (streaming only) |
 | mg3_quality_clip.mp4 | Matrix-Game-3.0 | quality (base model) | causal (streaming interactive) | clip-by-clip | 26 x 57 first, then 40 | 17 | 1280x704 | 62.18 | 6024.0 | run distributed on 2 GPUs (single-GPU quality path has an upstream device bug); whole-video mode not supported |
 

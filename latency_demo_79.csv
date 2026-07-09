@@ -16,6 +16,8 @@ lingbot_large_clip,1661.0,20,125.0,117.4,2355.0,61.6
 lingbot_large_whole,1330.0,1,3396.0,,3396.0,109.8
 lingbot_small_clip,1106.0,20,43.0,31.3,637.0,80.5
 lingbot_small_whole,105.0,1,387.0,,387.0,81.0
+lingbot_v2_fast_clip,130.0,20,51.0,32.4,667.0,61.9
+lingbot_v2_fast_whole,130.0,1,347.0,,347.0,85.4
 mg3_efficiency_clip,790.0,26,34.0,22.5,597.0,57.9
 mg3_quality_clip,650.0,26,249.0,230.1,6001.0,23.2
 sana_wm_bidirectional_clip,2417.0,20,434.0,38.8,1172.0,21.7
