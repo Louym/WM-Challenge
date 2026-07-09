@@ -1,0 +1,107 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2433677]
+INFO:     Waiting for application startup.
+[startup] adapter=sana-wm; loading ...
+[Sana][load] validate pathsINFO:     Application startup complete.
+
+INFO:     Uvicorn running on http://127.0.0.1:8209 (Press CTRL+C to quit)
+[Sana][load] set CUDA device 0
+[Sana][load] import Sana code from /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana
+INFO:     127.0.0.1:43436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43444 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49466 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49480 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60570 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54414 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/software/anaconda3/envs/sana/lib/python3.11/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+INFO:     127.0.0.1:54428 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33964 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33966 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/wan/model.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/wan/model.py:134: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/nets/fastlinear/modules/nn/norm.py:186: UserWarning: Cannot import apex RMSNorm, switch to vanilla implementation
+  warnings.warn("Cannot import apex RMSNorm, switch to vanilla implementation")
+[Sana][load] parse config /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/config.yaml
+[Sana][load] apply local config overrides
+2026-07-09 04:25:49 - [1m[Sana][0m - INFO - Using local Sana-WM root: /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional
+2026-07-09 04:25:49 - [1m[Sana][0m - INFO - Using local Sana-WM text encoder: /mnt/nfs/home/yumingl/models/gemma-2-2b-it
+[Sana][load] enable refiner
+[Sana][load] build pipeline on cuda:0
+[1m[LTX2VAE_diffusers] Loading model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional[0m
+INFO:     127.0.0.1:47408 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 90.17it/s]
+INFO:     127.0.0.1:47414 - "GET /api/health HTTP/1.1" 200 OK
+[31mFailed to load null embed from None....'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.. Ignore the error during inference[0m
+use pe: True, pos embed type: wan_rope, position embed interpolation: 1.0, base size: 22
+attention type: BidirectionalGDNTriton; ffn type: GLUMBConvTemp; self-attn head dim: 112; self-attn qk norm: True; cross-attn type: flash;  cross-attn qk norm: True; autocast linear attn: False
+Hybrid attention (softmax_every_n=4):
+  attn_type_list = ['BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton']
+  camctrl_type_list = ['BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA']
+INFO:     127.0.0.1:35938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35952 - "GET /api/health HTTP/1.1" 200 OK
+GLUMBConvTemp Temporal kernal: 3
+INFO:     127.0.0.1:37248 - "GET /api/health HTTP/1.1" 200 OK
+[31mFailed to load null embed from None....'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.. Ignore the error during inference[0m
+INFO:     127.0.0.1:37256 - "GET /api/health HTTP/1.1" 200 OK
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+INFO:     127.0.0.1:53790 - "GET /api/health HTTP/1.1" 200 OK
+2026-07-09 04:26:19 - [1m[Sana][0m - INFO - Loaded SanaMSVideoCamCtrl_1600M_P1_D20 (2,661,800,448 params)
+[1m[Sana] Loading model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/dit/sana_wm_1600m_720p.safetensors[0m
+[1m[Sana] Loaded model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/dit/sana_wm_1600m_720p.safetensors[0m
+2026-07-09 04:26:22 - [1m[Sana][0m - WARNING - Missing keys: ['pos_embed']
+INFO:     127.0.0.1:53806 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]INFO:     127.0.0.1:34156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34164 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44096 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   9%|▉         | 1/11 [00:36<06:07, 36.72s/it]INFO:     127.0.0.1:44102 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58020 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  18%|█▊        | 2/11 [00:57<04:06, 27.35s/it]INFO:     127.0.0.1:58030 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44028 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50424 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50876 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2433677]

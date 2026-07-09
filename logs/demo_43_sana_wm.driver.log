@@ -1,0 +1,4 @@
+[driver 20:24:24] waiting for adapter to load ... (0s, health=None)
+[driver 20:25:24] waiting for adapter to load ... (60s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:26:24] waiting for adapter to load ... (120s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:27:24] waiting for adapter to load ... (180s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})

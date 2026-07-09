@@ -2,13 +2,19 @@
 """Parse *.driver.log files into a per-run generation latency report (CSV + table)."""
 from __future__ import annotations
 
+import argparse
 import csv
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--sample", default="demo_29")
+_ARGS = _ap.parse_args()
 LOGS = Path(__file__).parent / "logs"
-OUT_CSV = Path(__file__).parent / "latency.csv"
+_suffix = "" if _ARGS.sample == "demo_29" else f"_{_ARGS.sample}"
+OUT_CSV = Path(__file__).parent / f"latency{_suffix}.csv"
+_GLOB = "*.driver.log" if _ARGS.sample == "demo_29" else f"{_ARGS.sample}_*.driver.log"
 
 TS = re.compile(r"^\[driver (\d\d:\d\d:\d\d)\] (.*)$")
 
@@ -19,7 +25,9 @@ def parse_time(s: str) -> datetime:
 
 def main() -> None:
     rows = []
-    for log in sorted(LOGS.glob("*.driver.log")):
+    for log in sorted(LOGS.glob(_GLOB)):
+        if _ARGS.sample == "demo_29" and log.name.startswith("demo_"):
+            continue
         load_s = None
         session = None
         session_start = None

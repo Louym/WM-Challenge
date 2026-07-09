@@ -1,0 +1,50 @@
+[driver 01:10:44] waiting for adapter to load ... (0s, health=None)
+[driver 01:11:44] waiting for adapter to load ... (60s, health={'adapter': 'infworld', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 01:12:44] waiting for adapter to load ... (120s, health={'adapter': 'infworld', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 01:13:44] waiting for adapter to load ... (181s, health={'adapter': 'infworld', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 01:14:45] adapter 'infworld' ready after 241s
+[driver 01:14:45] === session infworld_clip: 20 action(s), expecting 20 segment(s)
+[driver 01:14:45] session id a2d42187
+[driver 01:14:45] queued 20 action(s)
+[driver 01:14:45] status: Ready: Infinite-World adapter.
+[driver 01:14:45] generating: camera=U move=W
+[driver 01:15:36] segment 0 done (51s elapsed)
+[driver 01:15:36] generating: camera=U move=W
+[driver 01:16:12] segment 1 done (87s elapsed)
+[driver 01:16:12] generating: camera=U move=W
+[driver 01:16:49] segment 2 done (123s elapsed)
+[driver 01:16:49] generating: camera=U move=W
+[driver 01:17:26] segment 3 done (160s elapsed)
+[driver 01:17:26] generating: camera=U move=W
+[driver 01:18:03] segment 4 done (198s elapsed)
+[driver 01:18:03] generating: camera=L move=Q
+[driver 01:18:41] segment 5 done (236s elapsed)
+[driver 01:18:41] generating: camera=L move=Q
+[driver 01:19:20] segment 6 done (275s elapsed)
+[driver 01:19:20] generating: camera=L move=Q
+[driver 01:19:59] segment 7 done (314s elapsed)
+[driver 01:19:59] generating: camera=L move=Q
+[driver 01:20:38] segment 8 done (353s elapsed)
+[driver 01:20:38] generating: camera=L move=Q
+[driver 01:21:18] segment 9 done (393s elapsed)
+[driver 01:21:18] generating: camera=U move=W
+[driver 01:21:58] segment 10 done (433s elapsed)
+[driver 01:21:58] generating: camera=U move=W
+[driver 01:22:39] segment 11 done (474s elapsed)
+[driver 01:22:39] generating: camera=U move=W
+[driver 01:23:20] segment 12 done (515s elapsed)
+[driver 01:23:20] generating: camera=U move=W
+[driver 01:24:03] segment 13 done (558s elapsed)
+[driver 01:24:03] generating: camera=U move=W
+[driver 01:24:45] segment 14 done (600s elapsed)
+[driver 01:24:45] generating: camera=U move=S
+[driver 01:25:29] segment 15 done (644s elapsed)
+[driver 01:25:29] generating: camera=U move=S
+[driver 01:26:13] segment 16 done (687s elapsed)
+[driver 01:26:13] generating: camera=U move=S
+[driver 01:26:56] segment 17 done (730s elapsed)
+[driver 01:26:56] generating: camera=U move=S
+[driver 01:27:40] segment 18 done (775s elapsed)
+[driver 01:27:40] generating: camera=U move=S
+[driver 01:28:25] segment 19 done (820s elapsed)
+[driver 01:28:30] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/infworld_clip.mp4 (from infworld_a2d42187.mp4, 75.0 MB)

@@ -1,0 +1,351 @@
+W0709 02:30:42.441000 3062602 site-packages/torch/distributed/run.py:852] 
+W0709 02:30:42.441000 3062602 site-packages/torch/distributed/run.py:852] *****************************************
+W0709 02:30:42.441000 3062602 site-packages/torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0709 02:30:42.441000 3062602 site-packages/torch/distributed/run.py:852] *****************************************
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+[startup] initializing distributed mg3 world_size=2 local_rank=0
+[startup] initializing distributed mg3 world_size=2 local_rank=1
+[startup] distributed mg3 rank=1/2 local_rank=1 loading ...
+[startup] distributed mg3 rank=0/2 local_rank=0 loading ...
+[MG3][load] validate paths
+[MG3][load] validate paths
+[MG3][load] set CUDA device 0
+[MG3][load] set CUDA device 1
+[MG3][load] distributed world size=2
+[MG3][load] distributed world size=2
+[MG3][load] seed RNGs with 42
+[MG3][load] seed RNGs with 42
+[MG3][load] capture model config and max area table
+[MG3][load] capture model config and max area table
+[MG3][load] build pipeline from /mnt/nfs/home/yumingl/models/Matrix-Game-3.0[MG3][load] build pipeline from /mnt/nfs/home/yumingl/models/Matrix-Game-3.0
+
+/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+[rank0]:[W709 02:36:47.309980333 ProcessGroupNCCL.cpp:5138] Guessing device ID based on global rank. This can cause a hang if rank to GPU mapping is heterogeneous. You can specify device_id in init_process_group()
+The config attributes {'is_action_model': True} were passed to WanModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Starting Int8 quantization for layers: ['q', 'k', 'v', 'o']
+Quantization conversion finished.
+
+[Rank 0] Running in SERIAL mode (Diffusion and VAE interleaved)
+
+[MG3][load] pipeline ready (mode=efficiency)
+[startup] adapter ready in 777.9s
+
+[Rank 0] Running in SERIAL mode (Diffusion and VAE interleaved)
+
+[MG3][load] pipeline ready (mode=efficiency)
+[startup] adapter ready in 777.9s
+INFO:     Started server process [3065445]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8213 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41562 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41576 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41584 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41588 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41596 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41604 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41618 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41620 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41626 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41630 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41634 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41650 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41666 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41682 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41688 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41704 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41714 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41730 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41736 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41748 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41760 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41770 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41774 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41780 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41796 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41798 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41812 - "POST /api/action/e71fb964 HTTP/1.1" 200 OK
+🚀 Flash Attention Configuration:
+  Requested: 3
+  Actual:    None (SDPA)
+🚀 Flash Attention Configuration:
+  Requested: 3
+  Actual:    None (SDPA)
+ Iteration 1/100000
+ Iteration 1/100000
+INFO:     127.0.0.1:41818 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41820 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41826 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+DEBUG: [Int8Linear] New Shape detected: M=8800, N=3072, K=3072. JIT Compiling/Switching...
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+DEBUG: [Int8Linear] New Shape detected: M=512, N=3072, K=3072. JIT Compiling/Switching...
+ 33%|███▎      | 1/3 [00:09<00:18,  9.26s/it]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+ 33%|███▎      | 1/3 [00:09<00:18,  9.33s/it]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+ 67%|██████▋   | 2/3 [00:11<00:04,  4.92s/it] 67%|██████▋   | 2/3 [00:11<00:04,  4.89s/it]100%|██████████| 3/3 [00:12<00:00,  3.52s/it]100%|██████████| 3/3 [00:12<00:00,  3.50s/it]100%|██████████| 3/3 [00:12<00:00,  4.33s/it]100%|██████████| 3/3 [00:12<00:00,  4.32s/it]
+
+ Iteration 2/100000
+INFO:     127.0.0.1:41836 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49900 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 2/100000
+INFO:     127.0.0.1:49910 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49920 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49926 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.81s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.81s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 3/100000
+INFO:     127.0.0.1:49938 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 3/100000
+INFO:     127.0.0.1:56516 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56522 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56538 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+
+ Iteration 4/100000
+INFO:     127.0.0.1:56552 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 4/100000
+INFO:     127.0.0.1:39066 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39082 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39090 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 5/100000
+INFO:     127.0.0.1:39092 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 5/100000
+INFO:     127.0.0.1:40956 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40982 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 6/100000
+INFO:     127.0.0.1:40998 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 6/100000
+INFO:     127.0.0.1:56138 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56148 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56156 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 7/100000
+INFO:     127.0.0.1:56162 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 7/100000
+INFO:     127.0.0.1:44364 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44368 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44374 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 8/100000
+INFO:     127.0.0.1:44388 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 8/100000
+INFO:     127.0.0.1:53816 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53826 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53832 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 9/100000
+INFO:     127.0.0.1:53838 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 9/100000
+INFO:     127.0.0.1:45384 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45398 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45414 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 10/100000
+INFO:     127.0.0.1:45428 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 10/100000
+INFO:     127.0.0.1:59374 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59386 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59402 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 11/100000
+INFO:     127.0.0.1:59418 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 11/100000
+INFO:     127.0.0.1:34316 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34324 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34326 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 12/100000
+INFO:     127.0.0.1:34334 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 12/100000
+INFO:     127.0.0.1:51928 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51938 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 13/100000
+INFO:     127.0.0.1:51942 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 13/100000
+INFO:     127.0.0.1:36244 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36254 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36262 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 14/100000
+INFO:     127.0.0.1:36270 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 14/100000
+INFO:     127.0.0.1:35438 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35446 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35462 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 15/100000
+INFO:     127.0.0.1:35478 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 15/100000
+INFO:     127.0.0.1:40060 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40068 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40084 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 16/100000
+INFO:     127.0.0.1:40096 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 16/100000
+INFO:     127.0.0.1:58030 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58038 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 17/100000
+INFO:     127.0.0.1:58050 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 17/100000
+INFO:     127.0.0.1:55940 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55956 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55972 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 18/100000
+INFO:     127.0.0.1:55974 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 18/100000
+INFO:     127.0.0.1:43232 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43238 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43252 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 19/100000
+INFO:     127.0.0.1:43258 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 19/100000
+INFO:     127.0.0.1:34822 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34828 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34840 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+ Iteration 20/100000
+INFO:     127.0.0.1:34846 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 20/100000
+INFO:     127.0.0.1:58656 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58660 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58668 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 21/100000
+INFO:     127.0.0.1:58670 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 21/100000
+INFO:     127.0.0.1:57178 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57192 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57200 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 22/100000
+INFO:     127.0.0.1:57214 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 22/100000
+INFO:     127.0.0.1:35060 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35072 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35076 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 23/100000
+INFO:     127.0.0.1:35092 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 23/100000
+INFO:     127.0.0.1:50820 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50828 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50844 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 24/100000
+INFO:     127.0.0.1:50848 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 24/100000
+INFO:     127.0.0.1:43374 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43390 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43400 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 25/100000
+INFO:     127.0.0.1:43410 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 25/100000
+INFO:     127.0.0.1:59162 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59166 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59168 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 26/100000
+INFO:     127.0.0.1:59180 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+ Iteration 26/100000
+INFO:     127.0.0.1:48318 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48320 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48336 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+ Iteration 27/100000
+INFO:     127.0.0.1:48348 - "GET /api/events/e71fb964?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33634 - "POST /api/stop HTTP/1.1" 200 OK
+ Iteration 27/100000
+W0709 02:53:25.995000 3062602 site-packages/torch/distributed/elastic/agent/server/api.py:739] Received 15 death signal, shutting down workers
+W0709 02:53:26.000000 3062602 site-packages/torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 3065445 closing signal SIGTERM
+W0709 02:53:26.002000 3062602 site-packages/torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 3065446 closing signal SIGTERM
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3065445]
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/run.py", line 991, in main
+    run(args)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/run.py", line 982, in run
+    elastic_launch(
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 308, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 134, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 731, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 908, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 86, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 3062602 got signal: 15

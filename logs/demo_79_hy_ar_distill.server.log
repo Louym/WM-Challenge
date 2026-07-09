@@ -1,0 +1,875 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2829030]
+INFO:     Waiting for application startup.
+[startup] adapter=hy-worldplay; loading ...
+[HY][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8283 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44634 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54676 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58136 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38818 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39922 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47810 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] set CUDA device 0
+[HY][load] build pipeline variant=ar_distill type=ar steps=4 few_step=True
+INFO:     127.0.0.1:47814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33478 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56532 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57198 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43542 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36366 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36554 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52384 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54184 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45286 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34884 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34890 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38466 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36926 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36936 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44954 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60174 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60186 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52154 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47600 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49716 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39986 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48776 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48786 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50844 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50846 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48786 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48090 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47740 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46426 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56788 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42730 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57890 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57904 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52932 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39708 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52074 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45724 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59766 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48278 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42850 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39618 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39634 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37344 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49102 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53722 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47992 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47994 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51284 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58888 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35334 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58068 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52728 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52738 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55426 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57708 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58430 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58434 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58484 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60414 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50812 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57136 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57140 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48502 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35416 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35418 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46312 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46980 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42078 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54784 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35408 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33112 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58254 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58266 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51428 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59456 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45390 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49178 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49190 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40534 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40536 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36716 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44434 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46904 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55970 - "GET /api/health HTTP/1.1" 200 OK
+HY-World 1.5 loading from:  /mnt/nfs/home/yumingl/.cache/huggingface/hub/models--tencent--HY-WorldPlay/snapshots/f4c29235647707b571479a69b569e4166f9f5bf8/ar_distilled_action_model/diffusion_pytorch_model.safetensors
+INFO:     127.0.0.1:50262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50270 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33194 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44774 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44776 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35530 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38266 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33512 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60512 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42674 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]INFO:     127.0.0.1:42830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42844 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57272 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55014 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55018 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50320 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44850 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  20%|██        | 1/5 [00:54<03:36, 54.24s/it]INFO:     127.0.0.1:44864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41452 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59868 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56254 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  40%|████      | 2/5 [01:39<02:26, 48.97s/it]INFO:     127.0.0.1:50290 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50304 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44884 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57936 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57950 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39522 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46788 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46796 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  60%|██████    | 3/5 [02:26<01:35, 47.91s/it]INFO:     127.0.0.1:50766 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59264 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59274 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46610 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41680 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  80%|████████  | 4/5 [03:13<00:47, 47.52s/it]Loading checkpoint shards: 100%|██████████| 5/5 [03:13<00:00, 38.62s/it]
+INFO:     127.0.0.1:41692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34810 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34812 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35854 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35862 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] pipeline ready
+[startup] adapter ready in 1472.1s
+INFO:     127.0.0.1:46446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46454 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46470 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46476 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46484 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46492 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46506 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46508 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46512 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46518 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46534 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46548 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46550 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46560 - "POST /api/action/983ac730 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46570 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46586 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46590 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46606 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=1280x720 at 0x7FA04C36BA90>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.01s/it] 50%|█████     | 2/4 [00:01<00:01,  1.50it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.80it/s]100%|██████████| 4/4 [00:02<00:00,  1.98it/s]100%|██████████| 4/4 [00:02<00:00,  1.75it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.72it/s] 50%|█████     | 2/4 [00:01<00:01,  1.78it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.79it/s]100%|██████████| 4/4 [00:02<00:00,  1.80it/s]100%|██████████| 4/4 [00:02<00:00,  1.79it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.47it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.25it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+INFO:     127.0.0.1:46620 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.07s/it] 50%|█████     | 2/4 [00:02<00:02,  1.06s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.06s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+INFO:     127.0.0.1:35744 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54304 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59518 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59532 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59538 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C1B7520>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.37it/s] 50%|█████     | 2/4 [00:00<00:00,  2.39it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.37it/s]100%|██████████| 4/4 [00:01<00:00,  2.37it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.79it/s] 50%|█████     | 2/4 [00:01<00:01,  1.81it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.80it/s]100%|██████████| 4/4 [00:02<00:00,  1.80it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.45it/s] 50%|█████     | 2/4 [00:01<00:01,  1.48it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.23it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:59542 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:41384 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54920 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54934 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54942 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C4E2E30>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.37it/s] 50%|█████     | 2/4 [00:00<00:00,  2.39it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.79it/s] 50%|█████     | 2/4 [00:01<00:01,  1.81it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.50it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.25it/s] 50%|█████     | 2/4 [00:01<00:01,  1.26it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:54954 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:35910 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54456 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54470 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54486 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C36BDC0>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.36it/s] 50%|█████     | 2/4 [00:00<00:00,  2.38it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.37it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.77it/s] 50%|█████     | 2/4 [00:01<00:01,  1.81it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.80it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.46it/s] 50%|█████     | 2/4 [00:01<00:01,  1.48it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:54498 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:34472 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56890 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56894 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C4E3760>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.37it/s] 50%|█████     | 2/4 [00:00<00:00,  2.38it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.81it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:56924 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:57028 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43718 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43720 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43734 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C4E3340>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.37it/s] 50%|█████     | 2/4 [00:00<00:00,  2.38it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.81it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.82it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.46it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:43748 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:49772 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57926 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57930 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57944 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C4E0FA0>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.37it/s] 50%|█████     | 2/4 [00:00<00:00,  2.39it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.39it/s]100%|██████████| 4/4 [00:01<00:00,  2.39it/s]100%|██████████| 4/4 [00:01<00:00,  2.39it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.80it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.25it/s] 50%|█████     | 2/4 [00:01<00:01,  1.26it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:57954 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:51880 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43794 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43804 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43820 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C4E3760>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.36it/s] 50%|█████     | 2/4 [00:00<00:00,  2.38it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.80it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.23it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.24it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.24it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.07s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.06s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+INFO:     127.0.0.1:43836 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:35438 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C36B7C0>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+INFO:     127.0.0.1:49438 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49452 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49468 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.35it/s] 50%|█████     | 2/4 [00:00<00:00,  2.37it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.37it/s]100%|██████████| 4/4 [00:01<00:00,  2.37it/s]100%|██████████| 4/4 [00:01<00:00,  2.37it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.80it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:49474 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:52460 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51702 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51706 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51716 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C1B74F0>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.36it/s] 50%|█████     | 2/4 [00:00<00:00,  2.19it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.27it/s]100%|██████████| 4/4 [00:01<00:00,  2.31it/s]100%|██████████| 4/4 [00:01<00:00,  2.29it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.81it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.82it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.06it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:51718 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:53086 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44092 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44104 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C2278E0>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+INFO:     127.0.0.1:44112 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.36it/s] 50%|█████     | 2/4 [00:00<00:00,  2.32it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.34it/s]100%|██████████| 4/4 [00:01<00:00,  2.36it/s]100%|██████████| 4/4 [00:01<00:00,  2.35it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.80it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.47it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.06it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:44120 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:39500 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44564 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7FA04C1B5990>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+INFO:     127.0.0.1:44570 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+
+INFO:     127.0.0.1:44578 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.37it/s] 50%|█████     | 2/4 [00:00<00:00,  2.38it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.38it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.81it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.82it/s]100%|██████████| 4/4 [00:02<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.82it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.48it/s] 50%|█████     | 2/4 [00:01<00:01,  1.49it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.49it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.49it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.24it/s] 50%|█████     | 2/4 [00:01<00:01,  1.25it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.06it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:44584 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.05s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:41152 - "GET /api/events/983ac730?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54720 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54736 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54738 - "POST /api/action/4de82455 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54740 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54744 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54754 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A high, wide aerial view over a barren volcanic landscape with extensive dark, wrinkled lava fields spreading through a rocky basin. Numerous white steam or gas plumes rise from vents across the black terrain, with a few small orange-red glowing areas visible near some openings. Pale gray hills and rugged ridgelines surround the lava field, and distant mountains sit under a clear blue sky with thin clouds. The camera looks obliquely downward from above, showing the lava flows in the center and foreground, lighter rocky slopes on both sides, and multiple vertical plumes drifting upward in the open air.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              1441
+Reference Image:           <PIL.Image.Image image mode=RGB size=1280x720 at 0x7FA04C36ABF0>
+Guidance Scale:            1.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            4
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  2.36it/s] 50%|█████     | 2/4 [00:00<00:00,  2.39it/s] 75%|███████▌  | 3/4 [00:01<00:00,  2.38it/s]100%|██████████| 4/4 [00:01<00:00,  2.34it/s]100%|██████████| 4/4 [00:01<00:00,  2.36it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.80it/s] 50%|█████     | 2/4 [00:01<00:01,  1.82it/s] 75%|███████▌  | 3/4 [00:01<00:00,  1.81it/s]100%|██████████| 4/4 [00:02<00:00,  1.80it/s]100%|██████████| 4/4 [00:02<00:00,  1.80it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.46it/s] 50%|█████     | 2/4 [00:01<00:01,  1.48it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]100%|██████████| 4/4 [00:02<00:00,  1.48it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.23it/s] 50%|█████     | 2/4 [00:01<00:01,  1.24it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.25it/s]100%|██████████| 4/4 [00:03<00:00,  1.24it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.07it/s] 50%|█████     | 2/4 [00:01<00:01,  1.08it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.07it/s]100%|██████████| 4/4 [00:03<00:00,  1.07it/s]100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.07s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+INFO:     127.0.0.1:54766 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.06s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]INFO:     127.0.0.1:60860 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s]INFO:     127.0.0.1:56466 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.05s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:34510 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it]INFO:     127.0.0.1:36130 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:45782 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]INFO:     127.0.0.1:50538 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:42626 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:41814 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s]INFO:     127.0.0.1:57464 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:46790 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s]INFO:     127.0.0.1:50136 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:58450 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s]INFO:     127.0.0.1:35188 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:46942 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s]INFO:     127.0.0.1:53198 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:52608 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:48260 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]INFO:     127.0.0.1:41008 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:43462 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it]INFO:     127.0.0.1:35160 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:36314 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.04s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s]INFO:     127.0.0.1:59248 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]INFO:     127.0.0.1:35280 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.06s/it] 50%|█████     | 2/4 [00:02<00:02,  1.05s/it] 75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+INFO:     127.0.0.1:56210 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49992 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37654 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36966 - "GET /api/events/4de82455?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45218 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2829030]

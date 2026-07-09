@@ -1,0 +1,50 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2433220]
+INFO:     Waiting for application startup.
+[startup] adapter=hy-worldplay; loading ...
+[HY][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8207 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59266 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39796 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51784 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48478 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49486 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51758 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51762 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49220 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49234 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45780 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47530 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47544 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54768 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2433220]

@@ -1,0 +1,84 @@
+[driver 20:29:12] waiting for adapter to load ... (0s, health=None)
+[driver 20:30:12] waiting for adapter to load ... (60s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:31:12] waiting for adapter to load ... (120s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:32:12] waiting for adapter to load ... (180s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:33:12] waiting for adapter to load ... (240s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:34:12] waiting for adapter to load ... (300s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:35:12] waiting for adapter to load ... (360s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:36:12] waiting for adapter to load ... (420s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:37:12] waiting for adapter to load ... (480s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:38:12] waiting for adapter to load ... (540s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:39:12] waiting for adapter to load ... (600s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:40:12] waiting for adapter to load ... (661s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:41:12] waiting for adapter to load ... (721s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:42:12] waiting for adapter to load ... (781s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:43:12] waiting for adapter to load ... (841s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:44:13] waiting for adapter to load ... (901s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:45:15] waiting for adapter to load ... (963s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:46:15] waiting for adapter to load ... (1023s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:47:15] waiting for adapter to load ... (1083s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:48:15] waiting for adapter to load ... (1143s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:49:15] waiting for adapter to load ... (1203s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:50:15] waiting for adapter to load ... (1263s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:51:15] waiting for adapter to load ... (1323s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:52:15] waiting for adapter to load ... (1383s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:53:15] waiting for adapter to load ... (1443s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:54:15] waiting for adapter to load ... (1503s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:55:15] waiting for adapter to load ... (1563s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:56:15] waiting for adapter to load ... (1623s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:57:15] waiting for adapter to load ... (1683s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:58:15] waiting for adapter to load ... (1743s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:59:15] waiting for adapter to load ... (1803s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:00:15] waiting for adapter to load ... (1863s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:01:15] waiting for adapter to load ... (1923s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:02:15] waiting for adapter to load ... (1983s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:03:15] waiting for adapter to load ... (2043s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:04:15] waiting for adapter to load ... (2104s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:05:15] waiting for adapter to load ... (2164s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:06:15] waiting for adapter to load ... (2224s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:07:15] waiting for adapter to load ... (2284s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:08:15] waiting for adapter to load ... (2344s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:09:16] waiting for adapter to load ... (2404s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:10:16] waiting for adapter to load ... (2464s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:11:16] waiting for adapter to load ... (2524s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:12:16] waiting for adapter to load ... (2584s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:13:16] waiting for adapter to load ... (2645s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:14:16] waiting for adapter to load ... (2705s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:15:16] waiting for adapter to load ... (2765s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:16:16] adapter 'hy-worldplay' ready after 2825s
+[driver 21:16:16] === session hy_ar_rl_clip: 12 action(s), expecting 12 segment(s)
+[driver 21:16:16] session id 0fa00fa8
+[driver 21:16:16] queued 12 action(s)
+[driver 21:16:17] status: Ready: HY-WorldPlay ar_rl adapter.
+[driver 21:16:17] generating: camera=U move=W
+[driver 21:21:43] segment 0 done (327s elapsed)
+[driver 21:21:43] generating: camera=U move=W
+[driver 21:26:49] segment 1 done (633s elapsed)
+[driver 21:26:49] generating: camera=U move=W
+[driver 21:31:56] segment 2 done (939s elapsed)
+[driver 21:31:56] generating: camera=L move=Q
+[driver 21:37:01] segment 3 done (1245s elapsed)
+[driver 21:37:01] generating: camera=L move=Q
+[driver 21:42:07] segment 4 done (1550s elapsed)
+[driver 21:42:07] generating: camera=L move=Q
+[driver 21:47:13] segment 5 done (1856s elapsed)
+[driver 21:47:13] generating: camera=U move=W
+[driver 21:52:30] segment 6 done (2173s elapsed)
+[driver 21:52:30] generating: camera=U move=W
+[driver 21:57:40] segment 7 done (2483s elapsed)
+[driver 21:57:40] generating: camera=U move=W
+[driver 22:02:46] segment 8 done (2790s elapsed)
+[driver 22:02:46] generating: camera=U move=S
+[driver 22:07:52] segment 9 done (3096s elapsed)
+[driver 22:07:52] generating: camera=U move=S
+[driver 22:12:59] segment 10 done (3402s elapsed)
+[driver 22:12:59] generating: camera=U move=S
+[driver 22:18:07] segment 11 done (3710s elapsed)
+[driver 22:18:12] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/hy_ar_rl_clip.mp4 (from hy_worldplay_ar_rl_0fa00fa8.mp4, 16.9 MB)
+[driver 22:18:12] === session hy_ar_rl_whole: 1 action(s), expecting 1 segment(s)
+[driver 22:18:12] session id 7c53aa84
+[driver 22:18:12] queued 1 action(s)
+[driver 22:18:12] status: Ready: HY-WorldPlay ar_rl adapter.
+[driver 22:18:12] generating: w-90,l-90,w-90,s-90
+[driver 23:33:35] segment 0 done (4522s elapsed)
+[driver 23:33:40] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/hy_ar_rl_whole.mp4 (from hy_worldplay_ar_rl_7c53aa84.mp4, 17.7 MB)

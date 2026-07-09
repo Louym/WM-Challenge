@@ -6,13 +6,18 @@ merged with ffprobe measurements and latency.csv.
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import subprocess
 from pathlib import Path
 
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--sample", default="demo_29")
+_SAMPLE = _ap.parse_args().sample
+_SUF = "" if _SAMPLE == "demo_29" else f"_{_SAMPLE}"
 ROOT = Path(__file__).parent
-VIDEOS = ROOT / "videos"
+VIDEOS = ROOT / f"videos{_SUF}"
 
 TRAJ_CLIP = "forward xN, pan-right xN, forward xN, backward xN (equal quarters)"
 TRAJ_WHOLE = "single action string: forward, pan-right, forward, backward (equal quarters)"
@@ -151,7 +156,7 @@ def ffprobe(path: Path) -> dict:
 
 def main() -> None:
     latency = {}
-    lat_csv = ROOT / "latency.csv"
+    lat_csv = ROOT / f"latency{_SUF}.csv"
     if lat_csv.exists():
         for row in csv.DictReader(lat_csv.open()):
             latency[row["run"]] = row
@@ -170,13 +175,13 @@ def main() -> None:
             entry["avg_per_segment_s"] = float(lat["avg_per_segment_s"]) if lat["avg_per_segment_s"] else None
         manifest.append(entry)
 
-    (ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2))
-    print(f"wrote {ROOT / 'manifest.json'} ({sum(1 for m in manifest if m['status'] == 'ok')}/{len(manifest)} videos present)")
+    (ROOT / f"manifest{_SUF}.json").write_text(json.dumps(manifest, indent=2))
+    print(f"wrote {ROOT / f'manifest{_SUF}.json'} ({sum(1 for m in manifest if m['status'] == 'ok')}/{len(manifest)} videos present)")
 
     lines = [
-        "# World-model demo comparison on sample demo_29 (coffee shop)",
+        f"# World-model demo comparison on sample {_SAMPLE}",
         "",
-        "Input: `SANA_WM_dev/playground/dataset/dataset/demo_29.png` + `demo_29.txt` prompt.",
+        f"Input: `SANA_WM_dev/playground/dataset/dataset/{_SAMPLE}.png` + `{_SAMPLE}.txt` prompt.",
         "Shared camera trajectory (~60s): forward, pan right, forward, backward — equal quarters.",
         "All runs drive the unmodified `baselines/demo` server through its HTTP API (one GPU per run",
         "unless noted). `clip-by-clip` = one action per segment, chained on the last frame;",
@@ -193,9 +198,9 @@ def main() -> None:
             f"| {m['clips']} x {m['frames_per_clip']} | {m['fps']} | {m.get('measured_resolution', m['resolution'])} "
             f"| {dur if m['status'] == 'ok' else 'MISSING'} | {gen} | {m['notes']} |"
         )
-    lines += ["", "Latency detail: `latency.csv` (model load, first-segment, avg per-segment, total).", ""]
-    (ROOT / "README.md").write_text("\n".join(lines))
-    print(f"wrote {ROOT / 'README.md'}")
+    lines += ["", f"Latency detail: `latency{_SUF}.csv` (model load, first-segment, avg per-segment, total).", ""]
+    (ROOT / f"README{_SUF}.md").write_text("\n".join(lines))
+    print(f"wrote {ROOT / f'README{_SUF}.md'}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,4 @@
+[driver 20:24:23] waiting for adapter to load ... (0s, health=None)
+[driver 20:25:23] waiting for adapter to load ... (60s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:26:24] waiting for adapter to load ... (121s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:27:24] waiting for adapter to load ... (181s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})

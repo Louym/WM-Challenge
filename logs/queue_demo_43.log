@@ -1,0 +1,13 @@
+QUEUE[demo_43] phase A start on GPUs 0,1,2,3 (20:24:14)
+QUEUE[demo_43] starting sana_wm (20:24:14)
+QUEUE[demo_43] starting hy_ar_rl (20:24:14)
+QUEUE[demo_43] starting hy_bi (20:24:14)
+QUEUE[demo_43] starting hy_ar (20:24:14)
+[run_one] hy_ar: server pid 2433214 (env=hy gpu=1 port=8201)
+[run_one] hy_ar_rl: server pid 2433220 (env=hy gpu=2 port=8207)
+[run_one] hy_bi: server pid 2433221 (env=hy gpu=0 port=8200)
+[run_one] sana_wm: server pid 2433677 (env=sana gpu=3 port=8209)
+Terminated
+Terminated
+Terminated
+Terminated

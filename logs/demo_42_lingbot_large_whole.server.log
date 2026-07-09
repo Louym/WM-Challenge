@@ -1,0 +1,251 @@
+W0709 04:22:35.987000 3424334 site-packages/torch/distributed/run.py:766] 
+W0709 04:22:35.987000 3424334 site-packages/torch/distributed/run.py:766] *****************************************
+W0709 04:22:35.987000 3424334 site-packages/torch/distributed/run.py:766] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0709 04:22:35.987000 3424334 site-packages/torch/distributed/run.py:766] *****************************************
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+[startup] initializing distributed lingbot world_size=4 local_rank=3
+[startup] initializing distributed lingbot world_size=4 local_rank=2
+[startup] initializing distributed lingbot world_size=4 local_rank=1
+[startup] initializing distributed lingbot world_size=4 local_rank=0
+[startup] distributed lingbot rank=0/4 local_rank=0 loading ...
+[LingBot][load] validate paths
+[startup] distributed lingbot rank=3/4 local_rank=3 loading ...
+[LingBot][load] validate paths
+[startup] distributed lingbot rank=2/4 local_rank=2 loading ...
+[LingBot][load] validate paths
+[startup] distributed lingbot rank=1/4 local_rank=1 loading ...
+[LingBot][load] validate paths
+[LingBot][load] distributed world size=4
+[LingBot][load] distributed world size=4[LingBot][load] distributed world size=4
+[LingBot][load] set CUDA device 2
+
+[LingBot][load] set CUDA device 1
+[LingBot][load] load config for task i2v-A14B
+[LingBot][load] set CUDA device 3
+[LingBot][load] load config for task i2v-A14B
+[LingBot][load] build pipeline size=large mode=base
+[LingBot][load] load config for task i2v-A14B
+[LingBot][load] build pipeline size=large mode=base
+[LingBot][load] build pipeline size=large mode=base
+[LingBot][load] distributed world size=4
+[LingBot][load] set CUDA device 0
+[LingBot][load] load config for task i2v-A14B
+[LingBot][load] build pipeline size=large mode=base
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [01:47<12:34, 107.83s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [03:50<11:39, 116.58s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [05:47<09:44, 116.95s/it]Loading checkpoint shards:  50%|█████     | 4/8 [07:42<07:43, 115.94s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [09:37<05:47, 115.78s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [11:29<03:49, 114.55s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [13:25<01:54, 114.81s/it]Loading checkpoint shards: 100%|██████████| 8/8 [15:01<00:00, 108.85s/it]Loading checkpoint shards: 100%|██████████| 8/8 [15:01<00:00, 112.68s/it]
+/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank0]:[W709 04:42:59.515117144 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank3]:[W709 04:43:01.237964529 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 3]  using GPU 3 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank1]:[W709 04:43:01.248103914 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank2]:[W709 04:43:01.283908618 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 2]  using GPU 2 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:03<00:25,  3.62s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:07<00:21,  3.53s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:10<00:16,  3.35s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:13<00:12,  3.20s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:16<00:10,  3.40s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:20<00:06,  3.43s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:23<00:03,  3.38s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:26<00:00,  3.21s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:26<00:00,  3.32s/it]
+[LingBot][load] pipeline ready
+[LingBot][load] pipeline ready[startup] adapter ready in 1269.2s
+
+[startup] adapter ready in 1269.5s
+[LingBot][load] pipeline ready
+[startup] adapter ready in 1269.0s
+[LingBot][load] pipeline ready
+[startup] adapter ready in 1269.3s
+INFO:     Started server process [3424657]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8215 (Press CTRL+C to quit)
+INFO:     127.0.0.1:45482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45498 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45504 - "POST /api/action/66a35917 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45510 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45512 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45528 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45542 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:45546 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33102 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40376 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43344 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50180 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50804 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [02:59<56:48, 179.41s/it]  5%|▌         | 1/20 [02:59<56:46, 179.30s/it]  5%|▌         | 1/20 [02:59<56:45, 179.24s/it]  5%|▌         | 1/20 [02:59<56:45, 179.23s/it]INFO:     127.0.0.1:58040 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48124 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33478 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58074 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52876 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53174 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [05:42<50:52, 169.58s/it] 10%|█         | 2/20 [05:41<50:51, 169.53s/it] 10%|█         | 2/20 [05:41<50:51, 169.51s/it] 10%|█         | 2/20 [05:41<50:51, 169.50s/it]INFO:     127.0.0.1:36876 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54664 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46482 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60952 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35556 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [08:25<47:12, 166.64s/it] 15%|█▌        | 3/20 [08:25<47:12, 166.62s/it] 15%|█▌        | 3/20 [08:25<47:12, 166.60s/it] 15%|█▌        | 3/20 [08:25<47:12, 166.60s/it]INFO:     127.0.0.1:40172 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37462 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37124 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56466 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34718 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55840 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [11:07<44:00, 165.06s/it] 20%|██        | 4/20 [11:07<44:00, 165.04s/it] 20%|██        | 4/20 [11:07<44:00, 165.03s/it] 20%|██        | 4/20 [11:07<44:00, 165.03s/it]INFO:     127.0.0.1:46966 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35642 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43174 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50252 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44934 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [13:50<41:02, 164.20s/it] 25%|██▌       | 5/20 [13:50<41:02, 164.19s/it] 25%|██▌       | 5/20 [13:50<41:02, 164.18s/it] 25%|██▌       | 5/20 [13:50<41:02, 164.18s/it]INFO:     127.0.0.1:48720 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36962 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35214 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34278 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [16:33<38:11, 163.68s/it] 30%|███       | 6/20 [16:33<38:11, 163.67s/it] 30%|███       | 6/20 [16:33<38:11, 163.67s/it] 30%|███       | 6/20 [16:33<38:11, 163.67s/it]INFO:     127.0.0.1:46200 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43768 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50054 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38146 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54282 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46382 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 7/20 [19:15<35:23, 163.36s/it] 35%|███▌      | 7/20 [19:15<35:23, 163.35s/it] 35%|███▌      | 7/20 [19:15<35:23, 163.36s/it] 35%|███▌      | 7/20 [19:15<35:23, 163.35s/it]INFO:     127.0.0.1:54142 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49760 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40122 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [21:58<32:38, 163.17s/it] 40%|████      | 8/20 [21:58<32:38, 163.18s/it] 40%|████      | 8/20 [21:58<32:38, 163.17s/it] 40%|████      | 8/20 [21:58<32:38, 163.17s/it]INFO:     127.0.0.1:44032 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39428 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55402 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56742 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39774 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59184 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [24:41<29:52, 163.00s/it] 45%|████▌     | 9/20 [24:41<29:52, 163.00s/it] 45%|████▌     | 9/20 [24:41<29:52, 162.99s/it] 45%|████▌     | 9/20 [24:41<29:52, 162.99s/it]INFO:     127.0.0.1:46506 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56226 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55178 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33164 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53732 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [27:23<27:08, 162.87s/it] 50%|█████     | 10/20 [27:23<27:08, 162.87s/it] 50%|█████     | 10/20 [27:23<27:08, 162.87s/it] 50%|█████     | 10/20 [27:23<27:08, 162.88s/it]INFO:     127.0.0.1:46918 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53558 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33042 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59700 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50110 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40306 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [30:06<24:25, 162.78s/it] 55%|█████▌    | 11/20 [30:06<24:25, 162.78s/it] 55%|█████▌    | 11/20 [30:06<24:25, 162.78s/it] 55%|█████▌    | 11/20 [30:06<24:25, 162.78s/it]INFO:     127.0.0.1:59408 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50754 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37022 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56068 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38378 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 12/20 [32:49<21:41, 162.75s/it] 60%|██████    | 12/20 [32:49<21:41, 162.75s/it] 60%|██████    | 12/20 [32:48<21:41, 162.75s/it] 60%|██████    | 12/20 [32:48<21:41, 162.75s/it]INFO:     127.0.0.1:56144 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43134 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52194 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55244 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37086 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [35:32<19:00, 162.88s/it] 65%|██████▌   | 13/20 [35:32<19:00, 162.88s/it] 65%|██████▌   | 13/20 [35:32<19:00, 162.88s/it] 65%|██████▌   | 13/20 [35:32<19:00, 162.88s/it]INFO:     127.0.0.1:45662 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41466 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34890 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54306 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38854 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [38:14<16:16, 162.77s/it] 70%|███████   | 14/20 [38:14<16:16, 162.77s/it] 70%|███████   | 14/20 [38:14<16:16, 162.77s/it] 70%|███████   | 14/20 [38:14<16:16, 162.77s/it]INFO:     127.0.0.1:40374 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57224 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39124 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40546 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40980 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [40:57<13:33, 162.64s/it] 75%|███████▌  | 15/20 [40:57<13:33, 162.64s/it] 75%|███████▌  | 15/20 [40:57<13:33, 162.64s/it] 75%|███████▌  | 15/20 [40:57<13:33, 162.64s/it]INFO:     127.0.0.1:59604 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49560 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49996 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43016 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57300 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58716 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [43:39<10:50, 162.56s/it] 80%|████████  | 16/20 [43:39<10:50, 162.56s/it] 80%|████████  | 16/20 [43:39<10:50, 162.56s/it] 80%|████████  | 16/20 [43:39<10:50, 162.56s/it]INFO:     127.0.0.1:46738 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42780 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46622 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52936 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60706 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 85%|████████▌ | 17/20 [46:21<08:07, 162.52s/it] 85%|████████▌ | 17/20 [46:21<08:07, 162.52s/it] 85%|████████▌ | 17/20 [46:21<08:07, 162.52s/it] 85%|████████▌ | 17/20 [46:21<08:07, 162.52s/it]INFO:     127.0.0.1:54442 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49224 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38706 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55314 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44438 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [49:04<05:24, 162.49s/it] 90%|█████████ | 18/20 [49:04<05:24, 162.49s/it] 90%|█████████ | 18/20 [49:04<05:24, 162.49s/it] 90%|█████████ | 18/20 [49:04<05:24, 162.49s/it]INFO:     127.0.0.1:46394 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56936 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57722 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33092 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59228 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58572 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 19/20 [51:46<02:42, 162.51s/it] 95%|█████████▌| 19/20 [51:46<02:42, 162.51s/it] 95%|█████████▌| 19/20 [51:46<02:42, 162.51s/it] 95%|█████████▌| 19/20 [51:46<02:42, 162.51s/it]INFO:     127.0.0.1:34810 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38308 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54600 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53576 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60684 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [54:29<00:00, 162.52s/it]100%|██████████| 20/20 [54:29<00:00, 162.52s/it]100%|██████████| 20/20 [54:29<00:00, 162.52s/it]100%|██████████| 20/20 [54:29<00:00, 162.52s/it]100%|██████████| 20/20 [54:29<00:00, 163.47s/it]100%|██████████| 20/20 [54:29<00:00, 163.48s/it]
+100%|██████████| 20/20 [54:29<00:00, 163.47s/it]
+
+100%|██████████| 20/20 [54:29<00:00, 163.47s/it]
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world/wan/modules/vae2_1.py:656: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+INFO:     127.0.0.1:53066 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42488 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49140 - "GET /api/events/66a35917?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55684 - "POST /api/stop HTTP/1.1" 200 OK
+W0709 05:40:15.343000 3424334 site-packages/torch/distributed/elastic/agent/server/api.py:719] Received Signals.SIGTERM death signal, shutting down workers
+W0709 05:40:15.347000 3424334 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3424657 closing signal SIGTERM
+W0709 05:40:15.349000 3424334 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3424658 closing signal SIGTERM
+W0709 05:40:15.349000 3424334 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3424659 closing signal SIGTERM
+W0709 05:40:15.349000 3424334 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3424660 closing signal SIGTERM
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3424657]
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/lingbot/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 3424334 got signal: 15

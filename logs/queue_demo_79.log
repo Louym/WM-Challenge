@@ -1,0 +1,68 @@
+QUEUE[demo_79] phase A start on GPUs 4,5,6,7 (20:29:02)
+QUEUE[demo_79] starting hy_bi (20:29:02)
+QUEUE[demo_79] starting hy_ar_rl (20:29:02)
+QUEUE[demo_79] starting hy_ar (20:29:02)
+QUEUE[demo_79] starting sana_wm (20:29:02)
+[run_one] hy_ar: server pid 2447378 (env=hy gpu=5 port=8281)
+[run_one] hy_ar_rl: server pid 2447830 (env=hy gpu=6 port=8287)
+[run_one] hy_bi: server pid 2447838 (env=hy gpu=4 port=8280)
+[run_one] sana_wm: server pid 2448105 (env=sana gpu=7 port=8289)
+[run_one] sana_wm: driver exit 0
+QUEUE[demo_79] finished sana_wm rc=0 (21:44:27)
+QUEUE[demo_79] starting lingbot_small_clip (21:44:27)
+[run_one] lingbot_small_clip: server pid 2590197 (env=lingbot gpu=7 port=8290)
+[run_one] lingbot_small_clip: driver exit 0
+QUEUE[demo_79] finished lingbot_small_clip rc=0 (22:13:50)
+QUEUE[demo_79] starting lingbot_small_whole (22:13:50)
+[run_one] lingbot_small_whole: server pid 2637673 (env=lingbot gpu=7 port=8291)
+[run_one] lingbot_small_whole: driver exit 0
+QUEUE[demo_79] finished lingbot_small_whole rc=0 (22:22:24)
+QUEUE[demo_79] starting lingbot_large_clip (22:22:24)
+[run_one] lingbot_large_clip: server pid 2649415 (env=lingbot gpu=7 port=8292)
+[run_one] lingbot_large_clip: driver exit 0
+QUEUE[demo_79] finished lingbot_large_clip rc=0 (23:29:39)
+[run_one] hy_ar: driver exit 0
+QUEUE[demo_79] finished hy_ar rc=0 (23:33:25)
+QUEUE[demo_79] starting dreamx_cam_clip (23:33:25)
+[run_one] dreamx_cam_clip: server pid 2740719 (env=dreamx gpu=5 port=8282)
+[run_one] hy_ar_rl: driver exit 0
+QUEUE[demo_79] finished hy_ar_rl rc=0 (23:33:45)
+QUEUE[demo_79] starting dreamx_cam_whole (23:33:45)
+[run_one] dreamx_cam_whole: server pid 2741494 (env=dreamx gpu=6 port=8288)
+[run_one] dreamx_cam_clip: driver exit 0
+QUEUE[demo_79] finished dreamx_cam_clip rc=0 (00:20:43)
+QUEUE[demo_79] starting hy_ar_distill (00:20:43)
+[run_one] hy_ar_distill: server pid 2829030 (env=hy gpu=5 port=8283)
+[run_one] hy_ar_distill: driver exit 0
+QUEUE[demo_79] finished hy_ar_distill rc=0 (01:10:36)
+QUEUE[demo_79] starting infworld (01:10:36)
+[run_one] infworld: server pid 2938884 (env=infworld gpu=5 port=8284)
+[run_one] infworld: driver exit 0
+QUEUE[demo_79] finished infworld rc=0 (01:28:35)
+QUEUE[demo_79] starting dreamx_ar_clip (01:28:35)
+[run_one] dreamx_ar_clip: server pid 2967811 (env=dreamx gpu=5 port=8285)
+[run_one] dreamx_ar_clip: driver exit 0
+QUEUE[demo_79] finished dreamx_ar_clip rc=0 (01:42:30)
+QUEUE[demo_79] starting dreamx_ar_whole (01:42:30)
+[run_one] dreamx_ar_whole: server pid 2994292 (env=dreamx gpu=5 port=8286)
+[run_one] hy_bi: driver exit 0
+QUEUE[demo_79] finished hy_bi rc=0 (01:45:08)
+[run_one] dreamx_ar_whole: driver exit 0
+QUEUE[demo_79] finished dreamx_ar_whole rc=0 (01:49:51)
+[run_one] dreamx_cam_whole: driver exit 0
+QUEUE[demo_79] finished dreamx_cam_whole rc=0 (02:30:39)
+QUEUE[demo_79] phase A done (02:30:39)
+QUEUE[demo_79] phase B start (02:30:39)
+QUEUE[demo_79] starting mg3_quality (02:30:39)
+QUEUE[demo_79] starting mg3_efficiency (02:30:39)
+[run_one] mg3_efficiency: server pid 3065922 (env=mg3 gpu=4,5 port=8293)
+[run_one] mg3_quality: server pid 3065923 (env=mg3 gpu=6,7 port=8294)
+[run_one] mg3_efficiency: driver exit 0
+QUEUE[demo_79] finished mg3_efficiency rc=0 (02:54:08)
+[run_one] mg3_quality: driver exit 0
+QUEUE[demo_79] finished mg3_quality rc=0 (04:21:52)
+QUEUE[demo_79] starting lingbot_large_whole (04:21:52)
+[run_one] lingbot_large_whole: server pid 3423452 (env=lingbot gpu=4,5,6,7 port=8295)
+[run_one] lingbot_large_whole: driver exit 0
+QUEUE[demo_79] finished lingbot_large_whole rc=0 (05:40:57)
+QUEUE[demo_79] ALL DONE (05:40:57)

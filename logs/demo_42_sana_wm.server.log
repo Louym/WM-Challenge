@@ -1,0 +1,839 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2447753]
+INFO:     Waiting for application startup.
+[startup] adapter=sana-wm; loading ...
+[Sana][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8209 (Press CTRL+C to quit)
+[Sana][load] set CUDA device 0
+INFO:     127.0.0.1:40502 - "GET /api/health HTTP/1.1" 200 OK
+[Sana][load] import Sana code from /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana
+INFO:     127.0.0.1:40504 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44676 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57488 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/software/anaconda3/envs/sana/lib/python3.11/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+INFO:     127.0.0.1:57490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49190 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/wan/model.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/wan/model.py:134: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/nets/fastlinear/modules/nn/norm.py:186: UserWarning: Cannot import apex RMSNorm, switch to vanilla implementation
+  warnings.warn("Cannot import apex RMSNorm, switch to vanilla implementation")
+INFO:     127.0.0.1:49192 - "GET /api/health HTTP/1.1" 200 OK
+[Sana][load] parse config /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/config.yaml
+[Sana][load] apply local config overrides
+2026-07-09 04:30:04 - [1m[Sana][0m - INFO - Using local Sana-WM root: /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional
+2026-07-09 04:30:04 - [1m[Sana][0m - INFO - Using local Sana-WM text encoder: /mnt/nfs/home/yumingl/models/gemma-2-2b-it
+[Sana][load] enable refiner
+[Sana][load] build pipeline on cuda:0
+[1m[LTX2VAE_diffusers] Loading model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional[0m
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 76.88it/s]
+INFO:     127.0.0.1:59572 - "GET /api/health HTTP/1.1" 200 OK
+[31mFailed to load null embed from None....'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.. Ignore the error during inference[0m
+use pe: True, pos embed type: wan_rope, position embed interpolation: 1.0, base size: 22
+attention type: BidirectionalGDNTriton; ffn type: GLUMBConvTemp; self-attn head dim: 112; self-attn qk norm: True; cross-attn type: flash;  cross-attn qk norm: True; autocast linear attn: False
+Hybrid attention (softmax_every_n=4):
+  attn_type_list = ['BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton']
+  camctrl_type_list = ['BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA']
+INFO:     127.0.0.1:59578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33894 - "GET /api/health HTTP/1.1" 200 OK
+GLUMBConvTemp Temporal kernal: 3
+INFO:     127.0.0.1:57970 - "GET /api/health HTTP/1.1" 200 OK
+[31mFailed to load null embed from None....'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.. Ignore the error during inference[0m
+INFO:     127.0.0.1:57980 - "GET /api/health HTTP/1.1" 200 OK
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+INFO:     127.0.0.1:44580 - "GET /api/health HTTP/1.1" 200 OK
+2026-07-09 04:30:43 - [1m[Sana][0m - INFO - Loaded SanaMSVideoCamCtrl_1600M_P1_D20 (2,661,800,448 params)
+[1m[Sana] Loading model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/dit/sana_wm_1600m_720p.safetensors[0m
+[1m[Sana] Loaded model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/dit/sana_wm_1600m_720p.safetensors[0m
+INFO:     127.0.0.1:44592 - "GET /api/health HTTP/1.1" 200 OK
+2026-07-09 04:30:46 - [1m[Sana][0m - WARNING - Missing keys: ['pos_embed']
+INFO:     127.0.0.1:48846 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:00<00:03,  2.52it/s]Loading checkpoint shards:  18%|█▊        | 2/11 [00:00<00:03,  2.71it/s]INFO:     127.0.0.1:48856 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56498 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41834 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41848 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34300 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  27%|██▋       | 3/11 [00:32<01:58, 14.76s/it]INFO:     127.0.0.1:34306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58818 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58834 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54644 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38114 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44028 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58240 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58254 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47954 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47970 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45992 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45996 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40342 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57092 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  36%|███▋      | 4/11 [02:22<06:06, 52.35s/it]INFO:     127.0.0.1:57100 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38342 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43192 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43202 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34008 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35560 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40832 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40834 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  45%|████▌     | 5/11 [04:16<07:27, 74.63s/it]INFO:     127.0.0.1:33824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39522 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35748 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35758 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50434 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50442 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41320 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45570 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40644 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53216 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  55%|█████▍    | 6/11 [06:13<07:24, 88.93s/it]INFO:     127.0.0.1:53224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33112 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55746 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53450 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48334 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51152 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49780 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41716 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  64%|██████▎   | 7/11 [08:06<06:27, 96.78s/it]INFO:     127.0.0.1:40420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40428 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46542 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36698 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36838 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36850 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51812 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51828 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39560 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51132 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51850 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55176 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55180 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  73%|███████▎  | 8/11 [09:56<05:03, 101.17s/it]INFO:     127.0.0.1:57008 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55484 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34142 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37552 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45416 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45432 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39954 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33538 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51650 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  82%|████████▏ | 9/11 [11:52<03:31, 105.67s/it]INFO:     127.0.0.1:51664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51202 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51216 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50264 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50278 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47116 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36738 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36744 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41982 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51984 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  91%|█████████ | 10/11 [13:17<01:39, 99.28s/it]INFO:     127.0.0.1:33142 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33150 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36350 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36362 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards: 100%|██████████| 11/11 [13:48<00:00, 78.26s/it]Loading checkpoint shards: 100%|██████████| 11/11 [13:48<00:00, 75.28s/it]
+INFO:     127.0.0.1:43304 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43316 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48594 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59042 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33200 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58266 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36218 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34234 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55514 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40980 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40992 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44366 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35162 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33736 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35812 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35820 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57620 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41600 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37894 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42750 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44524 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44538 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49014 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38226 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38236 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34190 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55708 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54964 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42188 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38132 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52140 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52128 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44834 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44842 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57216 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57220 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56408 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38014 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56246 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38220 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47676 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59250 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59256 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53788 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36218 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53522 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53534 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40480 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51372 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37872 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37888 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53988 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53990 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52614 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50194 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50202 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54842 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46774 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34622 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51300 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37270 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50942 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54374 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59828 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59834 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54124 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52408 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42796 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57840 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57844 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55876 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55888 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55430 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39078 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47124 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47132 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46862 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45872 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45878 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38162 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40188 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58714 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57810 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48304 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45066 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53862 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53872 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50346 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38996 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39008 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41228 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33890 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51072 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51078 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57788 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45310 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45320 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34086 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42032 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57788 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54570 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45048 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48200 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48930 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48936 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46088 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39520 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39528 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45684 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41746 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53148 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53150 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46112 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52606 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50602 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36174 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52190 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34218 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34220 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36634 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41304 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35768 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40114 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55272 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34092 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54590 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39098 - "GET /api/health HTTP/1.1" 200 OK
+[Sana][load] pipeline ready
+[startup] adapter ready in 2406.3s
+INFO:     127.0.0.1:35966 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35982 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35992 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36004 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36006 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36018 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36034 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36040 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36046 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36054 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36062 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36076 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36098 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36110 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36116 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36130 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36132 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36146 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36156 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36166 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36174 - "POST /api/action/d6effbb3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36190 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+2026-07-09 05:09:30 - [1m[Sana][0m - WARNING - Intrinsics not provided — estimating with Pi3X from the input image. Estimation errors propagate into the generated camera geometry; please supply --intrinsics when accurate values are available.
+INFO:     127.0.0.1:36202 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33692 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38366 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43992 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+2026-07-09 05:11:55 - [1m[Sana][0m - INFO - Pi3X intrinsics: fx=1197.7 fy=1194.0 cx=639.0 cy=359.0 (FOV: H=56.2° V=33.6°)
+INFO:     127.0.0.1:51602 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51562 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51572 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51586 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]INFO:     127.0.0.1:51588 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55762 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34320 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44578 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57052 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36808 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47026 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37486 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  2%|▏         | 1/60 [04:03<3:59:13, 243.29s/it]  3%|▎         | 2/60 [04:03<1:37:01, 100.37s/it]  5%|▌         | 3/60 [04:03<51:57, 54.70s/it]     7%|▋         | 4/60 [04:04<31:01, 33.24s/it]  8%|▊         | 5/60 [04:04<19:36, 21.38s/it] 10%|█         | 6/60 [04:05<12:48, 14.23s/it] 12%|█▏        | 7/60 [04:05<08:33,  9.69s/it] 13%|█▎        | 8/60 [04:05<05:49,  6.72s/it] 15%|█▌        | 9/60 [04:06<04:01,  4.73s/it] 17%|█▋        | 10/60 [04:06<02:48,  3.38s/it] 18%|█▊        | 11/60 [04:06<02:00,  2.45s/it] 20%|██        | 12/60 [04:07<01:26,  1.81s/it] 22%|██▏       | 13/60 [04:07<01:04,  1.37s/it] 23%|██▎       | 14/60 [04:07<00:48,  1.06s/it] 25%|██▌       | 15/60 [04:08<00:38,  1.18it/s] 27%|██▋       | 16/60 [04:08<00:30,  1.43it/s] 28%|██▊       | 17/60 [04:08<00:25,  1.68it/s] 30%|███       | 18/60 [04:09<00:21,  1.92it/s] 32%|███▏      | 19/60 [04:09<00:19,  2.12it/s] 33%|███▎      | 20/60 [04:09<00:17,  2.30it/s] 35%|███▌      | 21/60 [04:10<00:16,  2.43it/s] 37%|███▋      | 22/60 [04:10<00:14,  2.54it/s] 38%|███▊      | 23/60 [04:11<00:14,  2.63it/s] 40%|████      | 24/60 [04:11<00:13,  2.69it/s] 42%|████▏     | 25/60 [04:11<00:12,  2.74it/s] 43%|████▎     | 26/60 [04:12<00:12,  2.77it/s] 45%|████▌     | 27/60 [04:12<00:11,  2.79it/s] 47%|████▋     | 28/60 [04:12<00:11,  2.81it/s] 48%|████▊     | 29/60 [04:13<00:11,  2.79it/s] 50%|█████     | 30/60 [04:13<00:11,  2.63it/s] 52%|█████▏    | 31/60 [04:13<00:11,  2.60it/s] 53%|█████▎    | 32/60 [04:14<00:10,  2.62it/s] 55%|█████▌    | 33/60 [04:14<00:10,  2.53it/s] 57%|█████▋    | 34/60 [04:15<00:10,  2.56it/s] 58%|█████▊    | 35/60 [04:15<00:09,  2.62it/s] 60%|██████    | 36/60 [04:15<00:09,  2.62it/s] 62%|██████▏   | 37/60 [04:16<00:08,  2.58it/s] 63%|██████▎   | 38/60 [04:16<00:08,  2.48it/s] 65%|██████▌   | 39/60 [04:17<00:08,  2.52it/s] 67%|██████▋   | 40/60 [04:17<00:08,  2.49it/s] 68%|██████▊   | 41/60 [04:17<00:07,  2.59it/s] 70%|███████   | 42/60 [04:18<00:06,  2.67it/s] 72%|███████▏  | 43/60 [04:18<00:06,  2.72it/s] 73%|███████▎  | 44/60 [04:18<00:05,  2.75it/s] 75%|███████▌  | 45/60 [04:19<00:05,  2.79it/s] 77%|███████▋  | 46/60 [04:19<00:04,  2.80it/s] 78%|███████▊  | 47/60 [04:19<00:04,  2.82it/s] 80%|████████  | 48/60 [04:20<00:04,  2.83it/s] 82%|████████▏ | 49/60 [04:20<00:03,  2.84it/s] 83%|████████▎ | 50/60 [04:21<00:03,  2.84it/s] 85%|████████▌ | 51/60 [04:21<00:03,  2.85it/s] 87%|████████▋ | 52/60 [04:21<00:02,  2.85it/s] 88%|████████▊ | 53/60 [04:22<00:02,  2.85it/s] 90%|█████████ | 54/60 [04:22<00:02,  2.85it/s] 92%|█████████▏| 55/60 [04:22<00:01,  2.85it/s] 93%|█████████▎| 56/60 [04:23<00:01,  2.85it/s] 95%|█████████▌| 57/60 [04:23<00:01,  2.85it/s] 97%|█████████▋| 58/60 [04:23<00:00,  2.85it/s] 98%|█████████▊| 59/60 [04:24<00:00,  2.85it/s]100%|██████████| 60/60 [04:24<00:00,  2.85it/s]100%|██████████| 60/60 [04:24<00:00,  4.41s/it]
+2026-07-09 05:16:22 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  2.22step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.68step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.42step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.44step/s]
+2026-07-09 05:16:24 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:16:24 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:57794 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33352 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60742 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60746 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60756 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:29,  2.03it/s]  3%|▎         | 2/60 [00:00<00:22,  2.54it/s]  5%|▌         | 3/60 [00:01<00:21,  2.67it/s]  7%|▋         | 4/60 [00:01<00:20,  2.74it/s]  8%|▊         | 5/60 [00:01<00:19,  2.78it/s] 10%|█         | 6/60 [00:02<00:19,  2.81it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.83it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.84it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.84it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.84it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:05<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:06<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:13,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.86it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.86it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.86it/s] 57%|█████▋    | 34/60 [00:12<00:09,  2.86it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.86it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.86it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.86it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.86it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.86it/s] 70%|███████   | 42/60 [00:14<00:06,  2.86it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.86it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.86it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.86it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.86it/s] 80%|████████  | 48/60 [00:16<00:04,  2.86it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.86it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.86it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.86it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.86it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.86it/s] 90%|█████████ | 54/60 [00:19<00:02,  2.86it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.86it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.86it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.86it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.86it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.84it/s]
+2026-07-09 05:17:05 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.56step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.37step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:17:07 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:17:07 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:60758 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57932 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53416 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53420 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53424 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:23,  2.48it/s]  3%|▎         | 2/60 [00:00<00:20,  2.80it/s]  5%|▌         | 3/60 [00:01<00:20,  2.83it/s]  7%|▋         | 4/60 [00:01<00:19,  2.84it/s]  8%|▊         | 5/60 [00:01<00:19,  2.84it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.86it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:17:45 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.56step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:17:47 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:17:47 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:53428 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42422 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42430 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42440 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:24,  2.46it/s]  3%|▎         | 2/60 [00:00<00:20,  2.79it/s]  5%|▌         | 3/60 [00:01<00:20,  2.82it/s]  7%|▋         | 4/60 [00:01<00:19,  2.83it/s]  8%|▊         | 5/60 [00:01<00:19,  2.84it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.86it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.86it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.86it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:18:25 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.37step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:18:27 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:18:27 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:42454 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53294 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35566 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35578 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35590 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:27,  2.11it/s]  3%|▎         | 2/60 [00:00<00:22,  2.59it/s]  5%|▌         | 3/60 [00:01<00:21,  2.71it/s]  7%|▋         | 4/60 [00:01<00:20,  2.76it/s]  8%|▊         | 5/60 [00:01<00:19,  2.80it/s] 10%|█         | 6/60 [00:02<00:19,  2.82it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.83it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.84it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:06<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.86it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.86it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.86it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.86it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.86it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.86it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.86it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.86it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.86it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.86it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.86it/s] 70%|███████   | 42/60 [00:14<00:06,  2.86it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.86it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.86it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.86it/s] 80%|████████  | 48/60 [00:16<00:04,  2.86it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.86it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.86it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:19<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.84it/s]
+2026-07-09 05:19:04 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:19:06 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:19:06 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:35602 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35022 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58394 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58404 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58412 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:22,  2.62it/s]  3%|▎         | 2/60 [00:00<00:20,  2.87it/s]  5%|▌         | 3/60 [00:01<00:19,  2.87it/s]  7%|▋         | 4/60 [00:01<00:19,  2.86it/s]  8%|▊         | 5/60 [00:01<00:19,  2.86it/s] 10%|█         | 6/60 [00:02<00:18,  2.86it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.86it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.86it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.86it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.86it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.86it/s] 20%|██        | 12/60 [00:04<00:16,  2.86it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.86it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:19<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:19:44 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:19:46 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:19:46 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:58418 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45502 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37494 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37502 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37516 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:26,  2.26it/s]  3%|▎         | 2/60 [00:00<00:21,  2.67it/s]  5%|▌         | 3/60 [00:01<00:20,  2.75it/s]  7%|▋         | 4/60 [00:01<00:20,  2.79it/s]  8%|▊         | 5/60 [00:01<00:19,  2.82it/s] 10%|█         | 6/60 [00:02<00:19,  2.83it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.84it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:06<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:13,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.86it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.86it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.86it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.86it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.86it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:20:22 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.39step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.48step/s]
+2026-07-09 05:20:24 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:20:24 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:37518 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53668 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54674 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54682 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:23,  2.51it/s]  3%|▎         | 2/60 [00:00<00:20,  2.82it/s]  5%|▌         | 3/60 [00:01<00:20,  2.84it/s]  7%|▋         | 4/60 [00:01<00:19,  2.85it/s]  8%|▊         | 5/60 [00:01<00:19,  2.85it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.86it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.86it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.86it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.86it/s] 20%|██        | 12/60 [00:04<00:16,  2.86it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.86it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:13,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.86it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.86it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.86it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.86it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.86it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.86it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.86it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.86it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.86it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.86it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.86it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.86it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.86it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.86it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.86it/s] 80%|████████  | 48/60 [00:16<00:04,  2.86it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.86it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.86it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.86it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.86it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.86it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.86it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.86it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.86it/s] 95%|█████████▌| 57/60 [00:19<00:01,  2.86it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.86it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:21:02 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:21:03 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:21:03 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:54700 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32808 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41768 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41784 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41788 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:24,  2.37it/s]  3%|▎         | 2/60 [00:00<00:21,  2.74it/s]  5%|▌         | 3/60 [00:01<00:20,  2.79it/s]  7%|▋         | 4/60 [00:01<00:19,  2.82it/s]  8%|▊         | 5/60 [00:01<00:19,  2.83it/s] 10%|█         | 6/60 [00:02<00:19,  2.84it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.86it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.86it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.86it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.86it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.86it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.86it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.86it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.86it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.86it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.86it/s] 70%|███████   | 42/60 [00:14<00:06,  2.86it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.86it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.86it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.86it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.86it/s] 80%|████████  | 48/60 [00:16<00:04,  2.86it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.86it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.86it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.86it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.86it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.86it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.86it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.86it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.86it/s] 95%|█████████▌| 57/60 [00:19<00:01,  2.86it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.84it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.84it/s]100%|██████████| 60/60 [00:21<00:00,  2.83it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:21:41 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:21:43 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:21:43 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:41802 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42624 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57428 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57432 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57442 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:25,  2.30it/s]  3%|▎         | 2/60 [00:00<00:21,  2.70it/s]  5%|▌         | 3/60 [00:01<00:20,  2.77it/s]  7%|▋         | 4/60 [00:01<00:19,  2.81it/s]  8%|▊         | 5/60 [00:01<00:19,  2.82it/s] 10%|█         | 6/60 [00:02<00:19,  2.83it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.84it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.86it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:06<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.84it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.86it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.86it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:22:21 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.37step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:22:23 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:22:23 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:57452 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37508 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41248 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41250 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41254 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:22,  2.58it/s]  3%|▎         | 2/60 [00:00<00:20,  2.85it/s]  5%|▌         | 3/60 [00:01<00:19,  2.85it/s]  7%|▋         | 4/60 [00:01<00:19,  2.85it/s]  8%|▊         | 5/60 [00:01<00:19,  2.85it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.86it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.86it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.86it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.86it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.86it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.86it/s] 70%|███████   | 42/60 [00:14<00:06,  2.86it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.86it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.86it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.86it/s] 80%|████████  | 48/60 [00:16<00:04,  2.86it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.86it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.86it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.86it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:19<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:23:01 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.56step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:23:02 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:23:02 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:41256 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36928 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38510 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38514 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38522 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:24,  2.38it/s]  3%|▎         | 2/60 [00:00<00:21,  2.75it/s]  5%|▌         | 3/60 [00:01<00:20,  2.80it/s]  7%|▋         | 4/60 [00:01<00:19,  2.82it/s]  8%|▊         | 5/60 [00:01<00:19,  2.83it/s] 10%|█         | 6/60 [00:02<00:19,  2.84it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.86it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.86it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.86it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.86it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.86it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.86it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.86it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.86it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.86it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:23:42 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.48step/s]
+2026-07-09 05:23:44 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:23:44 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:38534 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52192 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49012 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49014 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49020 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:23,  2.54it/s]  3%|▎         | 2/60 [00:00<00:20,  2.83it/s]  5%|▌         | 3/60 [00:01<00:20,  2.84it/s]  7%|▋         | 4/60 [00:01<00:19,  2.85it/s]  8%|▊         | 5/60 [00:01<00:19,  2.85it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.86it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.86it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.86it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.86it/s] 20%|██        | 12/60 [00:04<00:16,  2.86it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.86it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.86it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.86it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.86it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.86it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.86it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.86it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.86it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.86it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.86it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.86it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:19<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:24:22 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.18step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.56step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:24:24 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:24:24 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:49034 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45808 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56446 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56452 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56466 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:24,  2.40it/s]  3%|▎         | 2/60 [00:00<00:21,  2.75it/s]  5%|▌         | 3/60 [00:01<00:20,  2.80it/s]  7%|▋         | 4/60 [00:01<00:19,  2.82it/s]  8%|▊         | 5/60 [00:01<00:19,  2.83it/s] 10%|█         | 6/60 [00:02<00:19,  2.84it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.84it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:06<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:25:02 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.22step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.48step/s]
+2026-07-09 05:25:04 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:25:04 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:56470 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52752 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45956 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45972 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45982 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:23,  2.48it/s]  3%|▎         | 2/60 [00:00<00:20,  2.80it/s]  5%|▌         | 3/60 [00:01<00:20,  2.82it/s]  7%|▋         | 4/60 [00:01<00:19,  2.84it/s]  8%|▊         | 5/60 [00:01<00:19,  2.85it/s] 10%|█         | 6/60 [00:02<00:18,  2.84it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:25:41 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:25:43 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:25:43 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:45990 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55258 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43640 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43654 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43664 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:25,  2.33it/s]  3%|▎         | 2/60 [00:00<00:21,  2.72it/s]  5%|▌         | 3/60 [00:01<00:20,  2.78it/s]  7%|▋         | 4/60 [00:01<00:19,  2.81it/s]  8%|▊         | 5/60 [00:01<00:19,  2.82it/s] 10%|█         | 6/60 [00:02<00:19,  2.83it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.84it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.84it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:06<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.84it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.84it/s]
+2026-07-09 05:26:21 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.18step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:26:23 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:26:23 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:43668 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54646 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54658 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54660 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54664 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:23,  2.49it/s]  3%|▎         | 2/60 [00:00<00:20,  2.80it/s]  5%|▌         | 3/60 [00:01<00:20,  2.83it/s]  7%|▋         | 4/60 [00:01<00:19,  2.84it/s]  8%|▊         | 5/60 [00:01<00:19,  2.84it/s] 10%|█         | 6/60 [00:02<00:18,  2.84it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.80it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.81it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.82it/s] 50%|█████     | 30/60 [00:10<00:10,  2.83it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.83it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.83it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.84it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.84it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.84it/s] 60%|██████    | 36/60 [00:12<00:08,  2.84it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.84it/s]
+2026-07-09 05:26:59 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.38step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:27:01 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:27:01 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:54678 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55538 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46224 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46230 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46238 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:23,  2.49it/s]  3%|▎         | 2/60 [00:00<00:20,  2.81it/s]  5%|▌         | 3/60 [00:01<00:20,  2.83it/s]  7%|▋         | 4/60 [00:01<00:19,  2.84it/s]  8%|▊         | 5/60 [00:01<00:19,  2.84it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.85it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.84it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:27:37 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.37step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:27:39 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:27:39 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:46246 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54022 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52988 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52992 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53006 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:24,  2.44it/s]  3%|▎         | 2/60 [00:00<00:20,  2.78it/s]  5%|▌         | 3/60 [00:01<00:20,  2.81it/s]  7%|▋         | 4/60 [00:01<00:19,  2.83it/s]  8%|▊         | 5/60 [00:01<00:19,  2.84it/s] 10%|█         | 6/60 [00:02<00:18,  2.85it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.85it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.85it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.85it/s] 30%|███       | 18/60 [00:06<00:14,  2.85it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.85it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.85it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.85it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.85it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.85it/s] 40%|████      | 24/60 [00:08<00:12,  2.85it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.85it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.85it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.85it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:12<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:28:15 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.19step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.56step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.37step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.46step/s]
+2026-07-09 05:28:17 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:28:17 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:53018 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38240 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52776 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52778 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52792 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]  2%|▏         | 1/60 [00:00<00:24,  2.41it/s]  3%|▎         | 2/60 [00:00<00:21,  2.76it/s]  5%|▌         | 3/60 [00:01<00:20,  2.81it/s]  7%|▋         | 4/60 [00:01<00:19,  2.83it/s]  8%|▊         | 5/60 [00:01<00:19,  2.83it/s] 10%|█         | 6/60 [00:02<00:18,  2.84it/s] 12%|█▏        | 7/60 [00:02<00:18,  2.85it/s] 13%|█▎        | 8/60 [00:02<00:18,  2.85it/s] 15%|█▌        | 9/60 [00:03<00:17,  2.85it/s] 17%|█▋        | 10/60 [00:03<00:17,  2.85it/s] 18%|█▊        | 11/60 [00:03<00:17,  2.85it/s] 20%|██        | 12/60 [00:04<00:16,  2.85it/s] 22%|██▏       | 13/60 [00:04<00:16,  2.85it/s] 23%|██▎       | 14/60 [00:04<00:16,  2.85it/s] 25%|██▌       | 15/60 [00:05<00:15,  2.86it/s] 27%|██▋       | 16/60 [00:05<00:15,  2.86it/s] 28%|██▊       | 17/60 [00:05<00:15,  2.86it/s] 30%|███       | 18/60 [00:06<00:14,  2.86it/s] 32%|███▏      | 19/60 [00:06<00:14,  2.86it/s] 33%|███▎      | 20/60 [00:07<00:14,  2.86it/s] 35%|███▌      | 21/60 [00:07<00:13,  2.86it/s] 37%|███▋      | 22/60 [00:07<00:13,  2.86it/s] 38%|███▊      | 23/60 [00:08<00:12,  2.86it/s] 40%|████      | 24/60 [00:08<00:12,  2.86it/s] 42%|████▏     | 25/60 [00:08<00:12,  2.86it/s] 43%|████▎     | 26/60 [00:09<00:11,  2.86it/s] 45%|████▌     | 27/60 [00:09<00:11,  2.86it/s] 47%|████▋     | 28/60 [00:09<00:11,  2.85it/s] 48%|████▊     | 29/60 [00:10<00:10,  2.86it/s] 50%|█████     | 30/60 [00:10<00:10,  2.85it/s] 52%|█████▏    | 31/60 [00:10<00:10,  2.85it/s] 53%|█████▎    | 32/60 [00:11<00:09,  2.85it/s] 55%|█████▌    | 33/60 [00:11<00:09,  2.85it/s] 57%|█████▋    | 34/60 [00:11<00:09,  2.85it/s] 58%|█████▊    | 35/60 [00:12<00:08,  2.85it/s] 60%|██████    | 36/60 [00:12<00:08,  2.85it/s] 62%|██████▏   | 37/60 [00:13<00:08,  2.85it/s] 63%|██████▎   | 38/60 [00:13<00:07,  2.85it/s] 65%|██████▌   | 39/60 [00:13<00:07,  2.85it/s] 67%|██████▋   | 40/60 [00:14<00:07,  2.85it/s] 68%|██████▊   | 41/60 [00:14<00:06,  2.85it/s] 70%|███████   | 42/60 [00:14<00:06,  2.85it/s] 72%|███████▏  | 43/60 [00:15<00:05,  2.85it/s] 73%|███████▎  | 44/60 [00:15<00:05,  2.85it/s] 75%|███████▌  | 45/60 [00:15<00:05,  2.85it/s] 77%|███████▋  | 46/60 [00:16<00:04,  2.85it/s] 78%|███████▊  | 47/60 [00:16<00:04,  2.85it/s] 80%|████████  | 48/60 [00:16<00:04,  2.85it/s] 82%|████████▏ | 49/60 [00:17<00:03,  2.85it/s] 83%|████████▎ | 50/60 [00:17<00:03,  2.85it/s] 85%|████████▌ | 51/60 [00:17<00:03,  2.85it/s] 87%|████████▋ | 52/60 [00:18<00:02,  2.85it/s] 88%|████████▊ | 53/60 [00:18<00:02,  2.85it/s] 90%|█████████ | 54/60 [00:18<00:02,  2.85it/s] 92%|█████████▏| 55/60 [00:19<00:01,  2.85it/s] 93%|█████████▎| 56/60 [00:19<00:01,  2.85it/s] 95%|█████████▌| 57/60 [00:20<00:01,  2.85it/s] 97%|█████████▋| 58/60 [00:20<00:00,  2.85it/s] 98%|█████████▊| 59/60 [00:20<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]100%|██████████| 60/60 [00:21<00:00,  2.85it/s]
+2026-07-09 05:28:53 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]refiner:  33%|███▎      | 1/3 [00:00<00:00,  3.20step/s]refiner:  67%|██████▋   | 2/3 [00:00<00:00,  2.57step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.37step/s]refiner: 100%|██████████| 3/3 [00:01<00:00,  2.47step/s]
+2026-07-09 05:28:54 - [1m[Sana][0m - INFO - [refiner] decoding 7 latent frames with diffusers LTX2 VAE
+2026-07-09 05:28:54 - [1m[Sana][0m - INFO - [sana-vae] decoding 7 latent frames
+INFO:     127.0.0.1:52804 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45986 - "GET /api/events/d6effbb3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51460 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51474 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51484 - "POST /api/action/205088c9 HTTP/1.1" 200 OK
+2026-07-09 05:29:14 - [1m[Sana][0m - WARNING - Intrinsics not provided — estimating with Pi3X from the input image. Estimation errors propagate into the generated camera geometry; please supply --intrinsics when accurate values are available.
+INFO:     127.0.0.1:51490 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+2026-07-09 05:29:25 - [1m[Sana][0m - INFO - Pi3X intrinsics: fx=1197.7 fy=1194.0 cx=639.0 cy=359.0 (FOV: H=56.2° V=33.6°)
+INFO:     127.0.0.1:51494 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46818 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46834 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46850 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]W0708 21:29:37.391000 2447753 site-packages/torch/fx/experimental/symbolic_shapes.py:6833] [1/4] _maybe_guard_rel() was called on non-relation expression Eq(s32, 1) | Eq(s32, s76)
+W0708 21:29:39.130000 2447753 site-packages/torch/fx/experimental/symbolic_shapes.py:6833] [1/5] _maybe_guard_rel() was called on non-relation expression Eq(s32, 1) | Eq(s32, s76)
+W0708 21:29:39.989000 2447753 site-packages/torch/fx/experimental/symbolic_shapes.py:6833] [1/6] _maybe_guard_rel() was called on non-relation expression Eq(s32, 1) | Eq(s32, s76)
+  2%|▏         | 1/60 [00:22<22:21, 22.74s/it]INFO:     127.0.0.1:46854 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+  3%|▎         | 2/60 [00:32<14:52, 15.38s/it]  5%|▌         | 3/60 [00:45<13:10, 13.87s/it]  7%|▋         | 4/60 [00:57<12:17, 13.17s/it]INFO:     127.0.0.1:39664 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+  8%|▊         | 5/60 [01:09<11:43, 12.79s/it] 10%|█         | 6/60 [01:21<11:18, 12.56s/it]INFO:     127.0.0.1:40714 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 12%|█▏        | 7/60 [01:33<10:58, 12.42s/it] 13%|█▎        | 8/60 [01:45<10:41, 12.33s/it] 15%|█▌        | 9/60 [01:57<10:25, 12.26s/it]INFO:     127.0.0.1:36632 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 17%|█▋        | 10/60 [02:09<10:10, 12.22s/it] 18%|█▊        | 11/60 [02:21<09:57, 12.19s/it]INFO:     127.0.0.1:47922 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 12/60 [02:34<09:43, 12.17s/it] 22%|██▏       | 13/60 [02:46<09:30, 12.15s/it] 23%|██▎       | 14/60 [02:58<09:18, 12.14s/it]INFO:     127.0.0.1:33322 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 15/60 [03:10<09:06, 12.14s/it] 27%|██▋       | 16/60 [03:22<08:54, 12.14s/it]INFO:     127.0.0.1:44374 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 28%|██▊       | 17/60 [03:34<08:41, 12.13s/it] 30%|███       | 18/60 [03:46<08:28, 12.12s/it]INFO:     127.0.0.1:51926 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 32%|███▏      | 19/60 [03:58<08:16, 12.11s/it] 33%|███▎      | 20/60 [04:10<08:04, 12.11s/it] 35%|███▌      | 21/60 [04:23<07:52, 12.12s/it]INFO:     127.0.0.1:52182 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 37%|███▋      | 22/60 [04:35<07:40, 12.12s/it] 38%|███▊      | 23/60 [04:47<07:28, 12.12s/it]INFO:     127.0.0.1:41318 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 24/60 [04:59<07:16, 12.12s/it] 42%|████▏     | 25/60 [05:11<07:04, 12.12s/it] 43%|████▎     | 26/60 [05:23<06:51, 12.11s/it]INFO:     127.0.0.1:45922 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 27/60 [05:35<06:39, 12.10s/it] 47%|████▋     | 28/60 [05:47<06:27, 12.11s/it]INFO:     127.0.0.1:39630 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 48%|████▊     | 29/60 [06:00<06:15, 12.10s/it] 50%|█████     | 30/60 [06:12<06:03, 12.10s/it] 52%|█████▏    | 31/60 [06:24<05:50, 12.10s/it]INFO:     127.0.0.1:48598 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 53%|█████▎    | 32/60 [06:36<05:38, 12.10s/it] 55%|█████▌    | 33/60 [06:48<05:26, 12.11s/it]INFO:     127.0.0.1:60948 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 57%|█████▋    | 34/60 [07:00<05:14, 12.10s/it] 58%|█████▊    | 35/60 [07:12<05:02, 12.11s/it] 60%|██████    | 36/60 [07:24<04:50, 12.11s/it]INFO:     127.0.0.1:35046 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 62%|██████▏   | 37/60 [07:36<04:38, 12.11s/it] 63%|██████▎   | 38/60 [07:48<04:26, 12.11s/it]INFO:     127.0.0.1:47142 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 39/60 [08:01<04:14, 12.11s/it] 67%|██████▋   | 40/60 [08:13<04:02, 12.12s/it] 68%|██████▊   | 41/60 [08:25<03:50, 12.12s/it]INFO:     127.0.0.1:45218 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 42/60 [08:37<03:38, 12.12s/it] 72%|███████▏  | 43/60 [08:49<03:26, 12.13s/it]INFO:     127.0.0.1:44066 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 73%|███████▎  | 44/60 [09:01<03:14, 12.13s/it] 75%|███████▌  | 45/60 [09:13<03:01, 12.12s/it] 77%|███████▋  | 46/60 [09:25<02:49, 12.12s/it]INFO:     127.0.0.1:47526 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 78%|███████▊  | 47/60 [09:38<02:37, 12.12s/it] 80%|████████  | 48/60 [09:50<02:25, 12.12s/it]INFO:     127.0.0.1:60544 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 82%|████████▏ | 49/60 [10:02<02:13, 12.12s/it] 83%|████████▎ | 50/60 [10:14<02:01, 12.13s/it] 85%|████████▌ | 51/60 [10:26<01:49, 12.12s/it]INFO:     127.0.0.1:54966 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 87%|████████▋ | 52/60 [10:38<01:37, 12.13s/it] 88%|████████▊ | 53/60 [10:50<01:24, 12.12s/it]INFO:     127.0.0.1:56134 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 54/60 [11:02<01:12, 12.11s/it] 92%|█████████▏| 55/60 [11:15<01:00, 12.12s/it] 93%|█████████▎| 56/60 [11:27<00:48, 12.12s/it]INFO:     127.0.0.1:50220 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 95%|█████████▌| 57/60 [11:39<00:36, 12.12s/it] 97%|█████████▋| 58/60 [11:51<00:24, 12.12s/it]INFO:     127.0.0.1:50436 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+ 98%|█████████▊| 59/60 [12:03<00:12, 12.12s/it]100%|██████████| 60/60 [12:15<00:00, 12.11s/it]100%|██████████| 60/60 [12:15<00:00, 12.26s/it]
+2026-07-09 05:41:45 - [1m[Sana][0m - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]INFO:     127.0.0.1:38988 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+refiner:  33%|███▎      | 1/3 [00:31<01:02, 31.01s/step]INFO:     127.0.0.1:37888 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+refiner:  67%|██████▋   | 2/3 [00:55<00:27, 27.14s/step]INFO:     127.0.0.1:36806 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+refiner: 100%|██████████| 3/3 [01:26<00:00, 28.91s/step]refiner: 100%|██████████| 3/3 [01:26<00:00, 28.82s/step]
+2026-07-09 05:43:12 - [1m[Sana][0m - INFO - [refiner] decoding 121 latent frames with diffusers LTX2 VAE
+2026-07-09 05:43:12 - [1m[Sana][0m - INFO - [sana-vae] decoding 121 latent frames
+INFO:     127.0.0.1:41306 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54448 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49074 - "GET /api/events/205088c9?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46620 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2447753]

@@ -1,0 +1,11 @@
+[driver 01:42:37] waiting for adapter to load ... (0s, health=None)
+[driver 01:43:37] waiting for adapter to load ... (60s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 01:44:37] waiting for adapter to load ... (120s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 01:45:02] adapter 'dreamx-world' ready after 145s
+[driver 01:45:02] === session dreamx_ar_whole: 1 action(s), expecting 1 segment(s)
+[driver 01:45:03] session id 3405005b
+[driver 01:45:03] queued 1 action(s)
+[driver 01:45:03] status: Ready: DreamX-World ar adapter.
+[driver 01:45:03] generating: w@6
+[driver 01:49:40] segment 0 done (278s elapsed)
+[driver 01:49:46] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/dreamx_ar_whole.mp4 (from dreamx_world_ar_3405005b.mp4, 122.6 MB)

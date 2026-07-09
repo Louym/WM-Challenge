@@ -1,0 +1,96 @@
+[driver 20:29:12] waiting for adapter to load ... (0s, health=None)
+[driver 20:30:13] waiting for adapter to load ... (61s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:31:14] waiting for adapter to load ... (122s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:32:14] waiting for adapter to load ... (182s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:33:14] waiting for adapter to load ... (242s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:34:14] waiting for adapter to load ... (302s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:35:14] waiting for adapter to load ... (362s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:36:14] waiting for adapter to load ... (422s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:37:14] waiting for adapter to load ... (482s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:38:14] waiting for adapter to load ... (542s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:39:14] waiting for adapter to load ... (602s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:40:14] waiting for adapter to load ... (662s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:41:14] waiting for adapter to load ... (722s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:42:14] waiting for adapter to load ... (782s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:43:14] waiting for adapter to load ... (842s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:44:14] waiting for adapter to load ... (902s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:45:14] waiting for adapter to load ... (962s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:46:14] waiting for adapter to load ... (1022s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:47:14] waiting for adapter to load ... (1082s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:48:14] waiting for adapter to load ... (1143s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:49:14] waiting for adapter to load ... (1203s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:50:14] waiting for adapter to load ... (1263s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:51:14] waiting for adapter to load ... (1323s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:52:14] waiting for adapter to load ... (1383s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:53:14] waiting for adapter to load ... (1443s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:54:14] waiting for adapter to load ... (1503s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:55:14] waiting for adapter to load ... (1563s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:56:14] waiting for adapter to load ... (1623s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:57:14] waiting for adapter to load ... (1683s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:58:14] waiting for adapter to load ... (1743s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:59:14] waiting for adapter to load ... (1803s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:00:14] waiting for adapter to load ... (1863s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:01:15] waiting for adapter to load ... (1923s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:02:15] waiting for adapter to load ... (1983s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:03:15] waiting for adapter to load ... (2043s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:04:15] waiting for adapter to load ... (2103s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:05:15] waiting for adapter to load ... (2163s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:06:15] waiting for adapter to load ... (2223s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:07:15] waiting for adapter to load ... (2283s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:08:15] waiting for adapter to load ... (2343s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:09:15] waiting for adapter to load ... (2403s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:09:30] adapter 'sana-wm' ready after 2418s
+[driver 21:09:30] === session sana_wm_bidirectional_clip: 20 action(s), expecting 20 segment(s)
+[driver 21:09:30] session id d6effbb3
+[driver 21:09:30] queued 20 action(s)
+[driver 21:09:30] status: Estimating image intrinsics with Pi3X...
+[driver 21:11:56] status: Estimated FOV: H=56.2 deg V=32.9 deg.
+[driver 21:11:56] generating: 
+[driver 21:16:43] segment 0 done (433s elapsed)
+[driver 21:16:43] generating: 
+[driver 21:17:23] segment 1 done (473s elapsed)
+[driver 21:17:23] generating: 
+[driver 21:18:03] segment 2 done (513s elapsed)
+[driver 21:18:03] generating: 
+[driver 21:18:42] segment 3 done (552s elapsed)
+[driver 21:18:42] generating: 
+[driver 21:19:21] segment 4 done (591s elapsed)
+[driver 21:19:21] generating: 
+[driver 21:20:00] segment 5 done (630s elapsed)
+[driver 21:20:00] generating: 
+[driver 21:20:39] segment 6 done (669s elapsed)
+[driver 21:20:39] generating: 
+[driver 21:21:19] segment 7 done (709s elapsed)
+[driver 21:21:19] generating: 
+[driver 21:21:59] segment 8 done (749s elapsed)
+[driver 21:21:59] generating: 
+[driver 21:22:38] segment 9 done (789s elapsed)
+[driver 21:22:38] generating: 
+[driver 21:23:19] segment 10 done (830s elapsed)
+[driver 21:23:19] generating: 
+[driver 21:24:00] segment 11 done (870s elapsed)
+[driver 21:24:00] generating: 
+[driver 21:24:40] segment 12 done (910s elapsed)
+[driver 21:24:40] generating: 
+[driver 21:25:19] segment 13 done (949s elapsed)
+[driver 21:25:19] generating: 
+[driver 21:25:58] segment 14 done (988s elapsed)
+[driver 21:25:58] generating: 
+[driver 21:26:36] segment 15 done (1027s elapsed)
+[driver 21:26:36] generating: 
+[driver 21:27:15] segment 16 done (1065s elapsed)
+[driver 21:27:15] generating: 
+[driver 21:27:53] segment 17 done (1103s elapsed)
+[driver 21:27:53] generating: 
+[driver 21:28:30] segment 18 done (1140s elapsed)
+[driver 21:28:30] generating: 
+[driver 21:29:09] segment 19 done (1179s elapsed)
+[driver 21:29:14] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/sana_wm_bidirectional_clip.mp4 (from sana_wm_refiner_on_d6effbb3.mp4, 30.4 MB)
+[driver 21:29:14] === session sana_wm_bidirectional_whole: 1 action(s), expecting 1 segment(s)
+[driver 21:29:14] session id 205088c9
+[driver 21:29:14] queued 1 action(s)
+[driver 21:29:14] status: Estimating image intrinsics with Pi3X...
+[driver 21:29:26] status: Estimated FOV: H=56.2 deg V=32.9 deg.
+[driver 21:29:26] generating: w-240,l-240,w-240,s-240
+[driver 21:44:14] segment 0 done (900s elapsed)
+[driver 21:44:19] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/sana_wm_bidirectional_whole.mp4 (from sana_wm_refiner_on_205088c9.mp4, 38.4 MB)

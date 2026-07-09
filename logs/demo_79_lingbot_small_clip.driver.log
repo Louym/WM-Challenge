@@ -1,0 +1,65 @@
+[driver 21:44:37] waiting for adapter to load ... (0s, health=None)
+[driver 21:45:37] waiting for adapter to load ... (60s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:46:37] waiting for adapter to load ... (120s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:47:37] waiting for adapter to load ... (180s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:48:37] waiting for adapter to load ... (240s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:49:38] waiting for adapter to load ... (300s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:50:38] waiting for adapter to load ... (360s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:51:38] waiting for adapter to load ... (420s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:52:38] waiting for adapter to load ... (480s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:53:38] waiting for adapter to load ... (540s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:54:38] waiting for adapter to load ... (601s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:55:38] waiting for adapter to load ... (661s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:56:38] waiting for adapter to load ... (721s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:57:38] waiting for adapter to load ... (781s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:58:38] waiting for adapter to load ... (841s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:59:38] waiting for adapter to load ... (901s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 22:00:38] waiting for adapter to load ... (961s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 22:01:38] waiting for adapter to load ... (1021s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 22:02:38] waiting for adapter to load ... (1081s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 22:03:03] adapter 'lingbot-world' ready after 1106s
+[driver 22:03:03] === session lingbot_small_clip: 20 action(s), expecting 20 segment(s)
+[driver 22:03:03] session id d25d607d
+[driver 22:03:03] queued 20 action(s)
+[driver 22:03:03] status: Ready: LingBot-World fast adapter.
+[driver 22:03:03] generating: camera=U move=W
+[driver 22:03:47] segment 0 done (43s elapsed)
+[driver 22:03:47] generating: camera=U move=W
+[driver 22:04:17] segment 1 done (74s elapsed)
+[driver 22:04:17] generating: camera=U move=W
+[driver 22:04:49] segment 2 done (106s elapsed)
+[driver 22:04:49] generating: camera=U move=W
+[driver 22:05:21] segment 3 done (137s elapsed)
+[driver 22:05:21] generating: camera=U move=W
+[driver 22:05:53] segment 4 done (169s elapsed)
+[driver 22:05:53] generating: camera=L move=Q
+[driver 22:06:24] segment 5 done (200s elapsed)
+[driver 22:06:24] generating: camera=L move=Q
+[driver 22:06:54] segment 6 done (231s elapsed)
+[driver 22:06:54] generating: camera=L move=Q
+[driver 22:07:24] segment 7 done (261s elapsed)
+[driver 22:07:24] generating: camera=L move=Q
+[driver 22:07:53] segment 8 done (290s elapsed)
+[driver 22:07:53] generating: camera=L move=Q
+[driver 22:08:23] segment 9 done (320s elapsed)
+[driver 22:08:23] generating: camera=U move=W
+[driver 22:08:54] segment 10 done (350s elapsed)
+[driver 22:08:54] generating: camera=U move=W
+[driver 22:09:25] segment 11 done (382s elapsed)
+[driver 22:09:25] generating: camera=U move=W
+[driver 22:09:54] segment 12 done (411s elapsed)
+[driver 22:09:54] generating: camera=U move=W
+[driver 22:10:24] segment 13 done (441s elapsed)
+[driver 22:10:24] generating: camera=U move=W
+[driver 22:10:54] segment 14 done (471s elapsed)
+[driver 22:10:54] generating: camera=U move=S
+[driver 22:11:27] segment 15 done (504s elapsed)
+[driver 22:11:27] generating: camera=U move=S
+[driver 22:12:01] segment 16 done (537s elapsed)
+[driver 22:12:01] generating: camera=U move=S
+[driver 22:12:33] segment 17 done (570s elapsed)
+[driver 22:12:33] generating: camera=U move=S
+[driver 22:13:06] segment 18 done (603s elapsed)
+[driver 22:13:06] generating: camera=U move=S
+[driver 22:13:40] segment 19 done (637s elapsed)
+[driver 22:13:45] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/lingbot_small_clip.mp4 (from lingbot_world_small_d25d607d.mp4, 80.5 MB)

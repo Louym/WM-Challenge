@@ -1,0 +1,512 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2741494]
+INFO:     Waiting for application startup.
+[startup] adapter=dreamx-world; loading ...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8288 (Press CTRL+C to quit)
+[DreamX][load] validate paths (variant=cam)
+INFO:     127.0.0.1:43208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58552 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55102 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35024 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35030 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36516 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36530 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47028 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47032 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36930 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56920 - "GET /api/health HTTP/1.1" 200 OK
+[DreamX][load] build Wan2_2_CameraPipeline via inference_dreamx5b.setup_models
+Loading transformer from checkpoint: /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/models/DreamX-World-5B-Cam
+loaded 3D transformer's pretrained weights from /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/models/DreamX-World-5B-Cam ...
+The config attributes {'add_ref_conv': False, 'control_adapter_type': 'baseline', 'cross_attn_type': 'cross_attn', 'downscale_factor_control_adapter': 16, 'in_dim_control_adapter': 24, 'in_dim_ref_conv': 16, 'prope_compress_mode': 'none', 'prope_compress_ratio': 2, 'traning': False} were passed to Wan2_2Transformer3DModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+INFO:     127.0.0.1:40554 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40566 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35672 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40284 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53922 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34148 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38898 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33382 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33394 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42668 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42680 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37480 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41694 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56614 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34502 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43766 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43774 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50522 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50530 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47752 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47754 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49926 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41114 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43466 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37980 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37982 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36738 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36744 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56372 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42720 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42728 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44856 - "GET /api/health HTTP/1.1" 200 OK
+### missing keys: 0; 
+### unexpected keys: 0;
+[]
+### All Parameters: 6132.802752 M
+### attn1 Parameters: 0.0 M
+INFO:     127.0.0.1:44860 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43390 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47510 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47524 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41936 - "GET /api/health HTTP/1.1" 200 OK
+### missing keys: 0; 
+### unexpected keys: 0;
+[] []
+INFO:     127.0.0.1:37392 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37400 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42236 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42242 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35918 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42166 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57950 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32840 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33882 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44134 - "GET /api/health HTTP/1.1" 200 OK
+[DreamX][load] pipeline ready (variant=cam)
+[startup] adapter ready in 717.9s
+INFO:     127.0.0.1:60010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60024 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60030 - "POST /api/action/ba0f472f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60044 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60054 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60056 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60066 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60080 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/50 [00:00<?, ?it/s]INFO:     127.0.0.1:40064 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42956 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57918 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58764 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38788 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41986 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39344 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+  2%|▏         | 1/50 [03:49<3:07:34, 229.68s/it]INFO:     127.0.0.1:35638 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59472 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37740 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51928 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52396 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48902 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56038 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+  4%|▍         | 2/50 [07:02<2:46:37, 208.28s/it]INFO:     127.0.0.1:57406 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35206 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35378 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44898 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59408 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+  6%|▌         | 3/50 [10:16<2:37:47, 201.43s/it]INFO:     127.0.0.1:56866 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46682 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45430 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57098 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32768 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51282 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36844 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+  8%|▊         | 4/50 [13:29<2:31:56, 198.19s/it]INFO:     127.0.0.1:38988 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40482 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34844 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59018 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39078 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46154 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 5/50 [16:42<2:27:19, 196.43s/it]INFO:     127.0.0.1:48636 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43954 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41950 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38614 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54196 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37772 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38690 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 12%|█▏        | 6/50 [19:56<2:23:18, 195.41s/it]INFO:     127.0.0.1:44430 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41048 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43230 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41578 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49760 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59318 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 14%|█▍        | 7/50 [23:09<2:19:38, 194.86s/it]INFO:     127.0.0.1:40934 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55980 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51560 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49862 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34424 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45664 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33890 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 16%|█▌        | 8/50 [26:24<2:16:13, 194.61s/it]INFO:     127.0.0.1:34694 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47950 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36868 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56798 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60996 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51120 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 18%|█▊        | 9/50 [29:37<2:12:47, 194.32s/it]INFO:     127.0.0.1:55428 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34886 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39848 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42972 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57966 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41436 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 10/50 [32:51<2:09:21, 194.04s/it]INFO:     127.0.0.1:58130 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38116 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36194 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59380 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39086 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38078 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 22%|██▏       | 11/50 [36:04<2:05:59, 193.84s/it]INFO:     127.0.0.1:58550 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59320 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42210 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58538 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50978 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48060 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 24%|██▍       | 12/50 [39:18<2:02:42, 193.74s/it]INFO:     127.0.0.1:59946 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44376 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37868 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44648 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49528 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49846 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33112 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 26%|██▌       | 13/50 [42:31<1:59:26, 193.70s/it]INFO:     127.0.0.1:40190 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59922 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45216 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44540 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39172 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48512 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 28%|██▊       | 14/50 [45:45<1:56:12, 193.68s/it]INFO:     127.0.0.1:47556 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60844 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59190 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33086 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49300 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39642 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51064 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 15/50 [48:58<1:52:58, 193.68s/it]INFO:     127.0.0.1:46282 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44244 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51264 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58484 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56850 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41154 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 32%|███▏      | 16/50 [52:12<1:49:47, 193.74s/it]INFO:     127.0.0.1:48192 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51566 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52620 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55324 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56186 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55970 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60542 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 34%|███▍      | 17/50 [55:26<1:46:35, 193.80s/it]INFO:     127.0.0.1:34914 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36594 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58360 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52192 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39184 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58286 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 36%|███▌      | 18/50 [58:40<1:43:21, 193.81s/it]INFO:     127.0.0.1:39962 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42644 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33476 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37638 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60242 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54682 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 38%|███▊      | 19/50 [1:01:54<1:40:05, 193.73s/it]INFO:     127.0.0.1:34814 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33784 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48244 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37512 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38342 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60342 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47056 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 20/50 [1:05:07<1:36:50, 193.67s/it]INFO:     127.0.0.1:47914 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44242 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55000 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37196 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37198 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49772 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 42%|████▏     | 21/50 [1:08:21<1:33:35, 193.63s/it]INFO:     127.0.0.1:52712 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47368 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40892 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36900 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34464 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36750 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 44%|████▍     | 22/50 [1:11:34<1:30:21, 193.62s/it]INFO:     127.0.0.1:38834 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45152 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47640 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38246 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38134 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41600 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 46%|████▌     | 23/50 [1:14:48<1:27:09, 193.67s/it]INFO:     127.0.0.1:42580 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35834 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42580 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36828 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44474 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47628 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52588 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 48%|████▊     | 24/50 [1:18:02<1:23:57, 193.74s/it]INFO:     127.0.0.1:49656 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39302 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39362 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54320 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49662 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50072 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 25/50 [1:21:16<1:20:44, 193.79s/it]INFO:     127.0.0.1:56122 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38980 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43968 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45338 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42314 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41724 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51108 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 52%|█████▏    | 26/50 [1:24:30<1:17:30, 193.77s/it]INFO:     127.0.0.1:40322 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44350 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40616 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53544 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54972 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34742 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 54%|█████▍    | 27/50 [1:27:43<1:14:16, 193.77s/it]INFO:     127.0.0.1:56682 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47680 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40362 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38514 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44436 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54938 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52846 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 56%|█████▌    | 28/50 [1:30:57<1:11:03, 193.78s/it]INFO:     127.0.0.1:42278 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35010 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41730 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60406 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55806 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38448 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 58%|█████▊    | 29/50 [1:34:11<1:07:49, 193.79s/it]INFO:     127.0.0.1:60590 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47518 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46970 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45788 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42494 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39174 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51696 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 30/50 [1:37:25<1:04:35, 193.78s/it]INFO:     127.0.0.1:43080 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36474 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45950 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56130 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53020 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34378 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 62%|██████▏   | 31/50 [1:40:38<1:01:20, 193.69s/it]INFO:     127.0.0.1:47910 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44272 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59494 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34944 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38998 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35054 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 64%|██████▍   | 32/50 [1:43:52<58:06, 193.71s/it]  INFO:     127.0.0.1:41794 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34772 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36302 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40368 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41572 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38962 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37402 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 66%|██████▌   | 33/50 [1:47:06<54:53, 193.73s/it]INFO:     127.0.0.1:49298 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39320 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58084 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49652 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45058 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41356 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 68%|██████▊   | 34/50 [1:50:20<51:40, 193.75s/it]INFO:     127.0.0.1:45354 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56714 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41018 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36180 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60158 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59904 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49582 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 35/50 [1:53:34<48:26, 193.80s/it]INFO:     127.0.0.1:51912 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44084 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40348 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60386 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57450 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46440 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 72%|███████▏  | 36/50 [1:56:47<45:12, 193.75s/it]INFO:     127.0.0.1:40512 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60164 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59576 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49216 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39046 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57392 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38590 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 74%|███████▍  | 37/50 [2:00:01<41:57, 193.68s/it]INFO:     127.0.0.1:36624 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35230 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43564 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47984 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42260 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46996 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 76%|███████▌  | 38/50 [2:03:14<38:43, 193.66s/it]INFO:     127.0.0.1:33490 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38596 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39854 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44908 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49446 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48210 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34292 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 78%|███████▊  | 39/50 [2:06:28<35:29, 193.62s/it]INFO:     127.0.0.1:56738 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58626 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51694 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46122 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57162 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50930 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 40/50 [2:09:41<32:16, 193.63s/it]INFO:     127.0.0.1:47810 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35084 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40370 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38802 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48436 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46172 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56104 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 82%|████████▏ | 41/50 [2:12:55<29:02, 193.66s/it]INFO:     127.0.0.1:41690 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57852 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49006 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35434 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58140 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47674 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 84%|████████▍ | 42/50 [2:16:09<25:49, 193.70s/it]INFO:     127.0.0.1:53418 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56514 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44938 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33598 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47682 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41006 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 86%|████████▌ | 43/50 [2:19:23<22:35, 193.67s/it]INFO:     127.0.0.1:48868 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49234 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52110 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59002 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58516 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39626 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51222 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 88%|████████▊ | 44/50 [2:22:36<19:21, 193.62s/it]INFO:     127.0.0.1:50080 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36708 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58108 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45984 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51570 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34372 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 45/50 [2:25:50<16:08, 193.62s/it]INFO:     127.0.0.1:33444 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58288 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51492 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54790 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56696 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47216 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48486 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 92%|█████████▏| 46/50 [2:29:03<12:54, 193.52s/it]INFO:     127.0.0.1:49106 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37178 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37968 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47908 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36282 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41942 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 94%|█████████▍| 47/50 [2:32:16<09:40, 193.44s/it]INFO:     127.0.0.1:41900 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42966 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33486 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38666 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59688 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33472 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34540 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 96%|█████████▌| 48/50 [2:35:30<06:26, 193.41s/it]INFO:     127.0.0.1:52632 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44900 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59368 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60826 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38636 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55646 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+ 98%|█████████▊| 49/50 [2:38:42<03:13, 193.26s/it]INFO:     127.0.0.1:38372 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38194 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55978 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57124 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41522 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35504 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41858 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 50/50 [2:41:55<00:00, 192.98s/it]100%|██████████| 50/50 [2:41:55<00:00, 194.31s/it]
+INFO:     127.0.0.1:53054 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43988 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48550 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53418 - "GET /api/events/ba0f472f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51648 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2741494]
