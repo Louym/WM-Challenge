@@ -1,0 +1,12 @@
+[
+ {
+  "name": "bench_dreamx_ar_whole",
+  "actions": [
+   {
+    "action": "w",
+    "speed": 6
+   }
+  ],
+  "timeout": 43200
+ }
+]

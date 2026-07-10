@@ -1,0 +1,74 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [1481821]
+INFO:     Waiting for application startup.
+[startup] adapter=dreamx-world; loading ...
+INFO:     Application startup complete.
+[DreamX][load] validate paths (variant=ar)
+INFO:     Uvicorn running on http://127.0.0.1:8406 (Press CTRL+C to quit)
+INFO:     127.0.0.1:35094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49636 - "GET /api/health HTTP/1.1" 200 OK
+[DreamX][load] merge AR config with default_config.yaml
+[DreamX][load] build CausalCameraInferencePipeline via inference_ar_forcing.load_pipeline
+/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/diffusers/configuration_utils.py:282: FutureWarning: It is deprecated to pass a pretrained model name or path to `from_config`.If you were trying to load a model, please use <class 'wan.modules.causal_camera_model_2_2_prope_infinity.CausalWanModel'>.load_config(...) followed by <class 'wan.modules.causal_camera_model_2_2_prope_infinity.CausalWanModel'>.from_config(...) instead. Otherwise, please make sure to pass a configuration dictionary instead. This functionality will be removed in v1.0.0.
+  deprecate("config-passed-as-path", "1.0.0", deprecation_message, standard_warn=False)
+The config attributes {'patch_size': [1, 2, 2], 'text_dim': 4096, 'qk_norm': True, 'cross_attn_norm': True, 'add_ref_conv': False} were passed to CausalWanModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+INFO:     127.0.0.1:60376 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60382 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46660 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36424 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60408 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60418 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42484 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38232 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/DreamX-World/wan/modules/vae_2_2.py:920: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(pretrained_path, map_location=device), assign=True)
+KV inference with 3 frames per block
+INFO:     127.0.0.1:33432 - "GET /api/health HTTP/1.1" 200 OK
+Base checkpoint loaded
+missing: []
+unexpected: []
+INFO:     127.0.0.1:33434 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37580 - "GET /api/health HTTP/1.1" 200 OK
+[DreamX][load] pipeline ready (variant=ar)
+[startup] adapter ready in 131.5s
+INFO:     127.0.0.1:50384 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50386 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50398 - "POST /api/action/7fc03785 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50406 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50416 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50428 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50440 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+0it [00:00, ?it/s]1it [00:01,  1.05s/it]2it [00:01,  1.19it/s]3it [00:02,  1.35it/s]4it [00:03,  1.36it/s]5it [00:03,  1.40it/s]6it [00:04,  1.43it/s]7it [00:05,  1.45it/s]8it [00:05,  1.46it/s]9it [00:06,  1.47it/s]10it [00:07,  1.47it/s]11it [00:07,  1.48it/s]12it [00:08,  1.48it/s]13it [00:09,  1.48it/s]14it [00:09,  1.48it/s]15it [00:10,  1.48it/s]16it [00:11,  1.48it/s]17it [00:11,  1.48it/s]18it [00:12,  1.48it/s]19it [00:13,  1.48it/s]20it [00:13,  1.48it/s]21it [00:14,  1.48it/s]22it [00:15,  1.48it/s]23it [00:15,  1.48it/s]24it [00:16,  1.48it/s]25it [00:17,  1.48it/s]INFO:     127.0.0.1:50442 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+26it [00:17,  1.48it/s]27it [00:18,  1.48it/s]28it [00:19,  1.48it/s]29it [00:19,  1.48it/s]30it [00:20,  1.48it/s]31it [00:21,  1.48it/s]32it [00:21,  1.48it/s]33it [00:22,  1.49it/s]34it [00:23,  1.49it/s]35it [00:23,  1.49it/s]36it [00:24,  1.49it/s]37it [00:25,  1.49it/s]38it [00:25,  1.49it/s]39it [00:26,  1.49it/s]40it [00:27,  1.49it/s]41it [00:28,  1.49it/s]42it [00:28,  1.49it/s]43it [00:29,  1.49it/s]44it [00:30,  1.49it/s]45it [00:30,  1.49it/s]46it [00:31,  1.49it/s]47it [00:32,  1.49it/s]48it [00:32,  1.49it/s]49it [00:33,  1.49it/s]50it [00:34,  1.49it/s]51it [00:34,  1.49it/s]52it [00:35,  1.49it/s]53it [00:36,  1.49it/s]54it [00:36,  1.49it/s]55it [00:37,  1.49it/s]56it [00:38,  1.49it/s]57it [00:38,  1.49it/s]58it [00:39,  1.49it/s]59it [00:40,  1.49it/s]60it [00:40,  1.49it/s]61it [00:41,  1.49it/s]62it [00:42,  1.49it/s]63it [00:42,  1.49it/s]64it [00:43,  1.49it/s]65it [00:44,  1.49it/s]66it [00:44,  1.49it/s]67it [00:45,  1.49it/s]68it [00:46,  1.49it/s]69it [00:46,  1.49it/s]INFO:     127.0.0.1:33882 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+70it [00:47,  1.49it/s]71it [00:48,  1.49it/s]72it [00:48,  1.49it/s]73it [00:49,  1.49it/s]74it [00:50,  1.49it/s]75it [00:50,  1.49it/s]76it [00:51,  1.49it/s]77it [00:52,  1.49it/s]78it [00:52,  1.49it/s]79it [00:53,  1.49it/s]80it [00:54,  1.49it/s]81it [00:54,  1.49it/s]81it [00:54,  1.47it/s]
+INFO:     127.0.0.1:56786 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58402 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38298 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52608 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54612 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56578 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56122 - "GET /api/events/7fc03785?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56132 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1481821]

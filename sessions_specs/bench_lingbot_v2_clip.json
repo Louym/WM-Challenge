@@ -1,0 +1,23 @@
+[
+ {
+  "name": "bench_lingbot_v2_clip",
+  "actions": [
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   }
+  ]
+ }
+]

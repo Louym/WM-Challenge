@@ -1,0 +1,166 @@
+W0710 21:58:47.602000 1636421 site-packages/torch/distributed/run.py:852] 
+W0710 21:58:47.602000 1636421 site-packages/torch/distributed/run.py:852] *****************************************
+W0710 21:58:47.602000 1636421 site-packages/torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0710 21:58:47.602000 1636421 site-packages/torch/distributed/run.py:852] *****************************************
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+[startup] initializing distributed mg3 world_size=2 local_rank=0
+[startup] initializing distributed mg3 world_size=2 local_rank=1
+[startup] distributed mg3 rank=0/2 local_rank=0 loading ...
+[startup] distributed mg3 rank=1/2 local_rank=1 loading ...
+[MG3][load] validate paths
+[MG3][load] validate paths
+[MG3][load] set CUDA device 0
+[MG3][load] set CUDA device 1
+[MG3][load] distributed world size=2
+[MG3][load] seed RNGs with 42
+[MG3][load] distributed world size=2
+[MG3][load] seed RNGs with 42
+[MG3][load] capture model config and max area table
+[MG3][load] capture model config and max area table
+[MG3][load] build pipeline from /mnt/nfs/home/yumingl/models/Matrix-Game-3.0
+[MG3][load] build pipeline from /mnt/nfs/home/yumingl/models/Matrix-Game-3.0
+/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+[rank0]:[W710 22:04:14.812399631 ProcessGroupNCCL.cpp:5138] Guessing device ID based on global rank. This can cause a hang if rank to GPU mapping is heterogeneous. You can specify device_id in init_process_group()
+The config attributes {'is_action_model': True} were passed to WanModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Starting Int8 quantization for layers: ['q', 'k', 'v', 'o']
+Quantization conversion finished.
+
+[Rank 0] Running in SERIAL mode (Diffusion and VAE interleaved)
+
+[MG3][load] pipeline ready (mode=efficiency)
+[startup] adapter ready in 786.1s
+
+[Rank 0] Running in SERIAL mode (Diffusion and VAE interleaved)
+
+[MG3][load] pipeline ready (mode=efficiency)
+[startup] adapter ready in 786.1s
+INFO:     Started server process [1637318]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8414 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41772 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41778 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41780 - "POST /api/action/201fb446 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41790 - "POST /api/action/201fb446 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41796 - "POST /api/action/201fb446 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41810 - "POST /api/action/201fb446 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41824 - "POST /api/action/201fb446 HTTP/1.1" 200 OK
+🚀 Flash Attention Configuration:
+  Requested: 3
+  Actual:    None (SDPA)
+🚀 Flash Attention Configuration:
+  Requested: 3
+  Actual:    None (SDPA)
+ Iteration 1/100000
+ Iteration 1/100000
+INFO:     127.0.0.1:41826 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47762 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47764 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+DEBUG: [Int8Linear] New Shape detected: M=8800, N=3072, K=3072. JIT Compiling/Switching...
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+DEBUG: [Int8Linear] New Shape detected: M=512, N=3072, K=3072. JIT Compiling/Switching...
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/modules/attention.py:183: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+ 33%|███▎      | 1/3 [00:22<00:44, 22.28s/it] 33%|███▎      | 1/3 [00:22<00:44, 22.29s/it]/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Matrix-Game/Matrix-Game-3/wan/distributed/sequence_parallel.py:241: FutureWarning: Accessing config attribute `use_text_crossattn` directly via 'WanModel' object attribute is deprecated. Please access 'use_text_crossattn' over 'WanModel's config object instead, e.g. 'unet.config.use_text_crossattn'.
+  if getattr(self, 'use_text_crossattn', True) and getattr(self, 'text_embedding', None) is not None and context is not None:
+ 67%|██████▋   | 2/3 [00:24<00:10, 10.22s/it] 67%|██████▋   | 2/3 [00:24<00:10, 10.22s/it]100%|██████████| 3/3 [00:26<00:00,  6.73s/it]100%|██████████| 3/3 [00:26<00:00,  6.73s/it]100%|██████████| 3/3 [00:26<00:00,  8.88s/it]
+100%|██████████| 3/3 [00:26<00:00,  8.88s/it]
+INFO:     127.0.0.1:47768 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+ Iteration 2/100000
+INFO:     127.0.0.1:53928 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+ Iteration 2/100000
+INFO:     127.0.0.1:44986 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45000 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45002 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.80s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+ Iteration 3/100000
+INFO:     127.0.0.1:45006 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+ Iteration 3/100000
+INFO:     127.0.0.1:56810 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56824 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56838 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.79s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+ Iteration 4/100000
+INFO:     127.0.0.1:56840 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+ Iteration 4/100000
+INFO:     127.0.0.1:56798 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56806 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56808 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.79s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+ Iteration 5/100000
+INFO:     127.0.0.1:56810 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+ Iteration 5/100000
+INFO:     127.0.0.1:52770 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52784 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52800 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/3 [00:00<?, ?it/s]  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.79s/it] 33%|███▎      | 1/3 [00:01<00:03,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+100%|██████████| 3/3 [00:05<00:00,  1.79s/it]
+ Iteration 6/100000
+INFO:     127.0.0.1:52804 - "GET /api/events/201fb446?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60792 - "POST /api/stop HTTP/1.1" 200 OK
+ Iteration 6/100000
+W0710 22:14:11.781000 1636421 site-packages/torch/distributed/elastic/agent/server/api.py:739] Received 15 death signal, shutting down workers
+W0710 22:14:11.784000 1636421 site-packages/torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 1637318 closing signal SIGTERM
+W0710 22:14:11.786000 1636421 site-packages/torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 1637319 closing signal SIGTERM
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1637318]
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/run.py", line 991, in main
+    run(args)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/run.py", line 982, in run
+    elastic_launch(
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 308, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 134, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 731, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 908, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/mg3/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 86, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1636421 got signal: 15

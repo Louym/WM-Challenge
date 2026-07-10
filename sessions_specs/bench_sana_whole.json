@@ -1,0 +1,11 @@
+[
+ {
+  "name": "bench_sana_whole",
+  "actions": [
+   {
+    "action": "w-240,l-240,w-240,s-240"
+   }
+  ],
+  "timeout": 43200
+ }
+]

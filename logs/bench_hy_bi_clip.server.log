@@ -1,0 +1,311 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [1329463]
+INFO:     Waiting for application startup.
+[startup] adapter=hy-worldplay; loading ...
+[HY][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8400 (Press CTRL+C to quit)
+INFO:     127.0.0.1:46472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51428 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] set CUDA device 0
+[HY][load] build pipeline variant=bi type=bi steps=20 few_step=False
+INFO:     127.0.0.1:51438 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36124 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36136 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44248 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44250 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33274 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58098 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58230 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58236 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49382 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49392 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47394 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55432 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37238 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37242 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49132 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54786 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54788 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41008 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42468 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51002 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51006 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43288 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55362 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46898 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46904 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40610 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53450 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41386 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41390 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34432 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50248 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50254 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40176 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38014 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54442 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54452 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54174 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35836 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35842 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39074 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50982 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50996 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47666 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34826 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48194 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48202 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54468 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40970 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52364 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33532 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44550 - "GET /api/health HTTP/1.1" 200 OK
+HY-World 1.5 loading from:  /mnt/nfs/home/yumingl/.cache/huggingface/hub/models--tencent--HY-WorldPlay/blobs/1926ad6356248f191092768758ef959608f0ee7473c06e6ae7c7f116b9f77b19
+INFO:     127.0.0.1:57504 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57516 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34282 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34298 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]INFO:     127.0.0.1:34392 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:02,  1.84it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:01,  1.90it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:01<00:01,  1.94it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.91it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  2.37it/s]
+INFO:     127.0.0.1:34396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57950 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] pipeline ready
+[startup] adapter ready in 579.4s
+INFO:     127.0.0.1:57958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57988 - "POST /api/action/8b59b713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57992 - "POST /api/action/8b59b713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58000 - "POST /api/action/8b59b713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58008 - "POST /api/action/8b59b713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58018 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58048 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58060 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=1280x720 at 0x7F17D317D0C0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:06<01:58,  6.24s/it] 10%|█         | 2/20 [00:11<01:46,  5.92s/it] 15%|█▌        | 3/20 [00:17<01:39,  5.86s/it] 20%|██        | 4/20 [00:23<01:33,  5.82s/it]INFO:     127.0.0.1:58066 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 25%|██▌       | 5/20 [00:29<01:26,  5.80s/it] 30%|███       | 6/20 [00:34<01:20,  5.78s/it] 35%|███▌      | 7/20 [00:40<01:14,  5.77s/it] 40%|████      | 8/20 [00:46<01:09,  5.76s/it] 45%|████▌     | 9/20 [00:52<01:03,  5.76s/it]INFO:     127.0.0.1:38604 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 50%|█████     | 10/20 [00:57<00:57,  5.75s/it] 55%|█████▌    | 11/20 [01:03<00:51,  5.75s/it] 60%|██████    | 12/20 [01:09<00:45,  5.75s/it] 65%|██████▌   | 13/20 [01:15<00:40,  5.75s/it] 70%|███████   | 14/20 [01:20<00:34,  5.74s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.74s/it]INFO:     127.0.0.1:36744 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:22,  5.74s/it] 85%|████████▌ | 17/20 [01:38<00:17,  5.74s/it] 90%|█████████ | 18/20 [01:43<00:11,  5.74s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.74s/it]100%|██████████| 20/20 [01:55<00:00,  5.74s/it]100%|██████████| 20/20 [01:55<00:00,  5.77s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:54356 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:33, 17.54s/it]INFO:     127.0.0.1:59530 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:34<05:13, 17.39s/it] 15%|█▌        | 3/20 [00:52<04:56, 17.42s/it]INFO:     127.0.0.1:33776 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:09<04:39, 17.44s/it] 25%|██▌       | 5/20 [01:27<04:21, 17.43s/it]INFO:     127.0.0.1:57514 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:44<04:04, 17.43s/it] 35%|███▌      | 7/20 [02:02<03:46, 17.43s/it]INFO:     127.0.0.1:38622 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:19<03:29, 17.42s/it]INFO:     127.0.0.1:40154 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:36<03:11, 17.42s/it] 50%|█████     | 10/20 [02:54<02:54, 17.44s/it]INFO:     127.0.0.1:34328 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:11<02:36, 17.44s/it] 60%|██████    | 12/20 [03:29<02:19, 17.43s/it]INFO:     127.0.0.1:45752 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:46<02:01, 17.42s/it]INFO:     127.0.0.1:54558 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:04<01:44, 17.43s/it] 75%|███████▌  | 15/20 [04:21<01:27, 17.43s/it]INFO:     127.0.0.1:56326 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:38<01:09, 17.42s/it] 85%|████████▌ | 17/20 [04:56<00:52, 17.42s/it]INFO:     127.0.0.1:36024 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:13<00:34, 17.41s/it] 95%|█████████▌| 19/20 [05:31<00:17, 17.40s/it]INFO:     127.0.0.1:44760 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [05:48<00:00, 17.41s/it]100%|██████████| 20/20 [05:48<00:00, 17.42s/it]
+INFO:     127.0.0.1:34998 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43134 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43142 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43150 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F157C197640>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.77s/it] 10%|█         | 2/20 [00:11<01:42,  5.72s/it] 15%|█▌        | 3/20 [00:17<01:37,  5.73s/it] 20%|██        | 4/20 [00:22<01:31,  5.73s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.74s/it]INFO:     127.0.0.1:43154 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:20,  5.74s/it] 35%|███▌      | 7/20 [00:40<01:14,  5.74s/it] 40%|████      | 8/20 [00:45<01:08,  5.74s/it] 45%|████▌     | 9/20 [00:51<01:03,  5.74s/it] 50%|█████     | 10/20 [00:57<00:57,  5.74s/it]INFO:     127.0.0.1:59054 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:51,  5.74s/it] 60%|██████    | 12/20 [01:08<00:45,  5.74s/it] 65%|██████▌   | 13/20 [01:14<00:40,  5.74s/it] 70%|███████   | 14/20 [01:20<00:34,  5.74s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.74s/it]INFO:     127.0.0.1:57094 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:31<00:22,  5.75s/it] 85%|████████▌ | 17/20 [01:37<00:17,  5.75s/it] 90%|█████████ | 18/20 [01:43<00:11,  5.74s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.74s/it]100%|██████████| 20/20 [01:54<00:00,  5.74s/it]100%|██████████| 20/20 [01:54<00:00,  5.74s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:39856 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:31, 17.44s/it] 10%|█         | 2/20 [00:34<05:12, 17.34s/it]INFO:     127.0.0.1:47330 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 15%|█▌        | 3/20 [00:52<04:55, 17.39s/it]INFO:     127.0.0.1:47250 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:09<04:38, 17.40s/it] 25%|██▌       | 5/20 [01:26<04:21, 17.40s/it]INFO:     127.0.0.1:45884 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:44<04:03, 17.40s/it] 35%|███▌      | 7/20 [02:01<03:46, 17.41s/it]INFO:     127.0.0.1:55708 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:19<03:28, 17.41s/it]INFO:     127.0.0.1:32782 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:36<03:11, 17.42s/it] 50%|█████     | 10/20 [02:54<02:54, 17.43s/it]INFO:     127.0.0.1:58932 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:11<02:36, 17.43s/it] 60%|██████    | 12/20 [03:28<02:19, 17.42s/it]INFO:     127.0.0.1:56432 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:46<02:01, 17.42s/it] 70%|███████   | 14/20 [04:03<01:44, 17.43s/it]INFO:     127.0.0.1:45662 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [04:21<01:27, 17.44s/it]INFO:     127.0.0.1:50478 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:38<01:09, 17.44s/it] 85%|████████▌ | 17/20 [04:56<00:52, 17.44s/it]INFO:     127.0.0.1:46078 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:13<00:34, 17.44s/it] 95%|█████████▌| 19/20 [05:31<00:17, 17.44s/it]INFO:     127.0.0.1:59596 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [05:48<00:00, 17.44s/it]100%|██████████| 20/20 [05:48<00:00, 17.42s/it]
+INFO:     127.0.0.1:51950 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49570 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49576 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49586 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F15604E6B00>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.76s/it] 10%|█         | 2/20 [00:11<01:42,  5.72s/it] 15%|█▌        | 3/20 [00:17<01:37,  5.76s/it] 20%|██        | 4/20 [00:23<01:32,  5.76s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.76s/it]INFO:     127.0.0.1:49596 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:20,  5.76s/it] 35%|███▌      | 7/20 [00:40<01:14,  5.76s/it] 40%|████      | 8/20 [00:46<01:09,  5.76s/it] 45%|████▌     | 9/20 [00:51<01:03,  5.75s/it] 50%|█████     | 10/20 [00:57<00:57,  5.76s/it]INFO:     127.0.0.1:55760 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:51,  5.76s/it] 60%|██████    | 12/20 [01:09<00:46,  5.76s/it] 65%|██████▌   | 13/20 [01:14<00:40,  5.76s/it] 70%|███████   | 14/20 [01:20<00:34,  5.76s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.75s/it]INFO:     127.0.0.1:57892 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.75s/it] 85%|████████▌ | 17/20 [01:37<00:17,  5.75s/it] 90%|█████████ | 18/20 [01:43<00:11,  5.75s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.75s/it]100%|██████████| 20/20 [01:55<00:00,  5.75s/it]100%|██████████| 20/20 [01:55<00:00,  5.75s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:60782 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:32, 17.50s/it]INFO:     127.0.0.1:38528 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:34<05:13, 17.41s/it] 15%|█▌        | 3/20 [00:52<04:56, 17.44s/it]INFO:     127.0.0.1:33658 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:09<04:39, 17.47s/it] 25%|██▌       | 5/20 [01:27<04:22, 17.47s/it]INFO:     127.0.0.1:39792 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:44<04:04, 17.47s/it] 35%|███▌      | 7/20 [02:02<03:47, 17.48s/it]INFO:     127.0.0.1:56364 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:19<03:29, 17.48s/it]INFO:     127.0.0.1:55516 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:37<03:12, 17.49s/it] 50%|█████     | 10/20 [02:54<02:54, 17.50s/it]INFO:     127.0.0.1:43136 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:12<02:37, 17.50s/it] 60%|██████    | 12/20 [03:29<02:19, 17.49s/it]INFO:     127.0.0.1:58416 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:47<02:02, 17.49s/it]INFO:     127.0.0.1:44058 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:04<01:44, 17.49s/it] 75%|███████▌  | 15/20 [04:22<01:27, 17.49s/it]INFO:     127.0.0.1:60384 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:39<01:09, 17.49s/it] 85%|████████▌ | 17/20 [04:57<00:52, 17.49s/it]INFO:     127.0.0.1:41056 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:14<00:34, 17.49s/it] 95%|█████████▌| 19/20 [05:32<00:17, 17.49s/it]INFO:     127.0.0.1:35908 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [05:49<00:00, 17.48s/it]100%|██████████| 20/20 [05:49<00:00, 17.48s/it]
+INFO:     127.0.0.1:57428 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54766 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54772 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54778 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              125
+Reference Image:           <PIL.Image.Image image mode=RGB size=832x480 at 0x7F18760BE4A0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:05<01:49,  5.77s/it] 10%|█         | 2/20 [00:11<01:43,  5.74s/it] 15%|█▌        | 3/20 [00:17<01:37,  5.75s/it] 20%|██        | 4/20 [00:22<01:31,  5.75s/it] 25%|██▌       | 5/20 [00:28<01:26,  5.75s/it]INFO:     127.0.0.1:54788 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [00:34<01:20,  5.75s/it] 35%|███▌      | 7/20 [00:40<01:14,  5.75s/it] 40%|████      | 8/20 [00:46<01:09,  5.76s/it] 45%|████▌     | 9/20 [00:51<01:03,  5.76s/it] 50%|█████     | 10/20 [00:57<00:57,  5.76s/it]INFO:     127.0.0.1:40594 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [01:03<00:51,  5.76s/it] 60%|██████    | 12/20 [01:09<00:46,  5.76s/it] 65%|██████▌   | 13/20 [01:14<00:40,  5.76s/it] 70%|███████   | 14/20 [01:20<00:34,  5.76s/it] 75%|███████▌  | 15/20 [01:26<00:28,  5.76s/it]INFO:     127.0.0.1:54788 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [01:32<00:23,  5.76s/it] 85%|████████▌ | 17/20 [01:37<00:17,  5.76s/it] 90%|█████████ | 18/20 [01:43<00:11,  5.76s/it] 95%|█████████▌| 19/20 [01:49<00:05,  5.76s/it]100%|██████████| 20/20 [01:55<00:00,  5.76s/it]100%|██████████| 20/20 [01:55<00:00,  5.76s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:38410 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:17<05:32, 17.48s/it]INFO:     127.0.0.1:60278 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:34<05:12, 17.38s/it] 15%|█▌        | 3/20 [00:52<04:56, 17.43s/it]INFO:     127.0.0.1:50942 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:09<04:39, 17.45s/it] 25%|██▌       | 5/20 [01:27<04:21, 17.46s/it]INFO:     127.0.0.1:38422 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 6/20 [01:44<04:04, 17.46s/it] 35%|███▌      | 7/20 [02:02<03:47, 17.48s/it]INFO:     127.0.0.1:52172 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 40%|████      | 8/20 [02:19<03:29, 17.49s/it]INFO:     127.0.0.1:58016 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [02:37<03:12, 17.49s/it] 50%|█████     | 10/20 [02:54<02:54, 17.50s/it]INFO:     127.0.0.1:54736 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 11/20 [03:12<02:37, 17.50s/it] 60%|██████    | 12/20 [03:29<02:20, 17.50s/it]INFO:     127.0.0.1:37430 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 65%|██████▌   | 13/20 [03:47<02:02, 17.50s/it]INFO:     127.0.0.1:42358 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 70%|███████   | 14/20 [04:04<01:45, 17.51s/it] 75%|███████▌  | 15/20 [04:22<01:27, 17.49s/it]INFO:     127.0.0.1:40878 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 16/20 [04:39<01:10, 17.50s/it] 85%|████████▌ | 17/20 [04:57<00:52, 17.51s/it]INFO:     127.0.0.1:38422 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+ 90%|█████████ | 18/20 [05:14<00:35, 17.50s/it] 95%|█████████▌| 19/20 [05:32<00:17, 17.50s/it]INFO:     127.0.0.1:39138 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [05:49<00:00, 17.49s/it]100%|██████████| 20/20 [05:49<00:00, 17.49s/it]
+INFO:     127.0.0.1:39602 - "GET /api/events/8b59b713?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43868 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1329463]

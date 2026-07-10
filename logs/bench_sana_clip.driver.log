@@ -1,0 +1,32 @@
+[driver 19:14:59] waiting for adapter to load ... (0s, health=None)
+[driver 19:15:59] waiting for adapter to load ... (60s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:16:59] waiting for adapter to load ... (120s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:18:00] waiting for adapter to load ... (182s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:19:00] waiting for adapter to load ... (242s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:20:00] waiting for adapter to load ... (302s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:21:00] waiting for adapter to load ... (362s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:22:00] waiting for adapter to load ... (422s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:23:00] waiting for adapter to load ... (482s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:24:00] waiting for adapter to load ... (542s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:25:00] waiting for adapter to load ... (602s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:26:00] waiting for adapter to load ... (662s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:27:01] waiting for adapter to load ... (722s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:28:01] waiting for adapter to load ... (782s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:29:01] waiting for adapter to load ... (842s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:30:01] waiting for adapter to load ... (902s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:31:01] waiting for adapter to load ... (962s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:31:16] adapter 'sana-wm' ready after 977s
+[driver 19:31:16] === session bench_sana_clip: 4 action(s), expecting 4 segment(s)
+[driver 19:31:16] session id c6e0029c
+[driver 19:31:16] queued 4 action(s)
+[driver 19:31:16] status: Estimating image intrinsics with Pi3X...
+[driver 19:33:34] status: Estimated FOV: H=74.8 deg V=45.7 deg.
+[driver 19:33:34] generating: 
+[driver 19:35:32] segment 0 done (256s elapsed)
+[driver 19:35:32] generating: 
+[driver 19:36:05] segment 1 done (289s elapsed)
+[driver 19:36:05] generating: 
+[driver 19:36:38] segment 2 done (322s elapsed)
+[driver 19:36:38] generating: 
+[driver 19:37:12] segment 3 done (356s elapsed)
+[driver 19:37:17] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_sana_clip.mp4 (from sana_wm_refiner_on_c6e0029c.mp4, 4.5 MB)

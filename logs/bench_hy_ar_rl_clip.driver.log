@@ -1,0 +1,24 @@
+[driver 17:40:03] waiting for adapter to load ... (0s, health=None)
+[driver 17:41:03] waiting for adapter to load ... (60s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:42:03] waiting for adapter to load ... (120s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:43:03] waiting for adapter to load ... (180s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:44:03] waiting for adapter to load ... (240s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:45:03] waiting for adapter to load ... (300s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:46:03] waiting for adapter to load ... (360s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:47:03] waiting for adapter to load ... (420s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:48:03] waiting for adapter to load ... (481s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:49:03] waiting for adapter to load ... (541s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 17:49:53] adapter 'hy-worldplay' ready after 591s
+[driver 17:49:53] === session bench_hy_ar_rl_clip: 4 action(s), expecting 4 segment(s)
+[driver 17:49:54] session id d8227ed3
+[driver 17:49:54] queued 4 action(s)
+[driver 17:49:54] status: Ready: HY-WorldPlay ar_rl adapter.
+[driver 17:49:54] generating: camera=U move=W
+[driver 17:55:11] segment 0 done (317s elapsed)
+[driver 17:55:11] generating: camera=L move=Q
+[driver 18:00:20] segment 1 done (627s elapsed)
+[driver 18:00:20] generating: camera=U move=W
+[driver 18:05:31] segment 2 done (937s elapsed)
+[driver 18:05:31] generating: camera=U move=S
+[driver 18:10:41] segment 3 done (1248s elapsed)
+[driver 18:10:46] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_hy_ar_rl_clip.mp4 (from hy_worldplay_ar_rl_d8227ed3.mp4, 6.0 MB)

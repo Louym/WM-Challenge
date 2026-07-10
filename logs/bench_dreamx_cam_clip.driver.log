@@ -1,0 +1,21 @@
+[driver 20:13:20] waiting for adapter to load ... (0s, health=None)
+[driver 20:14:20] waiting for adapter to load ... (60s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:15:20] waiting for adapter to load ... (120s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:16:20] waiting for adapter to load ... (180s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:17:20] waiting for adapter to load ... (240s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:18:20] waiting for adapter to load ... (300s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:19:20] waiting for adapter to load ... (360s, health={'adapter': 'dreamx-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:20:16] adapter 'dreamx-world' ready after 416s
+[driver 20:20:16] === session bench_dreamx_cam_clip: 4 action(s), expecting 4 segment(s)
+[driver 20:20:16] session id c4121b5e
+[driver 20:20:16] queued 4 action(s)
+[driver 20:20:16] status: Ready: DreamX-World cam adapter.
+[driver 20:20:16] generating: camera=U move=W (w@6)
+[driver 20:23:05] segment 0 done (169s elapsed)
+[driver 20:23:05] generating: camera=L move=Q (l@6)
+[driver 20:25:51] segment 1 done (335s elapsed)
+[driver 20:25:51] generating: camera=U move=W (w@6)
+[driver 20:28:38] segment 2 done (502s elapsed)
+[driver 20:28:38] generating: camera=U move=S (s@6)
+[driver 20:31:26] segment 3 done (670s elapsed)
+[driver 20:31:31] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_dreamx_cam_clip.mp4 (from dreamx_world_cam_c4121b5e.mp4, 6.6 MB)

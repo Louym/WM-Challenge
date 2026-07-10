@@ -1,0 +1,27 @@
+[
+ {
+  "name": "bench_mg3_quality_clip",
+  "actions": [
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   }
+  ]
+ }
+]

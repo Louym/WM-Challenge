@@ -1,0 +1,110 @@
+BENCH starting bench_hy_ar_distill_clip (16:36:41)
+[run_one] bench_hy_ar_distill_clip: server pid 1187026 (env=hy gpu=0 port=8400)
+[run_one] bench_hy_ar_distill_clip: driver exit 0
+BENCH finished bench_hy_ar_distill_clip rc=0 (17:09:00)
+BENCH WARNING: 1 foreign GPU process(es) present before bench_hy_ar_clip (17:09:01)
+GPU-be676296-ca3e-dac5-67c1-4b85f870cb43, 1224519, 11062 MiB
+BENCH starting bench_hy_ar_clip (17:09:01)
+[run_one] bench_hy_ar_clip: server pid 1243734 (env=hy gpu=0 port=8400)
+[run_one] bench_hy_ar_clip: driver exit 0
+BENCH finished bench_hy_ar_clip rc=0 (17:39:53)
+BENCH WARNING: 2 foreign GPU process(es) present before bench_hy_ar_rl_clip (17:39:54)
+GPU-17c0f32c-4a0e-2b7a-602e-7a30e4af562e, 1274341, 35210 MiB
+GPU-be676296-ca3e-dac5-67c1-4b85f870cb43, 1271798, 35946 MiB
+BENCH starting bench_hy_ar_rl_clip (17:39:55)
+[run_one] bench_hy_ar_rl_clip: server pid 1286766 (env=hy gpu=0 port=8400)
+[run_one] bench_hy_ar_rl_clip: driver exit 0
+BENCH finished bench_hy_ar_rl_clip rc=0 (18:10:52)
+BENCH starting bench_hy_bi_clip (18:10:52)
+[run_one] bench_hy_bi_clip: server pid 1329463 (env=hy gpu=0 port=8400)
+[run_one] bench_hy_bi_clip: driver exit 0
+BENCH finished bench_hy_bi_clip rc=0 (18:52:55)
+BENCH starting bench_hy_ar_distill_whole (18:52:55)
+[run_one] bench_hy_ar_distill_whole: server pid 1383529 (env=hy gpu=0 port=8401)
+[run_one] bench_hy_ar_distill_whole: driver exit 0
+BENCH finished bench_hy_ar_distill_whole rc=0 (19:08:02)
+BENCH starting bench_infworld_clip (19:08:02)
+[run_one] bench_infworld_clip: server pid 1401758 (env=infworld gpu=0 port=8402)
+[run_one] bench_infworld_clip: driver exit 0
+BENCH finished bench_infworld_clip rc=0 (19:14:43)
+BENCH starting bench_sana_clip (19:14:44)
+[run_one] bench_sana_clip: server pid 1410411 (env=sana gpu=0 port=8403)
+[run_one] bench_sana_clip: driver exit 0
+BENCH finished bench_sana_clip rc=0 (19:37:22)
+BENCH WARNING: 1 foreign GPU process(es) present before bench_sana_whole (19:37:22)
+GPU-be676296-ca3e-dac5-67c1-4b85f870cb43, 1416399, 51782 MiB
+BENCH starting bench_sana_whole (19:37:23)
+[run_one] bench_sana_whole: server pid 1443438 (env=sana gpu=0 port=8404)
+[run_one] bench_sana_whole: driver exit 0
+BENCH finished bench_sana_whole rc=0 (19:54:56)
+BENCH WARNING: 1 foreign GPU process(es) present before bench_dreamx_ar_clip (19:54:57)
+GPU-be676296-ca3e-dac5-67c1-4b85f870cb43, 1416399, 73934 MiB
+BENCH starting bench_dreamx_ar_clip (19:54:58)
+[run_one] bench_dreamx_ar_clip: server pid 1465065 (env=dreamx gpu=0 port=8405)
+[run_one] bench_dreamx_ar_clip: driver exit 0
+BENCH finished bench_dreamx_ar_clip rc=0 (20:06:29)
+BENCH WARNING: 1 foreign GPU process(es) present before bench_dreamx_ar_whole (20:06:30)
+GPU-be676296-ca3e-dac5-67c1-4b85f870cb43, 1416399, 73936 MiB
+BENCH starting bench_dreamx_ar_whole (20:06:30)
+[run_one] bench_dreamx_ar_whole: server pid 1481821 (env=dreamx gpu=0 port=8406)
+[run_one] bench_dreamx_ar_whole: driver exit 0
+BENCH finished bench_dreamx_ar_whole rc=0 (20:13:10)
+BENCH starting bench_dreamx_cam_clip (20:13:11)
+[run_one] bench_dreamx_cam_clip: server pid 1490557 (env=dreamx gpu=0 port=8407)
+[run_one] bench_dreamx_cam_clip: driver exit 0
+BENCH finished bench_dreamx_cam_clip rc=0 (20:31:37)
+BENCH starting bench_lingbot_small_clip (20:31:37)
+[run_one] bench_lingbot_small_clip: server pid 1515651 (env=lingbot gpu=0 port=8408)
+[run_one] bench_lingbot_small_clip: driver exit 0
+BENCH finished bench_lingbot_small_clip rc=0 (20:50:29)
+BENCH WARNING: 3 foreign GPU process(es) present before bench_lingbot_small_whole (20:50:29)
+GPU-a72c8a01-a1c1-40cb-6262-0d57c7e73c56, 1519900, 59338 MiB
+GPU-e67b2617-7641-d117-f1f7-33bd83f42560, 1519901, 59338 MiB
+GPU-76d1c9f6-b599-c8d5-381c-3b22f0bcfab4, 1519902, 59338 MiB
+BENCH starting bench_lingbot_small_whole (20:50:30)
+[run_one] bench_lingbot_small_whole: server pid 1543212 (env=lingbot gpu=0 port=8409)
+[run_one] bench_lingbot_small_whole: driver exit 0
+BENCH finished bench_lingbot_small_whole rc=0 (20:58:51)
+BENCH WARNING: 3 foreign GPU process(es) present before bench_lingbot_large_clip (20:58:51)
+GPU-a72c8a01-a1c1-40cb-6262-0d57c7e73c56, 1519900, 33856 MiB
+GPU-e67b2617-7641-d117-f1f7-33bd83f42560, 1519901, 33856 MiB
+GPU-76d1c9f6-b599-c8d5-381c-3b22f0bcfab4, 1519902, 33856 MiB
+BENCH starting bench_lingbot_large_clip (20:58:52)
+[run_one] bench_lingbot_large_clip: server pid 1554008 (env=lingbot gpu=0 port=8410)
+[run_one] bench_lingbot_large_clip: driver exit 0
+BENCH finished bench_lingbot_large_clip rc=0 (21:32:13)
+BENCH WARNING: 3 foreign GPU process(es) present before bench_lingbot_large_whole (21:32:14)
+GPU-a72c8a01-a1c1-40cb-6262-0d57c7e73c56, 1519900, 60376 MiB
+GPU-e67b2617-7641-d117-f1f7-33bd83f42560, 1519901, 60376 MiB
+GPU-76d1c9f6-b599-c8d5-381c-3b22f0bcfab4, 1519902, 60376 MiB
+BENCH starting bench_lingbot_large_whole (21:32:14)
+[run_one] bench_lingbot_large_whole: server pid 1600136 (env=lingbot gpu=0,1,2,3 port=8411)
+Terminated
+BENCH finished bench_lingbot_large_whole rc=143 (21:33:11)
+BENCH WARNING: 3 foreign GPU process(es) present before bench_lingbot_v2_clip (21:33:12)
+GPU-a72c8a01-a1c1-40cb-6262-0d57c7e73c56, 1519900, 60376 MiB
+GPU-e67b2617-7641-d117-f1f7-33bd83f42560, 1519901, 60376 MiB
+GPU-76d1c9f6-b599-c8d5-381c-3b22f0bcfab4, 1519902, 60376 MiB
+BENCH starting bench_lingbot_v2_clip (21:33:13)
+[run_one] bench_lingbot_v2_clip: server pid 1601914 (env=lingbot gpu=0 port=8412)
+[run_one] bench_lingbot_v2_clip: driver exit 0
+BENCH finished bench_lingbot_v2_clip rc=0 (21:50:01)
+BENCH WARNING: 3 foreign GPU process(es) present before bench_lingbot_v2_whole (21:50:02)
+GPU-a72c8a01-a1c1-40cb-6262-0d57c7e73c56, 1519900, 45546 MiB
+GPU-e67b2617-7641-d117-f1f7-33bd83f42560, 1519901, 45546 MiB
+GPU-76d1c9f6-b599-c8d5-381c-3b22f0bcfab4, 1519902, 73966 MiB
+BENCH starting bench_lingbot_v2_whole (21:50:02)
+[run_one] bench_lingbot_v2_whole: server pid 1626288 (env=lingbot gpu=0 port=8413)
+[run_one] bench_lingbot_v2_whole: driver exit 0
+BENCH finished bench_lingbot_v2_whole rc=0 (21:57:58)
+BENCH WARNING: 1 foreign GPU process(es) present before bench_mg3_efficiency_clip (21:57:58)
+GPU-76d1c9f6-b599-c8d5-381c-3b22f0bcfab4, 1519902, 73968 MiB
+BENCH starting bench_mg3_efficiency_clip (21:57:59)
+[run_one] bench_mg3_efficiency_clip: server pid 1636421 (env=mg3 gpu=0,1 port=8414)
+[run_one] bench_mg3_efficiency_clip: driver exit 0
+BENCH finished bench_mg3_efficiency_clip rc=0 (22:14:16)
+BENCH starting bench_mg3_quality_clip (22:14:18)
+[run_one] bench_mg3_quality_clip: server pid 1842327 (env=mg3 gpu=0,1 port=8414)
+[run_one] bench_mg3_quality_clip: driver exit 0
+BENCH finished bench_mg3_quality_clip rc=0 (22:39:24)
+BENCH ALL DONE (22:39:24)

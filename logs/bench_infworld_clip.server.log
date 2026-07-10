@@ -1,0 +1,231 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [1401758]
+INFO:     Waiting for application startup.
+[startup] adapter=infworld; loading ...
+[InfWorld][load] validate pathsINFO:     Application startup complete.
+
+INFO:     Uvicorn running on http://127.0.0.1:8402 (Press CTRL+C to quit)
+[InfWorld][load] set CUDA device 0
+INFO:     127.0.0.1:51904 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] load config /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/configs/infworld_config.yaml
+[InfWorld][load] build VAE
+INFO:     127.0.0.1:38340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38342 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] build text encoder
+INFO:     127.0.0.1:54628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48528 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48534 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36684 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34540 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49136 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44634 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55766 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35250 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46758 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46766 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] build scheduler
+[InfWorld][load] build DiT
+Import transformer_engine failed, may cause bug.
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:372: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:383: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+INFO:     127.0.0.1:42244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38398 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47220 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47224 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] model loaded; missing=0 unexpected=0
+INFO:     127.0.0.1:40976 - "GET /api/health HTTP/1.1" 200 OK
+[InfWorld][load] pipeline ready
+[startup] adapter ready in 159.5s
+INFO:     127.0.0.1:40980 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40992 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48780 - "POST /api/action/4c192f31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48796 - "POST /api/action/4c192f31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48798 - "POST /api/action/4c192f31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48814 - "POST /api/action/4c192f31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48820 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48830 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48844 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48852 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/vae/vae.py:669: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:1170: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:1177: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:752: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:779: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:786: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:801: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:806: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/models/dit_model.py:843: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+Step 0 Forward time: 2.8941 seconds
+Step 1 Forward time: 0.8932 seconds
+Step 2 Forward time: 1.0762 seconds
+Step 3 Forward time: 1.0748 seconds
+Step 4 Forward time: 1.0721 seconds
+Step 5 Forward time: 1.0704 seconds
+Step 6 Forward time: 1.0720 seconds
+Step 7 Forward time: 1.0755 seconds
+Step 8 Forward time: 1.0724 seconds
+Step 9 Forward time: 1.0722 seconds
+Step 10 Forward time: 1.0764 seconds
+Step 11 Forward time: 1.0773 seconds
+Step 12 Forward time: 1.0768 seconds
+Step 13 Forward time: 1.0759 seconds
+Step 14 Forward time: 1.0759 seconds
+Step 15 Forward time: 1.0749 seconds
+Step 16 Forward time: 1.0762 seconds
+Step 17 Forward time: 1.0751 seconds
+Step 18 Forward time: 1.0749 seconds
+INFO:     127.0.0.1:48854 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 19 Forward time: 1.0799 seconds
+Step 20 Forward time: 1.0749 seconds
+Step 21 Forward time: 1.0755 seconds
+Step 22 Forward time: 1.0770 seconds
+Step 23 Forward time: 1.0796 seconds
+Step 24 Forward time: 1.0758 seconds
+Step 25 Forward time: 1.0779 seconds
+Step 26 Forward time: 1.0758 seconds
+Step 27 Forward time: 1.0781 seconds
+Step 28 Forward time: 1.0788 seconds
+Step 29 Forward time: 1.0776 seconds
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Infinite-World/infworld/vae/vae.py:673: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+INFO:     127.0.0.1:58758 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34868 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34870 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34872 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8899 seconds
+Step 1 Forward time: 1.0792 seconds
+Step 2 Forward time: 1.0758 seconds
+Step 3 Forward time: 1.0743 seconds
+Step 4 Forward time: 1.0760 seconds
+Step 5 Forward time: 1.0782 seconds
+Step 6 Forward time: 1.0769 seconds
+Step 7 Forward time: 1.0776 seconds
+Step 8 Forward time: 1.0751 seconds
+Step 9 Forward time: 1.0766 seconds
+Step 10 Forward time: 1.0783 seconds
+Step 11 Forward time: 1.0754 seconds
+Step 12 Forward time: 1.0759 seconds
+Step 13 Forward time: 1.0748 seconds
+Step 14 Forward time: 1.0773 seconds
+Step 15 Forward time: 1.0781 seconds
+Step 16 Forward time: 1.0785 seconds
+Step 17 Forward time: 1.0800 seconds
+Step 18 Forward time: 1.0812 seconds
+Step 19 Forward time: 1.0787 seconds
+Step 20 Forward time: 1.0766 seconds
+Step 21 Forward time: 1.0780 seconds
+Step 22 Forward time: 1.0770 seconds
+Step 23 Forward time: 1.0765 seconds
+Step 24 Forward time: 1.0790 seconds
+Step 25 Forward time: 1.0757 seconds
+Step 26 Forward time: 1.0779 seconds
+INFO:     127.0.0.1:34884 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 27 Forward time: 1.0750 seconds
+Step 28 Forward time: 1.0778 seconds
+Step 29 Forward time: 1.0794 seconds
+INFO:     127.0.0.1:34794 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44590 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44592 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44596 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8901 seconds
+Step 1 Forward time: 1.0772 seconds
+Step 2 Forward time: 1.0754 seconds
+Step 3 Forward time: 1.0744 seconds
+Step 4 Forward time: 1.0744 seconds
+Step 5 Forward time: 1.0742 seconds
+Step 6 Forward time: 1.0784 seconds
+Step 7 Forward time: 1.0767 seconds
+Step 8 Forward time: 1.0780 seconds
+Step 9 Forward time: 1.0793 seconds
+Step 10 Forward time: 1.0803 seconds
+Step 11 Forward time: 1.0773 seconds
+Step 12 Forward time: 1.0795 seconds
+Step 13 Forward time: 1.0794 seconds
+Step 14 Forward time: 1.0820 seconds
+Step 15 Forward time: 1.0816 seconds
+Step 16 Forward time: 1.0791 seconds
+Step 17 Forward time: 1.0807 seconds
+Step 18 Forward time: 1.0802 seconds
+Step 19 Forward time: 1.0802 seconds
+Step 20 Forward time: 1.0790 seconds
+Step 21 Forward time: 1.0801 seconds
+Step 22 Forward time: 1.0806 seconds
+Step 23 Forward time: 1.0771 seconds
+Step 24 Forward time: 1.0821 seconds
+Step 25 Forward time: 1.0805 seconds
+Step 26 Forward time: 1.0799 seconds
+INFO:     127.0.0.1:44604 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 27 Forward time: 1.0805 seconds
+Step 28 Forward time: 1.0798 seconds
+Step 29 Forward time: 1.0794 seconds
+INFO:     127.0.0.1:48790 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36620 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36626 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36636 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 0 Forward time: 0.8910 seconds
+Step 1 Forward time: 1.0762 seconds
+Step 2 Forward time: 1.0771 seconds
+Step 3 Forward time: 1.0753 seconds
+Step 4 Forward time: 1.0798 seconds
+Step 5 Forward time: 1.0798 seconds
+Step 6 Forward time: 1.0781 seconds
+Step 7 Forward time: 1.0805 seconds
+Step 8 Forward time: 1.0761 seconds
+Step 9 Forward time: 1.0836 seconds
+Step 10 Forward time: 1.0809 seconds
+Step 11 Forward time: 1.0769 seconds
+Step 12 Forward time: 1.0768 seconds
+Step 13 Forward time: 1.0785 seconds
+Step 14 Forward time: 1.0794 seconds
+Step 15 Forward time: 1.0789 seconds
+Step 16 Forward time: 1.0798 seconds
+Step 17 Forward time: 1.0784 seconds
+Step 18 Forward time: 1.0774 seconds
+Step 19 Forward time: 1.0775 seconds
+Step 20 Forward time: 1.0755 seconds
+Step 21 Forward time: 1.0787 seconds
+Step 22 Forward time: 1.0764 seconds
+Step 23 Forward time: 1.0780 seconds
+Step 24 Forward time: 1.0757 seconds
+Step 25 Forward time: 1.0765 seconds
+Step 26 Forward time: 1.0771 seconds
+INFO:     127.0.0.1:36642 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+Step 27 Forward time: 1.0763 seconds
+Step 28 Forward time: 1.0772 seconds
+Step 29 Forward time: 1.0770 seconds
+INFO:     127.0.0.1:56604 - "GET /api/events/4c192f31?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35318 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1401758]

@@ -1,0 +1,23 @@
+[
+ {
+  "name": "bench_sana_clip",
+  "actions": [
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "l",
+    "keyboard": "q"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "w"
+   },
+   {
+    "mouse": "u",
+    "keyboard": "s"
+   }
+  ]
+ }
+]

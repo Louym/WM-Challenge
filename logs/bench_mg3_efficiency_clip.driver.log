@@ -1,0 +1,30 @@
+[driver 21:58:07] waiting for adapter to load ... (0s, health=None)
+[driver 21:59:07] waiting for adapter to load ... (60s, health=None)
+[driver 22:00:07] waiting for adapter to load ... (120s, health=None)
+[driver 22:01:07] waiting for adapter to load ... (180s, health=None)
+[driver 22:02:07] waiting for adapter to load ... (240s, health=None)
+[driver 22:03:07] waiting for adapter to load ... (300s, health=None)
+[driver 22:04:07] waiting for adapter to load ... (360s, health=None)
+[driver 22:05:07] waiting for adapter to load ... (420s, health=None)
+[driver 22:06:07] waiting for adapter to load ... (480s, health=None)
+[driver 22:07:07] waiting for adapter to load ... (540s, health=None)
+[driver 22:08:07] waiting for adapter to load ... (600s, health=None)
+[driver 22:09:07] waiting for adapter to load ... (660s, health=None)
+[driver 22:10:07] waiting for adapter to load ... (720s, health=None)
+[driver 22:11:07] waiting for adapter to load ... (780s, health=None)
+[driver 22:12:07] waiting for adapter to load ... (840s, health=None)
+[driver 22:12:17] adapter 'matrix-game-3' ready after 850s
+[driver 22:12:17] === session bench_mg3_efficiency_clip: 5 action(s), expecting 5 segment(s)
+[driver 22:12:17] session id 201fb446
+[driver 22:12:17] queued 5 action(s)
+[driver 22:12:26] generating: camera=U move=W
+[driver 22:13:07] segment 0 done (50s elapsed)
+[driver 22:13:07] generating: camera=U move=W
+[driver 22:13:22] segment 1 done (65s elapsed)
+[driver 22:13:22] generating: camera=L move=Q
+[driver 22:13:37] segment 2 done (79s elapsed)
+[driver 22:13:37] generating: camera=U move=W
+[driver 22:13:51] segment 3 done (94s elapsed)
+[driver 22:13:51] generating: camera=U move=S
+[driver 22:14:06] segment 4 done (109s elapsed)
+[driver 22:14:11] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_mg3_efficiency_clip.mp4 (from matrix_game3_201fb446.mp4, 8.0 MB)

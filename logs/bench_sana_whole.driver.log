@@ -1,0 +1,11 @@
+[driver 19:37:38] waiting for adapter to load ... (0s, health=None)
+[driver 19:38:38] waiting for adapter to load ... (60s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:39:39] adapter 'sana-wm' ready after 121s
+[driver 19:39:39] === session bench_sana_whole: 1 action(s), expecting 1 segment(s)
+[driver 19:39:39] session id 9489919f
+[driver 19:39:39] queued 1 action(s)
+[driver 19:39:39] status: Estimating image intrinsics with Pi3X...
+[driver 19:39:54] status: Estimated FOV: H=74.8 deg V=45.7 deg.
+[driver 19:39:54] generating: w-240,l-240,w-240,s-240
+[driver 19:54:46] segment 0 done (907s elapsed)
+[driver 19:54:51] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_sana_whole.mp4 (from sana_wm_refiner_on_9489919f.mp4, 22.4 MB)

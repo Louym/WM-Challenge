@@ -1,0 +1,18 @@
+[driver 19:08:10] waiting for adapter to load ... (0s, health=None)
+[driver 19:09:10] waiting for adapter to load ... (60s, health={'adapter': 'infworld', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:10:10] waiting for adapter to load ... (120s, health={'adapter': 'infworld', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:11:11] waiting for adapter to load ... (180s, health={'adapter': 'infworld', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:11:36] adapter 'infworld' ready after 205s
+[driver 19:11:36] === session bench_infworld_clip: 4 action(s), expecting 4 segment(s)
+[driver 19:11:36] session id 4c192f31
+[driver 19:11:36] queued 4 action(s)
+[driver 19:11:36] status: Ready: Infinite-World adapter.
+[driver 19:11:36] generating: camera=U move=W
+[driver 19:12:28] segment 0 done (53s elapsed)
+[driver 19:12:28] generating: camera=L move=Q
+[driver 19:13:10] segment 1 done (94s elapsed)
+[driver 19:13:10] generating: camera=U move=W
+[driver 19:13:51] segment 2 done (136s elapsed)
+[driver 19:13:51] generating: camera=U move=S
+[driver 19:14:33] segment 3 done (177s elapsed)
+[driver 19:14:38] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_infworld_clip.mp4 (from infworld_4c192f31.mp4, 11.2 MB)

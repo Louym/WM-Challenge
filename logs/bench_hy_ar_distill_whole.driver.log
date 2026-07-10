@@ -1,0 +1,9 @@
+[driver 18:53:03] waiting for adapter to load ... (0s, health=None)
+[driver 18:54:03] adapter 'hy-worldplay' ready after 60s
+[driver 18:54:03] === session bench_hy_ar_distill_whole: 1 action(s), expecting 1 segment(s)
+[driver 18:54:03] session id aecfdcb7
+[driver 18:54:03] queued 1 action(s)
+[driver 18:54:03] status: Ready: HY-WorldPlay ar_distill adapter.
+[driver 18:54:03] generating: w-90,l-90,w-90,s-90
+[driver 19:07:51] segment 0 done (828s elapsed)
+[driver 19:07:57] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_hy_ar_distill_whole.mp4 (from hy_worldplay_ar_distill_aecfdcb7.mp4, 15.5 MB)

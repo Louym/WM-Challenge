@@ -20,6 +20,9 @@ else
   VIDEO_DIR="$OUT_DIR/videos_${SAMPLE}"
   LOG_PREFIX="${SAMPLE}_${RUN_NAME}"
 fi
+if [ -n "${BENCH_VIDEO_DIR:-}" ]; then
+  VIDEO_DIR="$BENCH_VIDEO_DIR"
+fi
 mkdir -p "$OUT_DIR/logs" "$VIDEO_DIR"
 SERVER_LOG="$OUT_DIR/logs/${LOG_PREFIX}.server.log"
 DRIVER_LOG="$OUT_DIR/logs/${LOG_PREFIX}.driver.log"

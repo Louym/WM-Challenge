@@ -1,0 +1,11 @@
+[
+ {
+  "name": "bench_hy_ar_distill_whole",
+  "actions": [
+   {
+    "action": "w-90,l-90,w-90,s-90"
+   }
+  ],
+  "timeout": 43200
+ }
+]

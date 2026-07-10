@@ -1,0 +1,21 @@
+[driver 22:14:26] waiting for adapter to load ... (0s, health=None)
+[driver 22:15:26] waiting for adapter to load ... (60s, health=None)
+[driver 22:16:26] waiting for adapter to load ... (120s, health=None)
+[driver 22:17:26] waiting for adapter to load ... (180s, health=None)
+[driver 22:18:26] waiting for adapter to load ... (240s, health=None)
+[driver 22:19:26] waiting for adapter to load ... (300s, health=None)
+[driver 22:20:21] adapter 'matrix-game-3' ready after 355s
+[driver 22:20:21] === session bench_mg3_quality_clip: 5 action(s), expecting 5 segment(s)
+[driver 22:20:21] session id 4e548654
+[driver 22:20:21] queued 5 action(s)
+[driver 22:20:23] generating: camera=U move=W
+[driver 22:24:12] segment 0 done (231s elapsed)
+[driver 22:24:12] generating: camera=U move=W
+[driver 22:27:57] segment 1 done (456s elapsed)
+[driver 22:27:57] generating: camera=L move=Q
+[driver 22:31:43] segment 2 done (681s elapsed)
+[driver 22:31:43] generating: camera=U move=W
+[driver 22:35:28] segment 3 done (907s elapsed)
+[driver 22:35:28] generating: camera=U move=S
+[driver 22:39:14] segment 4 done (1132s elapsed)
+[driver 22:39:19] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/bench_videos/bench_mg3_quality_clip.mp4 (from matrix_game3_4e548654.mp4, 5.9 MB)

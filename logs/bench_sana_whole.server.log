@@ -1,0 +1,141 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [1443438]
+INFO:     Waiting for application startup.
+[startup] adapter=sana-wm; loading ...
+[Sana][load] validate pathsINFO:     Application startup complete.
+
+INFO:     Uvicorn running on http://127.0.0.1:8404 (Press CTRL+C to quit)
+[Sana][load] set CUDA device 0
+[Sana][load] import Sana code from /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana
+INFO:     127.0.0.1:55934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37644 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48424 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/software/anaconda3/envs/sana/lib/python3.11/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+INFO:     127.0.0.1:48438 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60338 - "GET /api/health HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/wan/model.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/wan/model.py:134: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/Sana/diffusion/model/nets/fastlinear/modules/nn/norm.py:186: UserWarning: Cannot import apex RMSNorm, switch to vanilla implementation
+  warnings.warn("Cannot import apex RMSNorm, switch to vanilla implementation")
+[Sana][load] parse config /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/config.yaml
+[Sana][load] apply local config overrides
+2026-07-11 03:38:22 - [Sana] - INFO - Using local Sana-WM root: /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional
+2026-07-11 03:38:22 - [Sana] - INFO - Using local Sana-WM text encoder: /mnt/nfs/home/yumingl/models/gemma-2-2b-it
+[Sana][load] enable refiner
+[Sana][load] build pipeline on cuda:0
+[LTX2VAE_diffusers] Loading model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional
+INFO:     127.0.0.1:60346 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 78.09it/s]
+INFO:     127.0.0.1:60244 - "GET /api/health HTTP/1.1" 200 OK
+Failed to load null embed from None....'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.. Ignore the error during inference
+use pe: True, pos embed type: wan_rope, position embed interpolation: 1.0, base size: 22
+attention type: BidirectionalGDNTriton; ffn type: GLUMBConvTemp; self-attn head dim: 112; self-attn qk norm: True; cross-attn type: flash;  cross-attn qk norm: True; autocast linear attn: False
+Hybrid attention (softmax_every_n=4):
+  attn_type_list = ['BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton', 'BidirectionalGDNTriton']
+  camctrl_type_list = ['BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalGDNUCPESinglePathLiteLABothTriton', 'BidirectionalSoftmaxUCPESinglePathLiteLA']
+INFO:     127.0.0.1:60246 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46170 - "GET /api/health HTTP/1.1" 200 OK
+GLUMBConvTemp Temporal kernal: 3
+INFO:     127.0.0.1:46182 - "GET /api/health HTTP/1.1" 200 OK
+Failed to load null embed from None....'NoneType' object has no attribute 'seek'. You can only torch.load from a file that is seekable. Please pre-load the data into a buffer like io.BytesIO and try to load from it instead.. Ignore the error during inference
+INFO:     127.0.0.1:46362 - "GET /api/health HTTP/1.1" 200 OK
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for BidirectionalGDNUCPESinglePathLiteLABothTriton
+Initializing camera branch QKV from base model QKV for _SoftmaxUCPESinglePathLiteLA
+INFO:     127.0.0.1:46378 - "GET /api/health HTTP/1.1" 200 OK
+2026-07-11 03:38:54 - [Sana] - INFO - Loaded SanaMSVideoCamCtrl_1600M_P1_D20 (2,661,800,448 params)
+[Sana] Loading model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/dit/sana_wm_1600m_720p.safetensors
+[Sana] Loaded model from /mnt/nfs/home/yumingl/models/SANA-WM_bidirectional/dit/sana_wm_1600m_720p.safetensors
+2026-07-11 03:38:58 - [Sana] - WARNING - Missing keys: ['pos_embed']
+INFO:     127.0.0.1:34668 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:00<00:02,  4.24it/s]Loading checkpoint shards:  18%|█▊        | 2/11 [00:00<00:03,  2.56it/s]Loading checkpoint shards:  27%|██▋       | 3/11 [00:01<00:03,  2.38it/s]Loading checkpoint shards:  36%|███▋      | 4/11 [00:01<00:02,  2.34it/s]Loading checkpoint shards:  45%|████▌     | 5/11 [00:02<00:02,  2.34it/s]Loading checkpoint shards:  55%|█████▍    | 6/11 [00:02<00:02,  2.33it/s]Loading checkpoint shards:  64%|██████▎   | 7/11 [00:02<00:01,  2.39it/s]INFO:     127.0.0.1:34678 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  73%|███████▎  | 8/11 [00:03<00:01,  2.43it/s]Loading checkpoint shards:  82%|████████▏ | 9/11 [00:03<00:00,  2.46it/s]Loading checkpoint shards:  91%|█████████ | 10/11 [00:04<00:00,  2.48it/s]Loading checkpoint shards: 100%|██████████| 11/11 [00:04<00:00,  2.86it/s]Loading checkpoint shards: 100%|██████████| 11/11 [00:04<00:00,  2.56it/s]
+INFO:     127.0.0.1:47898 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37836 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37852 - "GET /api/health HTTP/1.1" 200 OK
+[Sana][load] pipeline ready
+[startup] adapter ready in 109.7s
+INFO:     127.0.0.1:43548 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43554 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43556 - "POST /api/action/9489919f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43570 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+2026-07-11 03:39:39 - [Sana] - WARNING - Intrinsics not provided — estimating with Pi3X from the input image. Estimation errors propagate into the generated camera geometry; please supply --intrinsics when accurate values are available.
+2026-07-11 03:39:52 - [Sana] - INFO - Pi3X intrinsics: fx=836.5 fy=835.4 cx=639.0 cy=359.0 (FOV: H=74.8° V=46.6°)
+INFO:     127.0.0.1:43574 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58792 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58808 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58824 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/60 [00:00<?, ?it/s]/mnt/nfs/home/yumingl/software/anaconda3/envs/sana/lib/python3.11/site-packages/torch/_inductor/lowering.py:1988: UserWarning: Torchinductor does not support code generation for complex operators. Performance may be worse than eager.
+  warnings.warn(
+INFO:     127.0.0.1:58840 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+  2%|▏         | 1/60 [00:40<40:06, 40.79s/it]  3%|▎         | 2/60 [00:50<22:01, 22.78s/it]INFO:     127.0.0.1:46464 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 3/60 [01:02<16:58, 17.86s/it]  7%|▋         | 4/60 [01:14<14:31, 15.56s/it]  8%|▊         | 5/60 [01:27<13:05, 14.28s/it]INFO:     127.0.0.1:33702 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 6/60 [01:39<12:10, 13.53s/it] 12%|█▏        | 7/60 [01:51<11:30, 13.03s/it]INFO:     127.0.0.1:43130 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 13%|█▎        | 8/60 [02:03<11:00, 12.71s/it] 15%|█▌        | 9/60 [02:15<10:37, 12.50s/it] 17%|█▋        | 10/60 [02:27<10:17, 12.36s/it]INFO:     127.0.0.1:54750 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 18%|█▊        | 11/60 [02:39<10:01, 12.27s/it] 20%|██        | 12/60 [02:51<09:45, 12.21s/it]INFO:     127.0.0.1:43310 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 22%|██▏       | 13/60 [03:03<09:30, 12.15s/it] 23%|██▎       | 14/60 [03:15<09:17, 12.12s/it] 25%|██▌       | 15/60 [03:27<09:04, 12.10s/it]INFO:     127.0.0.1:59014 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 27%|██▋       | 16/60 [03:39<08:51, 12.08s/it] 28%|██▊       | 17/60 [03:51<08:39, 12.08s/it]INFO:     127.0.0.1:43616 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 30%|███       | 18/60 [04:03<08:26, 12.07s/it] 32%|███▏      | 19/60 [04:15<08:14, 12.06s/it] 33%|███▎      | 20/60 [04:27<08:02, 12.07s/it]INFO:     127.0.0.1:49220 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 35%|███▌      | 21/60 [04:39<07:50, 12.07s/it] 37%|███▋      | 22/60 [04:51<07:38, 12.06s/it]INFO:     127.0.0.1:41074 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 38%|███▊      | 23/60 [05:03<07:26, 12.06s/it] 40%|████      | 24/60 [05:15<07:14, 12.06s/it] 42%|████▏     | 25/60 [05:27<07:01, 12.05s/it]INFO:     127.0.0.1:36436 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 43%|████▎     | 26/60 [05:39<06:49, 12.04s/it] 45%|████▌     | 27/60 [05:52<06:37, 12.04s/it]INFO:     127.0.0.1:51420 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 47%|████▋     | 28/60 [06:04<06:25, 12.04s/it] 48%|████▊     | 29/60 [06:16<06:13, 12.05s/it] 50%|█████     | 30/60 [06:28<06:01, 12.04s/it]INFO:     127.0.0.1:58382 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 52%|█████▏    | 31/60 [06:40<05:49, 12.04s/it] 53%|█████▎    | 32/60 [06:52<05:37, 12.04s/it]INFO:     127.0.0.1:54740 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 55%|█████▌    | 33/60 [07:04<05:25, 12.05s/it] 57%|█████▋    | 34/60 [07:16<05:12, 12.04s/it] 58%|█████▊    | 35/60 [07:28<05:00, 12.03s/it]INFO:     127.0.0.1:53196 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 60%|██████    | 36/60 [07:40<04:48, 12.03s/it] 62%|██████▏   | 37/60 [07:52<04:36, 12.03s/it]INFO:     127.0.0.1:38834 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 63%|██████▎   | 38/60 [08:04<04:24, 12.03s/it] 65%|██████▌   | 39/60 [08:16<04:12, 12.03s/it] 67%|██████▋   | 40/60 [08:28<04:00, 12.03s/it]INFO:     127.0.0.1:53956 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 68%|██████▊   | 41/60 [08:40<03:48, 12.03s/it] 70%|███████   | 42/60 [08:52<03:36, 12.04s/it]INFO:     127.0.0.1:50248 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 72%|███████▏  | 43/60 [09:04<03:24, 12.05s/it] 73%|███████▎  | 44/60 [09:16<03:12, 12.05s/it]INFO:     127.0.0.1:47586 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 45/60 [09:28<03:00, 12.05s/it] 77%|███████▋  | 46/60 [09:40<02:48, 12.04s/it] 78%|███████▊  | 47/60 [09:52<02:36, 12.05s/it]INFO:     127.0.0.1:48726 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 80%|████████  | 48/60 [10:04<02:24, 12.04s/it] 82%|████████▏ | 49/60 [10:16<02:12, 12.03s/it]INFO:     127.0.0.1:58836 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 83%|████████▎ | 50/60 [10:28<02:00, 12.03s/it] 85%|████████▌ | 51/60 [10:40<01:48, 12.03s/it] 87%|████████▋ | 52/60 [10:52<01:36, 12.02s/it]INFO:     127.0.0.1:58922 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 88%|████████▊ | 53/60 [11:04<01:24, 12.03s/it] 90%|█████████ | 54/60 [11:16<01:12, 12.03s/it]INFO:     127.0.0.1:49850 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 92%|█████████▏| 55/60 [11:29<01:00, 12.03s/it] 93%|█████████▎| 56/60 [11:41<00:48, 12.03s/it] 95%|█████████▌| 57/60 [11:53<00:36, 12.03s/it]INFO:     127.0.0.1:36108 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+ 97%|█████████▋| 58/60 [12:05<00:24, 12.04s/it] 98%|█████████▊| 59/60 [12:17<00:12, 12.05s/it]INFO:     127.0.0.1:53206 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 60/60 [12:29<00:00, 12.05s/it]100%|██████████| 60/60 [12:29<00:00, 12.49s/it]
+2026-07-11 03:52:27 - [Sana] - INFO - [refiner] 3-step Euler, start_sigma=0.9094
+refiner:   0%|          | 0/3 [00:00<?, ?step/s]INFO:     127.0.0.1:51668 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+refiner:  33%|███▎      | 1/3 [00:31<01:02, 31.08s/step]refiner:  67%|██████▋   | 2/3 [00:55<00:27, 27.14s/step]INFO:     127.0.0.1:46992 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33750 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+refiner: 100%|██████████| 3/3 [01:26<00:00, 28.89s/step]refiner: 100%|██████████| 3/3 [01:26<00:00, 28.81s/step]
+2026-07-11 03:53:54 - [Sana] - INFO - [refiner] decoding 121 latent frames with diffusers LTX2 VAE
+2026-07-11 03:53:54 - [Sana] - INFO - [sana-vae] decoding 121 latent frames
+INFO:     127.0.0.1:39558 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54528 - "GET /api/events/9489919f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45344 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1443438]

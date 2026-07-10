@@ -1,0 +1,229 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [1601914]
+INFO:     Waiting for application startup.
+[startup] adapter=lingbot-world-v2; loading ...
+[LingBotV2][load] validate pathsINFO:     Application startup complete.
+
+INFO:     Uvicorn running on http://127.0.0.1:8412 (Press CTRL+C to quit)
+INFO:     127.0.0.1:44550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44558 - "GET /api/health HTTP/1.1" 200 OK
+[LingBotV2][load] set CUDA device 0
+[LingBotV2][load] load config for task i2v-A14B
+[LingBotV2][load] build WanI2VCausal infer_mode=causal_fast local_attn_size=18 sink_size=6
+INFO:     127.0.0.1:39330 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42810 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35228 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42482 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42494 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36738 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38510 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36290 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35346 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52902 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]INFO:     127.0.0.1:52912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35552 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35566 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56174 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36428 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36238 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36240 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43550 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  12%|█▎        | 1/8 [01:30<10:34, 90.61s/it]INFO:     127.0.0.1:43562 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60096 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58478 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42452 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54894 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54904 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34524 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38978 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50458 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42178 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42188 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47878 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  25%|██▌       | 2/8 [03:02<09:09, 91.54s/it]INFO:     127.0.0.1:47886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45174 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50810 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49620 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34722 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46140 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46148 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47916 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  38%|███▊      | 3/8 [04:34<07:37, 91.53s/it]INFO:     127.0.0.1:47926 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39834 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39842 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58754 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57216 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57220 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60200 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60212 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48400 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45706 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45714 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  50%|█████     | 4/8 [06:06<06:06, 91.72s/it]INFO:     127.0.0.1:42886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44818 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56178 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43994 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56358 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56372 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48680 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  62%|██████▎   | 5/8 [07:42<04:39, 93.24s/it]INFO:     127.0.0.1:48686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39770 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39774 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49504 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43374 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43376 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48032 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48048 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38438 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59776 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43724 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43738 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42192 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  75%|███████▌  | 6/8 [09:14<03:05, 92.73s/it]INFO:     127.0.0.1:42198 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38622 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43630 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35008 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34008 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  88%|████████▊ | 7/8 [10:49<01:33, 93.79s/it]INFO:     127.0.0.1:50846 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43112 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43124 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52978 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39334 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46098 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46112 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47074 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45792 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards: 100%|██████████| 8/8 [12:11<00:00, 89.89s/it]Loading checkpoint shards: 100%|██████████| 8/8 [12:11<00:00, 91.44s/it]
+INFO:     127.0.0.1:45808 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34798 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34802 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52740 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46316 - "GET /api/health HTTP/1.1" 200 OK
+[LingBotV2][load] pipeline ready
+[startup] adapter ready in 866.7s
+INFO:     127.0.0.1:46326 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46330 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46338 - "POST /api/action/6527224b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46342 - "POST /api/action/6527224b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46358 - "POST /api/action/6527224b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46366 - "POST /api/action/6527224b HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46380 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46396 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46410 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46414 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world-v2/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:02<00:10,  2.57s/it] 40%|████      | 2/5 [00:05<00:07,  2.53s/it] 60%|██████    | 3/5 [00:07<00:05,  2.62s/it] 80%|████████  | 4/5 [00:10<00:02,  2.75s/it]100%|██████████| 5/5 [00:13<00:00,  2.91s/it]100%|██████████| 5/5 [00:13<00:00,  2.79s/it]
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world-v2/wan/modules/vae2_1.py:656: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+INFO:     127.0.0.1:46424 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49744 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48134 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48142 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48154 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:02<00:09,  2.30s/it] 40%|████      | 2/5 [00:04<00:07,  2.43s/it] 60%|██████    | 3/5 [00:07<00:05,  2.58s/it] 80%|████████  | 4/5 [00:10<00:02,  2.73s/it]100%|██████████| 5/5 [00:13<00:00,  2.90s/it]100%|██████████| 5/5 [00:13<00:00,  2.75s/it]
+INFO:     127.0.0.1:48170 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49866 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49876 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49880 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:02<00:09,  2.29s/it] 40%|████      | 2/5 [00:04<00:07,  2.42s/it] 60%|██████    | 3/5 [00:07<00:05,  2.57s/it] 80%|████████  | 4/5 [00:10<00:02,  2.73s/it]100%|██████████| 5/5 [00:13<00:00,  2.90s/it]100%|██████████| 5/5 [00:13<00:00,  2.74s/it]
+INFO:     127.0.0.1:49884 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57810 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57814 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57826 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:02<00:09,  2.36s/it] 40%|████      | 2/5 [00:04<00:07,  2.45s/it] 60%|██████    | 3/5 [00:07<00:05,  2.58s/it] 80%|████████  | 4/5 [00:10<00:02,  2.73s/it]100%|██████████| 5/5 [00:13<00:00,  2.89s/it]100%|██████████| 5/5 [00:13<00:00,  2.75s/it]
+INFO:     127.0.0.1:57842 - "GET /api/events/6527224b?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48630 - "POST /api/stop HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1601914]
