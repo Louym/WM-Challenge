@@ -174,6 +174,15 @@ def main() -> None:
              "Multi-GPU runs: mg3_* (2 GPUs), lingbot_large_whole (4 GPUs), sample-29 dreamx_cam_whole (CPU offload).",
              11, color=DIM)
 
+    # Autoplay: PowerPoint defaults embedded media to click-to-play via
+    # <p:cond delay="indefinite"/> in each video's timing node; delay="0"
+    # starts playback when the slide appears.
+    ns = {"p": "http://schemas.openxmlformats.org/presentationml/2006/main"}
+    for slide in prs.slides:
+        for cond in slide._element.findall(".//p:video//p:cond", ns):
+            if cond.get("delay") == "indefinite":
+                cond.set("delay", "0")
+
     out = ROOT / "slides.pptx"
     prs.save(out)
     print(f"wrote {out} ({len(prs.slides.slides if hasattr(prs.slides, 'slides') else prs.slides._sldIdLst)} slides, {out.stat().st_size/1e6:.0f} MB)")
