@@ -1,0 +1,11 @@
+[
+ {
+  "name": "maxlen_lingbot_large_1441f",
+  "actions": [
+   {
+    "action": "w-360,l-360,w-360,s-360"
+   }
+  ],
+  "timeout": 21600
+ }
+]

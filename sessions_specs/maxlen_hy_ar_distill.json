@@ -1,0 +1,20 @@
+[
+ {
+  "name": "maxlen_hy_ar_distill_2881f",
+  "actions": [
+   {
+    "action": "w-180,l-180,w-180,s-180"
+   }
+  ],
+  "timeout": 21600
+ },
+ {
+  "name": "maxlen_hy_ar_distill_4321f",
+  "actions": [
+   {
+    "action": "w-270,l-270,w-270,s-270"
+   }
+  ],
+  "timeout": 21600
+ }
+]

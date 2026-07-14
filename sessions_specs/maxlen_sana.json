@@ -1,0 +1,29 @@
+[
+ {
+  "name": "maxlen_sana_1441f",
+  "actions": [
+   {
+    "action": "w-360,l-360,w-360,s-360"
+   }
+  ],
+  "timeout": 21600
+ },
+ {
+  "name": "maxlen_sana_1921f",
+  "actions": [
+   {
+    "action": "w-480,l-480,w-480,s-480"
+   }
+  ],
+  "timeout": 21600
+ },
+ {
+  "name": "maxlen_sana_2881f",
+  "actions": [
+   {
+    "action": "w-720,l-720,w-720,s-720"
+   }
+  ],
+  "timeout": 21600
+ }
+]

@@ -1,0 +1,11 @@
+[
+ {
+  "name": "maxrun_lingbot_v2_4500lat",
+  "actions": [
+   {
+    "action": "w-4499,l-4499,w-4499,s-4499"
+   }
+  ],
+  "timeout": 43200
+ }
+]

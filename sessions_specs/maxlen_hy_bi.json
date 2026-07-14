@@ -1,0 +1,11 @@
+[
+ {
+  "name": "maxlen_hy_bi_2881f",
+  "actions": [
+   {
+    "action": "w-180,l-180,w-180,s-180"
+   }
+  ],
+  "timeout": 21600
+ }
+]

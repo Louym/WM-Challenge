@@ -1,0 +1,11 @@
+[
+ {
+  "name": "maxlen_lingbot_v1_small_4089f",
+  "actions": [
+   {
+    "action": "w-1022,l-1022,w-1022,s-1022"
+   }
+  ],
+  "timeout": 21600
+ }
+]

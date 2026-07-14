@@ -1,0 +1,12 @@
+[
+ {
+  "name": "maxlen_dreamx_ar_4089f",
+  "actions": [
+   {
+    "action": "w",
+    "speed": 6
+   }
+  ],
+  "timeout": 21600
+ }
+]

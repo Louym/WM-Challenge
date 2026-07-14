@@ -1,0 +1,11 @@
+[
+ {
+  "name": "ropeext_lingbot_v2_1800lat",
+  "actions": [
+   {
+    "action": "w-1799,l-1799,w-1799,s-1799"
+   }
+  ],
+  "timeout": 21600
+ }
+]

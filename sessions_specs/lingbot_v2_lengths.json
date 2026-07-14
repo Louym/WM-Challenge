@@ -1,0 +1,5 @@
+[
+  {"name": "lingbot_v2_len_120s", "actions": [{"action": "w-480,l-480,w-480,s-480"}], "timeout": 21600},
+  {"name": "lingbot_v2_len_180s", "actions": [{"action": "w-720,l-720,w-720,s-720"}], "timeout": 21600},
+  {"name": "lingbot_v2_len_max_4089f", "actions": [{"action": "w-1022,l-1022,w-1022,s-1022"}], "timeout": 21600}
+]
