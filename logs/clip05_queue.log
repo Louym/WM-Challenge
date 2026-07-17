@@ -1,0 +1,37 @@
+CLIP05 starting hy_bi_clip05_demo_29 (20:42:59)
+CLIP05 starting hy_bi_clip05_demo_42 (20:42:59)
+CLIP05 starting sana_clip05_demo_79 (20:42:59)
+CLIP05 starting sana_clip05_demo_42 (20:42:59)
+CLIP05 starting hy_bi_clip05_demo_79 (20:42:59)
+CLIP05 starting lingbot_large_clip05_demo_29 (20:42:59)
+CLIP05 starting sana_clip05_demo_29 (20:42:59)
+CLIP05 starting lingbot_large_clip05_demo_42 (20:42:59)
+[run_one] hy_bi_clip05: server pid 2048310 (env=hy gpu=2 port=8602)
+[run_one] hy_bi_clip05: server pid 2048312 (env=hy gpu=0 port=8600)
+[run_one] hy_bi_clip05: server pid 2048314 (env=hy gpu=1 port=8601)
+[run_one] lingbot_large_clip05: server pid 2050509 (env=lingbot gpu=6 port=8606)
+[run_one] lingbot_large_clip05: server pid 2050508 (env=lingbot gpu=7 port=8607)
+[run_one] sana_bidirectional_clip05: server pid 2050512 (env=sana gpu=3 port=8603)
+[run_one] sana_bidirectional_clip05: server pid 2050513 (env=sana gpu=4 port=8604)
+[run_one] sana_bidirectional_clip05: server pid 2050516 (env=sana gpu=5 port=8605)
+[run_one] hy_bi_clip05: driver exit 0
+CLIP05 finished hy_bi_clip05_demo_42 rc=0 (21:35:49)
+[run_one] hy_bi_clip05: driver exit 0
+CLIP05 finished hy_bi_clip05_demo_29 rc=0 (21:36:00)
+[run_one] hy_bi_clip05: driver exit 0
+CLIP05 finished hy_bi_clip05_demo_79 rc=0 (21:36:07)
+[run_one] lingbot_large_clip05: driver exit 0
+CLIP05 finished lingbot_large_clip05_demo_29 rc=0 (22:40:43)
+CLIP05 starting lingbot_large_clip05_demo_79 (22:40:43)
+[run_one] lingbot_large_clip05: server pid 2675407 (env=lingbot gpu=6 port=8608)
+[run_one] lingbot_large_clip05: driver exit 0
+CLIP05 finished lingbot_large_clip05_demo_42 rc=0 (22:43:53)
+[run_one] sana_bidirectional_clip05: driver exit 0
+[run_one] sana_bidirectional_clip05: driver exit 0
+CLIP05 finished sana_clip05_demo_42 rc=0 (22:51:59)
+CLIP05 finished sana_clip05_demo_79 rc=0 (22:52:02)
+[run_one] sana_bidirectional_clip05: driver exit 0
+CLIP05 finished sana_clip05_demo_29 rc=0 (22:53:24)
+[run_one] lingbot_large_clip05: driver exit 0
+CLIP05 finished lingbot_large_clip05_demo_79 rc=0 (23:38:42)
+CLIP05 ALL DONE (23:38:42)

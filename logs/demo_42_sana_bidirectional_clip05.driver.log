@@ -1,0 +1,296 @@
+[driver 20:43:12] waiting for adapter to load ... (0s, health=None)
+[driver 20:44:12] waiting for adapter to load ... (60s, health=None)
+[driver 20:45:13] waiting for adapter to load ... (120s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:46:14] waiting for adapter to load ... (181s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:47:14] waiting for adapter to load ... (242s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:48:14] waiting for adapter to load ... (302s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:49:15] waiting for adapter to load ... (363s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:50:20] waiting for adapter to load ... (428s, health=None)
+[driver 20:51:20] waiting for adapter to load ... (488s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:52:20] waiting for adapter to load ... (548s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:53:20] waiting for adapter to load ... (608s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:54:21] waiting for adapter to load ... (668s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:55:21] waiting for adapter to load ... (728s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:56:21] waiting for adapter to load ... (788s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:57:21] waiting for adapter to load ... (848s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:58:21] waiting for adapter to load ... (908s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:59:21] waiting for adapter to load ... (968s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:00:21] waiting for adapter to load ... (1028s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:01:21] waiting for adapter to load ... (1088s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:02:21] waiting for adapter to load ... (1148s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:03:21] waiting for adapter to load ... (1209s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:04:24] waiting for adapter to load ... (1271s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:05:24] waiting for adapter to load ... (1331s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:06:24] waiting for adapter to load ... (1391s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:07:25] waiting for adapter to load ... (1453s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:08:25] waiting for adapter to load ... (1513s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:09:26] waiting for adapter to load ... (1573s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:10:26] waiting for adapter to load ... (1633s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:11:26] waiting for adapter to load ... (1693s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:12:26] waiting for adapter to load ... (1753s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:13:26] waiting for adapter to load ... (1813s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:14:26] waiting for adapter to load ... (1873s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:15:26] waiting for adapter to load ... (1933s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:16:26] waiting for adapter to load ... (1993s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:17:26] waiting for adapter to load ... (2053s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:18:26] waiting for adapter to load ... (2113s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:19:26] waiting for adapter to load ... (2173s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:20:26] waiting for adapter to load ... (2233s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:21:26] waiting for adapter to load ... (2293s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:22:26] waiting for adapter to load ... (2353s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:23:26] waiting for adapter to load ... (2413s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:24:26] waiting for adapter to load ... (2473s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:25:26] waiting for adapter to load ... (2533s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:26:26] waiting for adapter to load ... (2593s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:27:26] waiting for adapter to load ... (2654s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:28:26] waiting for adapter to load ... (2714s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:29:26] waiting for adapter to load ... (2774s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:30:26] waiting for adapter to load ... (2834s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:31:26] waiting for adapter to load ... (2894s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:32:26] waiting for adapter to load ... (2954s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:33:26] waiting for adapter to load ... (3014s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:34:26] waiting for adapter to load ... (3074s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:35:27] waiting for adapter to load ... (3134s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:36:27] waiting for adapter to load ... (3195s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:37:27] waiting for adapter to load ... (3255s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:38:27] waiting for adapter to load ... (3315s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:39:27] waiting for adapter to load ... (3375s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:40:27] waiting for adapter to load ... (3435s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:41:28] waiting for adapter to load ... (3495s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:42:28] waiting for adapter to load ... (3555s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:43:28] waiting for adapter to load ... (3615s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:44:28] waiting for adapter to load ... (3675s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:45:28] waiting for adapter to load ... (3735s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:46:28] waiting for adapter to load ... (3795s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:47:28] waiting for adapter to load ... (3855s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:48:28] waiting for adapter to load ... (3915s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:49:28] waiting for adapter to load ... (3976s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:50:28] waiting for adapter to load ... (4036s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:51:28] waiting for adapter to load ... (4096s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:52:28] waiting for adapter to load ... (4156s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:53:28] waiting for adapter to load ... (4216s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:54:28] waiting for adapter to load ... (4276s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:55:28] waiting for adapter to load ... (4336s, health={'adapter': 'sana-wm', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:56:13] adapter 'sana-wm' ready after 4381s
+[driver 21:56:13] === session sana_bidirectional_clip05: 108 action(s), expecting 108 segment(s)
+[driver 21:56:13] session id dac74c0e
+[driver 21:56:13] queued 108 action(s)
+[driver 21:56:13] status: Estimating image intrinsics with Pi3X...
+[driver 21:58:57] status: Estimated FOV: H=56.2 deg V=32.9 deg.
+[driver 21:58:57] generating: 
+[driver 22:00:36] segment 0 done (263s elapsed)
+[driver 22:00:36] generating: 
+[driver 22:01:08] segment 1 done (295s elapsed)
+[driver 22:01:08] generating: 
+[driver 22:01:36] segment 2 done (323s elapsed)
+[driver 22:01:36] generating: 
+[driver 22:02:12] segment 3 done (359s elapsed)
+[driver 22:02:12] generating: 
+[driver 22:02:51] segment 4 done (398s elapsed)
+[driver 22:02:51] generating: 
+[driver 22:03:14] segment 5 done (421s elapsed)
+[driver 22:03:14] generating: 
+[driver 22:03:48] segment 6 done (455s elapsed)
+[driver 22:03:48] generating: 
+[driver 22:04:14] segment 7 done (480s elapsed)
+[driver 22:04:14] generating: 
+[driver 22:04:39] segment 8 done (505s elapsed)
+[driver 22:04:39] generating: 
+[driver 22:05:14] segment 9 done (541s elapsed)
+[driver 22:05:14] generating: 
+[driver 22:05:37] segment 10 done (564s elapsed)
+[driver 22:05:37] generating: 
+[driver 22:06:08] segment 11 done (595s elapsed)
+[driver 22:06:08] generating: 
+[driver 22:06:43] segment 12 done (629s elapsed)
+[driver 22:06:43] generating: 
+[driver 22:07:05] segment 13 done (652s elapsed)
+[driver 22:07:05] generating: 
+[driver 22:07:35] segment 14 done (682s elapsed)
+[driver 22:07:35] generating: 
+[driver 22:08:07] segment 15 done (714s elapsed)
+[driver 22:08:07] generating: 
+[driver 22:08:35] segment 16 done (742s elapsed)
+[driver 22:08:35] generating: 
+[driver 22:08:58] segment 17 done (765s elapsed)
+[driver 22:08:58] generating: 
+[driver 22:09:28] segment 18 done (795s elapsed)
+[driver 22:09:28] generating: 
+[driver 22:09:56] segment 19 done (822s elapsed)
+[driver 22:09:56] generating: 
+[driver 22:10:20] segment 20 done (847s elapsed)
+[driver 22:10:20] generating: 
+[driver 22:10:52] segment 21 done (879s elapsed)
+[driver 22:10:52] generating: 
+[driver 22:11:23] segment 22 done (910s elapsed)
+[driver 22:11:23] generating: 
+[driver 22:11:50] segment 23 done (937s elapsed)
+[driver 22:11:50] generating: 
+[driver 22:12:22] segment 24 done (969s elapsed)
+[driver 22:12:22] generating: 
+[driver 22:12:52] segment 25 done (998s elapsed)
+[driver 22:12:52] generating: 
+[driver 22:13:24] segment 26 done (1031s elapsed)
+[driver 22:13:24] generating: 
+[driver 22:13:59] segment 27 done (1066s elapsed)
+[driver 22:13:59] generating: 
+[driver 22:14:27] segment 28 done (1093s elapsed)
+[driver 22:14:27] generating: 
+[driver 22:14:56] segment 29 done (1123s elapsed)
+[driver 22:14:56] generating: 
+[driver 22:15:29] segment 30 done (1156s elapsed)
+[driver 22:15:29] generating: 
+[driver 22:15:55] segment 31 done (1182s elapsed)
+[driver 22:15:55] generating: 
+[driver 22:16:22] segment 32 done (1209s elapsed)
+[driver 22:16:22] generating: 
+[driver 22:16:45] segment 33 done (1232s elapsed)
+[driver 22:16:45] generating: 
+[driver 22:17:11] segment 34 done (1258s elapsed)
+[driver 22:17:11] generating: 
+[driver 22:17:49] segment 35 done (1296s elapsed)
+[driver 22:17:49] generating: 
+[driver 22:18:14] segment 36 done (1321s elapsed)
+[driver 22:18:14] generating: 
+[driver 22:18:47] segment 37 done (1354s elapsed)
+[driver 22:18:47] generating: 
+[driver 22:19:23] segment 38 done (1390s elapsed)
+[driver 22:19:23] generating: 
+[driver 22:19:50] segment 39 done (1417s elapsed)
+[driver 22:19:50] generating: 
+[driver 22:20:17] segment 40 done (1444s elapsed)
+[driver 22:20:17] generating: 
+[driver 22:20:50] segment 41 done (1477s elapsed)
+[driver 22:20:50] generating: 
+[driver 22:21:19] segment 42 done (1506s elapsed)
+[driver 22:21:19] generating: 
+[driver 22:21:50] segment 43 done (1537s elapsed)
+[driver 22:21:50] generating: 
+[driver 22:22:13] segment 44 done (1560s elapsed)
+[driver 22:22:13] generating: 
+[driver 22:22:41] segment 45 done (1588s elapsed)
+[driver 22:22:41] generating: 
+[driver 22:23:02] segment 46 done (1609s elapsed)
+[driver 22:23:02] generating: 
+[driver 22:23:32] segment 47 done (1639s elapsed)
+[driver 22:23:32] generating: 
+[driver 22:23:58] segment 48 done (1664s elapsed)
+[driver 22:23:58] generating: 
+[driver 22:24:28] segment 49 done (1695s elapsed)
+[driver 22:24:28] generating: 
+[driver 22:24:59] segment 50 done (1726s elapsed)
+[driver 22:24:59] generating: 
+[driver 22:25:25] segment 51 done (1752s elapsed)
+[driver 22:25:25] generating: 
+[driver 22:25:58] segment 52 done (1784s elapsed)
+[driver 22:25:58] generating: 
+[driver 22:26:27] segment 53 done (1813s elapsed)
+[driver 22:26:27] generating: 
+[driver 22:26:59] segment 54 done (1845s elapsed)
+[driver 22:26:59] generating: 
+[driver 22:27:34] segment 55 done (1881s elapsed)
+[driver 22:27:34] generating: 
+[driver 22:28:01] segment 56 done (1908s elapsed)
+[driver 22:28:01] generating: 
+[driver 22:28:30] segment 57 done (1936s elapsed)
+[driver 22:28:30] generating: 
+[driver 22:28:58] segment 58 done (1965s elapsed)
+[driver 22:28:58] generating: 
+[driver 22:29:21] segment 59 done (1988s elapsed)
+[driver 22:29:21] generating: 
+[driver 22:29:44] segment 60 done (2011s elapsed)
+[driver 22:29:44] generating: 
+[driver 22:30:08] segment 61 done (2035s elapsed)
+[driver 22:30:08] generating: 
+[driver 22:30:36] segment 62 done (2062s elapsed)
+[driver 22:30:36] generating: 
+[driver 22:31:07] segment 63 done (2094s elapsed)
+[driver 22:31:07] generating: 
+[driver 22:31:35] segment 64 done (2122s elapsed)
+[driver 22:31:35] generating: 
+[driver 22:32:01] segment 65 done (2148s elapsed)
+[driver 22:32:01] generating: 
+[driver 22:32:34] segment 66 done (2181s elapsed)
+[driver 22:32:34] generating: 
+[driver 22:33:08] segment 67 done (2214s elapsed)
+[driver 22:33:08] generating: 
+[driver 22:33:29] segment 68 done (2236s elapsed)
+[driver 22:33:29] generating: 
+[driver 22:34:05] segment 69 done (2272s elapsed)
+[driver 22:34:05] generating: 
+[driver 22:34:39] segment 70 done (2306s elapsed)
+[driver 22:34:39] generating: 
+[driver 22:34:59] segment 71 done (2326s elapsed)
+[driver 22:34:59] generating: 
+[driver 22:35:30] segment 72 done (2357s elapsed)
+[driver 22:35:30] generating: 
+[driver 22:35:49] segment 73 done (2376s elapsed)
+[driver 22:35:49] generating: 
+[driver 22:36:22] segment 74 done (2409s elapsed)
+[driver 22:36:22] generating: 
+[driver 22:36:43] segment 75 done (2429s elapsed)
+[driver 22:36:43] generating: 
+[driver 22:37:16] segment 76 done (2462s elapsed)
+[driver 22:37:16] generating: 
+[driver 22:37:47] segment 77 done (2494s elapsed)
+[driver 22:37:47] generating: 
+[driver 22:38:11] segment 78 done (2518s elapsed)
+[driver 22:38:11] generating: 
+[driver 22:38:47] segment 79 done (2554s elapsed)
+[driver 22:38:47] generating: 
+[driver 22:39:19] segment 80 done (2585s elapsed)
+[driver 22:39:19] generating: 
+[driver 22:39:43] segment 81 done (2610s elapsed)
+[driver 22:39:43] generating: 
+[driver 22:40:09] segment 82 done (2636s elapsed)
+[driver 22:40:09] generating: 
+[driver 22:40:35] segment 83 done (2662s elapsed)
+[driver 22:40:35] generating: 
+[driver 22:40:56] segment 84 done (2683s elapsed)
+[driver 22:40:56] generating: 
+[driver 22:41:16] segment 85 done (2703s elapsed)
+[driver 22:41:16] generating: 
+[driver 22:41:40] segment 86 done (2727s elapsed)
+[driver 22:41:40] generating: 
+[driver 22:42:09] segment 87 done (2755s elapsed)
+[driver 22:42:09] generating: 
+[driver 22:42:33] segment 88 done (2780s elapsed)
+[driver 22:42:33] generating: 
+[driver 22:43:04] segment 89 done (2811s elapsed)
+[driver 22:43:04] generating: 
+[driver 22:43:38] segment 90 done (2845s elapsed)
+[driver 22:43:38] generating: 
+[driver 22:44:06] segment 91 done (2872s elapsed)
+[driver 22:44:06] generating: 
+[driver 22:44:31] segment 92 done (2898s elapsed)
+[driver 22:44:31] generating: 
+[driver 22:44:57] segment 93 done (2924s elapsed)
+[driver 22:44:57] generating: 
+[driver 22:45:23] segment 94 done (2949s elapsed)
+[driver 22:45:23] generating: 
+[driver 22:45:46] segment 95 done (2972s elapsed)
+[driver 22:45:46] generating: 
+[driver 22:46:14] segment 96 done (3001s elapsed)
+[driver 22:46:14] generating: 
+[driver 22:46:45] segment 97 done (3032s elapsed)
+[driver 22:46:45] generating: 
+[driver 22:47:18] segment 98 done (3065s elapsed)
+[driver 22:47:18] generating: 
+[driver 22:47:49] segment 99 done (3096s elapsed)
+[driver 22:47:49] generating: 
+[driver 22:48:10] segment 100 done (3117s elapsed)
+[driver 22:48:10] generating: 
+[driver 22:48:42] segment 101 done (3149s elapsed)
+[driver 22:48:42] generating: 
+[driver 22:49:12] segment 102 done (3179s elapsed)
+[driver 22:49:12] generating: 
+[driver 22:49:36] segment 103 done (3203s elapsed)
+[driver 22:49:36] generating: 
+[driver 22:50:05] segment 104 done (3232s elapsed)
+[driver 22:50:05] generating: 
+[driver 22:50:42] segment 105 done (3268s elapsed)
+[driver 22:50:42] generating: 
+[driver 22:51:17] segment 106 done (3303s elapsed)
+[driver 22:51:17] generating: 
+[driver 22:51:49] segment 107 done (3336s elapsed)
+[driver 22:51:54] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/sana_bidirectional_clip05.mp4 (from sana_wm_refiner_on_dac74c0e.mp4, 19.9 MB)

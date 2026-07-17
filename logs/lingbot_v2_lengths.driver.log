@@ -1,0 +1,42 @@
+[driver 16:32:16] waiting for adapter to load ... (0s, health=None)
+[driver 16:33:16] waiting for adapter to load ... (60s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:34:16] waiting for adapter to load ... (120s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:35:16] waiting for adapter to load ... (180s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:36:16] waiting for adapter to load ... (240s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:37:16] waiting for adapter to load ... (300s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:38:16] waiting for adapter to load ... (360s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:39:16] waiting for adapter to load ... (420s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:40:16] waiting for adapter to load ... (481s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:41:16] waiting for adapter to load ... (541s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:42:17] waiting for adapter to load ... (601s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:43:17] waiting for adapter to load ... (661s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:44:17] waiting for adapter to load ... (721s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:45:17] waiting for adapter to load ... (781s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:46:17] waiting for adapter to load ... (841s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:47:17] waiting for adapter to load ... (901s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:48:17] waiting for adapter to load ... (961s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:49:17] waiting for adapter to load ... (1021s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:50:17] waiting for adapter to load ... (1082s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:51:17] waiting for adapter to load ... (1142s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 16:51:57] adapter 'lingbot-world-v2' ready after 1182s
+[driver 16:51:57] === session lingbot_v2_len_120s: 1 action(s), expecting 1 segment(s)
+[driver 16:51:57] session id f5e4bbf9
+[driver 16:51:57] queued 1 action(s)
+[driver 16:51:58] status: Ready: LingBot-World fast adapter.
+[driver 16:51:58] generating: w-480,l-480,w-480,s-480
+[driver 17:03:42] segment 0 done (704s elapsed)
+[driver 17:03:47] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/length_test_videos/lingbot_v2_len_120s.mp4 (from lingbot_world_v2_causal_fast_f5e4bbf9.mp4, 144.7 MB)
+[driver 17:03:47] === session lingbot_v2_len_180s: 1 action(s), expecting 1 segment(s)
+[driver 17:03:47] session id 08caee64
+[driver 17:03:47] queued 1 action(s)
+[driver 17:03:47] status: Ready: LingBot-World fast adapter.
+[driver 17:03:47] generating: w-720,l-720,w-720,s-720
+[driver 17:20:56] segment 0 done (1029s elapsed)
+[driver 17:21:02] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/length_test_videos/lingbot_v2_len_180s.mp4 (from lingbot_world_v2_causal_fast_08caee64.mp4, 227.6 MB)
+[driver 17:21:02] === session lingbot_v2_len_max_4089f: 1 action(s), expecting 1 segment(s)
+[driver 17:21:02] session id de1667d3
+[driver 17:21:02] queued 1 action(s)
+[driver 17:21:02] status: Ready: LingBot-World fast adapter.
+[driver 17:21:02] generating: w-1022,l-1022,w-1022,s-1022
+[driver 17:45:29] segment 0 done (1467s elapsed)
+[driver 17:45:35] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/length_test_videos/lingbot_v2_len_max_4089f.mp4 (from lingbot_world_v2_causal_fast_de1667d3.mp4, 307.3 MB)

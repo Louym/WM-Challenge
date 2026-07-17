@@ -1,0 +1,24 @@
+MAXLEN starting sana_ladder (18:09:36)
+MAXLEN starting gpu5_chain (18:09:36)
+MAXLEN starting dreamx_ar_ladder (18:09:36)
+MAXLEN starting hy_ar_distill_ladder (18:09:36)
+MAXLEN starting hy_bi_probe (18:09:36)
+[run_one] maxlen_dreamx_ar_1929f: server pid 412080 (env=dreamx gpu=4 port=8503)
+[run_one] maxlen_hy_bi: server pid 412086 (env=hy gpu=2 port=8502)
+[run_one] maxlen_hy_ar_distill: server pid 412087 (env=hy gpu=1 port=8501)
+[run_one] maxlen_dreamx_cam_1201f: server pid 412088 (env=dreamx gpu=5 port=8505)
+[run_one] maxlen_sana: server pid 413787 (env=sana gpu=0 port=8500)
+[run_one] maxlen_dreamx_cam_1201f: driver exit 1
+[run_one] maxlen_lingbot_v1_small: server pid 556755 (env=lingbot gpu=5 port=8506)
+run_one.sh: line 57: 413787 Killed                  setsid bash "$DEMO_DIR/run_demo.sh" "$MODEL_KEY" > "$SERVER_LOG" 2>&1
+[run_one] maxlen_sana: driver exit 1
+run_one.sh: line 57: 556755 Killed                  setsid bash "$DEMO_DIR/run_demo.sh" "$MODEL_KEY" > "$SERVER_LOG" 2>&1
+[run_one] maxlen_lingbot_v1_small: driver exit 1
+run_one.sh: line 57: 412080 Killed                  setsid bash "$DEMO_DIR/run_demo.sh" "$MODEL_KEY" > "$SERVER_LOG" 2>&1
+[run_one] maxlen_dreamx_ar_1929f: driver exit 1
+[run_one] maxlen_dreamx_ar_4089f: server pid 1339117 (env=dreamx gpu=4 port=8504)
+run_one.sh: line 57: 412086 Killed                  setsid bash "$DEMO_DIR/run_demo.sh" "$MODEL_KEY" > "$SERVER_LOG" 2>&1
+[run_one] maxlen_hy_bi: driver exit 1
+run_one.sh: line 57: 412087 Killed                  setsid bash "$DEMO_DIR/run_demo.sh" "$MODEL_KEY" > "$SERVER_LOG" 2>&1
+[run_one] maxlen_hy_ar_distill: driver exit 1
+[run_one] maxlen_dreamx_ar_4089f: driver exit 1

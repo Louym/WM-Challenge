@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py", line 103, in <module>
+    from fastapi import FastAPI, File, Form, HTTPException, UploadFile, WebSocket, WebSocketDisconnect  # noqa: E402
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/fastapi/applications.py", line 7, in <module>
+    from fastapi import routing
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/fastapi/routing.py", line 40, in <module>
+    import anyio
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/anyio/__init__.py", line 5, in <module>
+    from ._core._eventloop import current_time as current_time
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/anyio/_core/_eventloop.py", line 12, in <module>
+    from ._exceptions import NoEventLoopError
+  File "/mnt/nfs/home/yumingl/software/anaconda3/envs/dreamx/lib/python3.10/site-packages/anyio/_core/_exceptions.py", line 9, in <module>
+    from exceptiongroup import BaseExceptionGroup
+ModuleNotFoundError: No module named 'exceptiongroup'

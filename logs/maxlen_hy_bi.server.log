@@ -1,0 +1,733 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [412086]
+INFO:     Waiting for application startup.
+[startup] adapter=hy-worldplay; loading ...
+[HY][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8502 (Press CTRL+C to quit)
+INFO:     127.0.0.1:34066 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58444 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47826 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52544 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52560 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47798 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47810 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36270 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36280 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45512 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45528 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42772 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42776 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59964 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59970 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43040 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54974 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54990 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60494 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44348 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48950 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42166 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46274 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60708 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60720 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55362 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39674 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42286 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39268 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] set CUDA device 0
+[HY][load] build pipeline variant=bi type=bi steps=20 few_step=False
+INFO:     127.0.0.1:39278 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54254 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54270 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59098 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40950 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52308 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51458 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51470 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47300 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38012 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35602 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57006 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44362 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47828 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47840 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42264 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37988 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38002 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40596 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39398 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42680 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42682 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60068 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51186 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46918 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45748 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38818 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57842 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57846 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56286 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57298 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50170 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60826 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53366 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53368 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47490 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51470 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51472 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57890 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47560 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54868 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54874 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45400 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51894 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43066 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51684 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51688 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56452 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41932 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54060 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54072 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39150 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35952 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53452 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53468 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38134 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59726 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47194 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48234 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48250 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44760 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44764 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50544 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50546 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44498 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57562 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60444 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59952 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41910 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43104 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43116 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46194 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48966 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54966 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37216 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58044 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55916 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54072 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35204 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46050 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46062 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35622 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44750 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44758 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47346 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57328 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34134 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34148 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55054 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33444 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39656 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39664 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53066 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35384 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42480 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42496 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53102 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38372 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38376 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45132 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58154 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58166 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58234 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58246 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43808 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46260 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46270 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48826 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50674 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46524 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37186 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40410 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46856 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56114 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46632 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37912 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56140 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52738 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52748 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52048 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60426 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41038 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36496 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36512 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56496 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56504 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38478 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57970 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55582 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57026 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46308 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59028 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44028 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56954 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40306 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45226 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52942 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60866 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34878 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34892 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38438 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38450 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44136 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44142 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48932 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53590 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33170 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58454 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42164 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50086 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57798 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48366 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48368 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56418 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56420 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44826 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52288 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45514 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58300 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43640 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43646 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53252 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60654 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34202 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49562 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49574 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43778 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43924 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43938 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59942 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46100 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46116 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60680 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36422 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38310 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33308 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42032 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33320 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33322 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46608 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46620 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35864 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33964 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48468 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34408 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43344 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43354 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56020 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56022 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43700 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59590 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54900 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54908 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44072 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59030 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59036 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44828 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46510 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60562 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39672 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51800 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51812 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36460 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36474 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59684 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59686 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46208 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45384 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51612 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36600 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36604 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37874 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33456 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44902 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44914 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51344 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50382 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40440 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40448 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36046 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35940 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51970 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56718 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40742 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41006 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46862 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46868 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37986 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51790 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35404 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48290 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52724 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44696 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49746 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49758 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53012 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53016 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36236 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36244 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40624 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40626 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43140 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43156 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56932 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56934 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39176 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39182 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41516 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41526 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53688 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53694 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35078 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59272 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59288 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59822 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60280 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44714 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44728 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59338 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59352 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41894 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39232 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39242 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33250 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33252 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48638 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48648 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50498 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50514 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41220 - "GET /api/health HTTP/1.1" 200 OK
+HY-World 1.5 loading from:  /mnt/nfs/home/yumingl/.cache/huggingface/hub/models--tencent--HY-WorldPlay/blobs/1926ad6356248f191092768758ef959608f0ee7473c06e6ae7c7f116b9f77b19
+INFO:     127.0.0.1:41222 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41152 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45292 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49710 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56356 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56360 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58720 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47264 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47276 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58662 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58672 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57176 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57186 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42412 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42426 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48850 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48860 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34492 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53552 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53556 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51816 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60496 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60506 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58462 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58476 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39798 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48784 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43274 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59076 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59088 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55918 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43730 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43746 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41944 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52166 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33564 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33572 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56720 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34756 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34758 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40794 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42366 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42376 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46318 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54606 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54616 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42972 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60624 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60636 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47446 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]INFO:     127.0.0.1:47452 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44804 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51430 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51442 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34848 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34862 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  20%|██        | 1/5 [00:56<03:44, 56.13s/it]INFO:     127.0.0.1:45880 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45890 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36888 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36896 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44690 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47842 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55042 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55048 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  40%|████      | 2/5 [01:42<02:31, 50.53s/it]INFO:     127.0.0.1:51502 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51510 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58958 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58960 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56856 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56868 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43010 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43024 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47500 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47506 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  60%|██████    | 3/5 [02:32<01:40, 50.26s/it]INFO:     127.0.0.1:34122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34128 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50316 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42702 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42714 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54854 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54856 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44184 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53558 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53566 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59018 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  80%|████████  | 4/5 [03:48<01:00, 60.43s/it]Loading checkpoint shards: 100%|██████████| 5/5 [03:48<00:00, 45.74s/it]
+INFO:     127.0.0.1:59032 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57592 - "GET /api/health HTTP/1.1" 200 OK
+[HY][load] pipeline ready
+[startup] adapter ready in 3409.3s
+INFO:     127.0.0.1:42838 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42854 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42860 - "POST /api/action/bc3f6ad3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42870 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42878 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42894 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42902 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+
+============================================================
+🎬  HunyuanVideo Generation Task
+------------------------------------------------------------
+User Prompt:               A wide first-person view inside a modern coffee shop from the customer side of a wooden counter. A large stainless-steel espresso machine sits on the counter at left-center, releasing visible steam while a barista in a dark shirt and apron works with a cup or portafilter in front of it. Above the counter, chalkboard-style menu boards list coffee drinks, and shelves hold bags of coffee, cups, kettles, and small equipment. To the right, a man in a blue jacket stands at the pastry display counter, and another person is near the glass entrance door facing outside. The space has bright window light, polished concrete flooring, a glass pastry case with baked goods, wood cabinetry, and an indoor cafe service area layout. Motion cues include rising steam from the espresso machine, the barista's hands working at the machine, and a customer near the doorway appearing to walk or stand by the exit.
+Rewritten Prompt:          <disabled>
+Aspect Ratio:              16:9
+Video Length:              2881
+Reference Image:           <PIL.Image.Image image mode=RGB size=1280x720 at 0x7FB3184131F0>
+Guidance Scale:            6.0
+Guidance Embedded Scale:   None
+Shift:                     5.0
+Seed:                      1
+Video Resolution:          832 x 480
+Attn mode:                 flash
+Transformer dtype:         torch.bfloat16
+Sampling Steps:            20
+Use Meanflow:              False
+============================================================
+
+INFO:     127.0.0.1:42910 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60868 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/20 [00:00<?, ?it/s]INFO:     127.0.0.1:40970 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+  5%|▌         | 1/20 [00:25<08:05, 25.54s/it] 10%|█         | 2/20 [00:31<04:10, 13.90s/it] 15%|█▌        | 3/20 [00:37<02:53, 10.20s/it]INFO:     127.0.0.1:36638 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [00:42<02:15,  8.46s/it] 25%|██▌       | 5/20 [00:48<01:52,  7.51s/it] 30%|███       | 6/20 [00:54<01:37,  6.93s/it] 35%|███▌      | 7/20 [01:00<01:25,  6.57s/it] 40%|████      | 8/20 [01:06<01:15,  6.33s/it]INFO:     127.0.0.1:40276 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+ 45%|████▌     | 9/20 [01:11<01:07,  6.17s/it] 50%|█████     | 10/20 [01:17<01:00,  6.06s/it] 55%|█████▌    | 11/20 [01:23<00:53,  5.99s/it] 60%|██████    | 12/20 [01:29<00:47,  5.92s/it] 65%|██████▌   | 13/20 [01:35<00:41,  5.88s/it] 70%|███████   | 14/20 [01:40<00:35,  5.85s/it]INFO:     127.0.0.1:54256 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+ 75%|███████▌  | 15/20 [01:46<00:29,  5.83s/it] 80%|████████  | 16/20 [01:52<00:23,  5.82s/it] 85%|████████▌ | 17/20 [01:58<00:17,  5.81s/it] 90%|█████████ | 18/20 [02:04<00:11,  5.80s/it] 95%|█████████▌| 19/20 [02:09<00:05,  5.80s/it]INFO:     127.0.0.1:39972 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+100%|██████████| 20/20 [02:15<00:00,  5.79s/it]100%|██████████| 20/20 [02:15<00:00,  6.78s/it]
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:17<05:38, 17.83s/it]INFO:     127.0.0.1:36282 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+ 10%|█         | 2/20 [00:35<05:16, 17.57s/it] 15%|█▌        | 3/20 [00:52<04:58, 17.57s/it]INFO:     127.0.0.1:58250 - "GET /api/events/bc3f6ad3?timeout=30 HTTP/1.1" 200 OK
+ 20%|██        | 4/20 [01:10<04:40, 17.55s/it]

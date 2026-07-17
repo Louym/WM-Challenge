@@ -1,0 +1,10 @@
+[driver 20:15:24] waiting for adapter to load ... (0s, health=None)
+[driver 20:16:24] waiting for adapter to load ... (60s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:17:19] adapter 'lingbot-world-v2' ready after 115s
+[driver 20:17:19] === session ropeext_lingbot_v2_1500lat: 1 action(s), expecting 1 segment(s)
+[driver 20:17:19] session id cd2f4ab1
+[driver 20:17:19] queued 1 action(s)
+[driver 20:17:19] status: Ready: LingBot-World fast adapter.
+[driver 20:17:19] generating: w-1499,l-1499,w-1499,s-1499
+[driver 21:12:00] segment 0 done (3281s elapsed)
+[driver 21:12:06] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/length_test_videos/ropeext_lingbot_v2_1500lat.mp4 (from lingbot_world_v2_causal_fast_cd2f4ab1.mp4, 454.9 MB)

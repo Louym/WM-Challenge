@@ -1,0 +1,55 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [850403]
+INFO:     Waiting for application startup.
+[startup] adapter=lingbot-world-v2; loading ...
+[LingBotV2][load] validate pathsINFO:     Application startup complete.
+
+INFO:     Uvicorn running on http://127.0.0.1:8529 (Press CTRL+C to quit)
+INFO:     127.0.0.1:37792 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50500 - "GET /api/health HTTP/1.1" 200 OK
+[LingBotV2][load] set CUDA device 0
+[LingBotV2][load] load config for task i2v-A14B
+[LingBotV2][load] build WanI2VCausal infer_mode=causal_fast local_attn_size=18 sink_size=6
+INFO:     127.0.0.1:50502 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59986 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59998 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46442 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46446 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53600 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40082 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40098 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52584 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.66it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.64it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.76it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.89it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  2.02it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:00,  2.06it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:03<00:00,  2.08it/s]INFO:     127.0.0.1:39504 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.19it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.01it/s]
+INFO:     127.0.0.1:39508 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52262 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52274 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58098 - "GET /api/health HTTP/1.1" 200 OK
+[LingBotV2][load] pipeline ready
+[startup] adapter ready in 97.3s
+INFO:     127.0.0.1:36226 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36234 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36244 - "POST /api/action/d507fb4f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36260 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36264 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36280 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36284 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world-v2/wan/modules/vae2_1.py:649: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+INFO:     127.0.0.1:36286 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45788 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54084 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33066 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+  0%|          | 0/575 [00:00<?, ?it/s]  0%|          | 1/575 [00:02<23:06,  2.42s/it]  0%|          | 2/575 [00:04<23:51,  2.50s/it]  1%|          | 3/575 [00:07<25:05,  2.63s/it]INFO:     127.0.0.1:49758 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+  1%|          | 4/575 [00:10<26:27,  2.78s/it]  1%|          | 5/575 [00:14<27:59,  2.95s/it]  1%|          | 6/575 [00:17<29:37,  3.12s/it]  1%|          | 7/575 [00:20<30:44,  3.25s/it]  1%|▏         | 8/575 [00:24<31:23,  3.32s/it]  2%|▏         | 9/575 [00:27<31:48,  3.37s/it]  2%|▏         | 10/575 [00:31<32:05,  3.41s/it]  2%|▏         | 11/575 [00:34<32:17,  3.43s/it]  2%|▏         | 12/575 [00:38<32:21,  3.45s/it]INFO:     127.0.0.1:46676 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+  2%|▏         | 13/575 [00:41<32:24,  3.46s/it]  2%|▏         | 14/575 [00:45<32:24,  3.47s/it]  3%|▎         | 15/575 [00:48<32:24,  3.47s/it]  3%|▎         | 16/575 [00:52<32:21,  3.47s/it]  3%|▎         | 17/575 [00:55<32:21,  3.48s/it]  3%|▎         | 18/575 [00:59<32:18,  3.48s/it]  3%|▎         | 19/575 [01:02<32:16,  3.48s/it]  3%|▎         | 20/575 [01:06<32:12,  3.48s/it]  4%|▎         | 21/575 [01:09<32:10,  3.48s/it]INFO:     127.0.0.1:47350 - "GET /api/events/d507fb4f?timeout=30 HTTP/1.1" 200 OK
+  4%|▍         | 22/575 [01:13<32:07,  3.48s/it]  4%|▍         | 23/575 [01:16<32:02,  3.48s/it]  4%|▍         | 24/575 [01:20<31:58,  3.48s/it]  4%|▍         | 25/575 [01:23<31:52,  3.48s/it]  5%|▍         | 26/575 [01:27<31:46,  3.47s/it]

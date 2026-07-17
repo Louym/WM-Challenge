@@ -1,0 +1,10 @@
+[driver 19:14:03] waiting for adapter to load ... (0s, health=None)
+[driver 19:15:05] waiting for adapter to load ... (61s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 19:15:45] adapter 'lingbot-world-v2' ready after 101s
+[driver 19:15:45] === session ropeext_lingbot_v2_1500lat: 1 action(s), expecting 1 segment(s)
+[driver 19:15:45] session id fa17c6a0
+[driver 19:15:45] queued 1 action(s)
+[driver 19:15:45] status: Ready: LingBot-World fast adapter.
+[driver 19:15:45] generating: w-1499,l-1499,w-1499,s-1499
+[driver 20:11:54] ERROR event: run_session failed: RuntimeError('save_video did not create /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/sessions/fa17c6a0/fa17c6a0_current_iteration_0.mp4')
+[driver 20:11:59] FAIL ropeext_lingbot_v2_1500lat: no combined video in /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/sessions/fa17c6a0

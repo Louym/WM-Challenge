@@ -1,0 +1,66 @@
+/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py:749: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [883031]
+INFO:     Waiting for application startup.
+[startup] adapter=lingbot-world-v2; loading ...
+[LingBotV2][load] validate paths
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8532 (Press CTRL+C to quit)
+INFO:     127.0.0.1:47144 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47158 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35164 - "GET /api/health HTTP/1.1" 200 OK
+[LingBotV2][load] set CUDA device 0
+[LingBotV2][load] load config for task i2v-A14B
+[LingBotV2][load] build WanI2VCausal infer_mode=causal_fast local_attn_size=18 sink_size=6
+INFO:     127.0.0.1:35166 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35966 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35976 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35810 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58324 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58328 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36302 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53196 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53202 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:03,  1.83it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.89it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.89it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  2.00it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  2.12it/s]INFO:     127.0.0.1:45948 - "GET /api/health HTTP/1.1" 200 OK
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:02<00:00,  2.15it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:03<00:00,  2.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.12it/s]
+INFO:     127.0.0.1:45962 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40228 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48854 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48868 - "GET /api/health HTTP/1.1" 200 OK
+[LingBotV2][load] pipeline ready
+[startup] adapter ready in 99.2s
+INFO:     127.0.0.1:36956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36972 - "POST /api/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36986 - "POST /api/action/31b28cba HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37000 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37002 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37018 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37032 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37040 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50924 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45740 - "GET /api/events/31b28cba?timeout=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42160 - "POST /api/stop HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/server.py", line 704, in run_session
+    ADAPTER.run_session(
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/adapters/lingbot_world.py", line 293, in run_session
+    current_image = self._write_model_segment(current_image, prompt, control_dir, action_dsl, frame_num, out_path)
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/adapters/lingbot_world.py", line 340, in _write_model_segment
+    video = self.pipeline.generate(
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world-v2/wan/image2video.py", line 410, in generate
+    return gen_fn(
+  File "/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/lingbot-world-v2/wan/image2video.py", line 606, in _generate_causal_fast
+    dim=1).to(self.device)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 77.65 GiB. GPU 0 has a total capacity of 139.79 GiB of which 72.00 GiB is free. Including non-PyTorch memory, this process has 67.78 GiB memory in use. Of the allocated memory 67.08 GiB is allocated by PyTorch, and 37.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [883031]

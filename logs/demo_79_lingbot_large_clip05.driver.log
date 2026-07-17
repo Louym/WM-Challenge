@@ -1,0 +1,225 @@
+[driver 22:41:09] waiting for adapter to load ... (0s, health=None)
+[driver 22:42:09] waiting for adapter to load ... (60s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 22:43:09] waiting for adapter to load ... (120s, health={'adapter': 'lingbot-world', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 22:44:09] adapter 'lingbot-world' ready after 180s
+[driver 22:44:09] === session lingbot_large_clip05: 108 action(s), expecting 108 segment(s)
+[driver 22:44:09] session id 8f5776f1
+[driver 22:44:09] queued 108 action(s)
+[driver 22:44:09] status: Ready: LingBot-World base adapter.
+[driver 22:44:09] generating: camera=U move=W
+[driver 22:44:42] segment 0 done (33s elapsed)
+[driver 22:44:42] generating: camera=U move=W
+[driver 22:45:08] segment 1 done (59s elapsed)
+[driver 22:45:08] generating: camera=U move=W
+[driver 22:45:34] segment 2 done (85s elapsed)
+[driver 22:45:34] generating: camera=U move=W
+[driver 22:46:03] segment 3 done (114s elapsed)
+[driver 22:46:03] generating: camera=U move=W
+[driver 22:46:35] segment 4 done (146s elapsed)
+[driver 22:46:35] generating: camera=U move=W
+[driver 22:47:14] segment 5 done (185s elapsed)
+[driver 22:47:14] generating: camera=U move=W
+[driver 22:47:58] segment 6 done (229s elapsed)
+[driver 22:47:58] generating: camera=U move=W
+[driver 22:48:38] segment 7 done (269s elapsed)
+[driver 22:48:38] generating: camera=U move=W
+[driver 22:49:14] segment 8 done (305s elapsed)
+[driver 22:49:14] generating: camera=U move=W
+[driver 22:49:54] segment 9 done (345s elapsed)
+[driver 22:49:54] generating: camera=U move=W
+[driver 22:50:34] segment 10 done (385s elapsed)
+[driver 22:50:34] generating: camera=U move=W
+[driver 22:51:17] segment 11 done (428s elapsed)
+[driver 22:51:17] generating: camera=U move=W
+[driver 22:51:52] segment 12 done (464s elapsed)
+[driver 22:51:52] generating: camera=U move=W
+[driver 22:52:23] segment 13 done (494s elapsed)
+[driver 22:52:23] generating: camera=U move=W
+[driver 22:52:54] segment 14 done (525s elapsed)
+[driver 22:52:54] generating: camera=U move=W
+[driver 22:53:21] segment 15 done (553s elapsed)
+[driver 22:53:21] generating: camera=U move=W
+[driver 22:53:49] segment 16 done (580s elapsed)
+[driver 22:53:49] generating: camera=U move=W
+[driver 22:54:16] segment 17 done (607s elapsed)
+[driver 22:54:16] generating: camera=U move=W
+[driver 22:54:44] segment 18 done (635s elapsed)
+[driver 22:54:44] generating: camera=U move=W
+[driver 22:55:12] segment 19 done (663s elapsed)
+[driver 22:55:12] generating: camera=U move=W
+[driver 22:55:39] segment 20 done (690s elapsed)
+[driver 22:55:39] generating: camera=U move=W
+[driver 22:56:07] segment 21 done (718s elapsed)
+[driver 22:56:07] generating: camera=U move=W
+[driver 22:56:35] segment 22 done (746s elapsed)
+[driver 22:56:35] generating: camera=U move=W
+[driver 22:57:03] segment 23 done (774s elapsed)
+[driver 22:57:03] generating: camera=U move=W
+[driver 22:57:31] segment 24 done (802s elapsed)
+[driver 22:57:31] generating: camera=U move=W
+[driver 22:57:59] segment 25 done (830s elapsed)
+[driver 22:57:59] generating: camera=U move=W
+[driver 22:58:26] segment 26 done (858s elapsed)
+[driver 22:58:26] generating: camera=L move=Q
+[driver 22:58:55] segment 27 done (886s elapsed)
+[driver 22:58:55] generating: camera=L move=Q
+[driver 22:59:23] segment 28 done (914s elapsed)
+[driver 22:59:23] generating: camera=L move=Q
+[driver 22:59:50] segment 29 done (942s elapsed)
+[driver 22:59:50] generating: camera=L move=Q
+[driver 23:00:17] segment 30 done (968s elapsed)
+[driver 23:00:17] generating: camera=L move=Q
+[driver 23:00:44] segment 31 done (995s elapsed)
+[driver 23:00:44] generating: camera=L move=Q
+[driver 23:01:12] segment 32 done (1023s elapsed)
+[driver 23:01:12] generating: camera=L move=Q
+[driver 23:01:40] segment 33 done (1052s elapsed)
+[driver 23:01:40] generating: camera=L move=Q
+[driver 23:02:08] segment 34 done (1080s elapsed)
+[driver 23:02:08] generating: camera=L move=Q
+[driver 23:02:37] segment 35 done (1108s elapsed)
+[driver 23:02:37] generating: camera=L move=Q
+[driver 23:03:05] segment 36 done (1136s elapsed)
+[driver 23:03:05] generating: camera=L move=Q
+[driver 23:03:33] segment 37 done (1164s elapsed)
+[driver 23:03:33] generating: camera=L move=Q
+[driver 23:04:02] segment 38 done (1193s elapsed)
+[driver 23:04:02] generating: camera=L move=Q
+[driver 23:04:32] segment 39 done (1223s elapsed)
+[driver 23:04:32] generating: camera=L move=Q
+[driver 23:05:01] segment 40 done (1253s elapsed)
+[driver 23:05:01] generating: camera=L move=Q
+[driver 23:05:30] segment 41 done (1281s elapsed)
+[driver 23:05:30] generating: camera=L move=Q
+[driver 23:06:00] segment 42 done (1311s elapsed)
+[driver 23:06:00] generating: camera=L move=Q
+[driver 23:06:29] segment 43 done (1340s elapsed)
+[driver 23:06:29] generating: camera=L move=Q
+[driver 23:06:58] segment 44 done (1369s elapsed)
+[driver 23:06:58] generating: camera=L move=Q
+[driver 23:07:27] segment 45 done (1398s elapsed)
+[driver 23:07:27] generating: camera=L move=Q
+[driver 23:07:56] segment 46 done (1428s elapsed)
+[driver 23:07:56] generating: camera=L move=Q
+[driver 23:08:24] segment 47 done (1455s elapsed)
+[driver 23:08:24] generating: camera=L move=Q
+[driver 23:08:54] segment 48 done (1485s elapsed)
+[driver 23:08:54] generating: camera=L move=Q
+[driver 23:09:22] segment 49 done (1513s elapsed)
+[driver 23:09:22] generating: camera=L move=Q
+[driver 23:09:51] segment 50 done (1542s elapsed)
+[driver 23:09:51] generating: camera=L move=Q
+[driver 23:10:19] segment 51 done (1570s elapsed)
+[driver 23:10:19] generating: camera=L move=Q
+[driver 23:10:47] segment 52 done (1599s elapsed)
+[driver 23:10:47] generating: camera=L move=Q
+[driver 23:11:16] segment 53 done (1627s elapsed)
+[driver 23:11:16] generating: camera=U move=W
+[driver 23:11:45] segment 54 done (1656s elapsed)
+[driver 23:11:45] generating: camera=U move=W
+[driver 23:12:14] segment 55 done (1685s elapsed)
+[driver 23:12:14] generating: camera=U move=W
+[driver 23:12:43] segment 56 done (1714s elapsed)
+[driver 23:12:43] generating: camera=U move=W
+[driver 23:13:11] segment 57 done (1742s elapsed)
+[driver 23:13:11] generating: camera=U move=W
+[driver 23:13:40] segment 58 done (1771s elapsed)
+[driver 23:13:40] generating: camera=U move=W
+[driver 23:14:09] segment 59 done (1800s elapsed)
+[driver 23:14:09] generating: camera=U move=W
+[driver 23:14:38] segment 60 done (1830s elapsed)
+[driver 23:14:38] generating: camera=U move=W
+[driver 23:15:07] segment 61 done (1858s elapsed)
+[driver 23:15:07] generating: camera=U move=W
+[driver 23:15:35] segment 62 done (1886s elapsed)
+[driver 23:15:35] generating: camera=U move=W
+[driver 23:16:03] segment 63 done (1914s elapsed)
+[driver 23:16:03] generating: camera=U move=W
+[driver 23:16:32] segment 64 done (1944s elapsed)
+[driver 23:16:32] generating: camera=U move=W
+[driver 23:17:02] segment 65 done (1974s elapsed)
+[driver 23:17:02] generating: camera=U move=W
+[driver 23:17:32] segment 66 done (2003s elapsed)
+[driver 23:17:32] generating: camera=U move=W
+[driver 23:18:03] segment 67 done (2034s elapsed)
+[driver 23:18:03] generating: camera=U move=W
+[driver 23:18:32] segment 68 done (2064s elapsed)
+[driver 23:18:32] generating: camera=U move=W
+[driver 23:19:02] segment 69 done (2093s elapsed)
+[driver 23:19:02] generating: camera=U move=W
+[driver 23:19:32] segment 70 done (2123s elapsed)
+[driver 23:19:32] generating: camera=U move=W
+[driver 23:20:01] segment 71 done (2152s elapsed)
+[driver 23:20:01] generating: camera=U move=W
+[driver 23:20:30] segment 72 done (2181s elapsed)
+[driver 23:20:30] generating: camera=U move=W
+[driver 23:21:00] segment 73 done (2211s elapsed)
+[driver 23:21:00] generating: camera=U move=W
+[driver 23:21:30] segment 74 done (2241s elapsed)
+[driver 23:21:30] generating: camera=U move=W
+[driver 23:22:00] segment 75 done (2271s elapsed)
+[driver 23:22:00] generating: camera=U move=W
+[driver 23:22:29] segment 76 done (2301s elapsed)
+[driver 23:22:29] generating: camera=U move=W
+[driver 23:22:59] segment 77 done (2330s elapsed)
+[driver 23:22:59] generating: camera=U move=W
+[driver 23:23:29] segment 78 done (2360s elapsed)
+[driver 23:23:29] generating: camera=U move=W
+[driver 23:24:00] segment 79 done (2391s elapsed)
+[driver 23:24:00] generating: camera=U move=W
+[driver 23:24:30] segment 80 done (2421s elapsed)
+[driver 23:24:30] generating: camera=U move=S
+[driver 23:25:00] segment 81 done (2451s elapsed)
+[driver 23:25:00] generating: camera=U move=S
+[driver 23:25:30] segment 82 done (2482s elapsed)
+[driver 23:25:30] generating: camera=U move=S
+[driver 23:26:01] segment 83 done (2512s elapsed)
+[driver 23:26:01] generating: camera=U move=S
+[driver 23:26:31] segment 84 done (2542s elapsed)
+[driver 23:26:31] generating: camera=U move=S
+[driver 23:27:01] segment 85 done (2572s elapsed)
+[driver 23:27:01] generating: camera=U move=S
+[driver 23:27:31] segment 86 done (2602s elapsed)
+[driver 23:27:31] generating: camera=U move=S
+[driver 23:28:01] segment 87 done (2632s elapsed)
+[driver 23:28:01] generating: camera=U move=S
+[driver 23:28:32] segment 88 done (2663s elapsed)
+[driver 23:28:32] generating: camera=U move=S
+[driver 23:29:03] segment 89 done (2694s elapsed)
+[driver 23:29:03] generating: camera=U move=S
+[driver 23:29:33] segment 90 done (2724s elapsed)
+[driver 23:29:33] generating: camera=U move=S
+[driver 23:30:03] segment 91 done (2754s elapsed)
+[driver 23:30:03] generating: camera=U move=S
+[driver 23:30:32] segment 92 done (2784s elapsed)
+[driver 23:30:32] generating: camera=U move=S
+[driver 23:31:02] segment 93 done (2813s elapsed)
+[driver 23:31:02] generating: camera=U move=S
+[driver 23:31:33] segment 94 done (2844s elapsed)
+[driver 23:31:33] generating: camera=U move=S
+[driver 23:32:05] segment 95 done (2876s elapsed)
+[driver 23:32:05] generating: camera=U move=S
+[driver 23:32:37] segment 96 done (2908s elapsed)
+[driver 23:32:37] generating: camera=U move=S
+[driver 23:33:09] segment 97 done (2940s elapsed)
+[driver 23:33:09] generating: camera=U move=S
+[driver 23:33:41] segment 98 done (2973s elapsed)
+[driver 23:33:41] generating: camera=U move=S
+[driver 23:34:13] segment 99 done (3004s elapsed)
+[driver 23:34:13] generating: camera=U move=S
+[driver 23:34:46] segment 100 done (3037s elapsed)
+[driver 23:34:46] generating: camera=U move=S
+[driver 23:35:19] segment 101 done (3070s elapsed)
+[driver 23:35:19] generating: camera=U move=S
+[driver 23:35:52] segment 102 done (3103s elapsed)
+[driver 23:35:52] generating: camera=U move=S
+[driver 23:36:24] segment 103 done (3135s elapsed)
+[driver 23:36:24] generating: camera=U move=S
+[driver 23:36:56] segment 104 done (3167s elapsed)
+[driver 23:36:56] generating: camera=U move=S
+[driver 23:37:28] segment 105 done (3200s elapsed)
+[driver 23:37:28] generating: camera=U move=S
+[driver 23:38:00] segment 106 done (3231s elapsed)
+[driver 23:38:00] generating: camera=U move=S
+[driver 23:38:32] segment 107 done (3263s elapsed)
+[driver 23:38:37] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/lingbot_large_clip05.mp4 (from lingbot_world_large_8f5776f1.mp4, 43.2 MB)

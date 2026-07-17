@@ -1,0 +1,10 @@
+[driver 21:32:10] waiting for adapter to load ... (0s, health=None)
+[driver 21:33:10] waiting for adapter to load ... (60s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:34:00] adapter 'lingbot-world-v2' ready after 110s
+[driver 21:34:00] === session maxrun_lingbot_v2_4500lat: 1 action(s), expecting 1 segment(s)
+[driver 21:34:00] session id 31b28cba
+[driver 21:34:00] queued 1 action(s)
+[driver 21:34:00] status: Ready: LingBot-World fast adapter.
+[driver 21:34:00] generating: w-4499,l-4499,w-4499,s-4499
+[driver 21:35:13] ERROR event: run_session failed: OutOfMemoryError('CUDA out of memory. Tried to allocate 77.65 GiB. GPU 0 has a total capacity of 139.79 GiB of which 72.00 GiB is free. Including non-PyTorch memory, this process has 67.78 GiB memory in use. Of the allocated memory 67.08 GiB is allocated by PyTorch, and 37.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)')
+[driver 21:35:18] FAIL maxrun_lingbot_v2_4500lat: no combined video in /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/sessions/31b28cba

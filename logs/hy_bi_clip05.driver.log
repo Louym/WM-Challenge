@@ -1,0 +1,265 @@
+[driver 20:43:11] waiting for adapter to load ... (0s, health=None)
+[driver 20:44:11] waiting for adapter to load ... (60s, health=None)
+[driver 20:45:13] waiting for adapter to load ... (121s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:46:13] waiting for adapter to load ... (182s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:47:13] waiting for adapter to load ... (242s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:48:13] waiting for adapter to load ... (302s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:49:13] waiting for adapter to load ... (362s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:50:13] waiting for adapter to load ... (422s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:51:13] waiting for adapter to load ... (482s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:52:13] waiting for adapter to load ... (542s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:53:13] waiting for adapter to load ... (602s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:54:13] waiting for adapter to load ... (662s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:55:14] waiting for adapter to load ... (722s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:56:14] waiting for adapter to load ... (782s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:57:14] waiting for adapter to load ... (842s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:58:14] waiting for adapter to load ... (902s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 20:59:14] waiting for adapter to load ... (962s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:00:14] waiting for adapter to load ... (1022s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:01:14] waiting for adapter to load ... (1083s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:02:14] waiting for adapter to load ... (1143s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:03:14] waiting for adapter to load ... (1203s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:04:14] waiting for adapter to load ... (1263s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:05:14] waiting for adapter to load ... (1323s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:06:14] waiting for adapter to load ... (1383s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:07:14] waiting for adapter to load ... (1443s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:08:14] waiting for adapter to load ... (1503s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:09:14] waiting for adapter to load ... (1563s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:10:14] waiting for adapter to load ... (1623s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:11:14] waiting for adapter to load ... (1683s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:12:14] waiting for adapter to load ... (1743s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:13:14] waiting for adapter to load ... (1803s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:14:14] waiting for adapter to load ... (1863s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:15:14] waiting for adapter to load ... (1923s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:16:15] waiting for adapter to load ... (1983s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:17:15] waiting for adapter to load ... (2043s, health={'adapter': 'hy-worldplay', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:17:55] adapter 'hy-worldplay' ready after 2083s
+[driver 21:17:55] === session hy_bi_clip05: 112 action(s), expecting 112 segment(s)
+[driver 21:17:56] session id 5c967f02
+[driver 21:17:56] queued 112 action(s)
+[driver 21:17:57] status: Ready: HY-WorldPlay bi adapter.
+[driver 21:17:57] generating: camera=U move=W
+[driver 21:20:14] segment 0 done (138s elapsed)
+[driver 21:20:14] generating: camera=U move=W
+[driver 21:20:17] segment 1 done (141s elapsed)
+[driver 21:20:17] generating: camera=U move=W
+[driver 21:20:19] segment 2 done (144s elapsed)
+[driver 21:20:19] generating: camera=U move=W
+[driver 21:20:23] segment 3 done (147s elapsed)
+[driver 21:20:23] generating: camera=U move=W
+[driver 21:20:28] segment 4 done (152s elapsed)
+[driver 21:20:28] generating: camera=U move=W
+[driver 21:20:32] segment 5 done (156s elapsed)
+[driver 21:20:32] generating: camera=U move=W
+[driver 21:20:36] segment 6 done (160s elapsed)
+[driver 21:20:36] generating: camera=U move=W
+[driver 21:20:40] segment 7 done (164s elapsed)
+[driver 21:20:40] generating: camera=U move=W
+[driver 21:20:45] segment 8 done (169s elapsed)
+[driver 21:20:45] generating: camera=U move=W
+[driver 21:20:49] segment 9 done (174s elapsed)
+[driver 21:20:50] generating: camera=U move=W
+[driver 21:20:54] segment 10 done (178s elapsed)
+[driver 21:20:54] generating: camera=U move=W
+[driver 21:21:00] segment 11 done (184s elapsed)
+[driver 21:21:00] generating: camera=U move=W
+[driver 21:21:04] segment 12 done (188s elapsed)
+[driver 21:21:04] generating: camera=U move=W
+[driver 21:21:10] segment 13 done (194s elapsed)
+[driver 21:21:10] generating: camera=U move=W
+[driver 21:21:14] segment 14 done (198s elapsed)
+[driver 21:21:14] generating: camera=U move=W
+[driver 21:21:20] segment 15 done (204s elapsed)
+[driver 21:21:20] generating: camera=U move=W
+[driver 21:21:22] segment 16 done (206s elapsed)
+[driver 21:21:22] generating: camera=U move=W
+[driver 21:21:24] segment 17 done (208s elapsed)
+[driver 21:21:24] generating: camera=U move=W
+[driver 21:21:26] segment 18 done (210s elapsed)
+[driver 21:21:26] generating: camera=U move=W
+[driver 21:21:28] segment 19 done (212s elapsed)
+[driver 21:21:28] generating: camera=U move=W
+[driver 21:21:30] segment 20 done (214s elapsed)
+[driver 21:21:30] generating: camera=U move=W
+[driver 21:21:32] segment 21 done (217s elapsed)
+[driver 21:21:32] generating: camera=U move=W
+[driver 21:21:35] segment 22 done (219s elapsed)
+[driver 21:21:35] generating: camera=U move=W
+[driver 21:21:37] segment 23 done (221s elapsed)
+[driver 21:21:37] generating: camera=U move=W
+[driver 21:21:39] segment 24 done (223s elapsed)
+[driver 21:21:39] generating: camera=U move=W
+[driver 21:21:41] segment 25 done (226s elapsed)
+[driver 21:21:41] generating: camera=U move=W
+[driver 21:21:44] segment 26 done (228s elapsed)
+[driver 21:21:44] generating: camera=U move=W
+[driver 21:21:46] segment 27 done (230s elapsed)
+[driver 21:21:46] generating: camera=L move=Q
+[driver 21:21:49] segment 28 done (233s elapsed)
+[driver 21:21:49] generating: camera=L move=Q
+[driver 21:21:51] segment 29 done (235s elapsed)
+[driver 21:21:51] generating: camera=L move=Q
+[driver 21:21:54] segment 30 done (238s elapsed)
+[driver 21:21:54] generating: camera=L move=Q
+[driver 21:22:02] segment 31 done (246s elapsed)
+[driver 21:22:02] generating: camera=L move=Q
+[driver 21:22:08] segment 32 done (252s elapsed)
+[driver 21:22:08] generating: camera=L move=Q
+[driver 21:22:13] segment 33 done (257s elapsed)
+[driver 21:22:13] generating: camera=L move=Q
+[driver 21:22:22] segment 34 done (266s elapsed)
+[driver 21:22:22] generating: camera=L move=Q
+[driver 21:22:27] segment 35 done (271s elapsed)
+[driver 21:22:27] generating: camera=L move=Q
+[driver 21:22:38] segment 36 done (282s elapsed)
+[driver 21:22:38] generating: camera=L move=Q
+[driver 21:22:49] segment 37 done (293s elapsed)
+[driver 21:22:49] generating: camera=L move=Q
+[driver 21:22:58] segment 38 done (302s elapsed)
+[driver 21:22:58] generating: camera=L move=Q
+[driver 21:23:10] segment 39 done (314s elapsed)
+[driver 21:23:10] generating: camera=L move=Q
+[driver 21:23:23] segment 40 done (327s elapsed)
+[driver 21:23:23] generating: camera=L move=Q
+[driver 21:23:28] segment 41 done (332s elapsed)
+[driver 21:23:28] generating: camera=L move=Q
+[driver 21:23:38] segment 42 done (342s elapsed)
+[driver 21:23:38] generating: camera=L move=Q
+[driver 21:23:43] segment 43 done (347s elapsed)
+[driver 21:23:43] generating: camera=L move=Q
+[driver 21:23:48] segment 44 done (352s elapsed)
+[driver 21:23:48] generating: camera=L move=Q
+[driver 21:24:00] segment 45 done (364s elapsed)
+[driver 21:24:00] generating: camera=L move=Q
+[driver 21:24:05] segment 46 done (369s elapsed)
+[driver 21:24:05] generating: camera=L move=Q
+[driver 21:24:17] segment 47 done (381s elapsed)
+[driver 21:24:17] generating: camera=L move=Q
+[driver 21:24:22] segment 48 done (386s elapsed)
+[driver 21:24:22] generating: camera=L move=Q
+[driver 21:24:27] segment 49 done (391s elapsed)
+[driver 21:24:27] generating: camera=L move=Q
+[driver 21:24:32] segment 50 done (396s elapsed)
+[driver 21:24:32] generating: camera=L move=Q
+[driver 21:24:46] segment 51 done (410s elapsed)
+[driver 21:24:46] generating: camera=L move=Q
+[driver 21:25:01] segment 52 done (425s elapsed)
+[driver 21:25:01] generating: camera=L move=Q
+[driver 21:25:06] segment 53 done (430s elapsed)
+[driver 21:25:06] generating: camera=L move=Q
+[driver 21:25:11] segment 54 done (436s elapsed)
+[driver 21:25:11] generating: camera=L move=Q
+[driver 21:25:16] segment 55 done (440s elapsed)
+[driver 21:25:16] generating: camera=U move=W
+[driver 21:25:31] segment 56 done (456s elapsed)
+[driver 21:25:31] generating: camera=U move=W
+[driver 21:25:48] segment 57 done (472s elapsed)
+[driver 21:25:48] generating: camera=U move=W
+[driver 21:25:54] segment 58 done (478s elapsed)
+[driver 21:25:54] generating: camera=U move=W
+[driver 21:25:59] segment 59 done (484s elapsed)
+[driver 21:25:59] generating: camera=U move=W
+[driver 21:26:17] segment 60 done (502s elapsed)
+[driver 21:26:17] generating: camera=U move=W
+[driver 21:26:36] segment 61 done (520s elapsed)
+[driver 21:26:36] generating: camera=U move=W
+[driver 21:26:43] segment 62 done (527s elapsed)
+[driver 21:26:43] generating: camera=U move=W
+[driver 21:26:50] segment 63 done (534s elapsed)
+[driver 21:26:50] generating: camera=U move=W
+[driver 21:26:56] segment 64 done (540s elapsed)
+[driver 21:26:56] generating: camera=U move=W
+[driver 21:27:15] segment 65 done (559s elapsed)
+[driver 21:27:15] generating: camera=U move=W
+[driver 21:27:34] segment 66 done (579s elapsed)
+[driver 21:27:34] generating: camera=U move=W
+[driver 21:27:53] segment 67 done (598s elapsed)
+[driver 21:27:53] generating: camera=U move=W
+[driver 21:28:11] segment 68 done (615s elapsed)
+[driver 21:28:11] generating: camera=U move=W
+[driver 21:28:22] segment 69 done (626s elapsed)
+[driver 21:28:22] generating: camera=U move=W
+[driver 21:28:27] segment 70 done (631s elapsed)
+[driver 21:28:27] generating: camera=U move=W
+[driver 21:28:33] segment 71 done (638s elapsed)
+[driver 21:28:33] generating: camera=U move=W
+[driver 21:28:39] segment 72 done (644s elapsed)
+[driver 21:28:39] generating: camera=U move=W
+[driver 21:28:45] segment 73 done (650s elapsed)
+[driver 21:28:46] generating: camera=U move=W
+[driver 21:28:51] segment 74 done (655s elapsed)
+[driver 21:28:51] generating: camera=U move=W
+[driver 21:29:11] segment 75 done (676s elapsed)
+[driver 21:29:11] generating: camera=U move=W
+[driver 21:29:17] segment 76 done (681s elapsed)
+[driver 21:29:17] generating: camera=U move=W
+[driver 21:29:36] segment 77 done (701s elapsed)
+[driver 21:29:36] generating: camera=U move=W
+[driver 21:29:53] segment 78 done (717s elapsed)
+[driver 21:29:53] generating: camera=U move=W
+[driver 21:29:58] segment 79 done (723s elapsed)
+[driver 21:29:58] generating: camera=U move=W
+[driver 21:30:04] segment 80 done (728s elapsed)
+[driver 21:30:04] generating: camera=U move=W
+[driver 21:30:22] segment 81 done (746s elapsed)
+[driver 21:30:22] generating: camera=U move=W
+[driver 21:30:27] segment 82 done (751s elapsed)
+[driver 21:30:27] generating: camera=U move=W
+[driver 21:30:33] segment 83 done (757s elapsed)
+[driver 21:30:33] generating: camera=U move=S
+[driver 21:30:39] segment 84 done (764s elapsed)
+[driver 21:30:39] generating: camera=U move=S
+[driver 21:31:01] segment 85 done (785s elapsed)
+[driver 21:31:01] generating: camera=U move=S
+[driver 21:31:07] segment 86 done (791s elapsed)
+[driver 21:31:07] generating: camera=U move=S
+[driver 21:31:31] segment 87 done (815s elapsed)
+[driver 21:31:31] generating: camera=U move=S
+[driver 21:31:51] segment 88 done (835s elapsed)
+[driver 21:31:51] generating: camera=U move=S
+[driver 21:32:15] segment 89 done (859s elapsed)
+[driver 21:32:15] generating: camera=U move=S
+[driver 21:32:21] segment 90 done (865s elapsed)
+[driver 21:32:21] generating: camera=U move=S
+[driver 21:32:27] segment 91 done (871s elapsed)
+[driver 21:32:27] generating: camera=U move=S
+[driver 21:32:33] segment 92 done (877s elapsed)
+[driver 21:32:33] generating: camera=U move=S
+[driver 21:32:39] segment 93 done (883s elapsed)
+[driver 21:32:39] generating: camera=U move=S
+[driver 21:32:45] segment 94 done (889s elapsed)
+[driver 21:32:45] generating: camera=U move=S
+[driver 21:32:52] segment 95 done (896s elapsed)
+[driver 21:32:52] generating: camera=U move=S
+[driver 21:33:11] segment 96 done (916s elapsed)
+[driver 21:33:12] generating: camera=U move=S
+[driver 21:33:36] segment 97 done (940s elapsed)
+[driver 21:33:36] generating: camera=U move=S
+[driver 21:34:02] segment 98 done (966s elapsed)
+[driver 21:34:02] generating: camera=U move=S
+[driver 21:34:28] segment 99 done (992s elapsed)
+[driver 21:34:28] generating: camera=U move=S
+[driver 21:34:34] segment 100 done (998s elapsed)
+[driver 21:34:34] generating: camera=U move=S
+[driver 21:34:41] segment 101 done (1005s elapsed)
+[driver 21:34:41] generating: camera=U move=S
+[driver 21:34:47] segment 102 done (1011s elapsed)
+[driver 21:34:47] generating: camera=U move=S
+[driver 21:34:53] segment 103 done (1017s elapsed)
+[driver 21:34:53] generating: camera=U move=S
+[driver 21:35:00] segment 104 done (1024s elapsed)
+[driver 21:35:00] generating: camera=U move=S
+[driver 21:35:06] segment 105 done (1031s elapsed)
+[driver 21:35:06] generating: camera=U move=S
+[driver 21:35:13] segment 106 done (1037s elapsed)
+[driver 21:35:13] generating: camera=U move=S
+[driver 21:35:20] segment 107 done (1045s elapsed)
+[driver 21:35:20] generating: camera=U move=S
+[driver 21:35:28] segment 108 done (1052s elapsed)
+[driver 21:35:28] generating: camera=U move=S
+[driver 21:35:34] segment 109 done (1059s elapsed)
+[driver 21:35:34] generating: camera=U move=S
+[driver 21:35:42] segment 110 done (1066s elapsed)
+[driver 21:35:42] generating: camera=U move=S
+[driver 21:35:49] segment 111 done (1073s elapsed)
+[driver 21:35:55] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/hy_bi_clip05.mp4 (from hy_worldplay_bi_5c967f02.mp4, 47.5 MB)

@@ -1,0 +1,10 @@
+[driver 21:21:05] waiting for adapter to load ... (0s, health=None)
+[driver 21:22:07] waiting for adapter to load ... (62s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:22:57] adapter 'lingbot-world-v2' ready after 112s
+[driver 21:22:57] === session ropeext_lingbot_v2_1650lat: 1 action(s), expecting 1 segment(s)
+[driver 21:22:57] session id 984a70fb
+[driver 21:22:57] queued 1 action(s)
+[driver 21:22:57] status: Ready: LingBot-World fast adapter.
+[driver 21:22:57] generating: w-1649,l-1649,w-1649,s-1649
+[driver 03:22:59] stop failed (ignored): URLError(ConnectionRefusedError(111, 'Connection refused'))
+[driver 03:23:04] FAIL ropeext_lingbot_v2_1650lat: no combined video in /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo/sessions/984a70fb

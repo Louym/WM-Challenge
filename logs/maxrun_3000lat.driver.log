@@ -1,0 +1,10 @@
+[driver 21:28:12] waiting for adapter to load ... (0s, health=None)
+[driver 21:29:14] waiting for adapter to load ... (62s, health={'adapter': 'lingbot-world-v2', 'loading': True, 'pipeline_loaded': False, 'error': None})
+[driver 21:30:09] adapter 'lingbot-world-v2' ready after 117s
+[driver 21:30:09] === session maxrun_lingbot_v2_3000lat: 1 action(s), expecting 1 segment(s)
+[driver 21:30:09] session id acbcdaef
+[driver 21:30:09] queued 1 action(s)
+[driver 21:30:09] status: Ready: LingBot-World fast adapter.
+[driver 21:30:09] generating: w-2999,l-2999,w-2999,s-2999
+[driver 22:42:01] segment 0 done (4312s elapsed)
+[driver 22:42:08] saved /mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/length_test_videos/maxrun_lingbot_v2_3000lat.mp4 (from lingbot_world_v2_causal_fast_acbcdaef.mp4, 928.2 MB)
