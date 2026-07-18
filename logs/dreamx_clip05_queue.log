@@ -1,6 +1,13 @@
-DXCLIP05 starting dreamx_cam_clip05_demo_29 (23:22:46)
-DXCLIP05 starting dreamx_cam_clip05_demo_79 (23:22:46)
-DXCLIP05 starting dreamx_cam_clip05_demo_42 (23:22:46)
-[run_one] dreamx_cam_clip05: server pid 2742628 (env=dreamx gpu=0 port=8620)
-[run_one] dreamx_cam_clip05: server pid 2742634 (env=dreamx gpu=1 port=8621)
-[run_one] dreamx_cam_clip05: server pid 2742640 (env=dreamx gpu=2 port=8622)
+DXCLIP05 starting dreamx_cam_clip05_demo_29 (23:59:25)
+DXCLIP05 starting dreamx_cam_clip05_demo_42 (23:59:25)
+DXCLIP05 starting dreamx_cam_clip05_demo_79 (23:59:25)
+[run_one] dreamx_cam_clip05: server pid 2799145 (env=dreamx gpu=0 port=8620)
+[run_one] dreamx_cam_clip05: server pid 2799155 (env=dreamx gpu=1 port=8621)
+[run_one] dreamx_cam_clip05: server pid 2799156 (env=dreamx gpu=2 port=8622)
+[run_one] dreamx_cam_clip05: driver exit 0
+DXCLIP05 finished dreamx_cam_clip05_demo_42 rc=0 (01:08:43)
+[run_one] dreamx_cam_clip05: driver exit 0
+[run_one] dreamx_cam_clip05: driver exit 0
+DXCLIP05 finished dreamx_cam_clip05_demo_79 rc=0 (01:09:17)
+DXCLIP05 finished dreamx_cam_clip05_demo_29 rc=0 (01:09:21)
+DXCLIP05 ALL DONE (01:09:21)

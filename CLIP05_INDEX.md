@@ -5,6 +5,7 @@ Three temporal protocols per bidirectional model:
 - **B. 3s clip-by-clip** — one action per ~3s segment, chained (each restarts from prev last frame).
 - **C. 0.5s causal-chunk clip (NEW)** — clip length forced to the causal models' atomic per-inference chunk
   (~0.5s: HY 13f@24fps, Sana/LingBot/DreamX 9f@16fps), chained ~108-112x. Apples-to-apples vs the causal models.
+  All 4 bidirectional models (HY-bi, Sana-WM, LingBot-large, DreamX-cam) covered.
 
 Causal / streaming models (single protocol, listed under B) generate their atomic chunk continuously.
 
@@ -39,6 +40,7 @@ Causal / streaming models (single protocol, listed under B) generate their atomi
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/sana_wm_bidirectional_clip.mp4`  — 60s
 
 ### 0.5s causal-chunk clip (NEW)
+- `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/dreamx_cam_clip05.mp4`  — 61s  _(9 frames @16fps = 0.56s x108 clips)_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/hy_bi_clip05.mp4`  — 61s  _(13 frames @24fps = 0.54s x112 clips (= HY-ar causal chunk))_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/lingbot_large_clip05.mp4`  — 61s  _(9 frames @16fps = 0.56s x108 clips (= LingBot causal chunk))_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos/sana_bidirectional_clip05.mp4`  — 54s  _(9 frames @16fps = 0.56s x108 clips)_
@@ -74,6 +76,7 @@ Causal / streaming models (single protocol, listed under B) generate their atomi
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/sana_wm_bidirectional_clip.mp4`  — 60s
 
 ### 0.5s causal-chunk clip (NEW)
+- `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/dreamx_cam_clip05.mp4`  — 61s  _(9 frames @16fps = 0.56s x108 clips)_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/hy_bi_clip05.mp4`  — 61s  _(13 frames @24fps = 0.54s x112 clips (= HY-ar causal chunk))_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/lingbot_large_clip05.mp4`  — 61s  _(9 frames @16fps = 0.56s x108 clips (= LingBot causal chunk))_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_42/sana_bidirectional_clip05.mp4`  — 54s  _(9 frames @16fps = 0.56s x108 clips)_
@@ -109,6 +112,7 @@ Causal / streaming models (single protocol, listed under B) generate their atomi
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/sana_wm_bidirectional_clip.mp4`  — 60s
 
 ### 0.5s causal-chunk clip (NEW)
+- `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/dreamx_cam_clip05.mp4`  — 61s  _(9 frames @16fps = 0.56s x108 clips)_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/hy_bi_clip05.mp4`  — 61s  _(13 frames @24fps = 0.54s x112 clips (= HY-ar causal chunk))_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/lingbot_large_clip05.mp4`  — 61s  _(9 frames @16fps = 0.56s x108 clips (= LingBot causal chunk))_
 - `/mnt/nfs/home/yumingl/workspace/PI/WM/baselines/demo_sample29_outputs/videos_demo_79/sana_bidirectional_clip05.mp4`  — 54s  _(9 frames @16fps = 0.56s x108 clips)_
